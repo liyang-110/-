@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+.f_login input[type=text]{width:156px; height:24px;}
+.f_login .control-group { width:200px; margin:0 auto 5px auto;}
+.f_login .control-group .input-verify input{ width:80px;}
+.f_login .control-group .input-verify img {width:59px;height:21px;margin:0 2px auto 10px; display:inline-block; margin-top:-6px;}
+.f_login .control-group .input-verify a { margin:0;display:inline-block;} 
+.f_login input[type=checkbox]{ margin-left:0px; margin-top:0px;}
+.f_login .control-group label{ font-size:14px; color:#0d638f; margin-right:1px;display: inline-block;}
+.f_login .control-group input[type=submit]{ margin-top:8px;border:none;width:192px; height:40px;background:url(img/login_btn_s.jpg); background-size:contain;}
+.input-icon.right i {
+  color: #ccc;
+  display: inline-block !important;
+  position: absolute !important;
+  z-index: 1;
+  margin: 9px 2px 4px -28px; 
+  width: 16px;
+  height: 16px;
+  font-size: 16px;
+  text-align: center;
+}
+.input-icon.right input {
+  padding-left:5px;
+  padding-right: 33px !important;
+  display:inline-block;
+}
+#loginTab li{ width:113px;height:50px;  }
+#loginTab li.active {background-image:url(img/i_tab_bg.jpg)}
+#loginTab li a:hover{ background:none;}
+
+#newsTab li{ width:139px;height:50px;  }
+#newsTab li.active {background-image:url(img/i_tab_bg2.jpg)}
+#newsTab li.active{ border:none;}
+#newsTab li a:hover{ background:none;}
+
+
+.f_login{width:226px;}
+.f_carousel{width:496px;}
+.f_news{width:278px;}
+.f_panel_content img{width:195px;height:93px;}
+.f_foot_menu .container .menu{width:150px}
+
+.icon-white-arrow {
+	background:url(img/icons.png);
+	display: inline-block;
+	width: 10px;
+	height: 14px;
+	margin-top: 1px;
+	margin-right:0;
+	line-height: 14px;
+	vertical-align: text-top;
+	background-position:-30px -8px;
+}
+
+
+
+
+
+
+
+
+

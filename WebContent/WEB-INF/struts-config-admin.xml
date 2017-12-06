@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans />
+  <global-exceptions />
+  <global-forwards />
+  <action-mappings >
+    <action path="/stat"
+    			parameter="method" 
+    			type="com.zhaopin.admin.action.StatAction">
+    </action>
+    <action path="/login" type="com.zhaopin.admin.action.LoginAction" />
+  
+	<action path="/substation" type="com.zhaopin.action.SubStationAction">
+      <forward name="Industry" path="/user/jIndustry.jsp" />
+    </action>
+    <action path="/memberLogin" type="com.zhaopin.admin.action.MemberLoginAction">
+      <forward
+        name="companyCenter"
+        path="../company/main.jsp"
+        redirect="true"
+        contextRelative="false" />
+      <forward
+        name="schoolCenter"
+        path="../school/main.jsp"
+        redirect="true"
+        contextRelative="false" />
+      <forward
+        name="zhaokeCenter"
+        path="../zk/index.jsp"
+        redirect="true"
+        contextRelative="false" /> 
+      <!-- 
+      <forward
+        name="studentCenter"
+        path="../student/index.jsp"
+        redirect="true"
+        contextRelative="false" /> 
+       -->  
+       <forward
+        name="studentCenter"
+        path="../member/home.do"
+        redirect="true"
+        contextRelative="false" /> 
+      <forward
+        name="invalidRequest"
+        path="../index.jsp"
+        redirect="true"
+        contextRelative="false" /> 
+    </action>
+    
+	<action path="/visitRecord" type="com.zhaopin.admin.action.VisitRecordAction">
+	</action>
+  </action-mappings>
+
+  <controller />
+</struts-config>
+

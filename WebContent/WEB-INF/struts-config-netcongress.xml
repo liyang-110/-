@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans />
+  <global-exceptions />
+  <global-forwards />
+  <action-mappings >
+    <action path="/start" type="net.zhaopin.action.StartNetcongressAction">
+    
+		<forward
+		   name="hall_company" 
+		   path="/WEB-INF/templets/netcongress/hall_company.jsp"
+		   contextRelative="true" />
+		<forward
+		   name="hall_student"
+		   path="/WEB-INF/templets/netcongress/hall_student.jsp"
+		   contextRelative="true" />
+      	<forward  
+      	   name="error" 
+      	   path="/WEB-INF/templets/netcongress/error.jsp"
+		   contextRelative="true" />
+      <forward  name="adminIndex" 		path="/admin_sponsor.jsp" />
+      <forward  name="adminStudent" 	path="/admin_sponsor_student.jsp" />
+
+      <forward  name="schoolIndex" 		path="/sponsor.jsp" />
+      <forward  name="schoolStudent" 	path="/sponsor_student.jsp" />
+      <forward  name="schoolResult"     path="/sponsor_ result.jsp"  />
+      
+      <forward  name="studentIndex"     path="/index.jsp"  />
+      <forward  name="studentResume"    path="/already.jsp"  />
+      <forward  name="studentInterview" path="/chance.jsp"  />
+      <forward  name="studentResult"    path="/result.jsp"  />
+      
+      <forward  name="companyIndex"     path="/firm.jsp"  />
+      <forward  name="companyResume"    path="/firm_resume.jsp"  />
+      <forward  name="companyInterview" path="/firm_wait.jsp"  />
+      <forward  name="companyResult"    path="/firm_result.jsp"  />
+      <!--  
+	  <forward  name="anonymous"        path="/jAnonymousIndex.jsp"  />
+	  -->
+	  <forward  name="anonymous"        path="/anonymousIndex.jsp"  />
+
+	  
+    </action>
+    
+    <action path="/dealResume" type="net.zhaopin.action.DealResumeAction">
+    </action>
+    
+    <action path="/ajaxMore" 
+    			type="net.zhaopin.action.AjaxMoreAction"
+    			parameter="m" >
+    </action>
+    <action path="/ajaxNotice" type="net.zhaopin.action.AjaxNoticeAction">
+    </action>
+    <action path="/moreResume" type="net.zhaopin.action.MoreResumeAction">
+    	<forward name="success" path="/moreResume.jsp"></forward>
+		<forward
+		   name="more_student"
+		   path="/WEB-INF/templets/netcongress/more_student.jsp"
+		   contextRelative="true" />
+    </action>
+    <action path="/easemobAssist" parameter="m" type="net.zhaopin.action.EasemobAssistAction">
+    </action>
+  </action-mappings>
+  <controller />
+</struts-config>
+

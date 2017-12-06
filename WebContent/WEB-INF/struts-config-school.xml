@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans />
+  <global-exceptions />
+  <global-forwards />
+  <action-mappings >
+    <action path="/info" type="com.zhaopin.school.action.InfoAction">
+    	<!-- 
+    	<forward name="success" path="/jSchoolInfoNew.jsp"></forward>
+    	 -->
+    	<forward name="index" path="/jSchoolIndex.jsp"></forward>
+    	
+    </action>
+    <action path="/controlCenter" type="com.zhaopin.school.action.ControlCenterAction">
+      <forward
+        name="rightIndex"
+        path="/school/main/jRightIndex.jsp"
+        contextRelative="true" />
+    </action>
+    <action path="/graduation" type="com.zhaopin.school.action.GraduationAction">
+      <forward
+        name="view"
+        path="/WEB-INF/templets/school/graduation.jsp"
+        contextRelative="true" />
+    </action>
+  </action-mappings>
+
+  <controller />
+</struts-config>
+

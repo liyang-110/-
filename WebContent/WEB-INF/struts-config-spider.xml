@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans />
+  <global-exceptions />
+  <global-forwards />
+  <action-mappings >
+    <action path="/robot" type="com.zhaopin.spider.action.RobotAction">
+      <forward
+        name="gaoxiaojob"
+        path="/daqin_manager/spider/gaoxiaojob.jsp"
+        contextRelative="true" />
+    </action>
+    <action path="/createTask" type="com.zhaopin.spider.action.CreateTaskAction" />
+    
+    <action path="/zpxx" type="com.zhaopin.spider.action.ZpxxSpiderAction">
+      <forward
+        name="zpxxEdu"
+        path="/daqin_manager/spider/zpxx_edu.jsp"
+        contextRelative="true" />
+      <forward
+        name="jobfair"
+        path="/daqin_manager/spider/jobfair_xjh.jsp"
+        contextRelative="true" />
+    </action>
+
+  </action-mappings>
+
+  <controller />
+</struts-config>
+

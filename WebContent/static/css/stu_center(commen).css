@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*样式重置开始*/
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+.clear{clear:both;}
+/*样式重置开始*/
+
+.top_nav .main_nav a.personal_center {color:#fff;}
+
+
+.news{
+	border-bottom:1px solid #efefef;}
+/*mian区属性描述开始*/
+
+.main{
+	width:1024px;
+	margin:0 auto;
+	background:#fff;
+	box-shadow:none;
+	font-family:"微软雅黑";
+	font-size:16px;
+	
+	}
+
+
+.main_l{
+	float:left;
+	}
+	
+.main_l a{
+	display:block;
+	width:200px;
+	line-height:50px;
+	border-right:3px solid #efefef;
+	border-left:1px solid #efefef;
+	color:#333;
+	text-decoration:none;
+	text-align:center;}	
+.main_l a:hover{
+	background:#efefef
+	}	
+
+
+.main_r{
+	margin-left: 16px;
+	float:left;
+	box-shadow: 1px 0px 6px rgba(0,0,0,0.50);
+	width:808px;
+	
+	}
+
+	
+
+
+
+
+/*mian区属性描述结束*/

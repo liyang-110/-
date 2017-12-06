@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans />
+  <global-exceptions />
+  <global-forwards/>
+  		
+  <action-mappings >
+    <action path="/rmiLogin" type="com.zhaopin.mobile.action.RmiLoginAction">
+    </action>
+    <action path="/mobileSheetAction" type="com.zhaopin.mobile.action.MobileSheetMgrAction" >
+		<forward name="index" path="/"></forward>
+	</action>
+	
+	
+    <action path="/company" type="com.zhaopin.mobile.action.CompanyInfoAction" >
+      <forward
+        name="success"
+        path="/WEB-INF/templets/mobile/share_company.jsp"
+        contextRelative="true" />
+	</action>
+    <action path="/position" type="com.zhaopin.mobile.action.PositionInfoAction" >
+      <forward
+        name="success"
+        path="/WEB-INF/templets/mobile/share_position.jsp"
+        contextRelative="true" />
+	</action>
+    <action path="/jobfair" type="com.zhaopin.mobile.action.JobfairInfoAction" >
+      <forward
+        name="multiple"
+        path="/WEB-INF/templets/mobile/share_xyzph.jsp"
+        contextRelative="true" />
+      <forward
+        name="netcongress"
+        path="/WEB-INF/templets/mobile/share_wlzph.jsp"
+        contextRelative="true" />
+	</action>
+  </action-mappings>
+
+  <controller />
+</struts-config>
+
+
+

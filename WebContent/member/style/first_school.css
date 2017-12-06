@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+.right_top li{ float:left;}
+.right_top sup{ background:url(../img/hong.png) no-repeat center center;
+padding:3px 9px 8px 9px;
+color:#FFF;
+}
+.right_top li a{ font-size:16px;
+color:#F30;
+}
+.right_top li a:hover{ color:#060;}
+
+
+/*标签页*/
+.menu2{ margin:20px 0;}
+.menu2 ul{ background-color:#eeeeee;
+height:40px;
+}
+.menu2 ul li{ float:left;
+width:150px;
+text-align:center;
+line-height:40px;
+cursor:pointer;
+font-size:16px;
+color:#ee6b24;
+background:url(../img/menu_li.png) no-repeat 0px center;
+font-weight:bold;
+}
+.menu2 ul li:first-child{ background:none;}
+.menu2 ul li.hotel{color:#fff;
+background:#ee6b24;
+cursor:pointer;
+}
+table{ margin-left:20px;}
+table td{ height:40px;
+text-align:center;}
+table td a:hover{ color:#F00;}
+
+
+.list_a{ margin:20px 0;}
+.list_a h1{ color:#F30;
+font-size:16px;
+background:url(../img/list.png) no-repeat;
+line-height:40px;
+height:40px;
+padding-left:20px;}
+.mag{ margin-top:10px;
+}
+.list_a a.more{ padding-left:530px;
+color:#F30; 
+}
+.list_a a.more:hover{ color:#F90;}
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans />
+  <global-exceptions />
+  <global-forwards />
+  <action-mappings >
+    <action path="/index" type="cn.zhaopin.jobfair.action.SiteIndexAction">
+      <forward
+        name="success"
+        path="/WEB-INF/templets/index.jsp"
+        contextRelative="true" />
+    </action>
+    <action path="/login" type="cn.zhaopin.jobfair.action.SiteLoginAction">
+      <forward
+        name="login"
+        path="/WEB-INF/templets/login.jsp"
+        contextRelative="true" />
+    </action>
+    <action path="/xyzph" type="cn.zhaopin.jobfair.action.SiteXyzphAction">
+      <forward
+        name="success"
+        path="/WEB-INF/templets/xyzph.jsp"
+        contextRelative="true" />
+    </action>
+    <action path="/wlzph" type="cn.zhaopin.jobfair.action.SiteWlzphAction">
+      <forward
+        name="success"
+        path="/WEB-INF/templets/wlzph.jsp"
+        contextRelative="true" />
+    </action>
+    <action path="/detail" type="cn.zhaopin.jobfair.action.ZphDetailAction">
+      <forward
+        name="netcongress"
+        path="/WEB-INF/templets/wlzph-xiangqy.jsp"
+        contextRelative="true" />
+      <forward
+        name="multiple"
+        path="/WEB-INF/templets/xyzph-xiangqy.jsp"
+        contextRelative="true" />
+    </action>
+    <action path="/search" type="cn.zhaopin.jobfair.action.AdvSearchAction">
+    	<forward name="search_jobfair" path="/WEB-INF/templets/index-gjzss.jsp" contextRelative="true"></forward>
+    	<forward name="search_recruit" path="/WEB-INF/templets/index-gaojiss.jsp" contextRelative="true"></forward>
+
+    	<forward name="search_company" path="/search/jSearchCompany.jsp" contextRelative="true"></forward>
+    	<forward name="search_school" path="/search/jSearchSchool.jsp" contextRelative="true"></forward>
+    </action>
+    <action path="/company" type="cn.zhaopin.jobfair.action.CompanyIndexAction">
+      <forward
+        name="success"
+        path="/WEB-INF/templets/qiye_xiangqingye.jsp"
+        contextRelative="true" />
+    </action>
+    <action path="/school" type="cn.zhaopin.jobfair.action.SchoolIndexAction">
+      <forward
+        name="success"
+        path="/WEB-INF/templets/xiaoyuan_xiangqingye.jsp"
+        contextRelative="true" />
+    </action>
+    <action path="/job" type="cn.zhaopin.jobfair.action.CompanyRecruitInfoAction">
+      <forward
+        name="success"
+        path="/WEB-INF/templets/zhiwei_xiangqingye.jsp"
+        contextRelative="true" />
+    </action>
+    <action path="/opinion" type="cn.zhaopin.jobfair.action.OpinionAction">
+     
+    </action>
+     <action path="/baiduMap" type="cn.zhaopin.jobfair.action.BaiduMapAction">
+     <forward
+        name="success"
+        path="/baiduMap.jsp"
+        contextRelative="true" />
+    </action>
+  </action-mappings>
+
+  <controller />
+</struts-config>
+

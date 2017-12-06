@@ -1,0 +1,275 @@
+@charset "utf-8";
+/* CSS Document */
+/*right_top开始*/
+.right_top img{ float:left;
+width:50px;
+margin:0 20px;}
+.right_top p{ float:left;
+font-size:12px;
+line-height:2em;
+}
+.right_top p span{ color:#F00;
+font-size:16px;}
+.right_top p span.red{ padding-left:30px;}
+.right_top .xian,.right_midder .xian{ width:750px;
+height:2px;
+background:#b7b7b7;
+margin-top:15px;
+}
+.right_top a:hover {text-decoration:underline;}
+
+.middle_left{ float:left;
+width:390px;
+padding:40px 20px;}
+.middle_left .ul_left{ float:left;
+padding-right:30px;}
+.middle_left .img{ float:right;
+background:url(../img/images/wanshan_07.gif) no-repeat;
+padding:15px 26px;}
+.middle_left .img p{ text-align:center;
+color:#148d00;
+line-height:30px;
+font-weight:bold;}
+.middle_left ul li.dui{ background:url(../img/images/wanshan_10.gif) no-repeat 0 center;
+padding: 0px 0 5px 30px;
+line-height:40px;
+}
+.middle_left ul li.cuo{ background:url(../img/cuo.png) no-repeat 0 center;
+padding: 0px 0 5px 30px;
+line-height:40px;
+}
+.middle_left ul li a{ color:#F30;
+text-decoration:underline;
+font-weight:bold;}
+.middle_left ul li a:hover{ color:#C00;}
+.middle_left p.list{ color:#F00;
+margin:40px 0 0px 0px;}
+
+
+.middle_right{ float:right;
+width:290px;}
+.middle_right img{ float:left;
+width:114px;}
+.middle_right p.color{ color:#F00;
+margin:10px 0;}
+.middle_right .photo{ float:right;
+margin-top:100px;}
+.middle_right .photo p{ font-size:12px;
+line-height:30px;
+}
+.middle_right .photo a{ background:#d4d4d4;
+padding:2px 5px;
+border:1px #707070 solid;
+border-radius:5px;
+margin-right:5px;
+}
+
+.right_bottom p{ color:#1a920c;
+font-size:16px;
+text-indent:2em;
+margin-top:10px;
+}
+.right_bottom p span{ color:#F00;}
+.bottom_a h1{ padding:20px 0 20px 30px;
+color:#F60;
+font-size:16px;}
+.bottom_a h1.yell{ border-top:2px #b7b7b7 solid;}
+.bottom_a h1.xinxi{ border-top:none;
+}
+.bottom_a h1.beijing{ background:none;}
+.bottom_a table{ margin-left:50px;}
+.bottom_a table td{ height:35px;}
+.bottom_a table td span{ padding-right:10px;}
+.bottom_a table td.tda{ text-align:right;
+}
+.bottom_a table td.tdb{ text-align:left;
+font-size:12px;
+}
+.bottom_a table td.weal li a{ margin:0;
+padding:0;
+text-align:center;
+}
+.bottom_a table td.weal li{ float:left;
+list-style: outside none none;
+cursor: pointer;
+display: inline;
+height: 30px;
+line-height: 30px;
+margin: 10px 10px 0 0;
+border:1px #999999 solid;
+width:80px;
+text-align:center;
+}
+.bottom_a input{ vertical-align:middle;}
+.bottom_a input.text{ width:200px; 
+height:25px;
+border:1px #bebebe solid;
+border-radius:5px;
+}
+.li_selected { background:url(../img/green.png) no-repeat 0 center;
+border:none;
+}
+.bottom_a select{border-radius:5px;
+height:25px;
+border:1px #bebebe solid;
+color:#666;
+}
+.bottom_a table td a{ background:#f39800;
+padding:5px 20px;
+color:#fff;
+margin-right:20px;
+border-radius:5px;
+}
+/*选择学校弹出框样式开始*/
+  	#choose-box-wrapper a {
+  		border-radius: 0;
+  		background:none;
+  		background-color:transparent;
+  		line-height:1em;
+  		padding:0;
+  	}
+	#choose-box-wrapper{
+		width: 652px;
+		background-color:#000;
+		filter:alpha(opacity=50);
+		background-color: rgba(42, 153, 59, 0.5);
+		padding:10px;
+		border-radius:5px;
+		display:none;
+	}
+	#choose-box{
+		border: 1px solid #286A46;
+		width:650px;
+		background-color:white;
+	}
+	#choose-box-title{
+		background:#286A46;
+		color: white;
+		padding: 4px 10px 5px;
+		font-size: 14px;
+		font-weight: 700;
+		margin: 0;
+	}
+	#choose-box-title span{
+		font-family: Tahoma, Verdana, STHeiTi, simsun, sans-serif;
+	}
+
+	#choose-a-province, #choose-a-school{
+		margin:5px 8px 10px 8px;
+		border: 1px solid #C3C3C3;
+	}
+	#choose-a-province a{
+		display:inline-block;
+		height: 18px;
+		line-height: 18px;
+		color:#307833;
+		text-decoration: none;
+		font-size: 9pt;
+		font-family: Tahoma, Verdana, STHeiTi, simsun, sans-serif;
+		margin:2px 5px;
+		padding: 1px;
+		text-align: center;
+	}
+	#choose-a-province a:hover{
+		text-decoration:underline;
+		cursor:pointer;
+	}
+	#choose-a-province .choosen{
+		background-color: #307833;
+		color:white;
+	}
+	#choose-a-school{
+		overflow-x: hidden;
+		overflow-y: auto;
+		height: 200px;
+	}
+	#choose-a-school a{
+		height: 18px;
+		line-height: 18px;
+		color:#307833;
+		text-decoration: none;
+		font-size: 9pt;
+		font-family: Tahoma, Verdana, STHeiTi, simsun, sans-serif;
+		float: left;
+		width: 168px;
+		margin: 4px 12px;
+		padding-left:10px;
+		overflow:hidden;
+	}
+	#choose-a-school a:hover{
+		background-color:#307833;
+		color:white;
+		cursor:pointer;
+		overflow:visible;
+	}
+	#choose-box-bottom{
+		background: #F0F5F8;
+		padding: 8px;
+		text-align: right;
+		border-top: 1px solid #CCC;
+		height:40px;
+	}
+	#choose-box-bottom input{
+		vertical-align: middle;
+		text-align: center;
+		background-color:#286A46;
+		color:white;
+		border-top: 1px solid #B8D4E8;
+		border-left: 1px solid #B8D4E8;
+		border-right: 1px solid #114680;
+		border-bottom: 1px solid #114680;
+		cursor: pointer;
+		width: 60px;
+		height: 25px;
+		margin-top: 6px;
+		margin-right: 6px;
+	}
+/*选择学校弹出框样式结束*/
+.bottom_a h1 {
+  padding: 20px 30px 20px 30px;
+}
+.bottom_a h1 a {
+	float:right;
+	font-size:14px;
+	color:#F60;
+	margin-right:10px;
+}
+.button_a h1 a:hover { text-decoration: underline; }
+
+#work_list ,#school_list_table {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  border-left: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  width:100%;
+}
+#work_list th {
+  border-top: 2px solid #FF6B00;
+  text-align:left;
+  height:auto;
+  line-height:1.5em;
+}
+#work_list td ,#school_list_table  td {
+	height:auto;
+	line-height:1.5em;
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+}
+#school_list_table  td a {
+	background:none;
+	background-color:transparent;
+	border-radius:0;
+	padding:0;
+	color:#000;
+	font-weight:bold;
+}
+#stu_contact_card input {border:none;}
+#stu_contact_card input:focus {box-shadow:none;}
+#stu_hope_position_card  input {border:none;}
+#stu_hope_position_card  input:focus {box-shadow:none;}
+#stu_hope_position_card  textarea {border:none;}
+#stu_hope_position_card  textarea:focus {box-shadow:none;outline:none;}
+#stu_info_card input {border:none;}
+#stu_info_card input:focus {box-shadow:none;}

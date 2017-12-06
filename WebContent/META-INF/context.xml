@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<!--
+	<Resource name="jdbc/db" auth="Container"
+		type="javax.sql.DataSource" maxActive="300"
+		factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory"
+		maxIdle="10" maxWait="10000" username="school" password="school"
+		driverClassName="oracle.jdbc.driver.OracleDriver"
+		url="jdbc:oracle:thin:@127.0.0.1:1521:orcl" />
+-->
+	<Valve className="org.terracotta.session.TerracottaTomcat70xSessionValve" tcConfigUrl="localhost:9510"/>
+</Context>

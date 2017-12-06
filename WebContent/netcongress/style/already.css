@@ -1,0 +1,52 @@
+.inform{ width:950px;
+margin:10px auto;
+}
+.inform_a{ background:#f3e4c8;
+border-radius:10px;
+padding-bottom:10px;
+}
+.inform_a h2{ background:url(../img/green.png) no-repeat -2px -2px;
+line-height:40px;
+color:#fff;
+font-size:18px;
+padding-left:20px;
+}
+.inform_b h2{ background:url(../img/yellow.png) no-repeat -2px -2px;
+}
+.inform_c h2{ background:url(../img/yellow_duan.png) no-repeat -2px -2px;
+}
+.inform_a .inform_list{ padding-left:20px;
+color:#33140a;
+font-size:16px;
+}
+.inform_a .mianshi{ margin-left:15px;
+}
+.pagination{ display:table;
+margin:20px auto;
+
+}
+.pagination li a,.pagination li span{ color:#1a3a01;
+	background:#f3e4c8;
+	border:1px #666 solid;
+}
+.pagination li span:hover{ 
+	background:#f3e4c8;
+	border:1px #666 solid;
+}
+.pagination li a:hover,.pagination li.active a,.pagination li.active span
+
+{ color:#fff;
+background:#ff9201;
+border:1px #666 solid;
+}
+.pagination li a:hover{ 
+	background:#ff9201;
+	border:1px #666 solid;
+}
+.table{ width:900px;
+margin:0 auto;}
+.table td a:hover{ color:#F60;}
+.table td a.can{ color:#F60;
+text-decoration:underline;}
+.table td a.can:hover{ color:#030;
+text-decoration:underline;}

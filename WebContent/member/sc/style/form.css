@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+:focus {
+    outline-width: 0px;
+}
+.form{ width:600px;
+margin:20px auto;
+}
+.form_a{ width:760px;
+margin:20px auto;
+}
+.form .table tbody tr td{ border-top:0;
+padding:5px;
+}
+.form .table tbody tr td.text_right{ text-align:right;
+vertical-align:middle;
+font-weight:bold;
+}
+.form-control{ height:30px;
+line-height:30px;
+padding:0 0 0 10px;
+}
+.form .width{ width:170px;}
+.form .btn-default{ background:#cccccc;
+}
+.form .btn_a{ height:30px;
+padding:0 15px;
+}
+.form .anniu_a{ background:#5a9707;
+color:#FFF;
+width:80px;
+margin-right:10px;
+}
+.form .sousuo{ height:30px;
+padding:0 10px;
+width:60px;
+}
+.form .time{ border:1px #cccccc solid;
+border-radius:4px;
+height:30px;
+line-height:30px;
+padding:0 5px;
+background:#fff url(../img/dateIco.png) no-repeat right center;
+cursor:pointer;
+}
+.form .bg{ border:1px #cccccc solid;
+border-radius:4px;
+height:30px;
+line-height:30px;
+}
+
+.tal .green,.tal .yellow,.tal .gry,.tal .red{ background:#5a9707;
+color:#FFF;
+padding:0;
+border-radius:0;
+border:0;
+}
+.tal button.green,.tal button.yellow,.tal button.gry,.tal button.red{ 
+padding:2px 15px;
+}
+.tal .yellow{background:#fb7804;}
+.tal .gry{background:#666564;}
+.tal .red{background:#ff000c;}
+.tal .time_a{ white-space: nowrap;}
+
+.tal .info_content{width:614px;display:flex;}
+.tal .info_content a{
+	position: relative;
+    display: inline-block;
+    width: 428px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 0px;}
+    
+.companyoverflow,.companyoverflow a{
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:inline-block;
+	width:200px;
+}
+.jobfairoverflow a{
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:inline-block;
+	width:300px;
+}
+.infooverflow{
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:inline-block;
+	width:200px;
+}
+.infooverflow a{
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:inline-block;
+	width:300px;
+}
+.companyflow{
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:inline-block;
+	width:180px;
+}
+.jobfairflow a{
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:inline-block;
+	width:230px;
+}

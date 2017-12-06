@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+.zph_head {
+	width:1076px;
+	height:395px;
+	background-repeat:no-repeat;
+}
+.zph_head.xiebandy {
+	background:url(sepweek2.jpg); 
+}
+.container { width:1067px; margin:0 auto; background-color:#FFF;}
+.header .topnav { float:right;padding:3px 30px 3px 0;
+	border-left:1px solid #fff;
+	border-bottom:1px solid #fff; 
+	 background-color:#EEB115;}
+.header .topnav ul {list-style-type:disc; list-style-position: inside;}
+.header .topnav li { float:left; white-space:nowrap; padding-left:30px; }
+.header .topnav li a   {color:#000; white-space:nowrap;}
+.header {
+	background:url(head_bg.jpg);
+	width:1067px;
+	height: 601px;
+	background-repeat:no-repeat;
+	background-position:center;
+	width:1067px;
+	margin:0 auto;
+}
+.header .news{
+	padding:330px 0 0 555px ;
+}
+.header .news .zc , .header .news .gg {
+	width:216px;
+	height:165px;
+	background-color:rgba(245, 245, 245, 0.7);
+	opacity:0.7;
+	border-radius:6px 6px 6px 6px;
+	border:1px solid #fff;
+	/*
+	outline:solid;
+	outline-color:#fff;
+	outline-width:1px;
+	*/
+	float:left;
+	margin:10px;
+}
+.header .news .title, .header .news .content {
+		line-height:1.5em;
+		width:192px;
+		margin:auto;
+}
+.header .news .title {padding:0 5px;height:32px; line-height:32px; font-size:16px; color:#006; border-bottom:2px solid #504BC3;}
+.header .news .content {width:200px; }
+.header .news .content  ul {padding-left: 5px; list-style-type:disc; list-style-position: inside; }
+.header .news .content  li {white-space: nowrap;overflow: visible;}
+.header .news .content  li  a {white-space: nowrap; display:block;
+text-overflow: ellipsis; line-height:1.8em; color:#333; overflow: hidden; }
+
+.header .reg_btn {text-align:center;margin-left:500px;}
+.header .reg_btn a {margin-top:25px; }
+
+.main .title {height:145px; background:url(main-title.gif);}
+.main .content {background:url(tb_bg_53.gif);background-repeat:repeat-y;padding:0 80px; }
+.main .more {height:110px; width:1067px; background-repeat:no-repeat;background:url(more_54.gif);width:100%;}
+.main .more a {width:205px;height:55px;display: block; left: 425px;top: 10px; position: relative; }
+.job_search_list {margin-bottom:0;}
+.job_search_list  td{
+	overflow:hidden;white-space:nowrap;word-break:keep-all;text-overflow: ellipsis;
+}
+.footer {margin-top:0;padding:0 35px;background-color:#FFF;}
+.footer li {list-style:none; float:left;margin:6px;}
+.footer li a {
+	display:block;background:url(link-bg.png);width:186px; height:58px;
+	color:#FFF;line-height:58px; text-align:center;font-size:22px;
+	font-weight:bolder;
+}
+.footer li a:hover {text-decoration:none;color:#FFF;}
+.job_search_list  td.col1 {width:200px;}
+.job_search_list  td.col2 {width:190px;}
+.job_search_list  td.col3 {width:80px;}
+.job_search_list  td.col4 {width:80px;}
+.job_search_list  td.col5 {width:120px;}
+.job_search_list  td.col6 {width:70px; text-align:center;}
+
+.zph_card {
+	height:250px; 
+	background:url(zph_bg2.png); 
+	background-position:center top;
+	background-repeat:no-repeat;
+	background-color:#FFF;
+}
+	.f_content .info_card {
+		border:none;
+		padding-top:25px;
+		padding-left:100px;
+	}
+	.company_info {
+		width: 900px;
+		margin: auto;
+		margin-top:-15px;;
+	}
+	.zpn_company_list {
+		background:url(background.png);
+		background-position:center;
+		background-repeat:repeat-y;
+		background-color:#FFF;
+	}
+	.zph_company_foot {
+		background:url(content_foot.png);
+		background-position:center;
+		height:25px;
+		background-repeat:no-repeat;
+		background-color:#FFF;
+	}
+	.f_content .info_card .title {
+		margin-top: 5px;
+		padding: 0 20px;
+		line-height: 52px;
+		font-size: 25px;
+		font-weight: bold;
+		overflow: hidden;
+		color: #FF7000;
+	}
+.f_content .info_card .line {
+	margin-left: 60px;
+	line-height: 32px;
+	padding: 0 3px;
+	height: 32px;
+	overflow: hidden;
+	font-size:18px;
+}
+.f_content .info_card .action {
+	text-align: left;
+	padding: 20px 60px;
+}
+.company_info .nav-tabs li.active {
+	background: #45BDEC;
+	border: none;
+	border-bottom: 1px solid #3EA7CF;
+	margin-bottom: -1px;
+}
+
+.box{
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.box2 {
+	background: transparent;
+	border: 1px solid #ddd;
+}
+.box2 li {
+	width: 118px;
+	height: 56px;
+	float: left;
+	line-height: 100px;
+	text-align: center;
+	font-size: 50px;
+	background: #transparent;
+	color: #555;
+	margin:0;
+}

@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+.self_combo{
+		border:solid 1px #e5e5e5;
+	}
+	.self_combo th{
+		background:#e3801e;
+		color:#fff;
+		text-align: center;
+		height: 40px;
+	}
+	.self_combo td{
+		height:80px;
+	}
+	.self_caption th:nth-child(1){
+		width:104px;
+	}
+	.self_caption th:nth-child(2){
+		width:104px;
+	}
+	.self_caption th:nth-child(3){
+		width:100px;
+	}
+	.self_caption th:nth-child(4){
+		width:90px;
+	}
+	.self_caption th:nth-child(5){
+		width:70px;
+	}
+	.self_caption th:nth-child(6){
+		width:110px;
+	}
+	.self_caption th:nth-child(7){
+		width:90px;
+	}
+	.self_caption th:nth-child(8){
+		width:120px;
+	}
+	.self_caption th:nth-child(9){
+		width:60px;
+	}
+	.self_caption th:nth-child(10){
+		width:95px;
+	}
+	.self_caption th:nth-child(11){
+		width:30px;
+	}
+	
+	.bronze td{
+		color:#6ad232;
+		background:#e3f1da;
+	}
+	.silver td{
+		color:#3bbcde;
+		background:#d8ebf0;
+	}
+	.gold td{
+		color:#ffb034;
+		background:#fff8ec;
+	}
+	.exterme td{
+		color:#f24d68;
+		background:#f5e6e8;
+	}
+	.recommend_combo{
+		border:solid 1px #e5e5e5;
+		margin-bottom:40px;
+	}
+	.recommend_combo td{
+		height: 80px;
+		color: #898989;
+	}
+	.recommend_caption td{
+		background:#e3801e;
+		color:#fff;
+		text-align: center;
+		height: 40px;
+	}
+	
+	.recommend_combo tr td:first-child {
+		background:#e3801e;
+		color: #fff;
+	}
+	.zj_left{
+		color:#f24d68 !important;
+		text-align:left !important;
+		padding-left: 40px;
+	}
+	.zj_right{
+		color:#f383838 !important;
+		text-align:left !important;
+		padding-left: 40px;
+	}
+	.zj_right_a{
+		float:right;
+		margin:0 20px 5px 0;
+	}
+/*计数按钮开始  */	
+ 	.btn-numbox {
+ 		margin: 10px 0 0 30px;
+   }
+            
+   .btn-numbox li {
+   		float: left;
+   }
+            
+            .btn-numbox li .number,
+            .kucun {
+                display: inline-block;
+                font-size: 12px;
+                color: #808080;
+               /*  vertical-align: sub; */
+               font-size: 15px;
+            }
+            
+            .btn-numbox .count {
+                overflow: hidden;
+                margin: 0 16px 0 -20px;
+            }
+            
+            .btn-numbox .count .num-jian,
+            .input-num,
+            .num-jia {
+                display: inline-block;
+                width: 28px;
+                height: 30px;
+                line-height:30px;
+                text-align: center;
+                font-size: 18px;
+                color: #999;
+                cursor: pointer;
+                border: 1px solid #e6e6e6;
+            }
+            
+            .btn-numbox .count .num-jia {
+                margin-left: 1px;
+            }
+            
+            .btn-numbox .count .input-num {
+                width: 58px;
+                height:30px;
+                color: #333;
+                border-left: 0;
+                border-right: 0;
+            }
+            .num-jian ,.num-jia {
+                background:#e5e5e5;
+                margin-top: 4px;
+            }
+	.fuwu{
+		background: #e5e5e5;
+    	width: 60px;
+    	height: 30px;
+    	display: inline-block;
+    	line-height: 30px;
+    	text-align: center;
+    	margin-left:40px;
+	}
+/*计数按钮结束 */	
+.nopay{
+	width: 80px;
+    color: #999;
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans>
+    <form-bean name="regResumeForm" type="com.zhaopin.form.RegResumeForm" />
+  </form-beans>
+  <global-exceptions />
+  <global-forwards />
+  <action-mappings >
+    <action path="/home" type="net.zhaopin.member.action.HomeAction">
+      <forward
+        name="student" 
+        path="/member/alter_general.jsp"
+        contextRelative="true" />
+      <forward
+        name="company" 
+        path="/member/first_firm.jsp"
+        contextRelative="true" />
+    </action>
+    <action path="/sc/home" type="net.zhaopin.member.action.HomeSchoolAction">
+      <forward
+        name="school" 
+        path="/member/sc/index.jsp" 
+        contextRelative="true" />
+    </action>
+    <action path="/ajaxForm" type="net.zhaopin.member.action.AjaxFormAction">
+    </action>
+    <action path="/easyQuery" type="net.zhaopin.member.action.EasyQueryAction">
+    </action>
+    <action path="/appraise" type="net.zhaopin.member.action.AppraiseAction">
+    </action>
+    
+    <!--new register  -->
+    <action path="/accountLogin" type="net.zhaopin.member.action.LoginAction">
+		<forward name="geren" path="/WEB-INF/templets/register_login/login_geren.jsp" contextRelative="true"></forward>
+		<forward name="danwei" path="/WEB-INF/templets/register_login/login_danwei.jsp" contextRelative="true"></forward>
+ 	</action>
+    
+    <action path="/accountRegister" type="net.zhaopin.member.action.RegisterAction">
+		<forward name="geren" path="/WEB-INF/templets/register_login/register_geren.jsp" contextRelative="true"></forward>
+    	<forward name="qiye" path="/WEB-INF/templets/register_login/register_qiye.jsp" contextRelative="true"></forward>
+    	<forward name="gaoxiao" path="/WEB-INF/templets/register_login/register_gaoxiao.jsp" contextRelative="true"></forward>
+    </action>
+    <action path="/verifyByMobile" type="net.zhaopin.member.action.VerifyByMobileAction">
+    </action>
+    <action path="/completeResume" type="net.zhaopin.member.action.CompleteResumeAction">
+    	<forward name="one" path="/WEB-INF/templets/register_login/reg_resume1.jsp" contextRelative="true"></forward>
+    	<forward name="two" path="/WEB-INF/templets/register_login/reg_resume2.jsp" contextRelative="true"></forward>
+    	<forward name="three" path="/WEB-INF/templets/register_login/reg_resume3.jsp" contextRelative="true"></forward>
+    	<forward name="four" path="/WEB-INF/templets/register_login/reg_resume4.jsp" contextRelative="true"></forward>
+    	<forward name="five" path="/WEB-INF/templets/register_login/reg_companyinfo.jsp" contextRelative="true"></forward>
+    </action>
+    <action name="regResumeForm" path="/saveResume" type="net.zhaopin.member.action.SaveResumeAction"></action>
+  </action-mappings>
+
+  <controller />
+</struts-config>
+

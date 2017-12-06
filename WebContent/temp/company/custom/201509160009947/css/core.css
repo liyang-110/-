@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+body{ font-size:14px;
+font-family:"微软雅黑";
+}
+*{ margin:0px; 
+padding:0px;
+}
+a{ color:#000000; 
+text-decoration:none;
+}
+a:link{ color:#000000; 
+text-decoration:none;
+}
+a:active{ color:#000000; 
+text-decoration:none;
+}
+a:hover{ color:#000000; 
+text-decoration:none;
+}
+a:visited{ color:#000000; 
+text-decoration:none;
+}
+ul{ list-style:none;
+}
+.clear{ clear:both;
+}
+img{ border:0px;
+}
+.head{ width:835px;
+margin:0 auto;
+}
+.menu{ width:835px;
+height:33px;
+background:#01588e;
+margin:3px auto 0 auto;
+}
+.menu li{ float:left;
+width:100px;
+line-height:33px;
+text-align:center;
+background:url(../img/fen.png) no-repeat;
+}
+.menu li:first-child{ background:none;}
+.menu li a{ font-size:16px;
+color:#fff;
+}
+.cont{ width:835px;
+ margin:0px auto;
+}
+.cont .list h1,.cont .list_a h1,.cont .list_b h1,.cont .list_c h1,.cont .list_d h1,.cont .list_f h1{ margin:35px auto;
+background:url(../img/y_09.gif) no-repeat;
+color:#FFF;
+font-size:16px;
+padding-left:10px;
+}
+.cont .list p{ text-indent:2em;
+line-height:30px;
+color:#333;
+}
+.cont .list p a{ color:#09F;}
+.cont .list p a:hover{ color:#06F;
+text-decoration:underline;
+}
+.cont .list_a table{ border-collapse:collapse;
+margin-left:138px;
+}
+.cont .list_a table td{ border:2px #386584 solid;
+height:30px;
+text-align:center;
+}
+.cont .list_a table td .but{ background:#11a2ff;
+border:1px #666666 solid;
+border-radius:5px;
+color:#FFF;
+padding:1px 15px;
+}
+.cont .list_b .text{ margin-left:165px;	font-family: "微软雅黑";
+    font-size: 16px;line-height:30px;}
+.cont .list_c table{ border-collapse:collapse;
+background:#00578e;
+margin-top:20px;
+}
+.cont .list_c table td{ border:1px #7390a3 solid;
+height:47px;
+text-align:center;
+color:#fff;
+}
+.cont .list_d li{ background:url(../img/y_17.gif) no-repeat 100px center;
+padding-left:120px;
+line-height:30px;
+}
+.cont .list_d li a{ font-weight:bold;
+color:#000;
+font-size:14px;
+}
+.cont .list_f { position:relative;}
+.cont .list_f p{ line-height:32px;
+padding-left:100px; }
+.cont .list_f .ma{ position:absolute;
+top:150px;
+left:480px;
+}
+.foot{ width:100%;
+}
+.foot p{ text-align:center;
+padding-top:135px;
+padding-bottom:55px;}
+.list{
+	font-family: "微软雅黑";
+    font-size: 16px;
+	
+}

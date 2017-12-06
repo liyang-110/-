@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+.list_b{ margin-top:10px;}
+.list_b table{ margin-top:20px;}
+.list_b table td.tda{ text-align:right;
+}
+.list_b table td.tdb{ text-align:left;
+font-size:12px;
+}
+.list_b table td.tdc,.list_b table td.tdd{ text-align:left;
+color:#F00;
+}
+.list_b table td a.xuanze{ background:#CCC;
+border:1px #999999 solid;
+padding:2px 20px;
+}
+.list_b table td a.xuanze:hover{ color:#06F;}
+.list_b input{ vertical-align:middle;}
+.list_b input.text{ width:200px; 
+height:25px;
+border:1px #bebebe solid;
+border-radius:5px;
+}
+.list_b select{border-radius:5px;
+height:25px;
+border:1px #bebebe solid;
+color:#666;
+}
+.baocun{ margin:20px 0 20px 150px;
+}
+.baocun li{ float:left;
+width:100px;
+}
+.baocun li a{background:#f39800;
+border:1px #ba7604 solid;
+padding:5px 25px;
+color:#FFF;
+padding-right:20px;
+border-radius:5px;
+}
+.baocun li a:hover{ background:#04ba33;
+border:1px #029829 solid;
+}

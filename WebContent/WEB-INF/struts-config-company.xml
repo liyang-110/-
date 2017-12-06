@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+<struts-config>
+  <data-sources />
+  <form-beans>
+    	<form-bean name="uploadFileForm" type="com.zhaopin.form.UploadFileForm" />
+  </form-beans>
+  <global-exceptions />
+  <global-forwards>
+  		<forward 
+  			name="notaudited" 
+  			path="/WEB-INF/templets/company/notaudited.jsp"
+  			contextRelative="true" />
+  </global-forwards>
+  <action-mappings>
+      <action
+      path="/uploadFile"
+      type="com.zhaopin.company.action.UploadFileAction" 
+      name="uploadFileForm" 
+      validate="false">
+      	<forward name="input" path="/jUploadDoc.jsp" />
+      </action>
+    <action path="/info" type="com.zhaopin.company.action.InfoAction">
+      <!--
+      <forward name="info" path="/jCompanyInfo.jsp" />
+      -->
+      <forward name="index" path="/jCompanyIndex.jsp" />
+      
+    </action>
+    <action path="/resumeDetail" type="com.zhaopin.company.action.ResumeDetailAction">
+      <forward
+        name="success"
+        path="/WEB-INF/templets/company/resumeDetail.jsp"
+        contextRelative="true" />
+    </action>
+    <action path="/controlCenter" type="com.zhaopin.company.action.ControlCenterAction">
+      <forward
+        name="rightIndex"
+        path="/company/main/jRightIndex.jsp"
+        contextRelative="true" />
+    </action>
+    
+    <action path="/jobDetail" type="com.zhaopin.company.action.JobDetailAction">
+      <!-- 
+      <forward
+        name="success"
+        path="/company/jJobDetail.jsp"
+        contextRelative="true" />
+      -->
+      <forward
+        name="result"
+        path="/company/jJobInfo.jsp"
+        contextRelative="true" />
+    </action>
+    <action path="/hurryRecruit" type="com.zhaopin.company.action.HurryRecruitAction">
+    </action>
+    <action path="/rechargeable" type="com.zhaopin.company.action.RechargeableAction">
+      <forward
+        name="success"
+        path="/WEB-INF/templets/company/rechargeable.jsp"
+        contextRelative="true" />
+    </action>
+    <action path="/recharge" type="com.zhaopin.company.action.RechargeAction">
+      <forward
+        name="success"
+        path="/WEB-INF/templets/company/recharge.jsp"
+        contextRelative="true" />
+    </action>
+    <action path="/recharging" type="com.zhaopin.company.action.RechargingAction">
+      <forward
+        name="success"
+        path="/WEB-INF/templets/company/recharging.jsp"
+        contextRelative="true" />
+    </action>
+    <action path="/recharged" type="com.zhaopin.company.action.RechargedAction">
+      <forward
+        name="success"
+        path="/WEB-INF/templets/company/recharged.jsp"
+        contextRelative="true" />
+    </action>
+    <action path="/wxPayNotify" type="cn.zhaopin.trade.action.WeixinPayResultNotifyAction">
+    </action>
+    <action path="/rechargecombo" type="com.zhaopin.company.action.RechargecomboAction">
+    	<forward
+        name="success"
+        path="/WEB-INF/templets/company/rechargecombo.jsp"
+        contextRelative="true" />
+    </action>
+    
+    <action path="/rencai" type="com.zhaopin.company.action.RencaiAction">
+      <forward
+        name="success"
+        path="/WEB-INF/templets/company/rencai.jsp"
+        contextRelative="true" />
+    </action>
+    
+    <action path="/unemployed" 
+		    parameter="method"
+    		type="com.zhaopin.company.action.UnemployedAction">
+      <forward
+        name="success"
+        path="/WEB-INF/templets/company/unemployed.jsp"
+        contextRelative="true" />
+    </action>
+  </action-mappings>
+  <controller />
+</struts-config>
+

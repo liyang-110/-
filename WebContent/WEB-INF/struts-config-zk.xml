@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans />
+  <global-exceptions />
+  <global-forwards>
+  	<forward name="logout" path="/login.jsp" redirect="true" />
+  </global-forwards>
+  <action-mappings >
+    <action path="/login" type="com.zhaopin.zk.action.LoginAction">
+      <forward
+        name="success"
+        path="/index.jsp"
+        redirect="true" />
+      <forward name="failure" path="/login.jsp" />
+    </action>
+    <action path="/resume" type="com.zhaopin.zk.action.ResumeDetailAction">
+      <forward
+        name="success"
+        path="/WEB-INF/templets/zk/resumeDetail.jsp"
+        contextRelative="true" />
+    </action>
+  </action-mappings>
+  <controller />
+</struts-config>
+

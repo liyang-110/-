@@ -1,0 +1,112 @@
+.container{
+	width:1024px;
+	margin-top:50px;
+}
+.select_next {	
+	height:80px;
+	margin-left:212px;
+	font-size: 18px;
+    font-family: "微软雅黑";
+    }
+.select_next li{
+	float:left;
+	margin-right:30px;
+	}
+.select_next li a{	
+	width:180px;
+	text-decoration:none;
+	color:#333;
+}
+	
+.select_next .next1{
+	width:180px;
+	
+}
+.select_next .next1 a{
+	color:#e03919;
+}
+.font-color{
+	color:#e03919;
+}
+.select_next .next2{
+	width:180px;
+}
+.select_next .next3{
+	width:180px;
+}
+.select_next li div{
+	height:6px;
+	width:180px;
+	background:#efefef;
+	margin-top:5px;
+}
+.select_next .next1_div.active {
+	height:6px;width:180px;
+	background: -webkit-linear-gradient(left, #e03919 ,#ffffff); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #e03919 ,#ffffff); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #e03919 ,#ffffff); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right,  #e03919 ,#ffffff); /* 标准的语法（必须放在最后） */
+}
+.select_next .next2_div.active{
+	height:6px;width:180px;
+	background: -webkit-linear-gradient(left, #e03919 ,#ffffff); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #e03919 ,#ffffff); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #e03919 ,#ffffff); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right,  #e03919 ,#ffffff); /* 标准的语法（必须放在最后） */
+}
+.select_next .next3_div.active{
+	height:6px;width:180px;
+	background: -webkit-linear-gradient(left, #e03919 ,#ffffff); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #e03919 ,#ffffff); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #e03919 , #ffffff); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right,  #e03919 ,#ffffff); /* 标准的语法（必须放在最后） */
+}
+.ajax-form1{
+	padding-left:182px;
+	margin-top:40px;
+	margin-bottom:40px;
+}
+.register-form1 .xinghao{
+	font-size: 22px;
+    color: #e03919;
+    float: left;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+.register-form1 .stu1_input{
+	height:30px;
+	width:286px;
+}
+.register-form1 .stu1_label{
+	height: 30px;
+    line-height: 30px;
+    font-size:15px;
+    font-weight:900;
+}
+.register-form1{
+	font-family:"微软雅黑";
+}
+.register-form1 .stu1_btn{
+	background-image: linear-gradient(to bottom,#e03919,#e03919);
+    color: #FFFFFD;
+    height: 35px;
+    padding: 0 25px 0 25px;
+    border: none;
+    border-radius: 5px;
+    width: 176px;
+    margin-left: 165px;
+    margin-top:10px;
+}
+.register-form1 .drop_down{
+	height:40px;
+	width:300px;
+}
+.register-form1 .select_date{
+	width:130px;
+}
+.register-form1 .work_intrduce{
+	width:286px;
+}
+.register-form1 .step{
+	margin-left:65px;
+}

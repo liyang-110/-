@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*样式重置开始*/
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+.clear{clear:both;}
+/*样式重置开始*/
+
+.personal_center{
+background:#e03919;}
+.top_nav .main_nav a.personal_center {color:#fff;}
+
+
+
+/*mian区属性描述开始*/
+
+.main{
+	width:1024px;
+	margin:0 auto;
+	background:#fff;
+	box-shadow:0px 0px 20px rgba(171,171,171,0.70);
+	font-family:"微软雅黑";
+	
+	}
+.main_top{
+	background: #EFEFEF;
+	padding:6px;
+}
+
+.main_top_l{
+	height: 252px;
+	float:left;
+	background:#fff;
+	padding:16px 20px 18px 15px;
+	}
+.main_top_m{
+	font-size:14px;
+	height: 252px;
+	float:left;
+	width:510px;
+	lien-height:254px;
+	background:#fff;
+	}
+.main_top_m strong{
+	float:left;
+	font-size:18px;}
+.main_top_m p{
+	margin:0;
+	padding-left:40px;
+	float:left;
+	font-size:12px;}
+.main_top_m li{
+	font-size: 14px;
+	background:#fff;
+	line-height:34px;
+	width:500px;
+	border-bottom:1px solid #e5e5e5;
+	}
+.main_top_m  li.name{
+	z-index:100;
+	margin-top:16px;
+	line-height:48px;
+    border-top:1px solid #e5e5e5;}	
+  .main_top_r{
+	float:left;
+	background:#fff;
+	margin-left:6px;}
+.main_top_r a{
+	display:block;
+	font-size:18px;
+	padding-left:60px;
+	text-align:left;
+	line-height:85px;
+	width:300px;
+	height:85px;
+	border-bottom: 3px solid #EFEFEF;
+	color:#333;
+}
+.main_top_r a:hover{
+	text-decoration:none;
+	}
+.main_top_r a span{
+	padding:4px 8px;	
+	background:#e03919;
+	color:#fff;
+	border-radius:4px;
+	margin:0px 10px;
+	}
+
+.buttons{
+	margin-top: 4px;
+	width:1012px;
+	height:50px;
+	background: #EFEFEF;
+	}
+
+.buttons a{
+	font-size: 16px;
+	color: #333;
+	display:block;
+	height:50px;
+	float:left;
+	background: #FFFFFF;
+	line-height:50px;
+	text-align:center;
+	}
+.buttons img{
+	margin:0px 6px;}
+
+.button1{
+	width: 352px;
+	}
+.button2{
+	margin: 0px 7px;
+	width: 345px;
+	}
+.button3{
+	width: 300px;
+	}
+.main_bot_l{
+	float:left;
+
+	background:#efefef;
+	width:304px;}
+
+.main_bot{
+	color:#6e5c52;
+	margin-top:20px;
+	margin-bottom:10px;
+	
+	font-family:"微软雅黑";}
+	
+.main_bot_l dt{
+	font-size: 18px;
+	padding-left:20px;
+	padding-top: 20px;
+	height: 62px;
+	border-bottom:2px solid #fff;
+	}	
+	
+.main_bot_l dd{
+	margin-left:20px;
+	width:272px;
+	font-size:14px;
+	height: 40px;
+	background:#fff;
+	line-height: 40px;
+	text-align:center;
+	margin-top:20px;
+	}
+.main_bot_l dd a{
+	color:#6e5c52;
+	}
+.main_bot_l dd a.record_zhiwei{
+		color:#E03919;}
+		
+.main_bot_l dd a span{
+	line-height:36px;
+	padding:2px 6px;	
+	background:#e03919;
+	color:#fff;
+	border-radius:4px;
+	margin:0px 10px;
+	}	
+.main_bot_r{
+	margin-left:24px;
+	float:left;
+	background:#efefef;
+	width:696px;
+	padding:20px 25px 15px 25px;
+	}
+
+
+
+.main_bot_r a{
+	float:left;
+	display:block;
+	padding:2px 14px;
+	border:1px solid #999;
+	border-radius:4px;
+    color:#999;
+	margin-right:10px;}
+.main_bot_r a:hover{
+	  color:#e03919;
+	  border:1px solid #e03919;
+	  }
+
+
+
+
+
+
+
+		
+	
+/*mian区属性描述结束*/

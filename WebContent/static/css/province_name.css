@@ -1,0 +1,48 @@
+
+/*样式重置开始*/
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+.clear{clear:both;}
+/*样式重置开始*/
+.nav_inner{
+	position:relative;}
+.province_name{
+	float:left;
+	position:absolute;
+	left:270px;
+	top:80px;
+	z-index:99;
+	width:480px;
+	height:450px;
+	background:url(../images/03/city_bg.png) no-repeat 0 0;
+	font-family:"微软雅黑";
+	line-height:36px;
+	
+	color:#6D5C53;}
+	
+.province_name h1{
+	margin-left:40px;
+	font-family:"微软雅黑";
+	font-size:18px;
+	line-height:36px;
+	color:#6D5C53;
+	margin-top:50px;
+}	
+	
+.province_name ul{
+margin-top:20px;
+	margin-left:40px;
+	font-family:"微软雅黑";
+	line-height:36px;
+	font-size:18px;}
+.province_name li{
+		text-align:right;
+	float:left;
+	margin-right:30px;}
+.province_name a{
+	color:#6D5C53;
+	text-decoration:none;
+	hover:#e1381b;}
+a:hover {color:e1381b;
+         text-decoration:none;}

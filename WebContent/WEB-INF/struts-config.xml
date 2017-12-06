@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans>
+  	<form-bean name="uploadFileForm" type="com.zhaopin.form.UploadFileForm" />
+    <form-bean name="regForm" type="com.zhaopin.form.RegForm" />
+  </form-beans>
+  <global-exceptions />
+  <global-forwards>
+  		<forward name="error" path="/404.html"></forward>
+  </global-forwards>
+  <action-mappings>
+    <action path="/multiQueryAction" type="com.zhaopin.action.MultiQueryAction">
+   		<forward name="newSearch" path="/news/jList.jsp"></forward> 
+   		<forward name="flowresult" path="/flow/jFlowResult.jsp"></forward>
+   		<forward name="attendCom" path="/school/jobfair_d2.jsp"></forward>
+   		<forward name="moreJobfair" path="/jobfairList.jsp"></forward>
+   		<forward name="schmoreJobfair" path="/jSchooljobfairList.jsp"></forward>
+   		<forward name="allmoreJobfair" path="/alljobfairList.jsp"></forward>
+   		<forward name="schoolSearch" path="/news/jSchoolList.jsp"></forward>
+   		<forward name="companysSearch" path="/news/jCompanyList.jsp"></forward>
+   		
+    </action>
+    <action path="/fileup" type="cn.com.zhaopin.base.pub.file.FileUpAction">
+  		<forward name="success" path="/base/file/jUploadFileResult.jsp" />
+    </action>
+  	<action path="/uploadifyupLoad" type="cn.com.zhaopin.base.pub.file.UpLoadAction">
+  	</action>
+  	<action path="/uploadheadpic" type="cn.com.zhaopin.base.pub.file.UpLoadHeadPicAction">
+  	</action>
+  	<!-- 数据中间服务层 -->
+	<action path="/esbServer"
+			type="cn.com.zhaopin.base.pub.common.esb.ESBServerAction"
+			parameter="method">
+	</action>
+	<action name="regForm" path="/login" type="com.zhaopin.action.LoginAction"> 
+	    <forward contextRelative="true" name="ok" path="/register_ok.jsp" />
+    </action>
+    <action name="regForm" path="/register_edit" type="com.zhaopin.action.RegisterEditAction"> 
+    </action>
+    <action path="/loginOut" type="com.zhaopin.action.loginOut">
+    	<forward contextRelative="true" name="exitData" path="/" />
+    </action>
+	<action path="/substation" type="com.zhaopin.action.SubStationAction"> 
+	    <forward contextRelative="true" name="subindex" path="/jSubStationIndex.jsp" />
+	    <forward contextRelative="true" name="schoolindex" path="/school/jIndex.jsp" />
+	    <forward contextRelative="true" name="jobFairInfo" path="/school/jobfair_d.jsp" />
+	    <forward contextRelative="true" name="siteIndex" path="/jIndex.jsp" />
+	    <forward contextRelative="true" name="Industry" path="/company/jIndustry.jsp" />
+    </action>
+    <action path="/schoolleft" type="com.zhaopin.action.SchoolLeftAction"> 
+    	<forward contextRelative="true" name="schoolmain" path="/school/main.jsp" />
+    </action>
+    <!--流程相关配置操作 -->
+  	<action path="/flowCollocation" type="com.zhaopin.action.FlowCollocationAction">
+  		<!-- 流程添加 -->
+  		 <forward name="flowAdd" path="/flow/jFlowadd.jsp"/>
+  		<!-- 流程修改查看 -->
+  		 <forward name="flowUpView" path="/flow/jFlowEdit.jsp"/>
+  		<!-- 流程修改 -->
+  		 <forward name="flowUp" path="/flow/jFlowadd.jsp"/>
+  	</action>
+  	<action path="/loadSelectData" type="com.zhaopin.business.LoadSelectData" parameter="method"></action>
+ 	<!-- 流程处理 -->
+	<action path="/sheetAction" type="com.zhaopin.action.SheetMgrAction" >
+		<forward name="index" path="/"></forward>
+	</action>
+
+	<action path="/getJsonAction" type="cn.com.zhaopin.base.pub.GetJsonAction" parameter="method" />
+	<action path="/getToolsJsonAction" type="cn.com.zhaopin.base.pub.GetToolsJsonAction" parameter="method" />
+	
+	 <action path="/schoolInfo" type="com.zhaopin.action.SchoolInfoAction">
+      <forward name="success" path="/school/jSchoolInfo.jsp" />
+    </action>
+    <action path="/companyInfo" type="com.zhaopin.action.CompanyInfoAction">
+      <forward name="index" path="/company/jIndex.jsp" />
+    </action>
+     <action path="/newsDetail" type="com.zhaopin.action.NewsDetailAction">
+      <forward name="page" path="/news/jDetail.jsp" />
+    </action>
+    <action path="/companyCenterAction" type="com.zhaopin.action.CompanyCenterAction" >
+    	<forward name="index" path="/company/jCompanyRight.jsp"></forward>
+    </action>
+    <action path="/schoolCenterAction" type="com.zhaopin.action.SchoolCenterAction">
+      <forward name="main" path="/school/main.jsp" />
+      <forward name="index" path="/school/jSchoolRight.jsp"></forward>
+    </action>
+    <action path="/page" type="com.zhaopin.action.PageContentAction">
+      <forward name="page" path="/news/jBottomContent.jsp" />
+    </action>
+    <!-- 
+    <action
+      path="/search"
+      type="com.zhaopin.action.SearchAction">
+      <forward name="jobfairList" path="/jSearchJobfairList.jsp"></forward>
+    </action>
+     -->
+    <action path="/forget" type="com.zhaopin.action.ForgetAction">
+    	<forward name="success" path="/WEB-INF/templets/forget/form.jsp" contextRelative="true"></forward>
+    </action>
+    <action path="/verifyEmail" type="com.zhaopin.action.VerifyEmailAction">
+    	<forward name="form" path="/jVerifyEmail.jsp"></forward>
+    </action>
+    
+    <action path="/news" type="com.zhaopin.action.NewsAction">
+    </action>
+    <action path="/click" type="com.zhaopin.action.ClickRateAction" />
+    <action name="uploadFileForm" path="/importExcel" scope="request" type="com.zhaopin.action.ImportExcelAction" />
+    <action path="/subStationJobs" type="com.zhaopin.action.SubStationJobsAction">
+    	<forward name="success" path="/jSubStationJobs.jsp"></forward>
+    </action>
+    
+    <action path="/jobfairQuery" type="com.zhaopin.action.JobfairQueryAction">
+   		<forward name="allmoreJobfair" path="/alljobfairList.jsp"></forward>
+   		<forward name="moreJobfair" path="/jobfairList.jsp"></forward>
+   		<forward name="schmoreJobfair" path="/jSchooljobfairList.jsp"></forward>
+    </action>
+    
+    <action path="/list" type="com.zhaopin.action.ZixunListAction">
+    	<forward name="news" path="/jNewsList.jsp"></forward>
+        <forward name="kaoshi" path="/jKaoshiList.jsp"></forward>
+        <forward name="chuangye" path="/jChuangyeList.jsp"></forward>
+    	<forward name="news_type01" path="/jNewsList.jsp"></forward>
+    	<forward name="news_type03" path="/jKaoshiList.jsp"></forward>
+        <forward name="news_type04" path="/jChuangyeList.jsp"></forward>
+        <forward name="xianchang" path="/news/jXianchangList.jsp"></forward>
+        <forward name="news_type05" path="/news/jXianchangList.jsp"></forward>
+        <forward name="gonggao" path="/jGonggaoList.jsp"></forward>
+        <forward name="news_type02" path="/jNewsList.jsp"></forward>
+
+    </action>
+    
+    <action path="/jobfair" type="com.zhaopin.action.JobfairListAction">
+    <!-- 
+    	<forward name="multiple" path="/jMultipleJobfairList.jsp"></forward>
+        <forward name="organises" path="/jOrganisesJobfairList.jsp"></forward>
+         -->
+         <forward name="multiple" path="/jALLJobfairList.jsp"></forward>
+        <forward name="organises" path="/jALLJobfairList.jsp"></forward>
+        <forward name="all" path="/jALLJobfairList.jsp"></forward>
+    </action>
+    <action path="/jobfairList" type="com.zhaopin.action.JobfairListAction">
+    	<forward name="multiple" path="/jALLJobfairList.jsp"></forward>
+        <forward name="organises" path="/jALLJobfairList.jsp"></forward>
+        
+        <forward name="schoolJobFairList" path="/jobFair/schoolJobFairList.jsp"></forward>
+        <forward name="netWorkJobFairList" path="/jobFair/schoolJobFairList.jsp"></forward>
+        <forward name="specialcom" path="/jobFair/schoolJobFairList.jsp"></forward>
+        <forward name="careerTalkList" path="/jobFair/schoolJobFairList.jsp"></forward>
+        <forward name="all" path="/jALLJobfairList.jsp"></forward>
+    </action>
+    <action path="/organisesList" type="com.zhaopin.action.OrganisesListAction">
+    	<forward name="pageList" path="/jobFair/organisesList.jsp"></forward>
+    </action>
+    <action path="/jobfairInfo" type="com.zhaopin.action.JobfairInfoAction">
+    	<forward name="multiple" path="/jMultipleJobfairInfo.jsp"></forward>
+    	<forward name="multiple_new" path="/jNewJobfairInfo.jsp"></forward>
+        <forward name="organises" path="/jOrganisesJobfairInfo.jsp"></forward>
+        <forward name="special" path="/jJobfairInfoSpecial.jsp"></forward>
+        <forward name="specialcom" path="/jJobfairInfoSpecialCom.jsp"></forward>
+        <forward name="netcongress" path="/jJobfairInfoNetcongress.jsp"></forward>
+    </action>
+
+    <action path="/search" type="com.zhaopin.action.IntegrationSearchAction">
+    	<!--  
+    	<forward name="search_jobfair" path="/search/jSearchJobfair.jsp"></forward>
+    	<forward name="search_recruit" path="/search/jSearchRecruit.jsp"></forward>
+		-->
+    	<forward name="search_jobfair" path="/WEB-INF/templets/index-gjzss.jsp" contextRelative="true"></forward>
+    	<forward name="search_recruit" path="/WEB-INF/templets/index-gaojiss.jsp" contextRelative="true"></forward>
+
+    	<forward name="search_company" path="/search/jSearchCompany.jsp"></forward>
+    	<forward name="search_school" path="/search/jSearchSchool.jsp"></forward>
+    </action>
+    <!--  
+    <action path="/site" type="com.zhaopin.action.StationIndexAction">
+    	<forward name="index" path="/jStationIndex.jsp"></forward>
+    </action>
+    -->
+    <action path="/site" type="cn.zhaopin.jobfair.action.SiteIndexAction">
+      <forward
+        name="success"
+        path="/WEB-INF/templets/index.jsp"
+        contextRelative="true" />
+    </action>
+   
+    <action path="/hurryRecruitList" type="com.zhaopin.action.HurryRecruitListAction">
+    	<forward name="table_list" path="/jHurryRecruitList.jsp"></forward>
+    </action>
+    
+    <!-- 自定义报名action业务 -->
+    <action path="/custom/customSignUp" type="com.zhaopin.action.CustomSignUpAction">
+    </action>
+    <action path="/sign" type="com.zhaopin.sign.action.SignAction">
+    </action>
+    <!--表单验证  -->
+    <action path="/validateForm" type="com.zhaopin.action.ValidateFormAction">
+    </action>
+    <!-- 邮件模版 -->
+    <action path="/mailInfo" type="com.zhaopin.action.MailInfoAction">
+	    <forward
+	        name="receive_resume"
+	        path="/WEB-INF/templets/mail/jPersonOrderAdd.jsp"
+	        contextRelative="true" />
+	        
+	    <forward
+	        name="netcongress_0days_notify"
+	        path="/WEB-INF/templets/mail/netcongress_0days_notify.jsp"
+	        contextRelative="true" />
+	    <forward
+	        name="netcongress_1days_notify"
+	        path="/WEB-INF/templets/mail/netcongress_1days_notify.jsp"
+	        contextRelative="true" />
+	    <forward
+	        name="multiple_1days_notify"
+	        path="/WEB-INF/templets/mail/multiple_1days_notify.jsp"
+	        contextRelative="true" />
+	    <forward
+	        name="netcongress_3days_notify"
+	        path="/WEB-INF/templets/mail/netcongress_3days_notify.jsp"
+	        contextRelative="true" />
+	    <forward
+	        name="multiple_3days_notify"
+	        path="/WEB-INF/templets/mail/multiple_3days_notify.jsp"
+	        contextRelative="true" />
+    </action>
+    
+  </action-mappings>
+  <controller maxFileSize="3M" />
+  <message-resources key="application" parameter="ApplicationResources"/>
+</struts-config>
+

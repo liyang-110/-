@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<script src="/assets/jquery/jquery.min.js"></script>
+<script type="text/javascript">
+	var cur_path = "";
+</script>
+<script src="/assets/artDialog/artDialog.js?skin=green"></script> 
+<script src="/assets/artDialog/plugins/iframeTools.js"></script>
+<style>
+.f_login {height:auto;margin:auto;text-align: center;overflow:hidden;}
+.intobtn{display: block;
+	position: absolute;
+	right:2px;
+	top:200px;
+	color:#FFC400;
+	background-repeat:no-repeat;
+	text-decoration:none;
+	cursor:pointer;
+}
+.intobtn:hover{
+	color:#FFC400;
+	text-decoration:none;
+}
+.aui_close_btn {
+	position: absolute;
+	right:0;
+	top:0;
+	border-radius:0;
+	background-color:#000; 
+	font-size: 20px;
+	line-height:20px;
+	padding:0 0;
+	font-weight:bolder;
+	color:#C7CBC3;
+	text-decoration: none;
+	z-index:1;
+}
+a.aui_close_btn:hover {text-decoration:none;color:#EF4B4B;}
+.f_login ul,.f_login ul li {margin:0;padding:0;}
+.f_login ul li {display:none;}
+.f_login ul li a img {margin:0;padding:0;border:none;width:328px;height:230px;}
+.f_login ul li.active {display:block;}
+</style>
+</head>
+<body style="background-color:transparent; ;padding:0;margin:0;">
+    	<div class="f_login" style="position:relative;height:215px;width:328px;margin:0;">
+		<div>
+		<iframe class="video_iframe" src="http://v.qq.com/iframe/player.html?vid=w0309ika08r&amp;width=328&amp;height=215&amp;auto=0" allowfullscreen="" frameborder="0" height="215" width="328"></iframe>
+		</div>
+		<a href="javascript:;"  class="aui_close_btn" style="">&times;</a>
+				
+ 		</div><!-- login -->
+<script type="text/javascript">
+  $(function(){
+		var parent = art.dialog.parent		
+		api = art.dialog.open.api ;
+		
+		var panel=  api.content();
+		$(panel).parents(".aui_inner").css({"border":"none"}); 
+		$(panel).parents(".aui_inner").css({"background-color":"transparent"});
+		$(".aui_close_btn").click(function(){
+			api.close();
+		});
+  });
+</script>
+</body>
+</html>

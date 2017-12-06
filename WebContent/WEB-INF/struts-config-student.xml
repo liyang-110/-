@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+	<data-sources />
+	<form-beans>
+		<form-bean name="uploadFileForm" type="com.zhaopin.form.UploadFileForm" />
+	</form-beans>
+	<global-exceptions />
+	<global-forwards />
+	<action-mappings>
+		<action path="/esbServer" type="com.zhaopin.student.action.EsbServerAction" />
+		<action path="/uploadResume" type="com.zhaopin.student.action.UploadResumeAction"
+			name="uploadFileForm" validate="false">
+			<forward name="input" path="/jUploadResume.jsp" />
+		</action>
+
+		<!--new begin -->
+
+		<action path="/stuUpload" type="cn.zhaopin.student.action.StudentUploadAction">
+			<forward name="success" path="/WEB-INF/templets/student/stu_upload.jsp"
+				contextRelative="true"></forward>
+		</action>
+		<action path="/stuCenter" type="cn.zhaopin.student.action.StudentCenterAction">
+			<forward name="success" path="/WEB-INF/templets/student/stu_center.jsp"
+				contextRelative="true"></forward>
+		</action>
+		<action path="/stuResume" type="cn.zhaopin.student.action.StudentResumeAction">
+			<forward name="success" path="/WEB-INF/templets/student/stu_resume.jsp"
+				contextRelative="true"></forward>
+		</action>
+		<action path="/stuAccount" type="cn.zhaopin.student.action.StudentAccountAction">
+			<forward name="success" path="/WEB-INF/templets/student/stu_account.jsp"
+				contextRelative="true"></forward>
+		</action>
+		<action path="/stuInform" type="cn.zhaopin.student.action.StudentInformAction">
+			<forward name="mianshi" path="/WEB-INF/templets/student/stu_mianshi.jsp"
+				contextRelative="true"></forward>
+			<forward name="luyong" path="/WEB-INF/templets/student/stu_luyong.jsp"
+				contextRelative="true"></forward>
+		</action>
+		<action path="/stuCanhui" type="cn.zhaopin.student.action.StudentCanhuiAction">
+			<forward name="xiaoyuan" path="/WEB-INF/templets/student/stu_canhui_xy.jsp"
+				contextRelative="true"></forward>
+			<forward name="wangluo" path="/WEB-INF/templets/student/stu_canhui_wl.jsp"
+				contextRelative="true"></forward>
+		</action>
+		<action path="/stuToudi" type="cn.zhaopin.student.action.StudentToudiAction">
+			<forward name="success" path="/WEB-INF/templets/student/stu_toudijilu.jsp"
+				contextRelative="true"></forward>
+		</action>
+		<action path="/stuCollect" type="cn.zhaopin.student.action.StudentCollectAction">
+			<forward name="zhiwei" path="/WEB-INF/templets/student/stu_collect_zw.jsp"
+				contextRelative="true"></forward>
+			<forward name="qiye" path="/WEB-INF/templets/student/stu_collect_qy.jsp"
+				contextRelative="true"></forward>
+			<forward name="zhaopinghui" path="/WEB-INF/templets/student/stu_collect_zph.jsp"
+				contextRelative="true"></forward>
+		</action>
+		<action path="/stuPreview" type="cn.zhaopin.student.action.StudentPreviewAction">
+			<forward name="success" path="/WEB-INF/templets/student/stu_preview.jsp"
+				contextRelative="true"></forward>
+		</action>
+		<!-- <action path="/stuWord" type="cn.zhaopin.student.action.StudentWordAction"> 
+			<forward name="success" path="/WEB-INF/templets/student/stu_preview.jsp" 
+			contextRelative="true"></forward> </action> -->
+		<action path="/stuTest" type="cn.zhaopin.student.action.Test2">
+			<forward name="success" path="/WEB-INF/templets/student/stu_preview.jsp"
+				contextRelative="true"></forward>
+		</action>
+
+		<!--student three begin -->
+		<action path="/sCenter" type="cn.zhaopin.student.action.SCenterAction">
+			<forward name="success" path="/WEB-INF/templets/student_three/s_center.jsp"
+				contextRelative="true"></forward>
+		</action>
+		<action path="/sCollection" type="cn.zhaopin.student.action.StudentCollectAction">
+			<forward name="zhiwei"
+				path="/WEB-INF/templets/student_three/s_collection_zw.jsp"
+				contextRelative="true"></forward>
+			<forward name="wl"
+				path="/WEB-INF/templets/student_three/s_collection_wlzph.jsp"
+				contextRelative="true"></forward>
+			<forward name="xy"
+				path="/WEB-INF/templets/student_three/s_collection_xyzph.jsp"
+				contextRelative="true"></forward>
+		</action>
+		<action path="/sMessage" type="cn.zhaopin.student.action.SMessageAction">
+			<forward name="success" path="/WEB-INF/templets/student_three/s_message.jsp"
+				contextRelative="true"></forward>
+			<forward name="resumeYes"
+				path="/WEB-INF/templets/student_three/s_MresumeYes.jsp"
+				contextRelative="true"></forward>
+			<forward name="resumeRead"
+				path="/WEB-INF/templets/student_three/s_MresumeRead.jsp"
+				contextRelative="true"></forward>
+			<forward name="interview"
+				path="/WEB-INF/templets/student_three/s_Minterview.jsp"
+				contextRelative="true"></forward>
+			<forward name="resumeNo"
+				path="/WEB-INF/templets/student_three/s_MresumeNo.jsp"
+				contextRelative="true"></forward>
+		</action>
+		<action path="/sResumet" type="cn.zhaopin.student.action.StudentResumetAction">
+			<forward name="success" path="/WEB-INF/templets/student_three/s_resume.jsp"
+				contextRelative="true"></forward>
+		</action>
+		<action path="/sAccount" type="cn.zhaopin.student.action.StudentAccountAction">
+			<forward name="success" path="/WEB-INF/templets/student_three/s_account.jsp"
+				contextRelative="true"></forward>
+		</action>
+		<!--student three end -->
+		<action path="/sendResume" type="com.zhaopin.student.action.SendResumeAction" />
+	</action-mappings>
+
+	<controller />
+</struts-config>
+

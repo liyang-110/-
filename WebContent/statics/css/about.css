@@ -1,0 +1,17 @@
+@charset "utf-8";
+.breadcrumb { background:none; background-color:transparent;}
+.main-body .caption h3 { color:#FF6C00; margin:3px 0; padding-left:25px;}
+.main-body .caption h3 small { padding-left:15px;}
+
+.main-body .about_hr {
+	background:url(img/about_hr.jpg);
+	height:4px;
+	border-radius:2px 2px 2px 2px;
+}
+.main-body .content { padding:30px 25px;}
+.quick-menu .nav-list{ margin:0;padding:0;}
+.quick-menu li { width:245px; height:48px; margin-bottom:10px;}
+.quick-menu li a { white-space:nowrap; line-height:48px;background:#EFEEEC; color:#323232; text-shadow:none; padding-left:28px; margin:0;}
+.quick-menu li a small { color:#323232; padding-left:12px;}
+.quick-menu li a:hover { background:#FF9D00; color:#FFF;}
+.quick-menu li a:hover small { color:#FFF; }

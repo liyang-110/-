@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<script src="/assets/jquery/jquery.min.js"></script>
+<script type="text/javascript">
+	var cur_path = "";
+</script>
+<script src="/assets/artDialog/artDialog.js?skin=green"></script> 
+<script src="/assets/artDialog/plugins/iframeTools.js"></script>
+<style>
+.f_login {height:auto;margin:auto;text-align: center;cursor:pointer;}
+.intobtn{display: block;
+	position: absolute;
+	right:60px;
+	top:110px;
+	color:#FFC400;
+	background-repeat:no-repeat;
+	text-decoration:none;
+	cursor:pointer;
+}
+.intobtn:hover{
+	color:#FFC400;
+	text-decoration:none;
+}
+.aui_close_btn {
+	position: absolute;
+	right:-22px;
+	top: -23px;
+	background-color:#000;
+	line-height:26px;
+	padding:0px 3px 2px 3px;
+	font-size:24px;
+	text-decoration: none;
+	font-weight:bolder;color:#C7CBC3;
+}
+a.aui_close_btn:hover {text-decoration:none;color:#EF4B4B;}
+</style>
+</head>
+<body style="background-color:transparent; ;padding:0;margin:0;">
+		<div id="popover-big" style="padding:8px 10px 11px 10px;">
+			<div style="clear:both;"></div>
+		</div>
+    	<div class="f_login" style="position:relative;height:460px;width:980px;margin:100px auto 0 auto;background:url(img01/20160324.jpg) no-repeat center center; ">
+				<a href="javascript:;"  class="pull-right aui_close_btn" style="">&times;</a>
+ 		</div><!-- login -->
+<script type="text/javascript">
+  $(function(){
+		var parent = art.dialog.parent		
+		api = art.dialog.open.api ;
+		
+		var height =$(".aui_inner",parent.document ).height();
+		var top=0;
+		if( height>460){
+			top = (height-460)/2;
+		}
+		$(".f_login").css("margin-top",top);
+		
+		var panel=  api.content();
+		$(panel).parents(".aui_main").css({"padding-top":0});  
+		$(panel).parents(".aui_inner").css({"border":"none"});  
+		$(panel).parents(".aui_inner").css({"background-color":"transparent"});  
+		
+		$(".aui_close_btn").click(function(){
+			api.close();
+		});
+		$("body",document).click("bind",function(){
+			//$(".gotolink").trigger("click");
+			parent.location="http://www.211zph.com/netcongress/start.do?id=201603010007702";
+			api.close();
+		});
+		setTimeout("api.close();",5000 );
+  });
+</script>
+</body>
+</html>

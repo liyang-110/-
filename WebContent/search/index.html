@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>招聘会</title>
+<link type="text/css" rel="stylesheet" href="style/core.css" />
+<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+</head>
+
+<body>
+<div class="heard">
+    <div class="heard_top">
+        <p>截止<span>8</span>月<span>01</span>日，企业<span>107618</span>家，高校<span>2788</span>所，招聘会<span>3578</span>场，今日新增企业<span>8</span>家，本月新增简历<span>16</span>份</p>
+        <ul>
+            <li><a href="http://www.211zph.com/">[&nbsp;<span>登录</span>&nbsp;|</a></li>
+            <li><a href="http://www.211zph.com/register.jsp">&nbsp;<span>免费注册</span>&nbsp;]</a></li>
+        </ul>
+        <div class="clear"></div>
+     </div>
+     <div class="clear"></div>
+</div>
+<!--heard完成-->
+<div class="midder">
+    <div class="midder_left">
+        <div class="logo">
+            <img src="img/logo.png" height="83" width="234" />
+        </div>
+        <div class="madder_m">
+            <img src="img/qiye.png" height="70" width="8" />
+        </div>
+        <div class="midder_r">
+            <h1>陕西站<img src="img/sanjiao.jpg"/></h1>
+            <p>创校园招聘会第一品牌</p>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="midder_right">
+        <div  id="latest_log" style="height:60px;overflow:hidden;margin-bottom:10px;">
+        <ul>   
+            <li>6分钟前，&nbsp;&nbsp;西安海禄智能科技有限公司下载了李永薛的简历</li>    	
+            <li>7分钟前，&nbsp;&nbsp;亚美大厦注册了企业会员！</li>
+            <li>11分钟前，&nbsp;&nbsp;西安海禄智能科技有限公司下载了刘宝明的简历</li>
+            <li>13分钟前，&nbsp;&nbsp;北京上医世家医药科技有限公司西安分公司发布职位:前台文员</li>
+            <li>13分钟前，&nbsp;&nbsp;北京上医世家医药科技有限公司西安分公司发布职位:销售主管</li>	
+            <li>13分钟前，&nbsp;&nbsp;北京上医世家医药科技有限公司西安分公司发布职位:客服代表</li>
+            <li>14分钟前，&nbsp;&nbsp;西安海禄智能科技有限公司下载了谢鹏飞的简历</li>
+            <li>20分钟前，&nbsp;&nbsp;西安海禄智能科技有限公司下载了何阳的简历</li>
+            <li>21分钟前，&nbsp;&nbsp;西安沃地房地产营销策划有限公司发布职位:置业顾问</li>
+            <li>22分钟前，&nbsp;&nbsp;西安沃地房地产营销策划有限公司发布职位:销售精英</li>
+            <li>22分钟前，&nbsp;&nbsp;西安宇众通信信息科技有限公司下载了李永薛的简历</li>
+            <li>23分钟前，&nbsp;&nbsp;西安宇众通信信息科技有限公司下载了马生强的简历</li>	
+            <li>24分钟前，&nbsp;&nbsp;西安宇众通信信息科技有限公司下载了刘宝明的简历</li>
+            <li>24分钟前，&nbsp;&nbsp;西安宇众通信信息科技有限公司下载了刘宝明的简历</li>
+            <li>2小时前，&nbsp;&nbsp;马生强注册了个人简历！</li>	
+            <li>9小时前，&nbsp;&nbsp;何阳注册了个人简历！</li>
+            <li>9小时前，&nbsp;&nbsp;谢鹏飞注册了个人简历！</li>	
+            <li>9小时前，&nbsp;&nbsp;谢鹏飞向陕西万德软件 有限公司投递了简历</li>
+            <li>10小时前，&nbsp;&nbsp;陈维周注册了个人简历！</li>
+            <li>10小时前，&nbsp;&nbsp;刘宝明注册了个人简历！</li>
+            <li>10小时前，&nbsp;&nbsp;刘宝明向陕西万德软件 有限公司投递了简历</li>
+            <li>10小时前，&nbsp;&nbsp;刘宝明向陕西万德软件 有限公司投递了简历</li>                   	
+            <li>10小时前，&nbsp;&nbsp;郭姗姗注册了个人简历！</li>                    	
+            <li>10小时前，&nbsp;&nbsp;郭姗姗向西安熙朗商贸有限公司投递了简历</li>                    	
+            <li>10小时前，&nbsp;&nbsp;郭姗姗向西安强贯电子科技有限公司投递了简历</li>                    	
+            <li>11小时前，&nbsp;&nbsp;张慧注册了个人简历！</li>                    	
+            <li>11小时前，&nbsp;&nbsp;王慧芳注册了个人简历！</li>                    	
+            <li>11小时前，&nbsp;&nbsp;王慧芳向陕西万德软件 有限公司投递了简历</li>                    	
+            <li>11小时前，&nbsp;&nbsp;王慧芳向陕西万德软件 有限公司投递了简历</li>                    	
+            <li>11小时前，&nbsp;&nbsp;白永龙注册了个人简历！</li> 	    	
+        </ul>
+        </div>
+          <script type="text/javascript"> 
+                        var box2=document.getElementById("latest_log"),can=true; 
+                        box2.innerHTML+=box2.innerHTML; 
+                        box2.onmouseover=function(){can=false}; 
+                        box2.onmouseout=function(){can=true}; 
+                        $(function (){ 
+                            var stop=box2.scrollTop%60==0&&!can; 
+                            if(!stop)box2.scrollTop==parseInt(box2.scrollHeight/2)?box2.scrollTop=0:box2.scrollTop++; 
+                            setTimeout(arguments.callee,box2.scrollTop%60?10:2000); 
+                        }); 
+                </script>
+
+        <div class="bg">
+        	<img src="img/biankuang.png" height="56" width="390" />
+            <ul>
+                <li><a href="http://www.211zph.com/">首页</a><span>/</span></li>
+                <li><a href="http://www.211zph.com/jobfair.do?&a=28">招聘会</a><span>/</span></li>
+                <li><a href="http://www.211zph.com/search.do?type=search_recruit&in_pagenum=20&in_area=28">招聘职位</a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--midder完成-->
+<div class="width">
+	
+</div>
+<!--hengxian-->
+<div class="container">
+	 <p>当前位置：<a href="http://www.211zph.com/">首页</a>>招聘职位列表页</p>
+     <div class="left">
+     	<div class="cont_top">
+        	<h1>高级搜索 <span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Advanced Search</span></h1>
+            <div class="sousuo">
+            	<div class="industry">
+                    <span style="color:#333;">职位类别:</span>
+                    <input type="button" class="but" value="选择职位" title="选择职位"/>
+                </div> 
+                <div class="job">
+                    <span style="color:#333;">行业类别:</span>
+                    <input type="button" class="but"  value="选择行业" title="选择行业"/>
+                </div>
+				<div class="clear"></div>
+                <table class="tbl">
+                    <tr>
+                        <td>发布日期:</td>
+                        <td>
+                            <select>
+                              <option value="9">--请选择--</option>
+                              <option value="1">近一天</option>
+                              <option value="2">近二天</option>
+                              <option value="3">近三天</option>
+                              <option value="4">近一周</option>
+                              <option value="5">近两周</option>
+                              <option value="6">近一月</option>
+                              <option value="7">近两月</option>
+                            </select>
+						</td>
+                        <td>工作年限:</td>
+                        <td>
+                            <select>
+                              <option value="9">--请选择--</option>
+                              <option value="1">在读学生</option>
+                              <option value="2">应届毕业生</option>
+                              <option value="3">1年</option>
+                              <option value="4">2年</option>
+                              <option value="5">3-4年</option>
+                              <option value="6">5-7年</option>
+                              <option value="7">8-9年</option>
+                              <option value="6">10年以上</option>
+                              <option value="7">不限</option>
+                            </select>
+						</td>
+                        <td>月薪范围:</td>
+                        <td>
+                        	<select>
+                            	<option value="9">--请选择--</option>
+                                <option value="01">1500以下</option>
+                                <option value="02">1500-1999</option>
+                                <option value="03">2000-2999</option>
+                                <option value="04">3000-4499</option>
+                                <option value="05">4500-5999</option>
+                                <option value="06">6000-7999</option>
+                                <option value="07">8000-9999</option>
+                                <option value="08">10000-14999</option>
+                                <option value="09">15000-19999</option>
+                                <option value="13">20000-24999</option>
+                                <option value="10">25000-29999</option>
+                                <option value="14">30000-39999</option>
+                                <option value="11">40000-49999</option>
+                                <option value="12">50000-69999</option>
+                                <option value="15">70000-99999</option>
+                                <option value="16">100000及以上</option>
+                           </select>
+                      </td>
+                    </tr>
+                    <tr>
+                        <td>公司性质:</td>
+                        <td>
+                        	<select>
+                                <option value="9">--请选择--</option>
+                                <option value="01">外资（欧美）</option>
+                                <option value="02">外资（非欧美）</option>
+                                <option value="03">合资</option>
+                                <option value="05">国企</option>
+                                <option value="06">民营公司</option>
+                                <option value="13">上市公司</option>
+                                <option value="14">创业公司</option>
+                                <option value="07">外企代表处</option>
+                                <option value="09">政府机关</option>
+                                <option value="10">事业单位</option>
+                                <option value="11">非营利机构</option>
+                            </select>
+                        </td>
+                        <td>学历要求:</td>
+                        <td>
+                        	<select>
+                            	<option value="9">--请选择--</option>
+                                <option value="1">初中及以下</option>
+                                <option value="2">高中</option>
+                                <option value="3">中技</option>
+                                <option value="4">中专</option>
+                                <option value="5">大专</option>
+                                <option value="6">本科</option>
+                                <option value="7">硕士</option>
+                                <option value="8">博士</option>
+                            </select>
+                        </td>
+                        <td>工作类型:</td>
+                        <td>
+                        	<select>
+                            	<option value="9">--请选择--</option>
+                                <option value="0"  >全职</option>
+                                <option value="1"  >兼职</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>公司规模:</td>
+                        <td>
+                        	<select>
+                        		<option value="9">--请选择--</option>
+                                <option value="1">少于50人</option>
+                                <option value="2">50-150人</option>
+                                <option value="3">150-500人</option>
+                                <option value="4">500-1000人</option>
+                                <option value="5">1000-5000人</option>
+                                <option value="6">5000-10000人</option>
+                                <option value="7">10000人以上</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <div class="search">
+                    <input type="text" value="请输入关键字" class="zi" />
+                    <input type="button" value="搜索"  class="suo"/>
+            	</div>
+            </div>
+            	
+        </div>
+        <!--表单完成-->
+        <div class="cont_bottom">
+        	<table width="728" border="0" cellpadding="5" cellspacing="0">
+               	  <tr>
+                  	<td>企业名称</td>
+                    <td>岗位名称</td>
+                    <td>工作地区</td>
+                    <td>薪资待遇</td>
+                    <td>更新日期</td>
+                    <td>投递简历</td>				    
+                  </tr>
+                  <tr class="xian">
+                  	<td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                  	<td>西安瑞能热动力技术有限公司</td>
+                    <td>php软件工程师</td>
+                    <td>西安市</td>
+                    <td>3500-4000</td>
+                    <td> 2015-09-24</td>
+                    <td class="bag"><a href="#">投简历</a></td>
+                  </tr>
+                  <tr>
+                  	<td>西安瑞能热动力技术有限公司</td>
+                    <td>php软件工程师</td>
+                    <td>西安市</td>
+                    <td>3500-4000</td>
+                    <td> 2015-09-24</td>
+                    <td class="bag"><a href="#">投简历</a></td>
+                  </tr>
+                  <tr>
+                  	<td>西安瑞能热动力技术有限公司</td>
+                    <td>php软件工程师</td>
+                    <td>西安市</td>
+                    <td>3500-4000</td>
+                    <td> 2015-09-24</td>
+                    <td class="bag"><a href="#">投简历</a></td>
+                  </tr>
+                  <tr>
+                  	<td>西安瑞能热动力技术有限公司</td>
+                    <td>php软件工程师</td>
+                    <td>西安市</td>
+                    <td>3500-4000</td>
+                    <td> 2015-09-24</td>
+                    <td class="bag"><a href="#">投简历</a></td>
+                  </tr>
+                  <tr>
+                  	<td>西安瑞能热动力技术有限公司</td>
+                    <td>php软件工程师</td>
+                    <td>西安市</td>
+                    <td>3500-4000</td>
+                    <td> 2015-09-24</td>
+                    <td class="bag"><a href="#">投简历</a></td>
+                  </tr>
+                  <tr>
+                  	<td>西安瑞能热动力技术有限公司</td>
+                    <td>php软件工程师</td>
+                    <td>西安市</td>
+                    <td>3500-4000</td>
+                    <td> 2015-09-24</td>
+                    <td class="bag"><a href="#">投简历</a></td>
+                  </tr>
+                  <tr>
+                  	<td>西安瑞能热动力技术有限公司</td>
+                    <td>php软件工程师</td>
+                    <td>西安市</td>
+                    <td>3500-4000</td>
+                    <td> 2015-09-24</td>
+                    <td class="bag"><a href="#">投简历</a></td>
+                  </tr>
+                  <tr>
+                  	<td>西安瑞能热动力技术有限公司</td>
+                    <td>php软件工程师</td>
+                    <td>西安市</td>
+                    <td>3500-4000</td>
+                    <td> 2015-09-24</td>
+                    <td class="bag"><a href="#">投简历</a></td>
+                  </tr>
+                  <tr>
+                  	<td>西安瑞能热动力技术有限公司</td>
+                    <td>php软件工程师</td>
+                    <td>西安市</td>
+                    <td>3500-4000</td>
+                    <td> 2015-09-24</td>
+                    <td class="bag"><a href="#">投简历</a></td>
+                  </tr>
+                  <tr>
+                  	<td>西安瑞能热动力技术有限公司</td>
+                    <td>php软件工程师</td>
+                    <td>西安市</td>
+                    <td>3500-4000</td>
+                    <td> 2015-09-24</td>
+                    <td class="bag"><a href="#">投简历</a></td>
+                  </tr>
+         	</table>
+            <div class="pagelist">
+                <ul class="pages1">
+                    <li><a href="#" class="disabled" style="color:#999;">上一页</a></li>
+                    <li><a href="#" class="current" style="color:#999;">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">下一页</a></li>
+                </ul>
+            </div>    
+        </div>
+     </div>
+     <!--left-->
+     <div class="right">
+     	<div class="right_top">
+        	<h1>热门职位搜索</h1>
+            <div class="list">
+            	<a href="#">销售</a><a href="#">会计</a><a href="#">助理</a><a href="#">司机</a><a href="#">行政</a><a href="#">采购</a><a href="#">物流</a><a href="#">文员</a><a href="#">简历指导</a><a href="#">简历翻译</a><a href="#">造价</a><a href="#">招商</a><a href="#">园林</a><a href="#">猎头</a><a href="#">人事主管</a><a href="#">资料员</a><a href="#">设备</a><a href="#">公关</a><a href="#">销售总监</a><a href="#">销售主管</a><a href="#">餐饮</a><a href="#">文案</a><a href="#">商务</a><a href="#">船务</a><a href="#">采购助理</a><a href="#">纺织</a><a href="#">收银员</a><a href="#">人才服务</a><a href="#">数据分析</a><a href="#">船务</a>
+            </div>
+        </div>
+        <div class="right_bottom">
+        	<ul>
+            	<li><a href="http://www.daqinrc.com/zk/" target="_blank"><img src="img/imga.png" height="108" width="235"></a></li>
+                <li><a href="http://www.daqinrc.com/lh/" target="_blank"><img src="img/imgb.png" height="108" width="235"></a></li>
+                <li><a href="http://www.211zph.com/newsDetail.do?id=201411110000642&area_id=" target="_blank"><img src="img/imgc.png" height="108" width="235"></a></li>
+                <li><a href="http://www.daqinrc.com/article/article.php?newsid=1966" target="_blank"><img src="img/imgd.png" height="108" width="235"></a></li>
+            </ul>
+        </div>
+     </div>
+     <!--right-->
+     <div class="clear"></div>
+</div>
+<!--container完成-->
+<div class="fenlan"></div>
+<div class="footer">
+	<p class="text"><a href="http://www.211zph.com/page.do?id=201407210000321">关于我们</a><span>/</span>
+    <a href="http://www.211zph.com/page.do?id=201407210000326">广告投放</a><span>/</span>
+    <a href="http://www.211zph.com/page.do?id=201407210000328">法律声明</a><span>/</span>
+    <a href="http://www.211zph.com/page.do?id=201407210000329">人才招聘</a><span>/</span>
+    <a href="http://www.211zph.com/page.do?id=201407210000327">联系方式</a></p>
+    <p>地址：西安高新区科技二路65号清华科技园清扬国际大厦A410  电话：029-88662468 / 87240519</p>
+    <p>工信部备案号：陕ICP备13006138号-2  西安市人力资源服务许可证编号：610100120105 </p>
+    <p>西安大秦人力资源有限公司 版权所有</p>
+    <p><a href="#"><img src="img/secure.png" /></a></p>
+   <p>
+	<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1253006258'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D1253006258%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</p>
+</div> 
+<!--footer完成-->
+</body>
+</html>

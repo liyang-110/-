@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+body{ font-size:14px;
+font-family:"微软雅黑";
+}
+*{ margin:0px; 
+padding:0px;
+}
+a{ color:#000000; 
+text-decoration:none;
+}
+a:link{ color:#000000; 
+text-decoration:none;
+}
+a:active{ color:#000000; 
+text-decoration:none;
+}
+a:hover{ color:#000000; 
+text-decoration:none;
+}
+a:visited{ color:#000000; 
+text-decoration:none;
+}
+ul{ list-style:none;
+}
+.clear{ clear:both;
+}
+img{ border:0px;
+}
+.heard{ height:30px;
+background:#ecf6e8;
+width:100%;
+border-bottom:1px #acd598 dashed;
+line-height:30px;
+position:fixed;
+top:0;
+z-index:500;
+cursor:pointer;
+}
+.heard .heard_top{ width:980px;
+margin:0px auto;
+}
+.heard .heard_top p{ width:630px;
+float:left;
+}
+.heard .heard_top p{ 
+color:#017548;
+}
+.heard .heard_top p span{ color:#F00;
+}
+.heard .heard_top ul{ float:right;
+width:120px;
+}
+.heard .heard_top ul li{ float:left;
+}
+.heard .heard_top ul li span{ color:#f9653c;
+}
+.heard .heard_top ul li a:hover span{ text-decoration:underline;
+}
+.midder{ width:980px;
+margin:30px auto 0 auto;
+}
+.midder .midder_left{ float:left;
+width:440px;
+margin-top:53px;
+}
+.midder .midder_left .logo{ float:left;
+width:234px;
+}
+.midder .midder_left .madder_m{ float:left;
+width:8px;
+padding:10px 10px 0px 0px;
+}
+.midder .midder_left .midder_r{ float:left;
+width:187px;
+padding-top:17px;
+}
+.midder .midder_left .midder_r h1{ color:#ff6c0a;
+font-size:24px;
+cursor:pointer;
+}
+.midder .midder_left .midder_r img{ padding:5px;
+}
+.midder .midder_left .midder_r p{ color:#fd9720;
+font-size:16px;
+margin-top:15px;
+}
+.midder .midder_right{ float:right;
+width:520px;
+margin-top:20px;
+position:relative;
+}
+.midder .midder_right ul{ color:#666;}
+.midder .midder_right li{ float:left;
+}
+.midder .midder_right li a{ color:#666;
+}
+.midder .midder_right .bg img{ margin-top:-3px;
+}
+.midder .midder_right .bg ul{ position:absolute;
+top:88px;
+left:60px;
+}
+.midder .midder_right .bg li{ padding-right:15px;
+}
+.midder .midder_right .bg li a{ color:#ff5f00;
+font-size:18px;}
+.midder .midder_right .bg li a:hover{ color:#F33;
+}
+.midder .midder_right .bg li span{ padding-left:15px;
+font-size:18px;
+color:#ff5f00;
+}
+.width{ width:100%;
+height:5px;
+background:#fe8c19;
+}
+.container{ width:980px;
+margin:0px auto;
+}
+
+/*left开始*/
+.container .left{ float:left;
+width:590px;
+position:relative;
+}
+.container .left .img{ padding-top:80px;}
+.container .left .list{ position:absolute;
+left:200px;
+top:260px;
+width:240px;}
+.container .left .list p{ text-align:center;
+color:#F00;
+font:16px bold;}
+
+/*right开始*/
+.container .right{ float:right;
+width:390px;
+background:url(../img/login.png) no-repeat 0 50px;
+}
+.container .right form{ padding-top:230px;
+padding-left:20px;
+padding-bottom:170px;}
+ul.feedform li{
+float:left;
+width:100%;
+padding:5px 0;
+}
+ul.feedform li .k{
+float:left;
+width:120px;
+text-align:right;
+font-size:16px;
+line-height:34px;
+color:#333;
+}
+ul.feedform li .c{
+float:left;
+font-size:14px;
+line-height:34px;
+width:200px;
+}
+input.ipt_defa{
+border:1px #3f70d5 solid;
+margin:0;
+padding:5px;
+height:15px;
+line-height:15px;
+border-radius:5px;
+/*
+box-shadow:inset 0 0 5px rgba(0,0,0,0.2);
+*/
+}
+nput.ipt_defa{
+transition: all 0.5s;
+-moz-transition: all 0.5s;
+-webkit-transition: all 0.5s;
+-o-transition: all 0.5s;
+}
+input.ipt_defa:focus{
+box-shadow:0 0 6px rgba(63,112,213,0.9),inset 0 0 5px rgba(0,0,0,0.1);
+}
+.container .right .yellow{ border:1px #fb792b solid;
+border-radius:5px;
+padding:2px 10px;
+background:#fdef47;
+color:#b03000;
+font-size:16px;
+margin-left:110px;
+margin-top:10px;
+font-weight:bold;
+cursor:pointer;}
+.container .right .green{ border:1px #86cb3e solid;
+border-radius:5px;
+padding:2px 10px;
+background:#d0eab0;
+color:#2e7800;
+font-size:16px;
+font-weight:bold;
+margin-left:20px;
+cursor:pointer;
+}
+
+/*footer开始*/
+.fenlan{ width:100%;
+height:5px;
+background:#39b95e;
+margin:30px auto 10px auto;
+}
+.footer{ width:980px;
+margin:0px auto;}
+.footer p{ text-align:center;
+line-height:2em;
+color:#7a7a7a;
+font-size:14px;
+}
+.footer p.text{ margin-bottom:20px;
+color:#7a7a7a;
+font-size:14px;}
+.footer p span{ padding:0px 5px;}
+.footer a{ color:#7a7a7a;
+cursor:pointer;
+}
+.footer a:hover{ color:#333;}
+
+

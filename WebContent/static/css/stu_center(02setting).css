@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*样式重置开始*/
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+.clear{clear:both;}
+/*样式重置开始*/
+
+.top_nav .main_nav a.personal_center {
+	color:#e03919;
+	border-bottom:3px solid #e03919;
+	}
+
+/*mian区属性描述开始*/
+
+.main_l a.my_account{
+	background:#efefef;
+	color:#e03919;
+	border-right:4px solid #e03919;}
+
+.main_r{
+	margin-left: 16px;
+	float:left;
+	box-shadow: 1px 0px 6px rgba(241,241,241,1.00);
+	background: #fff;
+	width:808px;
+	padding:15px 25px 15px 25px;
+	
+	}
+.main_r dt{
+	font-size:14px;
+	color:#333;}
+.main_r dd{
+	line-height:46px;
+	margin-top:10px;
+	margin-left:40px;
+	}
+.main_r p{
+	float:left;
+	width:200px;
+	text-align:right;
+	margin-right:20px;
+	color: #999;
+	}
+
+.main_r dl{
+	margin-bottom:38px;
+	color:#333;}
+.main_r input{
+	background:#fefef2;
+	border:1px solid #efefef;
+	padding-left:20px;
+	width:400px;
+	float:left;
+	height:46px;
+	font-size:14px;
+	border-radius:8px;
+	}
+
+.main_r img{
+	margin: 0px 6px 0px 20px;
+	}
+
+
+
+
+
+		
+	
+/*mian区属性描述结束*/

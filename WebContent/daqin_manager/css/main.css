@@ -1,0 +1,65 @@
+/* index slide menu */
+	.icon-desktop{
+		background:url('img/desktop-small.png') no-repeat center center;
+    }
+	.easyui-accordion {
+		line-height:30px;
+		background-color:#34393D;
+	}
+	.accordion-collapse {
+	background: url('img/accordion_arrows.png') no-repeat 0 0;
+	}
+	.accordion-expand {
+	background: url('img/accordion_arrows.png') no-repeat -16px 0;
+	}
+	.panel-header {
+		padding:0;
+		border-color:#777777;
+		
+	}
+	.layout-panel-west .panel-header .panel-title {
+		line-height:40px;
+		height:40px;
+		font-size:16px;
+		background-color:#34393D;
+		color:#FEFEFE;
+		padding-left: 20px;
+	}
+	.easyui-accordion .panel-header .panel-title{
+		line-height:35px;
+		height:35px;
+		font-size:14px;
+		background-color:#34393D;
+	}
+	.panel-body.accordion-body {
+		background-color:#34393D;
+		color:#D9D9D9;
+	}
+	.panel-body.accordion-body {
+		border-color:#777777;
+	}
+	.panel-body.accordion-body  div {
+		padding-left:15px;
+		font-size:14px;
+		cursor:pointer;
+	}
+	.panel-body.accordion-body div:hover {
+		background-color:#777777;
+	}
+/* north region */
+.region-north {
+	height:55px; background-image:url(img/top.png);padding:0px;
+}
+.north-region  {
+	color:#FFF !important;
+	font-size:14px;
+	margin-top:20px;
+	padding: 0 15px;
+}
+.north-region  a {
+	color:#FFF !important;;
+	border:1px groove #FFF;
+	padding:2px 3px;
+	text-decoration:none;
+	font-size:14px;
+}

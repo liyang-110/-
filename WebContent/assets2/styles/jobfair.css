@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+.company_info { width:980px; margin:auto;}
+.company_info ul.nav-tabs { border:none; margin-bottom:6px; border-bottom:1px solid #D6D3CE;}
+.company_info .nav-tabs li {width:126px; height:40px;margin:0 6px 0 0;background:#E8E8E8; border:none;}
+.company_info .nav-tabs li.active {background:#67AF32;border:none;
+border-bottom:1px solid #67AF32; margin-bottom:-1px;}
+.company_info .nav-tabs li a { width:126px; height:40px; cursor:pointer; margin:0; padding:0;line-height:40px;font-size:14px;text-align:center;color:#286A46;background:#E8E8E8;border:none;}
+.company_info .nav-tabs li.active a {color:#FFF;border:none;background:none;}
+.company_info .nav-tabs li.active a:hover { border:none;background:none;color:#FFF;}
+.company_info .tab-content.pull-right { margin-top:5px; margin-right:15px;}
+
+.f_content .info_card {
+	border:1px solid #DCD9D4;
+	overflow:hidden; 
+}
+.f_content .info_card .title { 
+	margin-top:5px;
+	padding:0 20px;
+	line-height:52px; 
+	font-size:25px;
+	font-weight:bold;
+	overflow:hidden;}
+.f_content .info_card .capture {
+	margin:10px 20px;
+	padding-left:15px;
+	border-left:3px solid #FF6B00;
+	line-height:25px;
+	font-size:18px;
+}
+.f_content .info_card .line { 
+	margin-left:60px;
+	line-height:32px; padding:0 3px;
+	height: 32px;
+	overflow: hidden;
+	}
+.f_content .info_card .line .divider { 
+	display:inline-block; width:2em;
+
+	}
+.f_content .info_card .line.last { border:none;}
+.f_content .info_card .action { text-align:left;padding:15px 60px;}
+.f_content .info_card .action .btn {
+		margin:auto 10px auto 10px;
+		width:108px;
+		height:33px;
+		/*background-color:#F67604; */
+		color:#FFF;
+		border:none;
+		line-height:33px;
+		font-size:14px;
+		padding:0;
+		-webkit-box-shadow: none;
+		-moz-box-shadow:none;
+		box-shadow:none;
+}
+.f_content .info_card .action .btn-warning {background-color:#F67604;}
+.f_content .info_card .action .pull-right{ margin-top:3px;}
+
+.grad_list {}
+.grad_list h3 { background-color:#EEFDCB; padding-left:25px; margin-top:0;}
+.grad_list table { width:886px; margin: 0 auto 16px auto; border-top:none; }
+.grad_list .top-border { width:886px; border-bottom:#61A982 2px solid; margin:0 auto 0 auto; height:10px;}
+.grad_list table thead>tr th{background-color: #F2F2F2; text-align:left; font-weight:normal; height:22px; padding:0; text-align:center; line-height:22px; vertical-align:middle;}
+.grad_list table tbody>tr td {background-color: #F7F7F7; text-align:center;}
+.grad_list table tbody>tr:nth-child(odd)>td,.table-striped tbody>tr:nth-child(odd)>th {background-color: #FFF;}
+.grad_list .pagination .disabled { background-color:#CCC;}
+

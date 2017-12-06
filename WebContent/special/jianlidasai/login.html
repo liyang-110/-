@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title></title>
+<link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="/statics/css/main4.css" />
+
+<script src="/static/jquery/1.11.3/jquery.min.js"></script>
+<script src="/static/jquery/jquery.form.js" type="text/javascript"></script>
+<script src="/static/jquery/jquery.validate.min.js" type="text/javascript"></script>
+
+<script src="/static/artDialog/artDialog.js?skin=aero"></script>
+<script src="/static/artDialog/plugins/iframeTools.js"></script>
+
+<script type="text/javascript" src="login.js" charset="utf-8"></script>
+<style>
+.f_login {
+	background-color: #FFF;
+	width: 360px;
+	height: auto;
+	margin: auto;
+	text-align: center;
+}
+.login4 #login4 .input-prepend {
+	margin: auto;
+	width: auto;
+}
+
+.login4 #login4 .input-prepend input {
+	width: 220px;
+}
+
+.f_login .controls {
+	width: 290px;
+	margin-left: auto;
+	margin-right: auto;
+}
+a.aui_close_btn {
+	font-size: 14px;
+	font-weight: bolder;
+	color: #fff;
+	display:none;
+}
+body {
+	font-family: 'Microsoft YaHei', 微软雅黑, SimSun, 宋体;
+}
+.f_login .control-group {
+	width: auto;
+}
+.login4 #login4 {
+	width: auto;
+	height: auto;
+	background-color: transparent;
+	border-radius: none;
+	padding: 0;
+	box-shadow: none;
+}
+.btn_login {
+	text-shadow: 0 -1px 0 #E93429;
+    background-color: #E93429;
+    background-image: linear-gradient(to bottom,#E93429,#E93429);
+    background-repeat: repeat-x;
+    border: 1px solid #E93429;
+    border-color: #E93429;
+    border-bottom-color: #E93429;
+}
+.btn_login:hover {
+    color: #fff;
+    background-color: #E93429;
+}
+</style>
+</head>
+<body style="padding: 0; margin: 0;">
+	<div style="padding: 8px 10px 11px 10px;">
+		<a href="javascript:;" class="pull-right aui_close_btn aui_close" style="">&times;</a>
+		<div style="clear: both;"></div>
+	</div>
+	<div class="f_login login4">
+		<div id="loginTab2" style="margin: 0 auto; padding: 10px;">
+			<div>
+				<img src="images/logo.png" />
+			</div>
+			<div style="color: #262626; font-size: 14px;">使用211校招网帐号登录</div>
+		</div>
+		<div class="tab-content">
+			<div class="tab-pane active form" id="login4">
+				<form class="company_login" novalidate="novalidate"
+					action="/login.do" method="post" onsubmit="return false;">
+					<input type="hidden" name="user_type" value="company" />
+					<div class="control-group">
+						<div class="controls">
+							<div class="input-prepend">
+								<i class="add-on user"> </i> <input type="text" name="user_id"
+									placeholder="账号" errorcontent="请输入用户名！" />
+							</div>
+						</div>
+					</div>
+					<div class="control-group">
+						<div class="controls">
+							<div class="input-prepend">
+								<i class="add-on pass"> </i> <input type="password"
+									name="user_pass" placeholder="密码" errorcontent="请输入密码！" />
+							</div>
+						</div>
+					</div>
+					<div class="control-group">
+						<div class="controls">
+							<input style="width: 290px;" class="btn btn-warning btn_login"
+								type="submit" value="登&nbsp;&nbsp;&nbsp;录" class="btn-primary" />
+						</div>
+					</div>
+					<div class="control-group">
+						<div class="controls">
+							<p style="float: left;">
+								<a style="color: #CB4900;" target="_blank" href="/forget.do">忘记密码&gt;&gt;</a>
+							</p>
+							<p style="flaot: rright;">
+								还没有211校招网帐号？ <a style="color: #CB4900;" target="_blank"
+									href="/register.jsp">点击注册</a>
+							</p>
+						</div>
+					</div>
+				</form>
+			</div>
+			<!-- form -->
+		</div>
+		<!--  tabcontent -->
+		<!--
+		<div
+			style="width: 290px; margin: auto; padding: 15px 0 30px 0; text-align: left;">
+			<p>
+				使用其他帐号登录：<a target="_blank"
+					href="http://www.211zph.com/auth/index.do"><img
+					src="/auth/img/logo_1.png" />QQ登录</a>
+			</p>
+		</div>
+		-->
+	</div>
+	<!-- login -->
+	<script type="text/javascript">
+		$(function() {
+			var parent = art.dialog.parent // 父页面window对象
+			api = art.dialog.open.api;// 			art.dialog.open扩展方法
+			$(".aui_close_btn").click(function() {
+				api.close();
+			});
+			Login.init(function() {
+				//parent.location.reload();
+				//api.close();
+				parent.location.href="/special/jianlidasai.do"
+			});
+		});
+	</script>
+	<script src="/assets/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+</body>
+</html>

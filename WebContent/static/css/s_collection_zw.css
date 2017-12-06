@@ -1,0 +1,327 @@
+@charset "utf-8";
+			ul{
+				list-style: none;
+				padding: 0px;
+				margin: 0px;
+			}
+			body{
+				background:#F0F0F9;
+			}
+			.main {
+        		width: 1024px;
+    			margin: 0 auto;
+    			background: #fff;
+    			box-shadow: none;
+    			font-family: "微软雅黑";
+    			font-size:14px;
+    			background: #F0F0F9;
+			}
+			.sub_nav{
+				height: 30px;
+				mix-width: 1024px;
+				background:#505050;
+				color: #FFF;
+			}
+			.sub_nav_ul{
+				float: right;
+    			font-family: "微软雅黑";
+    			font-size: 14px;
+    			font-weight: bold;
+			}
+			.sub_nav_ul li{
+				float: left;
+    			line-height: 30px;
+    			margin-right:5px;
+    			
+			}
+			.sub_nav_ul li a{
+				color: #fff;
+    			margin-left: 8px;
+    			margin-right:5px;
+			}
+			.top_nav{
+				min-width: 1024px;
+    			background: #fff;
+    			height: 60px;
+    			font-family: "微软雅黑";
+    			font-size: 18px;
+    			box-shadow: 0px 3px 6px rgba(0,0,0,0.1)
+			}
+			.nav_inner{
+				width: 1024px;
+    			margin: 0 auto;
+			}
+			.top_nav .nav_inner .logo {
+    			margin: 10px;
+			}
+			.top_nav .nav_inner div {
+    			float: left;
+    		}
+			.top_nav .main_nav ul {
+    			float: right;
+    			font-weight: bold;
+    			margin-bottom: 0px;
+    		}
+    		.main_nav ul {
+    			margin-left: 50px;
+			}
+			.top_nav .main_nav li {
+    			float: left;
+   	 			margin-left: 10px;
+    			line-height: 60px;
+    			color: #d0d0d0;
+    			list-style-type: none;
+    		}
+    		.top_nav a.switch {
+    			display: block;
+			}
+			.top_nav .province {
+    			color: #333;
+    			line-height: 60px;
+    			width: 100px;
+			}
+			.top_nav a.switch i.arrow {
+    			display: inline-block;
+    			width: 0;
+    			height: 0;
+    			border-left: 5px solid #fff;
+    			border-right: 5px solid #fff;
+    			border-top: 10px solid #e03919;
+			}
+			.c_left{
+				width: 680px;
+				float: left;
+				padding: 0;
+			}
+			.c_right{
+				width: 324px;
+				float:left;
+				margin-left: 20px;
+				padding: 0;
+			}
+			.l_header{
+				height: 60px;
+				color: #999;
+				background: #fff;
+			}
+			.l_header ul li{
+				float: left;
+				height: 60px;
+				text-align: center;
+				line-height: 60px;
+				background: #fff;
+				margin-left: 20px;
+			}
+			.l_header ul li:nth-child(1){
+				margin-left:0px;
+			}
+			.l_header ul li a{
+				color:#999;
+			}
+			.l_span{
+				margin-left: 20px;
+			}
+			.active{
+				display: inline-block;
+				padding: 0px 20px;
+			}
+			.active a{
+				color:#02c084 !important;
+			}
+			.l_bottom{
+				margin-top: 2px;
+			}
+			.l_bottom div{
+				background: #fff;
+				margin-bottom: 2px;
+			}
+			.l_b_ul{
+				height: 160px;
+				padding-left:10px;
+				color: #999;
+			}
+			.l_b_ul li{
+				line-height:40px;
+			}
+			.l_b_ul li:nth-child(1){
+				color: #000000;
+			}
+			.r_header{
+				height: 60px;
+				background: #fff;
+				line-height: 60px;
+				padding-left: 20px;
+			}
+			.r_bottom{
+				
+			}
+			.l_b_ul .l_b_salary{
+				color: orange;
+				margin-left: 10px;
+			}
+			.l_b_ul .l_b_del{
+				float: right;
+				margin-right: 20px;
+				color:#999;
+			}
+			.l_b_ul .l_b_time{
+				float: right;
+				margin-right: 20px;
+			}
+			.l_b_ul .l_b_status{
+				color: #7ed452;
+			}
+			.l_b_ul .l_b_a{
+				display: block;
+    			color: #02c084;
+    			height: 30px;
+    			border-radius:5px;
+    			border: 1px solid #02c084;
+    			text-align: center;
+    			line-height: 30px;
+    			float: right;
+    			margin: 5px 20px 0 0;
+    			padding:0 10px;
+			}
+			.r_b_favorite{
+				margin-top: 2px;
+				background: #fff;
+				height: 120px;
+			}
+			.r_b_favorite ul{
+				margin-left: 20px;
+			}
+			.r_b_favorite ul li{
+				height: 40px;
+				line-height: 40px;
+				color:#999;
+			}
+			.r_b_favorite span{
+				margin-left: 10px;
+				color:#f19149;
+			}
+			
+			.r_b_favorite i {
+				color: #02c084;
+				float: right;
+    			margin: 10px 20px 0 0;
+			}
+			.zhiwei-a{
+				color:#333;
+				font-weight:bold;
+			}
+			.money{
+				color:#f19149;
+				font-weight:bold;
+			}
+			.qiye-a{
+				color: #999;
+    			border-radius: 2px;
+    			display:block;
+    			overflow:hidden;
+    			text-overflow:ellipsis;
+    			white-space:nowrap;
+			}
+/*切换站点图层关闭按钮样式*/
+.site_select_panel_close {
+				/* background:url(img/close.png) !important; */
+				width: 20px  !important;
+				height: 20px  !important;
+				right:25px !important;
+				top:22px !important;
+				/*
+				text-indent:3em;
+				background-repeat:no-repeat;
+				line-height:0 !important;
+				font-size:0 !important; */
+				font-size:50px !important;
+				color:#fff!important;
+				/* background-color:#fff!important;
+				border:1px solid #666; */
+}
+.site_select_panel_close:focus{
+	outline:none;
+}
+.site_select_panel_close :hover { background-position:0 0;}
+.site_select_link { width:250px;}
+.site_select_link a {
+	float:left;
+	display:block;
+	padding:6px 10px;
+	text-align: center;
+	font-size:14px;
+	line-height:16px;
+ 	color:#6B5E55; 
+}
+
+.site_main p{
+	font-size:12px;
+	font-family:微软雅黑;
+	color:#333333;		
+	margin:10px 0px 0px 18px;
+	}
+.site_select_link{
+	width:460px;
+	}
+.site{
+	width:460px;
+	height:370px;
+	}
+.site_main a{
+	font-size:18px;
+	font-family:微软雅黑;
+	color:#333333;
+	text-align:center;
+	margin-top:11px;
+	}
+.site_top{
+	height:45px;
+	background:#e03919;
+	color:#ffffff;
+	font-family:黑体;
+	font-size:18px;
+	padding-top:10px;
+	padding-left:18px;
+  }
+.site_main .xian{
+	border:1px dashed #000;
+	margin-left:18px;
+	width:420px;
+}
+.site_main .curr_area{
+	border:2px solid #e03919;
+	border-radius:6px;
+	width:100px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	font-size:18px;
+	font-family:微软雅黑;
+	float:left;
+	margin:0px 0px 0px 25px;
+}
+.site_main .area{
+	border:2px solid #aaa;
+	border-radius:6px;
+	width:100px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	margin:18px 0 0 23px;
+	font-size:18px;
+	font-family:微软雅黑;
+	float:left;
+  }
+.aui_close{
+	width: 20px  !important;
+	height: 20px  !important;
+	right:25px !important;
+	top:22px !important;
+	font-size:50px !important;
+	color:#fff!important;
+	outline:none !important;
+}
+.aui_close:hover{
+	outline:none !important;
+}
+/*分站切换样式结束  */
