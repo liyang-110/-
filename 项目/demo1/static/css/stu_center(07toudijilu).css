@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*样式重置开始*/
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+.clear{clear:both;}
+/*样式重置开始*/
+
+.top_nav .main_nav a.personal_center {
+	color:#e03919;
+	border-bottom:3px solid #e03919;}
+
+
+.news{
+	border-bottom:1px solid #efefef;}
+/*mian区属性描述开始*/
+
+
+.main_l a.toudijilu{
+	background:#efefef;
+	color:#e03919;
+	border-right:4px solid #e03919;}
+.main_r{
+	font-family:"微软雅黑";
+	float:left;
+	padding:15px 25px 15px 25px;
+	}
+
+.main_r .position_yitou{
+	background:#fff;
+	border-left:2px solid #efefef;
+	padding:6px 10px 0px 10px;
+	margin-bottom:10px;
+	border-bottom: 1px solid #efefef;
+	}
+.main_r .position_yitou:hover{
+	border-left:2px solid #e03919;
+	background:#efefef;
+	}
+.main_r dt{
+	color: #333;
+	font-size: 14px;
+	line-height: 24px;
+	}
+.main_r dt span{
+	font-size: 14px;
+	color:#F56264;
+	}
+.main_r dd{
+	color: #848484;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight:500;
+	}
+.main_r dd a{
+		color:#999;}
+.main_r dd strong{
+	font-weight:300;}
+.main_r dd span{
+	font-size:14px;
+	color:#F56264}
+
+.main_r .position_yitou p{
+	line-height:24px;
+	text-align:right;}
+
+
+
+
+	
+
+
+
+
+/*mian区属性描述结束*/

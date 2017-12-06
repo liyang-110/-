@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*样式重置开始*/
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+.clear{clear:both;}
+/*样式重置开始*/
+
+.top_nav .main_nav a.personal_center {
+	color:#e03919;
+	border-bottom:3px solid #e03919;}
+
+.news{
+	border-bottom:1px solid #efefef;}
+/*mian区属性描述开始*/
+
+.main_l a.collect{
+	background:#efefef;
+	color:#e03919;
+	border-right:4px solid #e03919;}
+.main_r{
+	}
+.xianchangzph .title{
+	font-family: "微软雅黑";
+    font-size: 18px;
+    color: #333;
+    margin-left:22px;
+	width:200px;
+	}
+
+.xianchangzph .title p{
+  width: 100px;
+}
+
+.zph_daohang li a {
+    display: block;
+    width: 130px;
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+   
+    border: 0;
+    margin: 0;
+    padding: 0;
+}	
+.zph_daohang li a:hover, .zph_daohang li.active a:hover, .zph_daohang li.active a:hover, .zph_daohang li.active a:focus {
+    background:#e03919;
+    color:#FFF;
+    border: 0;   
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    cursor: default;
+    color:#333;
+    border-bottom: 2px solid #e03919;
+}
+.zph_nav li {
+    float: left;
+    height: 30px;
+    text-align: center;
+    background: #fff;
+    line-height: 30px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 2px;
+    margin-bottom: 10px;
+}
+.zph_nav_zph1 li.xuhao {
+    /* margin-left: 18px; */
+    width: 30px;
+}
+
+.zph_nav_zph1 li.zphmingchen {
+    width: 340px;
+    text-align: center;
+    padding-left: 10px;
+    }
+.zph_nav_zph1 li.time {
+    width: 136px;
+    text-aligh:center;
+    }
+	
+.zph_nav_zph1 li.address{
+	 width: 326px;
+	 padding-left: 6px;
+	 white-space:nowrap;
+	 text-overflow:ellipsis;
+	 overflow:hidden;
+	}	
+	
+.zph_nav_zph1 li.address:hover{
+	display:block;}
+.zw_nav{
+	padding: 15px 25px 15px 25px;
+}
+.zw_nav_in{
+	background: #fff;
+    border-left: 2px solid #efefef;
+    padding: 6px 10px 5px 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #efefef;
+    color:#999;
+    font-size:13px;
+    font-family:'微软雅黑';
+}
+.zw_nav_in a{
+	text-decoration:none;
+}
+.zw_nav_in:hover{
+	border-left: 2px solid #e03919;
+    background: #efefef;
+}
+.zw_nav_in .zw_name{
+	font-size:15px;
+	color:#333;
+	font-weight:700;
+	text-decoration:none;
+}
+.zw_nav_in .zw_salary{
+	font-size:15px;
+	color:#e03919;
+	margin-left:10px;
+}
+.zw_nav_in .zw_time{
+	float:right;
+	
+}
+.zw_nav_in .company_name{
+	color:#999;
+	text-decoration:none;
+}
+.zw_nav_in .cancel_focus{
+	font-size:15px;
+	color:#e03919;
+}
+.zw_nav_in .send_resume{
+	font-size:15px;
+	color:#e03919;
+	margin-left:10px;
+}	
+.zph_nav{
+	padding: 15px 25px 15px 25px;
+}
+/*mian区属性描述结束*/

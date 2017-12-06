@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="Keywords" content="长沙理工大学云就业平台 云就业 高校 大学 大学生 就业 就业网 就业信息网 就业指导 就业指导中心 就业中心 创业 创业指导"/>
+<meta name="Description" content="长沙理工大学云就业平台 云就业 高校 大学 大学生 就业 就业网 就业信息网 就业指导 就业指导中心 就业中心 创业 创业指导"/>
+<link href="/skin/blue/??public/css/global.css,public/css/layout.css,public/css/common.css?20170321" rel="stylesheet">
+<link rel="stylesheet" href="/public/css/base/base.css">
+<link rel="icon" href="http://pic.bibibi.net/public/images/icon/favicon.ico?1" otype="image/x-icon"/>
+<link rel="shortcut icon" href="http://pic.bibibi.net/public/images/icon/favicon.ico?1" type="image/x-icon"/>
+<style type="text/css">
+    </style>
+    <meta name="Keywords" content="2017年普通高校毕业生系列招聘会——国际贸易类专场招聘会"/>
+    <title>2017年普通高校毕业生系列招聘会——国际贸易类专场招聘会-文章详情</title>
+    <link href="/skin/blue/??public/css/global.css,public/css/layout.css,public/css/common.css,css/details/details.css?20170321"
+          rel="stylesheet">
+    <style>.btn-disabled {
+        background-color: #d3d3d3;
+        cursor: default
+    }
+
+    .btn-disabled:hover {
+        color: #333
+    }
+
+    .dh-info {
+        font-size: 14px
+    }
+
+    .dh-info .time {
+        font-size: 12px
+    }</style>
+    </head>
+<body>
+<input type="hidden" id="token" value="yunyan1869229336">
+<input type="hidden" id="qq_services" value="">
+<div class="header">
+        <div class="inner clearfix">
+        <div class="logo" id="logo">
+            <a href="javascript:;" class="logo-link">
+                <img src="http://yun-campus-res.oss-cn-shenzhen.aliyuncs.com/school/1490080178-7469.png"/>
+            </a>
+        </div>
+                            <div class="pub-search" id="search_bar" style="position:absolute;right:0;bottom:10px;display:none;">
+                    <div class="search-inner">
+                <div class="search-txt-wrap" style="background-color:#fff;">
+
+                    <input class="search-txt" placeholder="搜索你感兴趣的内容" id="G_keyword" type="text" onkeydown="if(event.keyCode==13){location.href='/module/search?keyword='+G_keyword.value;}">
+                </div>
+                <a class="search-btn has-icon-svg" id="search_btn" onclick="location.href='/module/search?keyword='+G_keyword.value;">
+                    <span class="icon-svg icon-svg-search"></span>
+                </a>
+            </div>
+        </div>
+                <div style="width:80px;float:left;margin-top:10px;margin-left:20px;">
+            <img src="http://pic.bibibi.net/public/images/other/s-yunyan1869229336.png">
+        </div>
+                <div style="width:100px;float:right;">
+                                                        </div>
+    </div>
+</div>
+</div>
+<div class="main-nav">
+    <div class="inner">
+        <!--导航-->
+        <ul class="nav-list clearfix" id="main_nav">
+            <li class="item ">
+                <a href="/index" class="item-link">首页</a>
+                            </li>
+                        <li class="item ">
+                <a href="/detail/news?id=249&menu_id=35"
+                    class="item-link"  >学校概况</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/detail/news?id=249&menu_id=35">学校简介</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=78&menu_id=35">办学特色</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/detail/news?id=253&menu_id=35">部门概况</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/detail/news?id=254&menu_id=35">机构设置</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/detail/news?id=255&menu_id=35">岗位职责</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=13&menu_id=41"
+                    class="item-link"  >新闻公告</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=102&menu_id=41">焦点新闻</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=13&menu_id=41">就业快讯</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/careers?menu_id=44"
+                    class="item-link"  >招聘信息</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/careers?menu_id=44">校内宣讲会</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/careers?type=outer&menu_id=44">校外宣讲会</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/jobfairs?menu_id=44">校内双选会</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link" target="_blank" href="/module/jobfairs?type=2&menu_id=44">校外双选会</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/onlines?menu_id=44">在线招聘</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/jobs?is_practice=0&menu_id=44">正式岗位</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/jobs?is_practice=1&menu_id=44">实习岗位</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=79&menu_id=51"
+                    class="item-link"  >生源信息</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=79&menu_id=51">生源速览</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=99&menu_id=51">学院专业</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=100&menu_id=51">硕士点</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=101&menu_id=51">博士点</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=80&menu_id=56"
+                    class="item-link"  >就业指导</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=80&menu_id=56">就业指导</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=83&menu_id=56">政策法规</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=103&menu_id=56">职业测评</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=104&menu_id=56">网上学堂</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=84&menu_id=56">求职技巧</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=105&menu_id=56">典型事迹</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=81&menu_id=56">创新创业</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=11&menu_id=61"
+                    class="item-link"  >服务指南</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=11&menu_id=61">办事流程</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=85&menu_id=61">常用下载</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=87&menu_id=65"
+                    class="item-link"  >专项计划</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=87&menu_id=65">预征入伍</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=88&menu_id=65">公务选调</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=89&menu_id=65">村官计划</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=98&menu_id=65">西部志愿</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=90&menu_id=65">特岗教师</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=91&menu_id=65">三扶一持</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="?menu_id=1230"
+                    class="item-link"  >报到证/档案查询</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link" target="_blank" href="http://www.hunbys.com/hnbys/archives.do?m=loadSearchJyfa2&menu_id=1230">报到证查询</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link" target="_blank" href="http://222.240.152.232/index.asp?w=web&menu_id=1230">档案查询</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=86&menu_id=154"
+                    class="item-link"  >联系我们</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=86&menu_id=154">联系我们</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                    </ul>
+    </div>
+</div>
+<div class="container">
+    <div class="inner">
+        <div class="content clearfix">
+                        <div class="side">
+                <div class="side-menu-wrap">
+    <ul class="side-menu">
+                <li class="sm-item curr">
+            <p class="sm-tit">
+                <a href="/module/news?type_id=13" class="sm-link">
+                    <span class="sm-text">就业快讯</span>
+                </a>
+            </p>
+        </li>
+            </ul>
+</div>                            </div>
+                        <div class="main">
+                <div class="main-inner detail-main">
+                    <div class="pub-curr-pos">
+                        <a class="cp-link has-icon-svg" href="/index"><span
+                                class="icon-svg icon-svg-home"></span>网站首页</a>
+                        <span class="cp-arrow">&gt;</span>
+                        <a class="cp-link"
+                           href="/module/news?type_id=13">就业快讯</a>
+                        <span class="cp-arrow">&gt;</span>
+                        <span class="cp-text">详情</span>
+                    </div>
+                    <div class="bshare-custom" style="text-align: right">
+                        <div class="bsPromo bsPromo2"></div>
+                        <a title="分享到微信" class="bshare-weixin" href="javascript:void(0);"></a><a title="分享到QQ好友"
+                                                                                                 class="bshare-qqim"
+                                                                                                 href="javascript:void(0);"></a><a
+                            title="分享到新浪微博" class="bshare-sinaminiblog" href="javascript:void(0);"></a><a
+                            title="分享到QQ空间" class="bshare-qzone"></a><a title="分享到腾讯微博" class="bshare-qqmb"></a><a
+                            title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a><span
+                            class="BSHARE_COUNT bshare-share-count" style="float: none;">31.5K</span></div>
+                    <script type="text/javascript" charset="utf-8"
+                            src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh"></script>
+                    <script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
+                    <div class="news-details" id="data_details">
+                        <div class="details-head" style="position: relative">
+                            <h1 class="dh-tit"
+                                style="font-weight:normal;text-align: center;line-height: 50px">2017年普通高校毕业生系列招聘会——国际贸易类专场招聘会</h1>
+                            <p class="dh-info" style="text-align: center">
+
+                                                        <span style="margin-right: 20px">
+                                                                    <a href="http://static.bibibi.net/student/chance/largemeetingdetails.html?token=yxqqnn0000000000&fair_id=1162&y_u_id=1387" style="color:#25b6ed;">阅读原文</a>
+                                                            </span>
+                                                            <span class="time">2017年11月20日</span>
+                                &nbsp;
+                                <span class="time">点击量:1074</span>
+                            </p>
+                                                    </div>
+                        <div class="details-content">
+                            
+                                                        <p class="135brush" data-brushtype="text" style="margin-top: 0px; margin-bottom: 0px; font-variant-ligatures: normal; orphans: 2; white-space: normal; widows: 2; padding: 0px; clear: both; font-family: 微软雅黑; font-size: 18px; font-weight: bold; line-height: 26.1818px; text-align: center;">2017年湖南省高校毕业生系列招聘会--&nbsp; &nbsp;国际贸易类专场招聘会</p><p class="135brush" data-brushtype="text" style="margin-top: 0px; margin-bottom: 0px; font-variant-ligatures: normal; orphans: 2; white-space: normal; widows: 2; padding: 0px; clear: both; font-family: 微软雅黑; font-size: 18px; font-weight: bold; line-height: 26.1818px;"><br/></p><p><section data-role="outer" label="Powered by 135editor.com" style="font-variant-ligatures: normal; orphans: 2; white-space: normal; widows: 2; font-family: 微软雅黑;"><section class="_135editor" data-tools="135编辑器" data-id="86291" style="border: 0px none; padding: 0px; position: relative; box-sizing: border-box;"><section style="margin: 21px 2px 2px 10px;"><section style="color: rgb(255, 255, 255); margin-left: -8px; font-style: inherit; text-decoration: inherit; margin-top: 15px;"><section style="box-sizing: border-box;"><span style="border-radius: 0px 0.5em 0.5em 0px; display: inline-block; font-size: 15px; padding: 0.3em 0.5em; box-sizing: border-box; background-color: rgb(235, 146, 144);"><strong class="135brush" data-brushtype="text">时间：2017-11-21 &nbsp; 周二下午14:00-17:00</strong>&nbsp;</span></section><section style="font-weight: inherit; width: 0px; border-right: 4px solid rgb(19, 19, 19); border-top: 4px solid rgb(19, 19, 19); box-sizing: border-box; border-left: 4px solid transparent !important; border-bottom: 4px solid transparent !important;"></section></section><section style="overflow: hidden; margin: -3.6em 0px 0px;"><section style="width: 9em; height: 2em; line-height: 2em; margin: 1em -2.5em -4em 0px; text-align: center; color: rgb(255, 255, 255); float: right; box-shadow: rgb(200, 200, 200) 8px 4px 14px; transform: rotate(45deg); background-color: rgb(235, 146, 144);"></section><section class="135brush" data-style="line-height: 25.6px; font-size: 14px;" style="padding: 55px 8px 10px; box-sizing: border-box; border-width: 1px 6px 4px; border-style: solid; border-color: rgb(235, 146, 144); border-radius: 8px;"><p style="line-height: 25.6px; font-size: 14px;">地点：长沙市雨花区新建西路77号湖南大学生创业孵化基地二楼(省教育电视台)</p><p style="line-height: 25.6px; font-size: 14px;">乘车路线:乘912/915/123/临123/803/临803A等线路公交车,到七里庙二十一中公交站下车即可到达；地铁一号线涂家冲站4号口出直行500米左右</p><p style="line-height: 25.6px; font-size: 14px;"><span style="color: rgb(255, 0, 0); font-size: 18px;">温馨提示：点击本页面顶部“导航”按钮，可地点导航</span></p></section></section></section></section></section></p><p style="font-variant-ligatures: normal; orphans: 2; white-space: normal; widows: 2;"><br/></p><p><section data-role="outer" label="Powered by 135editor.com" style="font-variant-ligatures: normal; orphans: 2; white-space: normal; widows: 2; font-family: 微软雅黑;"><section class="_135editor" data-tools="135编辑器" data-id="89172" style="border: 0px none; padding: 0px; box-sizing: border-box;"><section class="layout" style="margin: 10px auto; border: 2px solid rgb(117, 117, 118); padding: 5px; box-sizing: border-box;"><section class="135brush" style="border: 2px dashed rgb(117, 117, 118); padding: 15px; box-sizing: border-box;"><p>主办单位：</p><p>湖南省大中专学校学生信息咨询与就业指导中心</p><p>承办单位：</p><p>湖南大湘人力资源集团（湖南招聘市场、大湘人才网）</p><p>长沙市云研网络科技有限公司（云就业）</p></section></section></section></section></p><p style="font-variant-ligatures: normal; orphans: 2; white-space: normal; widows: 2;"><br/></p><p><section class="_135editor" data-tools="135编辑器" data-id="32290" data-color="rgb(12, 137, 24)" data-custom="rgb(12, 137, 24)" style="font-variant-ligatures: normal; orphans: 2; white-space: normal; widows: 2; font-family: 微软雅黑; border: 0px none; padding: 0px; position: relative; box-sizing: border-box;"><section style="clear: both; padding: 0px; border: 0px none; margin: 5px 0px; box-sizing: border-box;"><section style="border-top: 2.5px solid rgb(12, 137, 24); border-right-color: rgb(12, 137, 24); border-bottom-color: rgb(12, 137, 24); border-left-color: rgb(12, 137, 24); font-size: 1em; font-weight: inherit; text-decoration: inherit; color: rgb(255, 255, 255); box-sizing: border-box;"><section style="display: inline-block; font-size: 1em; font-weight: inherit; text-align: inherit; text-decoration: inherit; color: inherit; border-color: rgb(12, 137, 24); box-sizing: border-box;"><section class="135brush" data-bcless="darken" data-brushtype="text" style="display: inline-block; line-height: 1.4em; padding: 5px 10px; height: 32px; vertical-align: top; font-weight: bold; float: left; color: inherit; border-color: rgb(4, 43, 8); background: rgb(12, 137, 24); box-sizing: border-box !important;">学生参会方式<br/><br/></section><section style="display: inline-block; vertical-align: top; width: 0px; height: 0px; border-top: 32px solid rgb(12, 137, 24); border-right: 32px solid transparent; border-top-right-radius: 4px; border-bottom-left-radius: 2px; color: inherit; box-sizing: border-box !important;"></section></section><span style="font-size: 14px; letter-spacing: 0px; line-height: 25px;">方式一：</span></section></section></section></p><p style="font-variant-ligatures: normal; orphans: 2; white-space: normal; widows: 2;"><span style="font-family: 微软雅黑; font-size: 14px; letter-spacing: 0px;">方式一：</span><br/></p><p style="font-variant-ligatures: normal; orphans: 2; white-space: normal; widows: 2; font-family: 微软雅黑; line-height: 25px;"><span style="letter-spacing: 0px; font-size: 14px;">关注本校云就业平台——点击“就业帮”的“双选会”——选择“2017年湖南省普通高校毕业生系列招聘会——</span></p><p style="font-variant-ligatures: normal; orphans: 2; white-space: normal; widows: 2; font-family: 微软雅黑;"><span style="font-size: 14px;"><span style="font-weight: bold; line-height: 26.1818px; text-align: center;">国际贸易类专场招聘会</span><span style="line-height: 25px; letter-spacing: 0px;">”——点击领票——截图保存</span><span style="line-height: 25px; color: rgb(255, 0, 0); letter-spacing: 0px;">（重要）</span><span style="line-height: 25px; letter-spacing: 0px;">——完善简历——当天出示二维码扫码入场</span></span></p><p style="font-variant-ligatures: normal; orphans: 2; white-space: normal; widows: 2; font-family: 微软雅黑; line-height: 25px;"><span style="letter-spacing: 0px; font-size: 14px;">方式二：</span></p><p style="font-variant-ligatures: normal; orphans: 2; white-space: normal; widows: 2; font-family: 微软雅黑; line-height: 25px;"><span style="font-size: 14px;"><span style="letter-spacing: 0px;">搜索关注“湖南省毕业生就业网”微信公众号——点击主页面就业信息—全省双选会——选择“2017年湖南省普通高校毕业生系列招聘会—<span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><span style="font-family: 微软雅黑; font-weight: bold; line-height: 26.1818px; text-align: center;">国际贸易类专场招聘会</span></span>”——点击领票，填写相关资料——截图保存</span><span style="color: rgb(255, 0, 0); letter-spacing: 0px;">（重要）</span><span style="letter-spacing: 0px;">——完善简历——当天出示二维码扫码入场</span></span></p><p style="font-variant-ligatures: normal; orphans: 2; white-space: normal; widows: 2; text-align: center;"><strong><span style="font-size: 18px; color: rgb(0, 176, 240);">参会企业一览表</span></strong></p><table height="798" style="font-variant-ligatures: normal; orphans: 2; white-space: normal; widows: 2; border-left-width: 1px; border-left-style: solid; border-left-color: rgb(102, 102, 102); border-top-width: 1px; border-top-style: solid; border-top-color: rgb(102, 102, 102);"><colgroup><col width="126"/><col width="403"/></colgroup><tbody><tr height="19" class="firstRow"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">展位号</td><td class="et2" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">公司名称</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">A1</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">国金黄金股份有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">A2</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">劲霸男装（上海）有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">A3</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">华服互联网科技（上海）有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">A4</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">廊坊荣盛物业服务有限公司长沙分公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">A5</td><td class="et2" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">湖南爱运动体育用品有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">A6</td><td class="et2" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">深圳市广视安防科技有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">A7</td><td class="et2" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">长沙我爱我家信息科技有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">A8</td><td class="et2" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">瀚颖活净水</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">A9</td><td class="et2" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">长沙悦健智能</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">A10</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">郑州真好医疗科技集团股份有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">B1</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">湖南省力宇燃气动力有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">B2</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">湖南华信智原信息科技有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">B3</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">湖南琴海数码股份有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">B4</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">湖南青旗文化传媒有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">B5</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">湖南鑫沃信息技术有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">B6</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">方正证券股份有限公司长沙枫林三路证券营业部</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">B7</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">湖南前沿科技有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">B8</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">长沙优盛知识产权代理有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">B9</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">长沙信投在线电子商务有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">B10</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">长沙开源办公家具有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">B11</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">湖南鑫盛房地产开发有限公司长沙华晨豪生大酒店</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">C1</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">湖南喜家装饰设计工程有限责任公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">C2</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">长沙大京网络科技有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">C3</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">长沙道信教育科技有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">C4</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">阳光财产保险股份有限公司长沙中心支公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">C5</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">深圳市美联国际教育科技有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">C6</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">孩子王儿童用品股份有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">C7</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">国融证券股份有限公司长沙开元路证券营业部</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">C8</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">湖南旭天科技有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">C9</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">湖南新智业教育科技有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">C10</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">湖南芒果优秀网络科技有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">C11</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">湖南鸿贤国际经济技术合作有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">D1</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">江西东森科技发展有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">D2</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">湖南万成云商科技有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">D3</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">湖南名匠装饰设计工程有限责任公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">D4</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">湖南湘江控股投资管理有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">D5</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">湖南脸谱网络科技有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">D6</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">湖南高升宏福家俱制造有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">D7</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">湖南艾臣生物科技有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">D8</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">长沙市绘居建筑装饰有限公司</td></tr><tr height="19"><td class="et2" x:str="" height="14" width="88" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px;">D9</td><td class="et3" x:str="" height="14" width="317" style="border-color: rgb(0, 0, 0) rgb(102, 102, 102) rgb(102, 102, 102) rgb(0, 0, 0); font-size: 11pt; text-align: center; vertical-align: middle; border-bottom-width: 1px; border-bottom-style: solid; border-right-width: 1px; border-right-style: solid; padding: 5px; word-break: break-all;">湖南汇世纪教育科技有限公司<br/></td></tr></tbody></table><p><br/></p><p>点击<span style="color: rgb(255, 0, 0);">阅读原文</span>，领票、查看企业和岗位详情</p>                            
+                        </div>
+
+                                                <div class="pub-code">
+                                                        <img src="http://pic.bibibi.net/public/images/other/yunyan1869229336.png"/>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="inner">
+                <div class="foot-content">
+            <div class="fc-inner">
+                <p class="foot-nav">
+                                        <a class="item"
+                       href="/detail/news?id=249&menu_id=35">学校概况</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=13&menu_id=41">新闻公告</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/careers?menu_id=44">招聘信息</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=79&menu_id=51">生源信息</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=80&menu_id=56">就业指导</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=11&menu_id=61">服务指南</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=87&menu_id=65">专项计划</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="?menu_id=1230">报到证/档案查询</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=86&menu_id=154">联系我们</a>
+                                    </p>
+                <p class="copyright">
+                    <span class="text">长沙理工大学版权所有</span>
+<span class="line">|</span>
+<span class="text">域名备案信息：湘ICP备05003881号</span>
+<span class="line">|</span>
+<span class="text">前置审核编号：湘教QS3-200505-000255</span>                </p>
+                <p class="copyright">
+                    <span class="text">可信网站验证</span>
+                    <span class="text">诚信网站验证</span>
+                    <span class="text">安全联盟</span>
+                    <span class="text">行业验证</span>
+                    <span class="text">浏览量：今日11336&nbsp;/&nbsp;共计5193410</span>
+                    <a class="item" href="http://www.bibibi.net" target="_blank" style="color:#6d6d6d;">技术支持：云研科技</a>
+                </p>
+                <div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script>
+    var G_MODULES = [
+        ['js/detail', 'news']
+    ];
+</script>
+<script src="/public/js/libs/??seajs/sea.js,3rd/seajs-combo.js,jquery/jquery.1.9.1.min.js,jquery/jquery-extend.js,jquery/pagination.min.js?v=20151103"></script>
+<script>
+    var G_CONFIG = {"version":"20170321","picPath":"http://pic.bibibi.net","aliPath":"http://yun-campus-res.oss-cn-shenzhen.aliyuncs.com","hrSite":"http://hr.bibibi.net"};
+    //版本更新
+    var config = {
+        base: '/',
+        paths: {
+            'libs': 'public/js/libs',
+            'plugs':'public/js/plugs'
+        },
+        comboSuffix: '?v=' + G_CONFIG.version
+    };
+    if(window.__page_ver){
+        config.comboSuffix = config.comboSuffix + __page_ver;
+    }
+
+    _modulePath = [];
+    for (var i = 0, len = G_MODULES.length; i < len; i++) {
+        var module = G_MODULES[i];
+        _modulePath.push(module.join('/'));
+    }
+
+    seajs.config(config);
+
+    _modulePath.push('libs/template');
+    _modulePath.push('plugs/browserCheck');
+    _modulePath.push('plugs/mainNav');
+    _modulePath.push('plugs/floatToolbar');
+    _modulePath.push('plugs/customCombox');
+
+    seajs.use(_modulePath, function () {
+        //主导航
+        $.browserCheck();
+        $('#main_nav').mainNav();
+        $('.j-pub-combox').customCombox();
+
+        // 咨询qq
+        var params = {"site_logo":"http:\/\/yun-campus-res.oss-cn-shenzhen.aliyuncs.com\/school\/1490080178-7469.png","jy_qq":"","logo_text":"","about_us":"<h4 class=\"ii-tit\">\u5173\u4e8e\u6211\u4eec<\/h4>\n<p class=\"ii-text\">\u4e3a\u5b66\u751f\u957f\u8fdc\u53d1\u5c55\u670d\u52a1\uff0c\u4e3a\u5b66\u79d1\u5efa\u8bbe\u548c\u4e13\u4e1a\u53d1\u5c55\u670d\u52a1\uff0c\u4e3a\u5b66\u98ce\u5efa\u8bbe\u670d\u52a1\uff0c\u4e3a\u884c\u4e1a\u548c\u5730\u65b9\u7ecf\u6d4e\u53d1\u5c55\u670d\u52a1\u3002<\/p>","contact_us":"<h4 class=\"ii-tit\">\u8054\u7cfb\u6211\u4eec<\/h4>\n<p class=\"ii-text\">\u8054\u7cfb\u5730\u5740\uff1a\u6e56\u5357\u7701\u957f\u6c99\u5e02\u5929\u5fc3\u533a\u8d64\u5cad\u8def45\u53f7 <\/p>\n<p class=\"ii-text\">\u90ae\u653f\u7f16\u7801\uff1a410076<\/p>\n<p class=\"ii-text\">\u5c31\u4e1a\u79d1\u529e\u516c\u5ba4\uff1a\u91d1\u76c6\u5cad\u6821\u533a\u529e\u516c\u5927\u697c\u9644105<\/p>\n<p class=\"ii-text\">\u670d\u52a1\u70ed\u7ebf\uff1a0731-82309241\uff1b85219289<\/p>\n<p class=\"ii-text\">\u90ae\u7bb1\uff1ajobxx@126.com<\/p>","work_guide":"","contact_dept":"","copyright":"<span class=\"text\">\u957f\u6c99\u7406\u5de5\u5927\u5b66\u7248\u6743\u6240\u6709<\/span>\n<span class=\"line\">|<\/span>\n<span class=\"text\">\u57df\u540d\u5907\u6848\u4fe1\u606f\uff1a\u6e58ICP\u590705003881\u53f7<\/span>\n<span class=\"line\">|<\/span>\n<span class=\"text\">\u524d\u7f6e\u5ba1\u6838\u7f16\u53f7\uff1a\u6e58\u6559QS3-200505-000255<\/span>","institution_like_url":"","site_news_type":"92","site_notice_type":"3","site_employee_base":"","site_theme":"rich","token":"yunyan1869229336"};
+
+        $.floatToolbar({qq:params.jy_qq});
+
+        arguments[0].init(Array.prototype.slice.call(arguments, 1));
+    });
+
+    // footer始终靠底部
+    $('body').css({
+        'display': 'flex',
+        'flex-direction': 'column',
+        'height': 'auto',
+        'min-height': '100%'
+    });
+    $('.container').css({
+        'flex': 'auto'
+    });
+        $('.bar-main').click(function(){
+            $('.float-bar .content-wrap').toggleClass('hide');
+        })
+
+</script>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?9d62b12bee08da154fa2a80d8ee90355";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>

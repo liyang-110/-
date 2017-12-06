@@ -1,0 +1,299 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+a:hover{
+	text-decoration:none;
+}
+.clear{clear:both;}
+/*样式重置开始*/
+
+
+.main{
+	font-family: "微软雅黑";}
+.nav_shouye{
+	/* 
+	background:#e03919; */}
+.top_nav .main_nav a.nav_shouye {
+	color: #e03919;
+    font-weight: bold;
+    border-bottom: 3px solid #e03919;
+    height: 60px;}
+
+.position {
+    
+    font-family: "微软雅黑";
+    font-size: 14px;
+    padding: 10px 0px 0px 0px;
+}
+.position a {
+    color: #2D2B2B;}
+.position p{
+	margin:0;}
+
+.zwmingchen{
+	height:190px;
+	background:#efefef;
+	padding:16px 0 30px 0;
+	font-size:14px;
+	color:#fff;
+	width:1024px;
+	margin:0 auto;
+	font-family: "微软雅黑";
+}	
+.zwmingchen .company-name{
+	color:#555;
+}
+.zwmingchen .job-name{
+	color:#333333;
+	font-size: 24px;
+}
+.zwmingchen .money{
+	color:#f2994b;
+	font-size: 16px;
+}
+.zwmingchen .job-info{
+	color:#555;
+	font-size: 16px;
+}
+.zwmingchen .add-time{
+	color:#999;
+	font-size: 14px;
+}
+.zwmingchen .zwsc{
+	float: right;
+    display: block;
+    width: 130px;
+    height: 40px;
+    background: #f2e8dc;
+    color: #f2994b;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 4px;
+    border: 1px solid #f2994b;
+    font-size:16px;
+}
+.sc{
+	margin-right:5px;
+}
+.zwmingchen .send_resume{
+	float:right;
+	display:block;
+	width:130px;
+	height:40px;
+	background:#f2994b;
+	color:#fff;
+	text-align:center;
+	line-height:40px;
+	border-radius:4px;
+	margin-right:20px;
+	font-size:16px;
+}
+.zhiwei_introduction{
+    width:730px;
+	margin-right: 14px;
+	color: #555;}
+	
+h2{padding-top:10px;
+   padding-left:30px;
+   color:#e03919;
+   float:left;
+   }
+   
+.zhiwei_introduction a{
+	float:right;
+	display:block;
+	width:80px;
+	height:32px;
+	background:#e03919;
+	color:#fff;
+	text-align:center;
+	line-height:28px;
+	 border-radius:4px;
+	 margin-right:50px;
+	 margin-top:32px;}
+
+dl{
+	padding-bottom:10px}
+dt{
+	padding-left:20px;
+	font-weight: 100;}
+dd{
+	padding-left:0px;
+	line-height:36px;
+	}
+.zhiwei{
+	width:730px;
+	padding-bottom:10px;
+	margin-right:14px;
+	  }
+.title {	
+	font-family:"微软雅黑";
+	font-size:18px;
+	color:#333;
+	margin-left:22px;
+	
+}	
+	.title p{
+	margin-top:12px;
+	margin-bottom: 14px;
+    float: left; 
+    border-left: 2px solid #f2994b;
+	padding-left:10px;
+    letter-spacing: 2px;
+    height: 28px;
+    width: 1024px;
+    font-weight: bold;}
+	.zhiwei ul{
+		margin:0;
+		border-bottom:2px dotted #efefef;
+	}
+ .zhiwei li{
+	float: left;
+	width:730px;
+	height: 28px;
+    text-align:left;
+    background: #fff;
+    line-height: 28px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    margin-right: 2px;
+    padding-left:20px;
+    color:#999;
+	} 
+	
+.zhiwei_biaoqian{
+	margin-left:20px;
+	margin-top:10px;
+	margin-bottom:0;}
+  
+ 	.zhiwei_type{
+	  width:140px;}
+  	.zhiwei .company-name{
+  		color:#999;
+  	}
+  	.zhiwei .money{
+  		color:#f2994b;;
+  	}
+	.zhiwei_name .job-a{
+		float:left;
+   	  	text-align:left;
+   	  	display: block;
+   	  	overflow:hidden;
+   	  	text-overflow:ellipsis;
+   	  	color:#333;
+   	  	font-size:16px;
+	}
+	.zhiwei_name .send-a{
+		float:right;
+		margin-right:20px;
+		background: #f2994b;
+		color:#fff;
+		width: 100px;
+    	text-align: center;
+	} 
+   .zhiwei_degree{
+	  width:140px;}
+  
+  
+   .zhiwei_address{
+	  width:200px;}
+  
+  
+  .zhiwei_salary{
+	  width:154px;}
+  
+  
+ .send_resume{
+	  width:160px;
+	  text-align:center;
+	  line-height:32px;
+	 
+	  }
+	.send_resume1{
+		 width:160px;
+	  text-aligh:center;
+	  line-height:28px;
+		}
+	.send_resume1 a{
+		color:#333;}
+
+.send_resume a{
+	display:block;
+	width:76px;
+	height:20px;
+	background:#e03919;
+	color:#fff;
+	text-aligh:center;
+	line-height:20px;
+	 border-radius:4px;
+	 margin-left:42px;
+	 margin-top:4px;
+	}
+.left{
+	float:left;
+	width:744px;
+}
+.right{
+	float:left;
+	width:280px;
+}
+.right .company-info{
+	width:280px;
+	color:#999;
+	padding:15px 10px;
+}
+.right .company-info li{
+	height:30px;
+}
+.right .company-name{
+	color:#f2994b;
+}
+.tishi{
+	width:730px;
+	background:#fefaf4;
+	padding:0 20px;
+}
+.jubao-a{
+	color:red;
+}
+.text-area{
+	resize:none;border:none;padding-left:20px;width:730px;
+}
+.otherRecruit{
+	color:#999;
+	font-size:14px;
+	height:70px;
+	padding: 10px;
+    margin: 0px;
+    border-left:1px solid #dcdcdc;
+    border-right:1px solid #dcdcdc;
+    border-bottom:1px dotted #dcdcdc;
+    background:#fafafa;
+}
+.otherRecruit li{
+	height:25px;
+	line-height:25px;
+}
+.otherRecruit li a{
+	color:#333;
+}
+.otherRecruit li .money{
+	color:#333;
+	color:#f2994b;
+}
+.more{
+	height: 40px;
+    border: 1px solid #dcdcdc;
+    text-align: center;
+    line-height: 40px;
+}
+.more a{
+	color:#999;
+}
+#company_addr{
+	height:45px;
+	overflow:hidden;
+}

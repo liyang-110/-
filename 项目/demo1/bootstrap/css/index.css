@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.information .meg{
+	margin-top: 20px;
+	border:1px solid #999;
+	height: 220px;
+	padding: 15px 0 0 15px;
+}
+.recruitRight .message{
+	height: 260px;
+	border:1px solid #999;
+	margin-bottom: 30px;
+}
+.recruitRight .message ul {
+	padding-left: 30px;
+	padding-top: 20px;
+}
+.recruitRight .message ul li{
+	line-height: 30px;
+	font-size: 20px;
+}
+.recruitRight .imgBanner{
+   margin-bottom: 20px;
+}
+.recruitRight .job .content{
+	height: 100px;
+	border:1px solid #999;
+	margin-bottom: 20px;
+}
+.recruitRight .footer{
+	height: 100px;
+	border:1px solid #999;
+}

@@ -1,0 +1,265 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+		outline:none;
+		font-family: "微软雅黑";
+	}
+body {
+  font-family:"微软雅黑";
+  background:#eee;
+}
+
+.top_bar{
+	background:#2F3440;
+	min-height:60px;
+	line-height:60px;
+	color:#fff;
+	}
+.container{
+    max-width:1024px;
+	margin:0 auto;}
+.container .options{
+	margin:0 auto;
+	background-color:#ffffff;
+	border:1px solid #f0f0f9;
+	}
+
+.content{
+	margin:40px 0px;}
+.
+.footer{
+	
+	background:#2F3440;
+	border:1px solid #e8e8e8;
+	min-height:60px;
+	color:#fff;}
+
+	a{text-decoration:none;}
+	a:focus a:hover{
+		text-decoration:none;
+	}
+	.header{
+		height:50px;
+	}
+	.contain{
+		width:874px;
+		height:600px;
+		background:#fff;
+		margin:0 auto;
+	}
+	.center{
+		padding:0 20px;
+	}
+	.center .title{
+		height:85px;
+		line-height: 85px;
+		font-weight:bold;
+		font-size: 18px;
+		border-bottom: 1px solid #eeeeee;
+    	margin-bottom: 40px;
+	}
+	.picture{
+		background: #fff;
+	}
+	.left{
+		width:834px;
+		margin:0px;
+		padding: 0 100px;
+	}
+	.xinghao{
+		color:red;
+	}
+	.resume-one label,.resume-two label,.resume-three label,.resume-four label{
+		width:84px;
+		line-height: 40px;
+		text-align:center;
+	}
+	.switch_login_control{
+		width:480px;
+	}
+	.wxdl{
+		float:left;
+		width:160px;
+		height:60px;
+		line-height:60px;
+		color: #7d7d7d;
+		text-align: center;
+		border-bottom:1px solid #7d7d7d;
+	}
+	.wxdl:hover{
+		text-decoration:none;
+		/* color:#02c084; */
+	}
+	
+	.yhdl{
+		float:left;
+		width:160px;
+		height:60px;
+		line-height:60px;
+		color: #7d7d7d;
+		text-align: center;
+		border-bottom:1px solid #7d7d7d;
+		margin-bottom: 10px;
+		margin-left: -60px;
+	}
+	.yhdl:hover{
+		text-decoration:none;
+		/* color:#02c084; */
+	}
+	.login_form{
+		margin-top:50px;
+	}
+	.text-form{
+		width:540px;
+		border:1px solid #eee;
+    	text-indent: 1em;
+    	height:40px;
+    	margin-bottom:30px;
+		
+	}
+	.date-form{
+		width:268px;
+		border:1px solid #eee;
+    	text-indent: 1em;
+    	height:40px;
+    	margin-bottom:30px;
+		
+	}
+	.radio-form{
+		margin:0 10px 30px 0 !important;
+		
+	}
+	.year-form{
+		width:268px;
+		border:1px solid #eee;
+    	text-indent: 1em;
+    	height:40px;
+    	margin-bottom:30px;
+	}
+	.month-form{
+		width:268px;
+		border:1px solid #eee;
+    	text-indent: 1em;
+    	height:40px;
+    	margin-bottom:30px;
+	}
+	.mima{
+		width:320px;
+		background: #eeeeee;
+		border: none;
+    	text-indent: 1em;
+    	height: 48px;
+    	margin-bottom: 20px;
+	}
+	.comfirm_mima{
+		width:320px;
+		background: #eeeeee;
+		border: none;
+    	text-indent: 1em;
+    	height: 48px;
+	}
+	.jizhumima{
+		float: left;
+    	margin-top: 10px;
+   	    margin-left: 26px;
+    	font-size: 12px;
+    	color: #E0DBDB;
+	}
+	.wangjimima{
+		float: left;
+    	margin-top: 20px;
+    	margin-left:180px;
+    	font-size: 12px;
+    	color: #626f7e;
+	}
+	a.wangjimima:hover,a.wangjimima:focus{
+		text-decoration:none;
+		color:#02c084;
+	}
+	.denglu_button{
+		width:320px;
+		height:48px;
+		margin-left:157px;
+		background:#02c084;
+		border: none;
+		color:#fff;
+		position:absolute;
+		letter-spacing:10px;
+	}
+	
+	.right{
+		float:right;
+		border-left: 2px dotted #02c084;;
+	}
+	.lijizhuce{
+		width: 130px;
+		color:#02c084;
+		display:block;
+		border: 1px solid #02c084;
+		border-radius: 3px;
+   	    height: 40px;
+    	line-height: 40px;
+    	text-align: center;
+    	margin: 30px 0 100px 82px;
+	}
+	a.lijizhuce:hover,a.lijizhuce:focus{
+		text-decoration:none;
+		color:#02c084;
+	}
+	
+	.register_info{
+		text-align:center;
+		color:#353535;
+	}
+	.register_info span{
+		background:#eeeeee;
+	}
+	.yanzhengma{
+		width:210px;
+		background: #eeeeee;
+		border: none;
+    	text-indent: 1em;
+    	height: 48px;
+    	margin:0 10px 20px 0;
+	}
+	.verification_code{
+		width: 100px;
+    	background: #02c084;
+    	border: none;
+    	text-align: center;
+    	height: 48px;
+    	line-height:48px;
+    	float: right;
+    	color:#fff;
+	}
+	a.verification_code:hover{
+		color:#fff;
+		text-decoration:none;
+	}
+	.radios{
+		background-color: #02c084;
+    	float: left;
+    	margin-right:10px;
+	}
+	.zhuce_xieyi{
+		margin:30px 0 0px 0;
+	}
+	.g_main{
+		margin-top:42px;
+	}
+	.g_main p{
+		color: #7d7d7d;
+	}
+	.g_main span{
+		color: #02c084;
+		font-size: 30px;
+	}
+	.g_main .g_dh{
+		white-space:nowrap;
+	}
+	#bigclass input{
+		display:inline;
+	}
+	#selectitem input {
+		display:inline;
+	}

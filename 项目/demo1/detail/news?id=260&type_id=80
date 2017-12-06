@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="Keywords" content="长沙理工大学云就业平台 云就业 高校 大学 大学生 就业 就业网 就业信息网 就业指导 就业指导中心 就业中心 创业 创业指导"/>
+<meta name="Description" content="长沙理工大学云就业平台 云就业 高校 大学 大学生 就业 就业网 就业信息网 就业指导 就业指导中心 就业中心 创业 创业指导"/>
+<link href="/skin/blue/??public/css/global.css,public/css/layout.css,public/css/common.css?20170321" rel="stylesheet">
+<link rel="stylesheet" href="/public/css/base/base.css">
+<link rel="icon" href="http://pic.bibibi.net/public/images/icon/favicon.ico?1" otype="image/x-icon"/>
+<link rel="shortcut icon" href="http://pic.bibibi.net/public/images/icon/favicon.ico?1" type="image/x-icon"/>
+<style type="text/css">
+    </style>
+    <meta name="Keywords" content="解读招聘笔试那些事儿，考的是什么，怎么考"/>
+    <title>解读招聘笔试那些事儿，考的是什么，怎么考-文章详情</title>
+    <link href="/skin/blue/??public/css/global.css,public/css/layout.css,public/css/common.css,css/details/details.css?20170321"
+          rel="stylesheet">
+    <style>.btn-disabled {
+        background-color: #d3d3d3;
+        cursor: default
+    }
+
+    .btn-disabled:hover {
+        color: #333
+    }
+
+    .dh-info {
+        font-size: 14px
+    }
+
+    .dh-info .time {
+        font-size: 12px
+    }</style>
+    </head>
+<body>
+<input type="hidden" id="token" value="yunyan1869229336">
+<input type="hidden" id="qq_services" value="">
+<div class="header">
+        <div class="inner clearfix">
+        <div class="logo" id="logo">
+            <a href="javascript:;" class="logo-link">
+                <img src="http://yun-campus-res.oss-cn-shenzhen.aliyuncs.com/school/1490080178-7469.png"/>
+            </a>
+        </div>
+                            <div class="pub-search" id="search_bar" style="position:absolute;right:0;bottom:10px;display:none;">
+                    <div class="search-inner">
+                <div class="search-txt-wrap" style="background-color:#fff;">
+
+                    <input class="search-txt" placeholder="搜索你感兴趣的内容" id="G_keyword" type="text" onkeydown="if(event.keyCode==13){location.href='/module/search?keyword='+G_keyword.value;}">
+                </div>
+                <a class="search-btn has-icon-svg" id="search_btn" onclick="location.href='/module/search?keyword='+G_keyword.value;">
+                    <span class="icon-svg icon-svg-search"></span>
+                </a>
+            </div>
+        </div>
+                <div style="width:80px;float:left;margin-top:10px;margin-left:20px;">
+            <img src="http://pic.bibibi.net/public/images/other/s-yunyan1869229336.png">
+        </div>
+                <div style="width:100px;float:right;">
+                                                        </div>
+    </div>
+</div>
+</div>
+<div class="main-nav">
+    <div class="inner">
+        <!--导航-->
+        <ul class="nav-list clearfix" id="main_nav">
+            <li class="item ">
+                <a href="/index" class="item-link">首页</a>
+                            </li>
+                        <li class="item ">
+                <a href="/detail/news?id=249&menu_id=35"
+                    class="item-link"  >学校概况</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/detail/news?id=249&menu_id=35">学校简介</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=78&menu_id=35">办学特色</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/detail/news?id=253&menu_id=35">部门概况</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/detail/news?id=254&menu_id=35">机构设置</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/detail/news?id=255&menu_id=35">岗位职责</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=13&menu_id=41"
+                    class="item-link"  >新闻公告</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=102&menu_id=41">焦点新闻</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=13&menu_id=41">就业快讯</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/careers?menu_id=44"
+                    class="item-link"  >招聘信息</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/careers?menu_id=44">校内宣讲会</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/careers?type=outer&menu_id=44">校外宣讲会</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/jobfairs?menu_id=44">校内双选会</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link" target="_blank" href="/module/jobfairs?type=2&menu_id=44">校外双选会</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/onlines?menu_id=44">在线招聘</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/jobs?is_practice=0&menu_id=44">正式岗位</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/jobs?is_practice=1&menu_id=44">实习岗位</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=79&menu_id=51"
+                    class="item-link"  >生源信息</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=79&menu_id=51">生源速览</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=99&menu_id=51">学院专业</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=100&menu_id=51">硕士点</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=101&menu_id=51">博士点</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=80&menu_id=56"
+                    class="item-link"  >就业指导</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=80&menu_id=56">就业指导</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=83&menu_id=56">政策法规</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=103&menu_id=56">职业测评</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=104&menu_id=56">网上学堂</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=84&menu_id=56">求职技巧</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=105&menu_id=56">典型事迹</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=81&menu_id=56">创新创业</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=11&menu_id=61"
+                    class="item-link"  >服务指南</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=11&menu_id=61">办事流程</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=85&menu_id=61">常用下载</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=87&menu_id=65"
+                    class="item-link"  >专项计划</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=87&menu_id=65">预征入伍</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=88&menu_id=65">公务选调</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=89&menu_id=65">村官计划</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=98&menu_id=65">西部志愿</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=90&menu_id=65">特岗教师</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=91&menu_id=65">三扶一持</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="?menu_id=1230"
+                    class="item-link"  >报到证/档案查询</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link" target="_blank" href="http://www.hunbys.com/hnbys/archives.do?m=loadSearchJyfa2&menu_id=1230">报到证查询</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link" target="_blank" href="http://222.240.152.232/index.asp?w=web&menu_id=1230">档案查询</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=86&menu_id=154"
+                    class="item-link"  >联系我们</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=86&menu_id=154">联系我们</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                    </ul>
+    </div>
+</div>
+<div class="container">
+    <div class="inner">
+        <div class="content clearfix">
+                        <div class="side">
+                <div class="side-menu-wrap">
+    <ul class="side-menu">
+                <li class="sm-item curr">
+            <p class="sm-tit">
+                <a href="/module/news?type_id=80" class="sm-link">
+                    <span class="sm-text">网站-就业-就业指导</span>
+                </a>
+            </p>
+        </li>
+            </ul>
+</div>                            </div>
+                        <div class="main">
+                <div class="main-inner detail-main">
+                    <div class="pub-curr-pos">
+                        <a class="cp-link has-icon-svg" href="/index"><span
+                                class="icon-svg icon-svg-home"></span>网站首页</a>
+                        <span class="cp-arrow">&gt;</span>
+                        <a class="cp-link"
+                           href="/module/news?type_id=80">网站-就业-就业指导</a>
+                        <span class="cp-arrow">&gt;</span>
+                        <span class="cp-text">详情</span>
+                    </div>
+                    <div class="bshare-custom" style="text-align: right">
+                        <div class="bsPromo bsPromo2"></div>
+                        <a title="分享到微信" class="bshare-weixin" href="javascript:void(0);"></a><a title="分享到QQ好友"
+                                                                                                 class="bshare-qqim"
+                                                                                                 href="javascript:void(0);"></a><a
+                            title="分享到新浪微博" class="bshare-sinaminiblog" href="javascript:void(0);"></a><a
+                            title="分享到QQ空间" class="bshare-qzone"></a><a title="分享到腾讯微博" class="bshare-qqmb"></a><a
+                            title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a><span
+                            class="BSHARE_COUNT bshare-share-count" style="float: none;">31.5K</span></div>
+                    <script type="text/javascript" charset="utf-8"
+                            src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh"></script>
+                    <script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
+                    <div class="news-details" id="data_details">
+                        <div class="details-head" style="position: relative">
+                            <h1 class="dh-tit"
+                                style="font-weight:normal;text-align: center;line-height: 50px">解读招聘笔试那些事儿，考的是什么，怎么考</h1>
+                            <p class="dh-info" style="text-align: center">
+
+                                                            <span class="time">2015年12月23日</span>
+                                &nbsp;
+                                <span class="time">点击量:2851</span>
+                            </p>
+                                                    </div>
+                        <div class="details-content">
+                            
+                                                        <h5 style="margin: 0px; padding: 0px; font-weight: 400; white-space: normal; font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, Arial, sans-serif; max-width: 100%; color: rgb(62, 62, 62); font-size: 16px; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; max-width: 100%; color: rgb(247, 150, 70); font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; box-sizing: border-box !important; word-wrap: break-word !important;">1. 笔试类型</span></h5><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 1em; font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, Arial, sans-serif; max-width: 100%; word-wrap: normal; white-space: pre-wrap; color: rgb(62, 62, 62); box-sizing: border-box !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"><br/></span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 1em; max-width: 100%; word-wrap: normal; white-space: pre-wrap; color: rgb(62, 62, 62); box-sizing: border-box !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;">笔试根据内容来分，主要有以下两类：</span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 1em; max-width: 100%; word-wrap: normal; white-space: pre-wrap; color: rgb(62, 62, 62); box-sizing: border-box !important; background-color: rgb(255, 255, 255);"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; margin: 0px; padding: 0px;"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></span><span style="font-family: 微软雅黑; margin: 0px; padding: 0px; max-width: 100%; color: rgb(247, 150, 70); box-sizing: border-box !important; word-wrap: break-word !important;">1. 技术性笔试<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>2. 非技术性笔试<br/></span></span><font face="Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft YaHei, 微软雅黑, Arial, sans-serif"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></font><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"><span style="font-family: 微软雅黑; margin: 0px; padding: 0px;">按笔试考察的目标来分，主要有以下几类：</span></span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 1em; max-width: 100%; word-wrap: normal; white-space: pre-wrap; color: rgb(62, 62, 62); box-sizing: border-box !important; background-color: rgb(255, 255, 255);"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"><span style="font-family: 微软雅黑; margin: 0px; padding: 0px;"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></span><span style="max-width: 100%; margin: 0px; padding: 0px; font-family: 微软雅黑; box-sizing: border-box !important; word-wrap: break-word !important;">第一，分析问题的能力。</span></span><font face="Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft YaHei, 微软雅黑, Arial, sans-serif"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></font><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"><span style="font-family: 微软雅黑; margin: 0px; padding: 0px;">像上文谈到的港龙航空的两个笔试题，都对应试者的分析问题的能力有着重的考察。这里面又主要的包括两个方面的能力，第一个是结构化思维的能力，你分析问题的过程是不是有逻辑性，能不能够按照提出问题——分析问题——解决问题的结构来布局你的写作，各个环节之间的逻辑关系是不是清晰，哪些是第一个层面的内容，哪些是第二个层面的内容。有的时候我们还可以借用一些现成的分析工具来帮助我们结构化我们的表达。以港龙航空的第二个笔试题来说，如果你能够想到利用SWOT模型或者波特的五力分析工具来作为你的总纲对港龙航空的战略能力做一个分析的话，其结构会更加的完整和有条理。第二个是多角度分析问题的能力，这主要考察的是思维的发散性和拓展性。你能不能够从不同的角度来分析问题，而不是仅仅局限于现有的框架。一个事件本身，其影响可能是多方面的，你能不能够把这些彼此相关的、具有内在的联系的前因后果联系起来，这是你做好这一类英文写作笔试的第二个关键。多角度分析问题的能力还涉及到思维的完整性，当你考虑一个问题的时候，你是不是仅仅想到一点写一点，还是能够把这个问题的方方面面都考虑得比较完善和透彻。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></span><span style="max-width: 100%; margin: 0px; padding: 0px; font-family: 微软雅黑; box-sizing: border-box !important; word-wrap: break-word !important;">第二，英文的书面表达能力。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></span></span><font face="Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft YaHei, 微软雅黑, Arial, sans-serif"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></font><span style="margin: 0px; padding: 0px; font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;">如果说分析能力是你的方法和路径，那么表达能力就是你的手段和工具。若你只是能够分析问题，缺乏系统和有效的表达能力和技巧，你同样不能够把你的想法和思路传达给阅卷人，因为最终他是要通过你的书面记录下来的文字来判断你的分析和解决问题的能力的。书面表达能力还需要有很多东西来支撑，比如词汇量、英文写作的思维方式和驾驭文字的能力。这些是需要通过长期的积累和实践才能够获得的能力，在后面的笔试准备环节，还会具体的谈到。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>上述两类笔试内容都是最常见的笔试类型，出现的几率也最到。在现实的招聘中，大部分的外企都是采用这样的笔试题型的。除此以外，还有一些笔试的类型，出现的频率不高，但是也具备一定的代表性，在这里做一个归纳介绍。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>第一种是考察简单的数理分析能力，典型的题型包括数列的规律，速算，平面几何和立体几何的一些简单应用。一般来说，这类题型不提供也不允许携带计算器。在2004年万科企业集团的笔试，强生(中国)1的笔试以及瑞安集团的笔试中都出现了类似的题目。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>第二种是对于知识域的考察，所谓知识域，主要包括一些常识性的问题和时事方面的内容。很多题目本身相互之间并没有内在的联系，想要在笔试前做一个短期的突击复习，覆盖到这些内容的可能性不大。所以知识域的考察注重的是应试者平时对于常识性问题和时事政治的关心程度，这些内容分布广，涵盖了政治、经济、社会和人文的方方面面，因此重要平时的积累。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>第三种是语言理解和表达能力的测试，比较类似于高考的语文，例如，对于语病的判断，选择合适的词填入，成语的辨析，句群大意的归纳等等。在2004年万科集团和强生(中国)的笔试中，这部分内容同样有涉及。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>第四种是逻辑推理的问题。逻辑推理的问题又主要的包括两种题型，一是图形的推理题，指通过寻找一定的规律来找出相似的图形或者不属于同类的图形。这是一种形象思维能力和抽象思维能力的复合的考核，而抽象思维的能力，特别是将具体的图形中的相同或者相似的共性找出来并将其元素化的能力是解题的关键所在。在2004年的万科笔试、瑞安集团笔试、港龙航空2笔试和强生(中国)的笔试中，都出现了这样的图形推理题。二是文字的分析推理题，考察的本质是对于充分条件、必要条件和充要条件的理解和判断，但是题目的类型多以生活化的场景来演绎，并不拘泥于简单的数学表达形式。如果你做过GMAT的考题，你甚至不难发现，有些题目是从GMAT的题库中翻译过来的。</span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 1em; max-width: 100%; word-wrap: normal; white-space: pre-wrap; color: rgb(62, 62, 62); box-sizing: border-box !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; margin: 0px; padding: 0px; color: rgb(0, 32, 96);">招聘笔试题分类详解： <br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>Numerical Test<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></span></span><span style="color: rgb(0, 32, 96); margin: 0px; padding: 0px; font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"><a href="http://www.dajie.com/corp/3489427/discuss/270643" target="_blank" style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(37, 149, 183);">http://www.dajie.com/corp/3489427/discuss/270643</a><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><a href="http://www.dajie.com/corp/3489427/discuss/270645" target="_blank" style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(37, 149, 183);">http://www.dajie.com/corp/3489427/discuss/270645</a><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>图形推理题<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><a href="http://www.dajie.com/corp/3489427/discuss/270653" target="_blank" style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(37, 149, 183);">http://www.dajie.com/corp/3489427/discuss/270653</a><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>逻辑推理及智力题<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><a href="http://www.dajie.com/corp/3489427/discuss/270655" target="_blank" style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(37, 149, 183);">http://www.dajie.com/corp/3489427/discuss/270655</a><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>言语理解与表达能力<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 1em; font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, Arial, sans-serif; max-width: 100%; word-wrap: normal; white-space: pre-wrap; color: rgb(62, 62, 62); box-sizing: border-box !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; color: rgb(0, 32, 96); font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"><a href="http://www.dajie.com/corp/3489427/discuss/270656" target="_blank" style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(37, 149, 183);">http://www.dajie.com/corp/3489427/discuss/270656</a><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>案例分析题<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><a href="http://www.dajie.com/corp/3489427/discuss/270657" target="_blank" style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(37, 149, 183);">http://www.dajie.com/corp/3489427/discuss/270657</a><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>写作能力题<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 1em; font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, Arial, sans-serif; max-width: 100%; word-wrap: normal; white-space: pre-wrap; color: rgb(62, 62, 62); box-sizing: border-box !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; color: rgb(0, 32, 96); font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"><a href="http://www.dajie.com/corp/3489427/discuss/270659" target="_blank" style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(37, 149, 183);">http://www.dajie.com/corp/3489427/discuss/270659</a></span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 1em; font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, Arial, sans-serif; max-width: 100%; word-wrap: normal; white-space: pre-wrap; color: rgb(62, 62, 62); box-sizing: border-box !important; background-color: rgb(255, 255, 255);"><br/></p><h5 style="margin: 0px; padding: 0px; font-weight: 400; white-space: normal; font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, Arial, sans-serif; max-width: 100%; color: rgb(62, 62, 62); font-size: 16px; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; max-width: 100%; color: rgb(247, 150, 70); font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; box-sizing: border-box !important; word-wrap: break-word !important;">2. 技术类笔试概要及应对准备</span></h5><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 1em; font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, Arial, sans-serif; max-width: 100%; word-wrap: normal; white-space: pre-wrap; color: rgb(62, 62, 62); box-sizing: border-box !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;">这类笔试主要针对研发型和技术类职位的应聘，这类职位的特点是，对于相关专业知识的掌握要求比较高，题目特点是主要关于涉及工作需要的技术性问题，专业性比较强。这类考试的结果，和同学们的大学四年的学习成绩密不可分。所以，要成功应对这类的考试，需要坚实的专业基础。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>一般大型公司，如IBM，Microsoft，Oracle等在招聘R&amp;D职位都会进行这样的笔试。例如微软工程院在2004年安排的笔试，都是关于C、C++语言的题目，对应聘者的编程经验要求非常高。最后经过笔试筛选，淘汰了90%的候选者，由此可见笔试对技术性职位的重要性。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>对本科生而言，专业笔试主要考察基础知识、基本技能，而不是很高深的学问，一般都是专业基础课。比如电路分析、模拟电路、会计学、财政学等等。在本书前面多次提到的张达在谈到他在中国移动的最后一轮面试时说：“当时面试的内容主要是技术型问题，我都没听说过的技术，结果我只能结合自己的知识讲讲我的看法，结果过了，我猜他们可能只是想看看我有没有那个常识应聘编程职位。”<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>对于这类技术性岗位，大公司和小公司的笔试内容的侧重点有很大区别的。一般小公司注重实用性，考的比较细，目的就是拿来就用。大公司则强调基础和潜力，所以考得比较泛，多数都是智力测验，情感测验，还有性格倾向测验。例如Motorola曾经的笔试内容就主要是非技术的，有很多英文阅读和智力测验。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>对于大公司的笔试，建议可以看看公务员考试的教材，有很多智商题，也有很多综合性问题，这类问题对大公司的笔试是很有帮助的。</span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 1em; font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, Arial, sans-serif; max-width: 100%; word-wrap: normal; white-space: pre-wrap; color: rgb(62, 62, 62); box-sizing: border-box !important; background-color: rgb(255, 255, 255);">
+	<br/></p><h5 style="margin: 0px; padding: 0px; font-weight: 400; white-space: normal; font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, Arial, sans-serif; max-width: 100%; color: rgb(62, 62, 62); font-size: 16px; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="color: rgb(247, 150, 70); margin: 0px; padding: 0px; max-width: 100%; font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; box-sizing: border-box !important; word-wrap: break-word !important;">3. 非技术类笔试概要及应对准备</span></h5><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 1em; font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, Arial, sans-serif; max-width: 100%; word-wrap: normal; white-space: pre-wrap; color: rgb(62, 62, 62); box-sizing: border-box !important; background-color: rgb(255, 255, 255);"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"><span style="margin: 0px; padding: 0px; font-family: 微软雅黑;">这类笔试一般来说更常见，对于应试者的专业背景的要求也相对宽松。非技术性笔试的考察内容相当广泛，除了常见的英文阅读和写作能力、逻辑思维能力、数理分析能力外，有些时候还会涉及到时事政治、生活常识、情景演绎，甚至智商测试等。下面我们来做一个详细的介绍和分析。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>英文笔试是在所有的笔试中占的比例最大的一类非技术性笔试，其考察的重点主要是阅读理解能力和写作能力，即表达能力。我们结合KPMG笔试的例子来加以说明。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>KPMG的笔试是典型的英文笔试，主要分为两个部分。第一部分是Verbal，阅读理解。这和我们平时常见的大学英语四、六级的阅读理解不同。一方面它更接近于商业英文的表达习惯，文意表达得清楚和规范是最主要的特点，因此它并不讲求句式的繁复和修辞的多变;另一方面，它注重的是逻辑思维能力的考察，因此重要的是把握透过表面的文字的内在的意思。第二部分是Numerical,数学。KPMG的笔试题在这部分是中文的，难度相对降低很多，但是我也做到过很多是英文的，比如仲量联行。这一部分的主要考察重点不是你的数学运算能力，因而并没有上升到高等数学的难度，因此无论你是否学过微积分和导数的运算都并不影响你这一部分的发挥。和阅读相似的，数学部分的考察内容也是以商业英文为主，因此他注重的是从数字和图表中获得有用的信息的能力。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>对于这样的英文笔试，还有一个非常重要的考察点就是速度，也许这样的试题，给你一天的时间，大部分人都能够做得八九不离十，但问题是只有一个小时。我做过粗略的统计，这样的一份试题，能够在规定时间内做完(注意是做完，不是把答题卡涂完)的人，不超过10%。对于KPMG来说，这一轮的淘汰率高达85%以上。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>英文笔试还有一类非常重要的形式，就是英文写作的考察。有些公司的笔试，是结合了前面所述的英文阅读测试和写作测试的，有些则是专门考察英文写作能力的。下面我们来看几个例子。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>2004年普华永道在上海的笔试题目为英文写作，两个题目任选一个，其中一场的笔试题目是：1,当神州五号载人航天飞行成功后，你想到了什么?2,你是否遇到过特别难应付的人，你是如何成功地和他/她沟通的。港龙航空2004年在上海的笔试题目也是两选一，1, 北京、上海和广州三地内地居民赴港旅游限制的放开对旅游行业有什么影响，2，在日益激烈的航空业竞争中，像港龙航空这样的航空公司如何才能保证竞争力优势。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>典型题型举例——<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></span><span style="margin: 0px; padding: 0px; font-family: 微软雅黑; max-width: 100%; color: rgb(247, 150, 70); box-sizing: border-box !important; word-wrap: break-word !important;">1、逻辑推理题</span><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><span style="max-width: 100%; margin: 0px; padding: 0px; font-family: 微软雅黑; box-sizing: border-box !important; word-wrap: break-word !important;">第1大技巧 计算推导</span><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><span style="margin: 0px; padding: 0px; font-family: 微软雅黑;">计算推导是逻辑推理过程中最基本的方法。我们每个人从小学开始就学会做计算了，但是对于计算的用处究竟有多大，能够透露出多少隐藏在问题背后的信息，就不是人人都清楚的了。事实上，计算和其他推理技巧一样，都是我们进行逻辑推理时最基本、最可靠的工具，特别是在运用代数的方法来解决问题时，它往往能暴露问题的本质，使我们得出充足、可靠的结论。这里只想再提醒你一点，计算推导一定要完备，不能漏掉任何一种情况，哪怕这种情况的出现是如此的不正常。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></span><span style="max-width: 100%; margin: 0px; padding: 0px; font-family: 微软雅黑; box-sizing: border-box !important; word-wrap: break-word !important;">第2大技巧 演绎推理</span><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><span style="margin: 0px; padding: 0px; font-family: 微软雅黑;">演绎是一种由一般到个别的推理方法。在演绎推理过程中，前提和结论之间的联系是必然的，结论不能超出前提所断定的范围。对于一个正确的演绎推理过程，如果其前提是真的，则所得到的结论也一定是真的，这是演绎推理的一个重要特征。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>演绎推理中有一种特殊的方法，称为递推。所谓递推，就是利用研究对象之间的联系，用前一步的结论去推导下一步的结论，以达到简化问题的目的。递推是一种非常有效的思考方法，它有点像多米诺骨牌，推倒第一块以后，后面的骨牌就会依次倒下。如果能够熟练运用递推技巧，你会发现，许多看上去很难的题目也可以轻松地找到答案。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></span><span style="max-width: 100%; margin: 0px; padding: 0px; font-family: 微软雅黑; box-sizing: border-box !important; word-wrap: break-word !important;">第3大技巧 归纳分类</span><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><span style="margin: 0px; padding: 0px; font-family: 微软雅黑;">归纳是一种由个别到一般的推理方法。与演绎推理不同，归纳推理得出的结论不一定绝对正确，所以有时我们称它具有或然性。但归纳推理中有一种特殊的完全归纳推理，应用完全归纳推理时，只要我们考察了该类事物的全部对象，那么结论就必然是完全真实的。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>在进行归纳推理时，一个很重要的技巧就是要对它们进行分类，把它们分成若干个小组，然后分别进行分析。分类可以使每一部分的研究对象都比原来的问题更简单，相互之间的关系更清晰。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></span><span style="max-width: 100%; margin: 0px; padding: 0px; font-family: 微软雅黑; box-sizing: border-box !important; word-wrap: break-word !important;">第4大技巧 反向思考</span><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><span style="margin: 0px; padding: 0px; font-family: 微软雅黑;">反向思考是解决逻辑推理问题的一种特殊方法。任何一个问题都有正反两个方面。所谓正难则反，很多时候，从正面解决问题相当困难，这时如果从其反面去想一想，常常会茅塞顿开，获得意外的成功。这就是反向思考。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>在进行逻辑推理时，有时已知的条件很多，能够运用的逻辑关系也很复杂，要从众多的可能性中寻找所需要的结果，往往是非常困难的。这时，我们可以运用反向思考方法，从结果出发，排除掉一些不可能的情况，使剩下的情况减少，便于我们最后的分析。如果情况减少到一定程度，我们甚至可以用穷举的方法，依次考察所有情况，从而找到问题的答案。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></span><span style="max-width: 100%; margin: 0px; padding: 0px; font-family: 微软雅黑; box-sizing: border-box !important; word-wrap: break-word !important;">第5大技巧 图表分析</span><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><span style="margin: 0px; padding: 0px; font-family: 微软雅黑;">在逻辑思考过程中有这样一些问题，所涉及或所列出的事物情况比较多，而且又具有一定的表列特征，这时候如果我们把它转化成一个直观易读的图形或者表格，就会非常容易地迅速寻找到答案。图表会给我们指出一些逻辑关系链，它们限制了选择的可能性，使得我们需要考虑的情况得到极大的简化。假如不利用图表的帮助，单凭想像，则往往容易产生混乱，难于理清头绪。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>除了用图表来展现我们看到的问题以外，有时候我们还需要研究别人提供的图表。这时，看出图像的本质就很重要了。有一种常见的方式剥出图像的本质，那就是染色。所谓染色，就是将研究对象按照一定的要求涂上颜色来解决问题。实质上，染色就是利用图形和颜色来进行分类，从而更加直观地显现出问题的本质。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></span><span style="max-width: 100%; margin: 0px; padding: 0px; font-family: 微软雅黑; box-sizing: border-box !important; word-wrap: break-word !important;">第6大技巧 思维变换</span><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><span style="margin: 0px; padding: 0px; font-family: 微软雅黑;">在逻辑推理过程中，我们经常需要改变自己的思路，也就是进行思维变换，它往往可以使问题变得更容易解决。这里我们着重介绍两种重要的思维变换技巧：对应和转化。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></span></span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 1em; font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, Arial, sans-serif; max-width: 100%; word-wrap: normal; white-space: pre-wrap; color: rgb(62, 62, 62); box-sizing: border-box !important; background-color: rgb(255, 255, 255);"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"><span style="margin: 0px; padding: 0px; font-family: 微软雅黑;">所谓对应，就是将两类元素一一对应，从而把我们需要解决的元素，变换成与其相对应的另外一些元素。对应可以使我们不用去处理问题中较复杂的部分，从而达到简化问题的效果，使问题的解决更方便一些。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>转化就是将一个问题转变成另外一个问题来加以解决。和对应有些类似，转化也运用了一一对应的方式，差别在于它更偏重于把整个问题都转化为另一个问题。通常情况下，是将复杂的问题转化为较简单的问题，或者是将一个未解决的问题转化为一个已经解决的问题。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></span><span style="margin: 0px; padding: 0px; font-family: 微软雅黑; max-width: 100%; color: rgb(247, 150, 70); box-sizing: border-box !important; word-wrap: break-word !important;">2、语言理解和表达题</span><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><span style="max-width: 100%; margin: 0px; padding: 0px; font-family: 微软雅黑; box-sizing: border-box !important; word-wrap: break-word !important;">(一)先看提问方式，明确题目的类型。</span><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><span style="margin: 0px; padding: 0px; font-family: 微软雅黑;">考生首先需要看题目的提问方式，明确题目的类型，有针对性地进行答题。如果设问是主旨概括类题目则需注意答案主要是对题干的概括;如果设问是意在强调类，则需注意答案可能意在言外;如果设问是寓言故事、启示、道理类，则需注意答案一般不是就事论事，而是提升到精神的层面。当然还有其他的类别如细节理解型、词句理解型、结构推断型、语句填充排序型，每一类型的题目答题的重点都不一样，在此尤其需要注意。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></span><span style="max-width: 100%; margin: 0px; padding: 0px; font-family: 微软雅黑; box-sizing: border-box !important; word-wrap: break-word !important;">(二)再读题干材料，抓住文章结构，锁定关键词句。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></span><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><span style="margin: 0px; padding: 0px; font-family: 微软雅黑;">题干材料往往内容信息量很大，但考生并不需要一一把握，而要学会抓住隐藏的有效信息，这样才能节省大量不必要的阅读时间。这就要求考生在读题干材料时并不是简单的阅读，而是要注意寻找对解题有提示作用的关键词、关键句、主题词或者题干结构。题干材料的关键词一般是关联词或者总结性的能表达作者观点的词;关键句则主要有首尾句、评论句、疑问句、设问句等等;题干结构则主要有总分结构、分总结构、转折结构、递进结构、因果结构等等。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></span><span style="max-width: 100%; margin: 0px; padding: 0px; font-family: 微软雅黑; box-sizing: border-box !important; word-wrap: break-word !important;">(三)最后快速筛选答案，适当采用排除法。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></span><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><span style="margin: 0px; padding: 0px; font-family: 微软雅黑;">筛选答案尤其要注意正确选项与错误选项的特征。一般而言，正确选项是对主旨句或者关键句的同义替换。而错误选项则各有千秋，如偷换概念、强加因果、无中生有、混淆是非等等。同时，考生可对表达过于绝对、错误比较明显的选项运用排除法，提高做题速度和正确率。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></span><span style="max-width: 100%; margin: 0px; padding: 0px; font-family: 微软雅黑; box-sizing: border-box !important; word-wrap: break-word !important;">(四)选词填空题应寻找提示信息。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></span><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><span style="margin: 0px; padding: 0px; font-family: 微软雅黑;">选词填空题目解题的关键在于寻找提示信息。因为正确选项只有一个，命题人为了保证正确选项的唯一性，在空缺处的上下文设置一些提示线索。公务员考试教材中心的专家提醒广大考生在答题中尤其要注意空缺处的前后文，根据提示信息选出适当词语。选词填空的提示信息一般可从语境、标点、修辞、关联词或者感情色彩等方面寻找提示信息。同时，如果习惯搭配用法可直接定位正确选项。公务员考试综合教材在言语理解与表达一章中对此有详细介绍，可以帮助考生有效分析筛选出正确答案，掌握言语理解各类题型的答题思路和技巧。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>需要提醒考生的是，要做好选词填空题要求考生平时要增大自己的阅读量，培养自己良好的语感。语感是靠多年学习、使用母语所形成的感觉，它可以作为考生判断选项正误的可靠基础。考生在考场上，需要在最短的时间内迅速而准确地把握整句、整段的中心和意义，要求考生具有良好的语感。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></span><span style="margin: 0px; padding: 0px; font-family: 微软雅黑; max-width: 100%; color: rgb(247, 150, 70); box-sizing: border-box !important; word-wrap: break-word !important;">3、案例分析题</span><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><span style="margin: 0px; padding: 0px; font-family: 微软雅黑;">案例分析题是一种综合性较强的题目类型，它要求考生对此进行仔细阅读和分析。然后运用某种基本原理和理论知识对所提出的问题进行解答，或作出评价。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>解答案例分析题，考生应该仔细阅读背景材料。为增强针对性，一个很好的办法是带着问题进行阅读。因为试题中的问题会在背景材料中有直接或间接的某种暗示。把握题意后，紧接着就应该确立分析重点，考虑需要运用哪些理论知识或原理来进行分析。就解题思路及具体分析过程中的要求来说，案例分析题的解答同论述题有着较大的相似之处。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>此外，考生在确立分析的原理或理论知识时，也要有主次之分，切忌面面俱到，以免被一些细枝末节的事情或现象所困扰。原理的选用应该有较强的代表性，使之为重点内容的分析服务，从而提高答题的整体质量。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>最后需要注意的是，考生在答题过程中必须摆正自己的位置，不能将自己置身于当事人的位置，而应以一个局外人的身份对此进行客观地分析或评价。</span></span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 1em; font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, Arial, sans-serif; max-width: 100%; word-wrap: normal; white-space: pre-wrap; color: rgb(62, 62, 62); box-sizing: border-box !important; background-color: rgb(255, 255, 255);"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"><span style="margin: 0px; padding: 0px; font-family: 微软雅黑;"><br/></span></span></p><h5 style="margin: 0px; padding: 0px; font-weight: 400; white-space: normal; font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, Arial, sans-serif; max-width: 100%; color: rgb(62, 62, 62); font-size: 16px; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="color: rgb(247, 150, 70); margin: 0px; padding: 0px; max-width: 100%; font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; box-sizing: border-box !important; word-wrap: break-word !important;">4. 笔试过程中要注意哪些方面？</span></h5><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 1em; font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, Arial, sans-serif; max-width: 100%; word-wrap: normal; white-space: pre-wrap; color: rgb(62, 62, 62); box-sizing: border-box !important; background-color: rgb(255, 255, 255);"><span style="color: rgb(247, 150, 70); margin: 0px; padding: 0px; max-width: 100%; font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; box-sizing: border-box !important; word-wrap: break-word !important;"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 1em; font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, Arial, sans-serif; max-width: 100%; word-wrap: normal; white-space: pre-wrap; color: rgb(62, 62, 62); box-sizing: border-box !important; background-color: rgb(255, 255, 255);"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"><span style="max-width: 100%; margin: 0px; padding: 0px; font-family: 微软雅黑; box-sizing: border-box !important; word-wrap: break-word !important;">(一)笔试的准备</span><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><span style="margin: 0px; padding: 0px; font-family: 微软雅黑;">笔试本身就是一种能力的测试，加上它的高淘汰率，因此想要通过短期内的突击提高笔试的应试能力的想法都是不十分现实的。无论是英文的书面表达能力，逻辑思维的能力和分析问题的能力还是对于知识域的了解和掌握，都是一种长期的实践和积累，并不是可以一蹴而就的。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></span><span style="margin: 0px; padding: 0px; font-family: 微软雅黑; max-width: 100%; color: rgb(247, 150, 70); box-sizing: border-box !important; word-wrap: break-word !important;">1.英文阅读和写作的准备</span><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><span style="margin: 0px; padding: 0px; font-family: 微软雅黑;">1)通过阅读来培养语感首先，对于英文阅读而言，很重要的一点是要培养对于笔试的英文的语感。由于大部分的笔试英文和商业英文在表达习惯和表达技巧方面的相似性，以及内容方面的相通性，因此，通过阅读一定量的商业英文来培养语感，进而熟悉笔试英文阅读理解是一个很好的途径。你可以通过有选择的阅读商业英文报刊或者网站(例如BusinessWeek.com)来获得这方面的素材。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>2)阅读和分析理解相结合其次，笔试的英文不是看小说，看过就算，重要的是对文章内容的理解，而你平时涉猎的素材，是不可能在文章后面出几个判断题的。因此，我建议你在阅读这些文章的时候，有意识的在读完整篇之后，停下来想一想，它说了哪些内容，是怎么来组织文章的观点和论据的，你在阅读的时候有没有碰到什么理解上的困难，是因为词汇量的不足还是对含义把握能力的欠缺。当你每次都能够做这样的一个简单的回顾工作时，你的阅读能力的提升会更快。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>3)亲手动笔写作对于英文的写作，光靠看是不能够解决问题的。当然写作的练习应当建立在一定的阅读的基础上，因为通过阅读你可以借鉴作者的表达技巧和分析问题的思路和方法，但是更重要的是你自己的实践，看得再多，不亲手动笔去写、去实践，对于你自身写作能力的提高作用仍然是有限的。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>阅读和写作本身是两个相辅相成的过程，良好的阅读可以指导你的写作，而写作的积累也同样要求你有相适应的阅读。这里我有一点小小的个人经验和大家分享，你如何来检验你的阅读能力的提高?阅读的能力达到一定水平的标准，是你能够分得出写得“好”的文章和写的“坏”的文章。我们对于中文的阅读都有这样的能力，好的文章和坏的文章一眼就能看出来，当你对于英文的文章也有同样的敏感的时候，当你能够明显的感觉到好的文章结构清晰、逻辑严密、表达完善和严谨的时候，你的阅读能力就能够满足笔试英文阅读的要求了。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>4)模拟实战训练如果你真的希望有一些实战的训练的话，那么有一些网络的资源你可以利用。例如有一家叫做SHL的香港公司，是专门从事求职方面的英文笔试的出卷的。很多著名的公司，如KPMG，恒生银行3的都采用SHL的试题。SHL有官方的网站，在那里，通过免费注册可以进行一些简单的模拟训练。再比如，香港生产力促进局(Hong Kong Productivity Council)也是为很多的公司提供笔试题目的，当然这些内容在网上并不多。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></span><span style="margin: 0px; padding: 0px; font-family: 微软雅黑; max-width: 100%; color: rgb(247, 150, 70); box-sizing: border-box !important; word-wrap: break-word !important;">2.技术性笔试的准备</span><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><span style="margin: 0px; padding: 0px; font-family: 微软雅黑;">对于这类技术性笔试，首先考前应该结合具体职位看相关资料，了解笔试内容，做到心中有数。其次要了解笔试重点，进行认真复习。每个学科都有一两门概念性的课程，笔试之前多看看这方面的教材。如果以前确实学过，那应该有笔记或者自己的复习提纲。把最主要的、当时书里最强调的看看，不用看得太细。比如说，职位要求你要会C++，那笔试之前应该先用用，熟悉基本的知识点。还有应聘编程职位，数据结构、算法等等也应该看看，尤其是数据结构。比如我们的团队成员在北京移动笔试之前就看了一些通信知识：“当时面试过后，有一个关于移动通信的技术笔试，考了很多移动通信的基础知识，比如信道利用，编码，跨区，切换什么的。幸好我在之前看了移动通信那课程的讲义。”<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>另外保持稳定的心态也是非常重要的。要客观冷静地对自己进行正确评估，相信自己的实力，克服自卑心理，增强自信心。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></span></span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 1em; font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, Arial, sans-serif; max-width: 100%; word-wrap: normal; white-space: pre-wrap; color: rgb(62, 62, 62); box-sizing: border-box !important; background-color: rgb(255, 255, 255);"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"><span style="margin: 0px; padding: 0px; font-family: 微软雅黑; max-width: 100%; color: rgb(247, 150, 70); box-sizing: border-box !important; word-wrap: break-word !important;">3.其他笔试的准备</span><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><span style="margin: 0px; padding: 0px; font-family: 微软雅黑;">除了英文的阅读和写作以及技术性笔试之外，上文中还提到了其他一些笔试的类型。一般来说，对于像数理分析能力，逻辑推理能力和语言表达能力方面的考察，准备的途径并不十分的多，有针对性的准备的效果也不见得特别好。但是，一般来说，大部分的应试者在这一部分的表现都不差。原因在于，虽然不同的应试者的专业背景都不同，但是基本的分析能力和逻辑思维的能力是每一个学科都需要的，在平时的学业中每个人都会有意无意的去练习和拓展自己这方面的能力。因此，虽然笔试的题目你从来没有见过，但是其考察的本质是相同的，只不过，笔试题目以另外一种你并不熟悉的形式来表现而已。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>对于类似于知识域的题目。我们分情况来讨论。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>第一种，只涉及到认知的层面的，你不需要去完整的理解它，但是你不可以不知道它。举上文的例子，强生(中国)的主要业务是医药和医疗器械，它的笔试题中出现了关于载人航天和十六大的内容，但是它对你的考察要求仅仅是了解、听说过。我相信，作为一个大学生，这些基本的时事如果你从来没有听说过，这多少是有一点说不过去的。因此，对于这些内容的笔试与其说是考察知识点的本身不如说是考察你对于留意身边信息的能力。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>第二种，涉及到理解和运用的层面，它不光要求你知道有这样的事，还希望你能够给出一点你对这一问题的理解和看法，而给出你个人的理解和看法的前提是你对这一问题有一个较为完整和清晰的认知。比如CEPA(内地和香港更紧密经贸关系的安排)，我想所有人文社科类，特别是经济管理类专业的同学都应该有充分的了解，因为这是2003年度非常重要的一个事件，并且它将在很长的时间内、很多的领域中产生影响。类似的还有载人航天的成功。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>涉及到理解和运用层面的知识域的考察还特别容易结合英文写作一起出题。在上文中，我们提到了普华永道和港龙航空的笔试题，都体现了对于时事内容的把握和写作能力的双重考察。对于这样的试题，了解你所要去讨论的话题是你成功写好文章的前提和你阐发观点的基础。在这样的笔试中，你平时关于这方面内容的积累显得尤为重要。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>典型笔试题目各个公司，笔试题目也各不相同。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>你所要应聘的职位不同，对同一个问题的回答也就不同。比如说，对于“井盖为什么是圆的”这个问题，应聘销售的人自然要从销售策略方面回答，而应聘技术类职位的人，可以从材料磨损、耐用性等方面考虑。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>所以，对于这种主观性的试题，我们建议你最后结合自身专业和应聘职位的特点区别做答，这样，应该才是最好的结果。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>可以充分利用网络资源，SHL，就是经常给很多外企出笔试题目的那个公司，比如KPMG，恒生等公司的题目都是这个公司提供的。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></span><span style="max-width: 100%; margin: 0px; padding: 0px; font-family: 微软雅黑; box-sizing: border-box !important; word-wrap: break-word !important;">(二)笔试过程中要注意</span><span style="margin: 0px; padding: 0px; font-family: 微软雅黑;">：<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>1、保持稳定的心态。要客观冷静地对自己进行正确评估，想信自己的实力，要克服自卑心理，增强自信心。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>2、要掌握科学的答卷方法。毕业生拿到试卷后，要先通览一遍，然后先解答简单的题，最后再答难题，答题要掌握好主次之分。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>3、特殊情况特殊处理。对试卷中特殊的试题，毕业生千万不要慌张，不要失去信心，应该相信大家的水平相近，要认真分析作答。从这个意义上来讲，笔试考的是你的综合素质。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>4、注意字迹、卷面和考场纪律。毕业生一定要注意按规定的时间到场，不能迟到。<br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/>答题要注意字迹工整，卷面清洁，因为有些用人单位并不特别在意应试者的考分稍许高低，而对应试者的认真的态度、细致的作风更为注意。考试绝对不能作弊或搞小动作，用人单位对这一点也尤为关注。</span></span></p>                            
+                        </div>
+
+                                                <div class="pub-code">
+                                                        <img src="http://pic.bibibi.net/public/images/other/yunyan1869229336.png"/>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="inner">
+                <div class="foot-content">
+            <div class="fc-inner">
+                <p class="foot-nav">
+                                        <a class="item"
+                       href="/detail/news?id=249&menu_id=35">学校概况</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=13&menu_id=41">新闻公告</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/careers?menu_id=44">招聘信息</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=79&menu_id=51">生源信息</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=80&menu_id=56">就业指导</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=11&menu_id=61">服务指南</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=87&menu_id=65">专项计划</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="?menu_id=1230">报到证/档案查询</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=86&menu_id=154">联系我们</a>
+                                    </p>
+                <p class="copyright">
+                    <span class="text">长沙理工大学版权所有</span>
+<span class="line">|</span>
+<span class="text">域名备案信息：湘ICP备05003881号</span>
+<span class="line">|</span>
+<span class="text">前置审核编号：湘教QS3-200505-000255</span>                </p>
+                <p class="copyright">
+                    <span class="text">可信网站验证</span>
+                    <span class="text">诚信网站验证</span>
+                    <span class="text">安全联盟</span>
+                    <span class="text">行业验证</span>
+                    <span class="text">浏览量：今日11372&nbsp;/&nbsp;共计5193446</span>
+                    <a class="item" href="http://www.bibibi.net" target="_blank" style="color:#6d6d6d;">技术支持：云研科技</a>
+                </p>
+                <div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script>
+    var G_MODULES = [
+        ['js/detail', 'news']
+    ];
+</script>
+<script src="/public/js/libs/??seajs/sea.js,3rd/seajs-combo.js,jquery/jquery.1.9.1.min.js,jquery/jquery-extend.js,jquery/pagination.min.js?v=20151103"></script>
+<script>
+    var G_CONFIG = {"version":"20170321","picPath":"http://pic.bibibi.net","aliPath":"http://yun-campus-res.oss-cn-shenzhen.aliyuncs.com","hrSite":"http://hr.bibibi.net"};
+    //版本更新
+    var config = {
+        base: '/',
+        paths: {
+            'libs': 'public/js/libs',
+            'plugs':'public/js/plugs'
+        },
+        comboSuffix: '?v=' + G_CONFIG.version
+    };
+    if(window.__page_ver){
+        config.comboSuffix = config.comboSuffix + __page_ver;
+    }
+
+    _modulePath = [];
+    for (var i = 0, len = G_MODULES.length; i < len; i++) {
+        var module = G_MODULES[i];
+        _modulePath.push(module.join('/'));
+    }
+
+    seajs.config(config);
+
+    _modulePath.push('libs/template');
+    _modulePath.push('plugs/browserCheck');
+    _modulePath.push('plugs/mainNav');
+    _modulePath.push('plugs/floatToolbar');
+    _modulePath.push('plugs/customCombox');
+
+    seajs.use(_modulePath, function () {
+        //主导航
+        $.browserCheck();
+        $('#main_nav').mainNav();
+        $('.j-pub-combox').customCombox();
+
+        // 咨询qq
+        var params = {"site_logo":"http:\/\/yun-campus-res.oss-cn-shenzhen.aliyuncs.com\/school\/1490080178-7469.png","jy_qq":"","logo_text":"","about_us":"<h4 class=\"ii-tit\">\u5173\u4e8e\u6211\u4eec<\/h4>\n<p class=\"ii-text\">\u4e3a\u5b66\u751f\u957f\u8fdc\u53d1\u5c55\u670d\u52a1\uff0c\u4e3a\u5b66\u79d1\u5efa\u8bbe\u548c\u4e13\u4e1a\u53d1\u5c55\u670d\u52a1\uff0c\u4e3a\u5b66\u98ce\u5efa\u8bbe\u670d\u52a1\uff0c\u4e3a\u884c\u4e1a\u548c\u5730\u65b9\u7ecf\u6d4e\u53d1\u5c55\u670d\u52a1\u3002<\/p>","contact_us":"<h4 class=\"ii-tit\">\u8054\u7cfb\u6211\u4eec<\/h4>\n<p class=\"ii-text\">\u8054\u7cfb\u5730\u5740\uff1a\u6e56\u5357\u7701\u957f\u6c99\u5e02\u5929\u5fc3\u533a\u8d64\u5cad\u8def45\u53f7 <\/p>\n<p class=\"ii-text\">\u90ae\u653f\u7f16\u7801\uff1a410076<\/p>\n<p class=\"ii-text\">\u5c31\u4e1a\u79d1\u529e\u516c\u5ba4\uff1a\u91d1\u76c6\u5cad\u6821\u533a\u529e\u516c\u5927\u697c\u9644105<\/p>\n<p class=\"ii-text\">\u670d\u52a1\u70ed\u7ebf\uff1a0731-82309241\uff1b85219289<\/p>\n<p class=\"ii-text\">\u90ae\u7bb1\uff1ajobxx@126.com<\/p>","work_guide":"","contact_dept":"","copyright":"<span class=\"text\">\u957f\u6c99\u7406\u5de5\u5927\u5b66\u7248\u6743\u6240\u6709<\/span>\n<span class=\"line\">|<\/span>\n<span class=\"text\">\u57df\u540d\u5907\u6848\u4fe1\u606f\uff1a\u6e58ICP\u590705003881\u53f7<\/span>\n<span class=\"line\">|<\/span>\n<span class=\"text\">\u524d\u7f6e\u5ba1\u6838\u7f16\u53f7\uff1a\u6e58\u6559QS3-200505-000255<\/span>","institution_like_url":"","site_news_type":"92","site_notice_type":"3","site_employee_base":"","site_theme":"rich","token":"yunyan1869229336"};
+
+        $.floatToolbar({qq:params.jy_qq});
+
+        arguments[0].init(Array.prototype.slice.call(arguments, 1));
+    });
+
+    // footer始终靠底部
+    $('body').css({
+        'display': 'flex',
+        'flex-direction': 'column',
+        'height': 'auto',
+        'min-height': '100%'
+    });
+    $('.container').css({
+        'flex': 'auto'
+    });
+        $('.bar-main').click(function(){
+            $('.float-bar .content-wrap').toggleClass('hide');
+        })
+
+</script>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?9d62b12bee08da154fa2a80d8ee90355";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>

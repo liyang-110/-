@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+body{ font-size:14px;
+font-family:"微软雅黑";
+}
+*{ margin:0px; 
+padding:0px;
+}
+a{ color:#000000; 
+text-decoration:none;
+}
+a:link{ color:#000000; 
+text-decoration:none;
+}
+a:active{ color:#000000; 
+text-decoration:none;
+}
+a:hover{ color:#000000; 
+text-decoration:none;
+}
+a:visited{ color:#000000; 
+text-decoration:none;
+}
+ul{ list-style:none;
+}
+.clear{ clear:both;
+}
+img{ border:0px;
+}
+input select{ vertical-align:middle;
+}
+/*公共样式结束*/
+.container_main{ width:980px;
+margin:10px auto;
+
+}
+.container_main p{ margin:10px 0;}
+.container_main p a:hover{ color:#F00;
+text-decoration:underline;
+}
+
+.xinwen .img-thumbnail{ border-radius:0;
+padding:10px;
+}
+/*xinwen完成*/
+.cont{ margin:10px auto;}
+/*cont_left开始*/
+.cont_left{ width:980px;
+border:1px #CCCCCC solid;}
+.list h1{ background:url(../img/jiantou.png) no-repeat 15px center;
+padding-left:35px;
+font-size:15px;
+margin:0;
+border-bottom:1px #CCCCCC solid;
+height:30px;
+line-height:30px;
+font-weight:bold;
+}
+.search p{ color:#fe8c19;
+margin:0;
+}
+.tab { margin:0 20px;
+}
+.tab .table tbody tr td{ 
+	border-top:0;
+	border-bottom:1px #CCCCCC dashed;
+	text-align:center;
+}
+.tab table{ table-layout: fixed;
+width:950px;
+}
+.tab .table tbody tr td.title{ width:410px;
+white-space:nowrap;
+overflow:hidden;
+text-overflow:ellipsis;
+color:#0289cc;
+}
+.tab .table tbody tr td.title a{ font-size:14px;
+font-weight:normal;
+color:#0289cc;
+}
+.tab .table tbody tr td.title a:hover{ text-decoration:underline;}
+
+/*fenye*/
+.fenye .pagination{ display:table;
+margin:20px auto;
+}
+.fenye .pagination li a{ color:#318dc8;
+border:1px #CCCCCC solid;
+}
+.fenye .pagination li a:hover,.pagination li.active a{ color:#fff;
+background:#318dc8;
+}
+/*cont_right开始*/
+.cont_right{ width:280px;
+}
+.list_top{ border:1px #CCCCCC solid;
+}
+.list_a h1{ text-align:center;
+font-size:15px;
+margin:0;
+border-bottom:1px #CCCCCC solid;
+height:30px;
+line-height:30px;
+font-weight:bold;
+}
+.search form {margin:0 auto;}
+.search{ padding:5px 25px 10px 25px;}
+.search form span{ margin:5px 0;
+display:block;}
+.search .form-control{ height:30px;
+width:230px;
+border-radius:0;
+padding:0 10px;
+color:#686767;
+}
+.search .f{ width:150px;border-right:0;}
+.search .btn-default{ height:30px;
+border-radius:0;
+background:#009f95;
+color:#fff;
+width:48px;
+padding:0;
+}
+
+
+.list_bottom{ margin-top:10px;}
+.list_bottom .ul{ padding:10px;}
+.list_bottom .ul li{ background:url(../img/tubiao.png) no-repeat 0px center;
+padding-left:15px;
+display:block;
+overflow:hidden;
+white-space:nowrap;
+text-overflow:ellipsis;
+line-height:30px;
+border-bottom:1px #CCCCCC dashed;
+}
+.list_bottom .ul li a{ color:#333;}
+.list_bottom .ul li a:hover{ text-decoration:underline;
+}
+
+.more{ text-align:right;
+margin-right:10px;
+margin-bottom:10px;
+}
+.more a{ color:#fd8105;
+}
+.more a:hover{ text-decoration:underline;
+}
+

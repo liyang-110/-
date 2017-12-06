@@ -1,0 +1,1001 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<title> 网络招聘会</title>
+ 
+	<link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
+	<link href="static/css/common-element.css" rel="stylesheet" type="text/css"/>
+    <link href="static/css/wlzph.css" rel="stylesheet" type="text/css"/>
+    <link href="static/css/font-awesome.min.css" rel="stylesheet" media="screen"/>
+    
+    <script src="statics/jquery/1.11.3/jquery.min.js"></script>
+    <script src="static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="statics/artDialog/artDialog.js?skin=aero" charset="utf-8"></script>
+	<script src="statics/artDialog/plugins/iframeTools.js"></script>
+	<script src="static/js/flow.js" type="text/javascript" charset="utf-8"></script>
+	
+</head>
+
+<body> 
+<!--头部架构开始-->
+
+
+<style>
+	.main_nav ul{
+		margin-left:50px;
+	}
+	.site {
+		height:auto;
+	}
+	.site_main .area {
+		border:none;
+		width:auto;
+		height:auto;
+		line-height:1.5em;
+		margin:5px 10px;
+	}
+	.site_main .area a {
+		font-size:16px;
+		letter-spacing:2px;
+		line-height:20px;
+	}
+	.area.site5,.area.site28,.area.site17,.area.site24,.area.site23,.area.site29,.area.site19{
+		font-weight:bolder;
+	}
+	.site_select_panel_close {
+	    right: 30px !important;
+	    top: 30px !important;
+	    font-size: 39px !important;
+    }
+    .main_nav ul{
+        /* text-align: center; */
+        margin-left: 300px;   
+    }
+    .main_nav ul li a{
+        margin-left: 80px;
+    }
+</style>
+<div class="header">
+	 <!--sub_nav结构开始  -->
+     <div class="sub_nav">
+         <div class="sub_nav_inner">
+            <div style="color:#1e649f;font-size:30px;">LOGO 新才云智慧招聘系统</div>
+            <!-- <p style="float:left;line-height:30px;">
+            2017年11月24日,
+			企业<span style="font-weight:bold;font-style:italic;color:#FF5F00;">123557</span>家.
+			高校<span style="font-weight:bold;font-style:italic;color:#FF5F00;">2827</span>所.
+			招聘会<span style="font-weight:bold;font-style:italic;color:#FF5F00;">5262</span>场.
+			本月新增会员企业<span style="font-weight:bold;font-weight:bold;color:#FF5F00;">793</span>家.
+			
+			</p>
+			 <span id="login_qq_info" style="float:right;display:none;">
+            	<a class="login_qq_info" href=""  style="max-width:115px;overflow:hidden;text-overflow:ellipsis;display:inline-block;white-space:nowrap;">
+            	</a>
+            	<a style="margin-left:10px;display: inline-block; vertical-align: top;" href="/loginOut.do?method=exitData">退出</a>
+	        </span> -->
+            <style>
+                #login_user_info li{
+                    margin-left: 50px;
+                }
+             </style>
+            
+	        <ul id="login_user_info">
+	        	
+	            <!-- <li><a href="member/accountLogin.do?users=geren" target="_blank">&nbsp;<span>登录</span>&nbsp;&nbsp;|</a></li> -->
+	            <li><a href="admin.html" target="_blank">&nbsp;<span>登录</span></a></li>
+                <li><a href="zhuce.html" target="_blank"><span>免费注册</span></a></li>
+                <!-- <li><a href="member/accountRegister.do?users=student" target="_blank"><span>免费注册</span>&nbsp;</a></li> -->
+	            <!-- <a style="color:#76746F;" target="_blank" href="http://www.211zph.com/auth/index.do">
+	            		<img src="auth/img/bt_white_76X24.png"></a> -->
+                <li>
+                    <!-- <a style="color:#76746F;" target="_blank" href="http://www.211zph.com/auth/wxLogin.do">
+                        <img src="auth/img/bt_white_wechat_76X24.png">
+                    </a> -->
+	            </li>
+	        </ul>
+	         <script type="text/javascript">
+				$(function(){
+						$.get( '/login.do?check=true&date='+new Date(),function(data){
+						if(data.login){
+							var login = data.login;
+							if( login.nickname ){
+								var path="/auth/bind_qq.jsp";
+								if( login.user_id ){
+									path="/member/home.do";
+								}
+								var link = $("#login_qq_info").find(".login_qq_info");
+								link.attr("href",path );
+								var str='<img style="width:20px;height:20px;" src="'+login.avatar+'"  />'+login.nickname;
+								link.html( str );
+								$("#login_user_info").hide();
+								$("#login_qq_info").show();
+							}else{
+								var user_id=(login.user_id.length>10)?login.user_id.substring(0,7)+'...':login.user_id;
+								var str='<li>'+'<a title="'+login.user_id+'" style="text-decoration:none;">'+user_id+'</a>';
+									 str+='&nbsp;&nbsp;<a href="/member/home.do" >'+login.user_type_name+'中心</a>';
+									 str+="</li><li>";
+									 str+='&nbsp;&nbsp;<a href="/loginOut.do?method=exitData">退出</a>';
+									 str+="</li>";
+							   $("#login_user_info").html(str);
+							}
+						}
+					});
+				});
+				</script>
+				<div class="clear"></div>
+          </div>
+          <div class="clear"></div> 
+      </div>
+      <div class="clear"></div> 
+      <!--sub_nav结构结束  -->
+      <!--nav结构开始  -->
+      <div class="top_nav" style="background-color:#1e649f;">
+              <!-- <div class="logo">
+              	 <a href="/" title="211校招网"> 
+              	<img src="static/images/LOGO.png"/>
+              	</a>
+              </div>               -->
+              <!-- <div><a class="province switch" href="javascript:;" id="site_select_btn">
+              		
+		             陕西
+              		<span><i class="arrow"></i></span>
+              		</a>
+              </div> -->
+              <div class="main_nav" >
+              	<ul>
+					<li>
+                        <a class="nav_shouye" href="index.html" title="首页">
+                           首页
+                        </a>
+					</li>
+                	<!-- <li>|</li> -->
+					<li>
+                        <!-- <a class="nav_wlzph" href="jobfair/wlzph.do" title="双选会">
+                            双选会
+                        </a> -->
+                        <a class="nav_wlzph" href="shuangxuan.html" title="双选会">
+                            双选会
+                        </a>
+					</li>
+                	<!-- <li>|</li> -->
+                	<li>
+                        <!-- <a class="nav_xyzph" href="jobfair/xyzph.do" title="宣讲会">
+                            宣讲会
+                        </a> -->
+                        <a class="nav_xyzph" href="xuanjiang.html" title="宣讲会">
+                            宣讲会
+                        </a>
+                	</li>
+                	<!-- <li>|</li> -->
+                	<li>
+                        <a class="nav_app" href="shipinghui.html" title="视屏会" target="_blank">
+                            <div style="color:#e03919;height:60px;font-weight:bold;border-bottom:3px solid #e03919;">视屏会</div>
+                        </a>
+                	</li>
+				</ul>                 
+              </div>                                                          
+      </div> 
+       <!--nav结构结束  --> 
+      <div style="clear:both"></div>    
+</div>
+
+ <script type="text/javascript">
+		$(function(){
+			$('#site_select_btn').click(function(e){
+				e.preventDefault();
+				e.stopPropagation();
+				site_select_btn = art.dialog({
+				    width: 490,
+				    height: 230,
+					id: 'site_select_btn',
+					title:false,
+					content:'<div style="width:490px;height:230px;">正在加载...</div>',
+					lock:true,
+					fixed:true,
+					close:function(){this.hide(); return false;},
+					show:true,
+					esc:true,
+					padding:0,
+					opacity:0.3,
+					background:'#333333'
+				});
+				var pageContentBody =$(art.dialog({id: 'site_select_btn'}).content());
+				pageContentBody.parents(".aui_dialog").find(".aui_close").addClass("site_select_panel_close");				
+				pageContentBody.html( $("#site_select_content").text() );
+				art.dialog({id: 'site_select_btn'}).show();
+			});
+		});
+</script>
+
+<script type="text/javascript">
+function fixedNav(){
+	var t = $(document).scrollTop();
+	if(t > 40 ){
+		$('.top_nav').addClass("fixed");
+		$('.top_nav .main_nav a').css("height","40px");
+	}else{
+		$('.top_nav').removeClass("fixed");
+		$('.top_nav .main_nav a').css("height","60px");
+	}
+}
+
+$(function(){
+	$(window).scroll(function(e){
+		fixedNav();
+		var list = art.dialog.list;
+		if( list['site_select_btn'] ){
+			 list['site_select_btn'].close();
+		}
+		//art.dialog({id:'site_select_btn'}).close();
+	});
+	$(document).click(function(){
+		var list = art.dialog.list;
+		if( list['site_select_btn'] ){
+			 list['site_select_btn'].close();
+		}
+	});
+});
+
+</script>
+<!--头部架构结束-->
+
+<!--main架构开始-->
+<div class="main">
+    <div id="latest_log" class="news" style="overflow:hidden;margin-top:10px;">
+        <ul class="info">         		
+            <li>38秒前，&nbsp;&nbsp;中国平安西安市电话销售中心下载了王庆庆的简历</li>   
+        
+            <li>55秒前，&nbsp;&nbsp;陕西顺位互联网服务有限公司下载了薛颖的简历</li>   
+        
+            <li>1分钟前，&nbsp;&nbsp;西安深洋软件信息技术有限公司发布职位:ERP实施顾问</li>   
+        
+            <li>1分钟前，&nbsp;&nbsp;西安深洋软件信息技术有限公司发布职位:人力资源信息系统专员</li>   
+        
+            <li>1分钟前，&nbsp;&nbsp;西安深洋软件信息技术有限公司发布职位:物流管理 </li>   
+        
+            <li>1分钟前，&nbsp;&nbsp;中国平安西安市电话销售中心下载了刘泽宇的简历</li>   
+        
+            <li>1分钟前，&nbsp;&nbsp;西安深洋软件信息技术有限公司发布职位:出纳3000+应届生</li>   
+        
+            <li>1分钟前，&nbsp;&nbsp;西安深洋软件信息技术有限公司发布职位:财务助理（应届生）</li>   
+        
+            <li>1分钟前，&nbsp;&nbsp;西安深洋软件信息技术有限公司发布职位:管理实习生（应届生）</li>   
+        
+            <li>1分钟前，&nbsp;&nbsp;西安深洋软件信息技术有限公司发布职位:采购专员/助理</li>   
+        
+            <li>1分钟前，&nbsp;&nbsp;西安深洋软件信息技术有限公司发布职位:供应链管理</li>   
+        
+            <li>2分钟前，&nbsp;&nbsp;中国平安西安市电话销售中心下载了贾周维的简历</li>   
+        
+            <li>2分钟前，&nbsp;&nbsp;西安深洋软件信息技术有限公司发布职位:ERP财务/实施</li>   
+        
+            <li>2分钟前，&nbsp;&nbsp;陕西译喵网络科技有限公司申请参加211校招网西安电子科技大学专场招聘会已通过</li>   
+        
+            <li>2分钟前，&nbsp;&nbsp;西安普融电子科技有限公司下载了刘波的简历</li>   
+        
+            <li>2分钟前，&nbsp;&nbsp;中国平安西安市电话销售中心下载了赵路路的简历</li>   
+        
+            <li>2分钟前，&nbsp;&nbsp;陕西顺位互联网服务有限公司下载了周耀满的简历</li>   
+        
+            <li>3分钟前，&nbsp;&nbsp;陕西译喵网络科技有限公司申请参加西安邮电大学2018届毕业生就业洽谈会已通过</li>   
+        
+            <li>3分钟前，&nbsp;&nbsp;陕西顺位互联网服务有限公司下载了李永潘的简历</li>   
+        
+            <li>3分钟前，&nbsp;&nbsp;西安普融电子科技有限公司下载了徐香香的简历</li>   
+        
+            <li>3分钟前，&nbsp;&nbsp;西安九点在线资讯信息服务有限公司下载了吴亚飞的简历</li>   
+        
+            <li>3分钟前，&nbsp;&nbsp;西安勤梦环保科技有限公司发布职位:实习生</li>   
+        
+            <li>3分钟前，&nbsp;&nbsp;中国平安西安市电话销售中心下载了任江波的简历</li>   
+        
+            <li>4分钟前，&nbsp;&nbsp;西安九点在线资讯信息服务有限公司下载了郭浏洋的简历</li>   
+        
+            <li>4分钟前，&nbsp;&nbsp;中国平安西安市电话销售中心下载了王娇的简历</li>   
+        
+            <li>4分钟前，&nbsp;&nbsp;西安九点在线资讯信息服务有限公司下载了杨映彤的简历</li>   
+        
+            <li>4分钟前，&nbsp;&nbsp;中国平安西安市电话销售中心下载了吴海瑞的简历</li>   
+        
+            <li>4分钟前，&nbsp;&nbsp;西安九点在线资讯信息服务有限公司下载了张晋园的简历</li>   
+        
+            <li>5分钟前，&nbsp;&nbsp;中国平安西安市电话销售中心下载了王杏的简历</li>   
+        
+            <li>6分钟前，&nbsp;&nbsp;西安创润商贸有限公司下载了赵敏的简历</li>             
+        </ul>
+        <div style="clear:both"></div>
+        <script type="text/javascript"> 
+                var box2=document.getElementById("latest_log"),can=true; 
+                box2.innerHTML+=box2.innerHTML; 
+                box2.onmouseover=function(){can=false;}; 
+                box2.onmouseout=function(){can=true;}; 
+                $(function (){ 
+                    var stop=box2.scrollTop%30==0&&!can; 
+                    if(!stop)box2.scrollTop==parseInt(box2.scrollHeight/2)?box2.scrollTop=0:box2.scrollTop++; 
+                    setTimeout(arguments.callee,box2.scrollTop%30?10:2000); 
+                }); 
+        </script>
+      </div>   
+<!-- 
+<div class="banner">
+	<img src="/static/images/ad/smrc93.jpg" width="1024" height="274">
+<div style="clear:both"></div>
+</div>
+-->
+        <div class="main_l" style="margin-left:-150px;">
+            <div>
+            
+            <div class="box">
+            <ul style="margin-bottom:0px;">
+                
+                <li>    
+                    <a href="jobfair/detail.do?id=201710110013863" target="_blank">
+                        <div class="box_l">
+                            <img src="upload/pic/2017/10/11/w0120171011085064.png" width="280" height="178">
+                        </div>
+                    </a>
+                    <div class="box_r">
+                        <a class="h1" href="jobfair/detail.do?id=201710110013863" target="_blank">
+                            ********学院****届毕业生网络视频招聘会
+                        </a>
+                        <h2>开始时间：****-**-** **:**</h2>
+                        <h2>结束时间：****-**-** **:**</h2>
+                        <h2>
+                            <a class="an1" href="javascript:;" onclick="ComApply(201710110013863,100000000001908)">企业订展</a>
+                            <!-- <a class="an2" href="netcongress/start.do?id=201710110013863" target="_blank">进入会场</a> -->
+                            <a class="an2" href="https://www.211zph.com/netcongress/start.do?id=201710110013863" target="_blank">进入会场</a>
+                            <div style="clear:both"></div>
+                        </h2>
+                        
+                        <h2>
+                            大厅LIVE：** 家企业，** 位求职者
+                        </h2>
+                    </div>  
+                    <div style="float:left;width:104px;height:178px;">
+                        <img src="static/img/begin1.png" >          	
+                    </div>
+                </li> 		
+                </ul>
+            </div>
+            
+            <div class="box">
+            <ul style="margin-bottom:0px;">
+                
+                <li>    
+                    <a href="jobfair/detail.do?id=201709190013622" target="_blank">
+                    <div class="box_l">
+                        <img src="upload/pic/2017/09/21/w0120170921084056.png" width="280" height="178">
+                    </div>
+                    </a>
+                    <div class="box_r">
+                    <a class="h1" href="jobfair/detail.do?id=201709190013622" target="_blank">
+                        ****大学****届毕业生网络招聘会
+                    </a>
+                    <h2>开始时间：****-**-** **:**</h2>
+                    <h2>结束时间：****-**-** **:**</h2>
+                    <h2>
+                    <a class="an1" href="javascript:;" onclick="ComApply(201709190013622,100000000001843)">企业订展</a>
+                    <!-- <a class="an2" href="netcongress/start.do?id=201709190013622" target="_blank">进入会场</a> -->
+                    <a class="an2" href="https://www.211zph.com/netcongress/start.do?id=201710110013863" target="_blank">进入会场</a>
+                    <div style="clear:both"></div>
+                    </h2>
+                    
+                    <h2>
+                    大厅LIVE：** 家企业，** 位求职者
+                    </h2>
+                    </div>  
+                    <div style="float:left;width:104px;height:178px;">				
+                        <img src="static/img/begin1.png" >
+                    </div>
+                </li>
+                
+                </ul>
+            </div>
+            
+            <div class="box">
+            <ul style="margin-bottom:0px;">
+                
+                <li>    
+                    <a href="jobfair/detail.do?id=201709080013444" target="_blank">
+                    <div class="box_l">
+                        <img src="upload/pic/2017/09/09/w0120170909083195.png" width="280" height="178">
+                    </div>
+                    </a>
+                    <div class="box_r">
+                    <a class="h1" href="jobfair/detail.do?id=201709080013444" target="_blank">
+                        ****学院***届毕业生网络视频招聘会
+                    </a>
+                    <h2>开始时间：****-**-** **:**</h2>
+                    <h2>结束时间：****-**-** **:**</h2>
+                    <h2>
+                    <a class="an1" href="javascript:;" onclick="ComApply(201709080013444,100000000001905)">企业订展</a>
+                    <a class="an2" href="netcongress/start.do?id=201709080013444" target="_blank">进入会场</a>
+                    <div style="clear:both"></div>
+                    </h2>
+                    
+                    <h2>
+                    大厅LIVE：** 家企业，** 位求职者
+                    </h2>
+                    </div>  
+                    <div style="float:left;width:104px;height:178px;">				
+                            <img src="static/img/begin1.png" >
+                    </div>
+                </li>		
+                </ul>
+            </div>
+            
+            <div class="box">
+            <ul style="margin-bottom:0px;">     
+                <li>    
+                    <a href="jobfair/detail.do?id=201709130013523" target="_blank">
+                    <div class="box_l">
+                        <img src="upload/pic/2017/09/13/w0120170913083401.png" width="280" height="178">
+                    </div>
+                    </a>
+                    <div class="box_r">
+                    <a class="h1" href="jobfair/detail.do?id=201709130013523" target="_blank">
+                        ****学院****届毕业生网络视频招聘会
+                    </a>
+                    <h2>开始时间：****-**-** **:**</h2>
+                    <h2>结束时间：****-**-** **:**</h2>
+                    <h2>
+                    <a class="an1" href="javascript:;" onclick="ComApply(201709130013523,201411111001522)">企业订展</a>
+                    <!-- <a class="an2" href="netcongress/start.do?id=201709130013523" target="_blank">进入会场</a> -->
+                    <a class="an2" href="https://www.211zph.com/netcongress/start.do?id=201710110013863" target="_blank">进入会场</a>
+                    <div style="clear:both"></div>
+                    </h2>
+                    
+                    <h2>
+                    大厅LIVE：** 家企业，** 位求职者
+                    </h2>
+                    </div>  
+                    <div style="float:left;width:104px;height:178px;">				
+                        <img src="static/img/begin1.png" >
+                    </div>
+                </li>	
+                </ul>
+            </div>
+            
+            <div class="box">
+            <ul style="margin-bottom:0px;">
+                
+                <li>    
+                    <a href="jobfair/detail.do?id=201709080013451" target="_blank">
+                    <div class="box_l">
+                        <img src="upload/pic/2017/09/09/w0120170909083193.png" width="280" height="178">
+                    </div>
+                    </a>
+                    <div class="box_r">
+                        <a class="h1" href="jobfair/detail.do?id=201709080013451" target="_blank">
+                            ****学院**届毕业生网络视频招聘会
+                        </a>
+                        <h2>开始时间：****-**-** **:**</h2>
+                        <h2>结束时间：****-**-** **:**</h2>
+                        <h2>
+                            <a class="an1" href="javascript:;" onclick="ComApply(201709080013451,100000000002054)">企业订展</a>
+                            <!-- <a class="an2" href="netcongress/start.do?id=201709080013451" target="_blank">进入会场</a> -->
+                            <a class="an2" href="https://www.211zph.com/netcongress/start.do?id=201710110013863" target="_blank">进入会场</a>
+                            <div style="clear:both"></div>
+                        </h2>                   
+                        <h2>
+                            大厅LIVE：** 家企业，** 位求职者
+                        </h2>
+                    </div>  
+                    <div style="float:left;width:104px;height:178px;">
+                            <img src="static/img/begin1.png" >
+                    </div>
+                </li>
+                </ul>
+            </div>
+            
+            <div class="box">
+            <ul style="margin-bottom:0px;">
+                
+                <li>    
+                    <a href="jobfair/detail.do?id=201711200014366" target="_blank">
+                    <div class="box_l">
+                        <img src="upload/pic/2017/11/21/w0120171121090650.png" width="280" height="178">
+                    </div>
+                    </a>
+                    <div class="box_r">
+                        <a class="h1" href="jobfair/detail.do?id=201711200014366" target="_blank">
+                            ****大学***届毕业生网络视频招聘会
+                        </a>
+                        <h2>开始时间：****-**-** **:**</h2>
+                        <h2>结束时间：****-**-** **:**</h2>
+                        <h2>
+                            <a class="an1" href="javascript:;" onclick="ComApply(201711200014366,100000000001853)">企业订展</a>
+                            <!-- <a class="an2" href="netcongress/start.do?id=201711200014366" target="_blank">进入会场</a> -->
+                            <a class="an2" href="https://www.211zph.com/netcongress/start.do?id=201710110013863" target="_blank">进入会场</a>
+                            <div style="clear:both"></div>
+                        </h2>
+                        
+                        <h2>
+                            大厅LIVE：** 家企业，** 位求职者
+                        </h2>
+                    </div>  
+                    <div style="float:left;width:104px;height:178px;">		
+                        <img src="static/img/begin1.png" >
+                    </div>
+                </li>
+                </ul>
+            </div>
+            
+            <div class="box">
+            <ul style="margin-bottom:0px;">
+                
+                <li>    
+                    <a href="jobfair/detail.do?id=201710280014142" target="_blank">
+                    <div class="box_l">
+                        <img src="upload/pic/2017/10/28/w0120171028087405.png" width="280" height="178">
+                    </div>
+                    </a>
+                    <div class="box_r">
+                        <a class="h1" href="jobfair/detail.do?id=201710280014142" target="_blank">
+                            ****学院***届毕业生网络视频招聘会
+                        </a>
+                        <h2>开始时间：****-**-** **:**</h2>
+                        <h2>结束时间：****-**-** **:**</h2>
+                        <h2>
+                            <a class="an1" href="javascript:;" onclick="ComApply(201710280014142,100000000001913)">企业订展</a>
+                            <a class="an2" href="netcongress/start.do?id=201710280014142" target="_blank">进入会场</a>
+                            <div style="clear:both"></div>
+                        </h2>
+                        
+                        <h2>
+                        大厅LIVE：** 家企业，** 位求职者
+                        </h2>
+                    </div>  
+                    <div style="float:left;width:104px;height:178px;">			
+                        <img src="static/img/begin1.png" >
+                    </div>
+                </li>
+                </ul>
+            </div>
+            
+            <div class="box">
+            <ul style="margin-bottom:0px;">
+                
+                <li>    
+                    <a href="jobfair/detail.do?id=201709150013584" target="_blank">
+                    <div class="box_l">
+                        <img src="upload/pic/2017/09/15/w0120170915083720.png" width="280" height="178">
+                    </div>
+                    </a>
+                    <div class="box_r">
+                            <a class="h1" href="jobfair/detail.do?id=201709150013584" target="_blank">
+                                ****学院***届毕业生网络视频招聘会
+                            </a>
+                            <h2>开始时间：****-**-** **:**</h2>
+                            <h2>结束时间：****-**-** **:**</h2>
+                            <h2>
+                                <a class="an1" href="javascript:;" onclick="ComApply(201709150013584,100000000001888)">企业订展</a>
+                                <a class="an2" href="netcongress/start.do?id=201709150013584" target="_blank">进入会场</a>
+                                <div style="clear:both"></div>
+                            </h2>
+                            
+                            <h2>
+                                大厅LIVE：** 家企业，** 位求职者
+                            </h2>
+                    </div>  
+                    <div style="float:left;width:104px;height:178px;">
+                            <img src="static/img/begin1.png" >
+                    </div>
+                </li>
+                </ul>
+            </div>
+            
+            <div style="text-align:center;">
+                <ul class="pagination"><li class="disabled"><span>上一页</span></li><li class='disabled active'><span>1</span></li><li><a href='?&page=2'>2</a></li><li><a href="?&page=2">下一页</a></li></ul>
+            </div>
+            </div>         
+    </div>
+<div class="main_r" style="margin-left:640px;margin-top:-1583px;">
+<!--搜索  -->
+	<div>
+  		<form method="get">
+	  		<input class="gjzss" type="text" name="keyword" value="" placeholder="请输入关键字" />
+	  		<input class="ss" type="submit" value="搜索"/>
+  		</form>
+  		<div style="clear:both"></div>
+	</div>
+<!--往期招聘会  -->
+	<div class="hot_name">往期招聘会</div>
+	<div class="hot">
+  	
+  	  
+ 		<ul class="hot_ul">
+			<li>
+            	<a href="jobfair/detail.do?id=201709260013742" target="_blank" style="line-height:80px;">
+            		<div class="hot_l">
+            		<img src="upload/pic/2017/09/27/w0120170927084355.png" width="90" height="60">
+            		</div>
+            	</a>
+            	<div class="hot_r">
+             		<a href="jobfair/detail.do?id=201709260013742" target="_blank">
+             		1、****大学****届毕业生网络视频招聘会
+             		</a>
+             		<p style="font-size:8px;color:#999;margin:10px 0 0 0;">开始时间：****-**-** **:**</p>
+             		<p style="font-size:8px;color:#999;margin:0px;">结束时间：****-**-** **:**</p>
+             		
+             	</div>
+            </li>
+		</ul>
+		<div style="clear:both"></div>
+    
+  	  
+ 		<ul class="hot_ul">
+			<li>
+            	<a href="jobfair/detail.do?id=201709050013370" target="_blank" style="line-height:80px;">
+            		<div class="hot_l">
+            		<img src="upload/pic/2017/09/07/w0120170907083071.png" width="90" height="60">
+            		</div>
+            	</a>
+            	<div class="hot_r">
+             		<a href="jobfair/detail.do?id=201709050013370" target="_blank">
+             		2、****学院****届毕业生网络视频招聘会
+             		</a>
+             		<p style="font-size:8px;color:#999;margin:10px 0 0 0;">开始时间：****-**-** **:**</p>
+             		<p style="font-size:8px;color:#999;margin:0px;">结束时间：****-**-** **:**</p>
+             		
+             	</div>
+            </li>
+		</ul>
+		<div style="clear:both"></div>
+    
+  	  
+ 		<ul class="hot_ul">
+			<li>
+            	<a href="jobfair/detail.do?id=201709080013445" target="_blank" style="line-height:80px;">
+            		<div class="hot_l">
+            		<img src="upload/pic/2017/09/09/w0120170909083194.png" width="90" height="60">
+            		</div>
+            	</a>
+            	<div class="hot_r">
+             		<a href="jobfair/detail.do?id=201709080013445" target="_blank">
+             		3、****学院****届毕业生网络视频招聘会
+             		</a>
+             		<p style="font-size:8px;color:#999;margin:10px 0 0 0;">开始时间：****-**-** **:**</p>
+             		<p style="font-size:8px;color:#999;margin:0px;">结束时间：****-**-** **:**</p>
+             		
+             	</div>
+            </li>
+		</ul>
+		<div style="clear:both"></div>
+    
+  	  
+ 		<ul class="hot_ul">
+			<li>
+            	<a href="jobfair/detail.do?id=201709080013450" target="_blank" style="line-height:80px;">
+            		<div class="hot_l">
+            		<img src="upload/pic/2017/09/09/w0120170909083192.png" width="90" height="60">
+            		</div>
+            	</a>
+            	<div class="hot_r">
+             		<a href="jobfair/detail.do?id=201709080013450" target="_blank">
+             		4、****大学明德学院****届毕业生网络视频招聘会
+             		</a>
+             		<p style="font-size:8px;color:#999;margin:10px 0 0 0;">开始时间：****-**-** **:**</p>
+             		<p style="font-size:8px;color:#999;margin:0px;">结束时间：****-**-** **:**</p>
+             		
+             	</div>
+            </li>
+		</ul>
+		<div style="clear:both"></div>
+    
+  	  
+ 		<ul class="hot_ul">
+			<li>
+            	<a href="jobfair/detail.do?id=201709080013447" target="_blank" style="line-height:80px;">
+            		<div class="hot_l">
+            		<img src="upload/pic/2017/09/09/w0120170909083191.png" width="90" height="60">
+            		</div>
+            	</a>
+            	<div class="hot_r">
+             		<a href="jobfair/detail.do?id=201709080013447" target="_blank">
+             		5、****学院****届毕业生网络视频招聘会
+             		</a>
+             		<p style="font-size:8px;color:#999;margin:10px 0 0 0;">开始时间：****-**-** **:**</p>
+             		<p style="font-size:8px;color:#999;margin:0px;">结束时间：****-**-** **:**</p>
+             		
+             	</div>
+            </li>
+		</ul>
+		<div style="clear:both"></div>
+    
+  	  
+ 		<ul class="hot_ul">
+			<li>
+            	<a href="jobfair/detail.do?id=201710260014102" target="_blank" style="line-height:80px;">
+            		<div class="hot_l">
+            		<img src="upload/pic/2017/10/28/w0120171028087404.png" width="90" height="60">
+            		</div>
+            	</a>
+            	<div class="hot_r">
+             		<a href="jobfair/detail.do?id=201710260014102" target="_blank">
+             		6、****学院****届毕业生网络视频招聘会
+             		</a>
+             		<p style="font-size:8px;color:#999;margin:10px 0 0 0;">开始时间：****-**-** **:**</p>
+             		<p style="font-size:8px;color:#999;margin:0px;">结束时间：****-**-** **:**</p>
+             		
+             	</div>
+            </li>
+		</ul>
+		<div style="clear:both"></div>
+    
+  	  
+ 		<ul class="hot_ul">
+			<li>
+            	<a href="jobfair/detail.do?id=201709150013583" target="_blank" style="line-height:80px;">
+            		<div class="hot_l">
+            		<img src="upload/pic/2017/09/15/w0120170915083719.png" width="90" height="60">
+            		</div>
+            	</a>
+            	<div class="hot_r">
+             		<a href="jobfair/detail.do?id=201709150013583" target="_blank">
+             		7、****学院****届毕业生网络视频招聘会
+             		</a>
+             		<p style="font-size:8px;color:#999;margin:10px 0 0 0;">开始时间：****-**-** **:**</p>
+             		<p style="font-size:8px;color:#999;margin:0px;">结束时间：****-**-** **:**</p>
+             		
+             	</div>
+            </li>
+		</ul>
+		<div style="clear:both"></div>
+    
+  	  
+ 		<ul class="hot_ul">
+			<li>
+            	<a href="jobfair/detail.do?id=201709140013562" target="_blank" style="line-height:80px;">
+            		<div class="hot_l">
+            		<img src="upload/pic/2017/09/15/w0120170915083718.png" width="90" height="60">
+            		</div>
+            	</a>
+            	<div class="hot_r">
+             		<a href="jobfair/detail.do?id=201709140013562" target="_blank">
+             		8、****大学****届毕业生网络视频招聘会
+             		</a>
+             		<p style="font-size:8px;color:#999;margin:10px 0 0 0;">开始时间：****-**-** **:**</p>
+             		<p style="font-size:8px;color:#999;margin:0px;">结束时间：****-**-** **:**</p>
+             		
+             	</div>
+            </li>
+		</ul>
+		<div style="clear:both"></div>
+    
+  	  
+ 		<ul class="hot_ul">
+			<li>
+            	<a href="jobfair/detail.do?id=201709140013543" target="_blank" style="line-height:80px;">
+            		<div class="hot_l">
+            		<img src="upload/pic/2017/09/15/w0120170915083717.png" width="90" height="60">
+            		</div>
+            	</a>
+            	<div class="hot_r">
+             		<a href="jobfair/detail.do?id=201709140013543" target="_blank">
+             		9、****学院****届毕业生网络视频招聘会
+             		</a>
+             		<p style="font-size:8px;color:#999;margin:10px 0 0 0;">开始时间：****-**-** **:**</p>
+             		<p style="font-size:8px;color:#999;margin:0px;">结束时间：****-**-** **:**</p>
+             		
+             	</div>
+            </li>
+		</ul>
+		<div style="clear:both"></div>
+    
+  	  
+ 		<ul class="hot_ul">
+			<li>
+            	<a href="jobfair/detail.do?id=201709080013448" target="_blank" style="line-height:80px;">
+            		<div class="hot_l">
+            		<img src="upload/pic/2017/09/09/w0120170909083188.png" width="90" height="60">
+            		</div>
+            	</a>
+            	<div class="hot_r">
+             		<a href="jobfair/detail.do?id=201709080013448" target="_blank">
+             		10、****大学****学院****届毕业生网络视频双选会
+             		</a>
+             		<p style="font-size:8px;color:#999;margin:10px 0 0 0;">开始时间：****-**-** **:**</p>
+             		<p style="font-size:8px;color:#999;margin:0px;">结束时间：****-**-** **:**</p>
+             		
+             	</div>
+            </li>
+		</ul>
+		<div style="clear:both"></div>
+    
+	</div>
+<!--广告  -->
+	 <div class="ads">
+		<!--<a  href="javascript:;"><img src="/static/images/ad/yrtz6.jpg" width="274" height="164"></a>-->        	
+		<ul>
+        	
+          </ul>
+	</div>
+</div>
+<div style="clear:both"></div>
+</div>
+<!--main架构结束-->
+
+<!--footer区架构结束-->
+
+     <script type="text/javascript">
+     function popAdvertismentMini()
+     {
+			art.dialog.open("ad/popover-small.html", 
+								{title:false,
+								 height:'200px',
+								 width:'300px',	
+								 fixed:true,
+								 zIndex:999999999,
+								 lock:false,
+								 cancel:false,
+								 padding:0,
+								 background:'#000',
+								 opacity:0.3,
+								 left: '0',
+							     top: '100%',
+								 },false);
+     }
+      $(function(){   
+      //	 setTimeout("popAdvertismentMini();",2000 );
+      });
+      </script>
+        <!-- <div class="footer" style="border:1px solid black;width:100%;height:300px;">
+            footer部分
+            <div class="footer_down">
+                <div class="footer_inner">
+                    <div class="footer_content">
+                        <div class="footer_l"> -->
+                            <!-- <ul>
+                                <li style="width:150px;"><img class="ewm"
+                                    src="static/images/ewm_03.png" width="70" height="70">
+                                    <p class="ps">211校招网官方微信</p></li>
+                            </ul> -->
+                        <!-- </div>
+                        <div class="footer_c"> -->
+                            <!-- <ul>
+                                <li><a class="gywm"
+                                    href="http://www.211zph.com/page.do?id=201407210000321">关于我们</a></li>
+                                <li>地址：西安高新区科技二路65号清华科技园清扬大厦A410</li>
+                                <li class="dh">联系电话：<strong class="phone">029-8866-2468</strong></li>
+                            </ul> -->
+                        <!-- </div>
+                        <div class="footer_r">
+                            <div class="footer_r_top"> -->
+                                <!-- <ul>
+                                    <li>西安市人力资源服务许可证编号：610100120105</li>
+                                    <li>工信部备案号：陕ICP备13006318号-3</li>
+                                    <li>版本号：V2.0.1.25</li>
+                                    <li>陕西新才网络技术有限公司，西安大秦人力资源有限公司版权所有</li>
+                                </ul> -->
+                            <!-- </div>
+                        </div>
+                        <div style="clear:both;"></div>
+                        <div class="footer_keywork"> -->
+                            <!-- 本站关键词： <a href="/">211校招网</a>，<a href="jobfair/xyzph.do"
+                                target="_blank">校园招聘会</a>，<a href="jobfair/xyzph.do"
+                                target="_blank">校园双选会</a>，<a href="jobfair/xyzph.do"
+                                target="_blank">校园招聘网</a>，<a href="jobfair/xyzph.do"
+                                target="_blank">高校招聘会</a>，<a href="jobfair/wlzph.do"
+                                target="_blank">网络招聘会</a>，<a href="jobfair/wlzph.do"
+                                target="_blank">视频招聘会</a>，<a href="jobfair/wlzph.do"
+                                target="_blank">视频双选会</a>，<a href="jobfair/wlzph.do"
+                                target="_blank">网络双选会</a>，<a href="jobfair/xyzph.do"
+                                target="_blank">校园招聘</a>，<a href="jobfair/xyzph.do"
+                                target="_blank">校招</a>，<a href="jobfair/wlzph.do" target="_blank">视频面试</a>，<a
+                                href="jobfair/wlzph.do" target="_blank">在线视频面试</a>，<a
+                                href="jobfair/wlzph.do" target="_blank">招聘会</a>，<a
+                                href="jobfair/xyzph.do" target="_blank">人才招聘会</a>，<a
+                                href="jobfair/xyzph.do" target="_blank">现场招聘会</a>，<a
+                                href="jobfair/xyzph.do" target="_blank">双选会</a>，<a
+                                href="jobfair/xyzph.do" target="_blank">人才市场招聘会</a>，<a
+                                href="jobfair/wlzph.do" target="_blank">网上招聘会</a>，<a
+                                href="jobfair/wlzph.do" target="_blank">网上双选会</a>，<a
+                                href="jobfair/wlzph.do" target="_blank">网上视频招聘会</a>，<a
+                                href="jobfair/wlzph.do" target="_blank">网上视频双选会</a>，<a
+                                href="jobfair/wlzph.do" target="_blank">网上人才招聘会&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>，<a
+                                href="jobfair/wlzph.do" target="_blank">网上人才交流会</a>，<a
+                                href="jobfair/wlzph.do" target="_blank">网上人才双选会</a>，<a
+                                href="jobfair/xyzph.do" target="_blank">应届生招聘会</a>，<a
+                                href="jobfair/xyzph.do" target="_blank">大学生招聘会</a>，<a
+                                href="jobfair/wlzph.do" target="_blank">网络视频招聘会</a>，<a
+                                href="jobfair/wlzph.do" target="_blank">网络视频双选会</a>，<a
+                                href="jobfair/wlzph.do" target="_blank">直播宣讲会</a>。
+                        </div> -->
+                        <!-- <div style="clear:both;"></div>
+                    </div>
+                    <div class="copyright">
+                        <p style="text-align:center;"> -->
+                            <!-- 
+                            <a target="_blank"
+                                href="http://wljg.xags.gov.cn/bscx.do?method=hddoc&id=61011300000328">
+                                <img src="/statics/img/gongshang.png">
+                            </a>
+                            <a id="_pingansec_bottomimagelarge_shiming" target="_blank"
+                                href="http://si.trustutn.org/info?sn=537160415021285523738&certType=1">
+                                <img src="/statics/img/renzheng.png">
+                            </a>
+                            -->
+                            <!-- <a target="_blank"
+                                href="http://www.sninfo.gov.cn:8083/initSnCommonThreePageList.do?method=initSnCommonThreePageList&articleId=133323&columnId=380">
+                                <img src="static/cert/gq.jpg">
+                            </a> -->
+                        <!-- </p> -->
+                        <!-- <p style="text-align:center;">
+                            <script type="text/javascript">
+                                var cnzz_protocol = (("https:" == document.location.protocol) ? " https://"
+                                        : " http://");
+                                document
+                                        .write(unescape("%3Cspan id='cnzz_stat_icon_1253006258'%3E%3C/span%3E%3Cscript src='"
+                                                + cnzz_protocol
+                                                + "s95.cnzz.com/stat.php%3Fid%3D1253006258%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+                            </script>
+                        </p> -->
+                    <!-- </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="footer" style="background-color:#333;height:100px;">
+            <div class="inner">
+                <div class="foot-content">
+                    <div class="fc-inner">
+                        <p class="foot-nav">
+                            <!-- <a class="item" href="/detail/news?id=249&menu_id=35">学校概况</a>
+                            <span class="line">|</span>
+                            <a class="item" href="/module/news?type_id=13&menu_id=41">新闻公告</a>
+                            <span class="line">|</span>
+                            <a class="item" href="/module/careers?menu_id=44">招聘信息</a>
+                            <span class="line">|</span>
+                            <a class="item" href="/module/news?type_id=79&menu_id=51">生源信息</a>
+                            <span class="line">|</span>
+                            <a class="item" href="/module/news?type_id=80&menu_id=56">就业指导</a>
+                            <span class="line">|</span>
+                            <a class="item" href="/module/news?type_id=11&menu_id=61">服务指南</a>
+                            <span class="line">|</span>
+                            <a class="item" href="/module/news?type_id=87&menu_id=65">专项计划</a>
+                            <span class="line">|</span>
+                            <a class="item" href="?menu_id=1230">报到证/档案查询</a>
+                            <span class="line">|</span>
+                            <a class="item" href="/module/news?type_id=86&menu_id=154">联系我们</a>
+                        </p> -->
+                        <style>
+                               #list-footer-one .copyright span{
+                                     margin-left: 20px;
+                               }
+                               #list-footer-two .copyright span{
+                                     margin-left:20px;
+                               }
+                        </style>
+                        <div id="list-footer-one">
+                            <p class="copyright" style="position:relative;top:10px;line-height:50px;font-size:12px;">
+                                <span class="text">******大学版权所有</span>
+                                <span class="text">域名备案信息：陕ICP备********号</span>
+                                <span class="text">前置审核编号：陕教***-******-******</span>               
+                            </p>
+                        </div>
+                        <div id="list-footer-two">
+                            <p class="copyright" style="font-size:12px;">
+                                <span class="text">可信网站验证</span>
+                                <span class="text">诚信网站验证</span>
+                                <span class="text">安全联盟</span>
+                                <span class="text">行业验证</span>
+                                <span class="text">浏览量：今日9999&nbsp;/&nbsp;共计:9999999</span>
+                                <span>
+                                <a class="item" href="http://www.bibibi.net" target="_blank" style="color:#6d6d6d;">技术支持：新才云智慧就业系统</a>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- <script language="JavaScript" src="http://code.54kefu.net/kefu/js/b94/885294.js" type="text/javascript" charset="utf-8"></script> -->
+<!--footer区架构结束-->
+</body>
+</html>

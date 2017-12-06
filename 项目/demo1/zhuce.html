@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+        <meta charset="utf-8">
+        <title>企业管理平台账号注册</title>
+        <meta name="renderer" content="webkit">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <link rel="icon" href="http://pic.bibibi.net/public/images/icon/favicon.ico?1" otype="image/x-icon"/>
+        <link rel="shortcut icon" href="http://pic.bibibi.net/public/images/icon/favicon.ico?1" type="image/x-icon"/>
+        <!-- <link href="pcend/public/??css/global.css,js/libs/artDialog/css/ui-dialog.css?v=20171115" rel="stylesheet"> -->
+        <!-- <link rel="stylesheet" href="public/js/libs/artDialog/css/ui-dialog.css"> -->
+        <!-- <link rel="stylesheet" href="public/css/base/global.css"> -->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="public/css/base/register.css"/>
+        <!-- <link rel="stylesheet" href="public/fonts/zd/iconfont.css"> -->
+        <!-- <link rel="stylesheet" href="public/css/base/base.css"> -->
+        <!-- <link rel="stylesheet" href="public/css/base/common.css"> -->
+        <!-- <link rel="stylesheet" href="public/css/base/index.css"> -->
+        <!-- <link rel="stylesheet" href="public/css/base/layout.css"> -->
+        <!-- <link rel="stylesheet" href="public/skin/blue/common.css">
+        <link rel="stylesheet" href="public/skin/blue/global.css">
+        <link rel="stylesheet" href="public/skin/blue/layout.css"> -->
+        <!--[if lt IE 9]>
+        <script type="text/javascript"  src="/pcend/public/js/libs/compatible.js"></script>
+        <![endif]-->
+        <style type="text/css">
+            #attend_table .form-control, #attend_table .form-control:focus {
+                padding: 6px;
+                font-size: 14px;
+                border: 1px solid #e7e7eb;
+                border-radius: 0;
+                outline: 0;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+            }
+            #attend_table td{
+                vertical-align:middle;
+            }
+            #recruitment_table {
+                border:1px solid #e7e6eb;
+            }
+            #recruitment_table td{
+                border-top: 1px solid #e7e6eb!important;
+            }
+            #step_msg{
+                width: 800px;
+                height: 50px;
+                line-height: 50px;
+                padding: 0 10px;
+                margin:30px auto 0;
+                font-size: 18px;
+                background-color: #5cb85c;
+                color:#fff;
+            }
+            .apply_type_list{
+                margin:10px 0;
+            }
+            .apply_type_list .apply_type{
+                display: inline-block;
+                margin-right: 10px;
+                width: 120px;
+                text-align: center;
+                height: 36px;
+                line-height: 36px;
+                border:1px solid #5cb85c;
+                cursor: pointer;
+            }
+            .apply_type_list .apply_type.actived{
+                background-color: #5cb85c;
+                color:#fff;
+            }
+            #attend_table{
+                margin-bottom: 0;
+            }
+            #festival_link{
+                display: inline-block;
+            }
+            #festival_link a{
+                display: inline-block;
+                height: 36px;
+                width: 120px;
+                line-height: 36px;
+                text-align: center;
+                background-color: #D01631;
+                color: #fff;
+                text-decoration: none;
+            }
+
+            input#upload_poster_btn,input#delete_file {
+                border-radius: 0;
+                box-shadow: none!important;
+                border: 1px solid #e7e7eb;
+            }
+        </style>
+    </head>
+    <body data-upload-letter="0">
+        <div class="manage-header">
+            <div class="container-fixed" style="width:100%;padding:4px;background-color:#5cb85c;">
+                <img class="pull-left" src="public/images/global/logo.png" height="50px">
+                <h3 class="logo pull-left " id="h3_plat_name">&nbsp;云校招账号注册&nbsp;</h3>
+            </div>
+        </div>
+        <div style="margin-top:70px;background-color:#e7e8eb;">
+            <br>
+            <p id="step_msg">步骤一：填写基本资料</p>
+            <div class="container" style="background-color:white;">
+                <div id="mail_reg" class="hide" >
+                    <div id="step">
+                        <div class="step_num" id="step_1">
+                            <span>填写单位邮箱</span>
+                        </div>
+                        <div class="step_line"></div>
+                        <div class="step_num step_disable" id="step_2">
+                            <span>验证单位邮箱</span>
+                        </div>
+                        <div class="step_line"></div>
+                        <div class="step_num step_disable" id="step_3">
+                            <span>注册单位信息</span>
+                        </div>
+                    </div>
+                    <div class="content_container">
+                        <table class="table j-first-step ">
+                            <tr>
+                                <td class="form-field" style="font-size: 14px" width="100px">单位邮箱<span class="text-red">*</span></td>
+                                <td><input type="text" class="form-control" id="mail" name="mail"
+                                        maxlength="50" placeholder="该邮箱将作为主邮箱，审核通过后不可更改"></td>
+                            </tr>
+                            <tr>
+                                <td class="form-field" style="font-size: 14px">登录密码<span class="text-red">*</span></td>
+                                <td style="position: relative">
+                                    <input type="password" class="form-control" id="mail_password" placeholder="请输入登录密码">
+                                    <span class="glyphicon glyphicon-eye-close" title="密码不可见" id="span_ico_eye_mail" style="position: absolute;right: 20px;top: 18px;cursor: pointer" aria-hidden="true"></span>
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="align-c j-first-step ">
+                            <button type="button" class="btn-pr ok-btn" id="btn_next_step">下一步</button>
+                        </div>
+                        <p class="question_tip j-first-step ">
+                            已有账号？<a href="javascript:;" id="link_login">去登录</a><br>
+                            请输入公司内部邮箱，不建议使用QQ、网易、新浪等公共邮箱<br>
+                            如有任何问题，请致电：0731-89929409或QQ:879656665<br>
+                            我们会尽快为您解决。
+                        </p>
+
+                        <div class="second-step hide" id="validateEmail">
+                            <div id="sendEmail">
+                                <div></div>
+                            </div>
+                            <p id="emailTo">
+                                验证邮件已发送至：
+                                <br>
+                                <span id="mail_to"></span>
+                            </p>
+                            <p id="checkEmail">请登录邮箱点击邮件内的链接，验证后即可发布职位</p>
+                            <div id="noEmail">没有收到验证邮件，怎么办？
+                                <ol>
+                                    <li>1. 邮箱地址填写错误？<a href="javascript:;" class="link-reset">重新填写邮箱地址</a></li>
+                                    <li>2. 邮件有时会调皮进入垃圾信箱、广告信箱，请留意</li>
+                                    <li>3. 稍等几分钟，若还未收到验证邮件， <a href="javascript:;" id="link_re_send">重新发送验证邮件</a></li>
+                                    <li>4. 还未收到验证邮件，请联系我们：0731-89929409，QQ:879656665</li>
+                                </ol>
+                            </div>
+                        </div>
+
+                        <div class="third-step j-third-step hide">
+                            <p class="question_tip" style="color: orangered"></p>
+                            <p class="question_tip">
+                                <a href="javascript:;" class="link-reset">重新填写邮箱地址</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="prompt_2" style="display:none;">
+                    <h4 class="align-c text-success">您的申请资料已成功提交，需等待学校确认，审批结果将在24小时内通知您，请留意相关信息。</h4>
+                    <p class="align-c">
+                        绑定微信账号，免费获得更多校招服务和通知
+                        <a class="align-c btn-blue" href="user/bind">绑定微信</a>
+                    </p>
+                </div>
+                <div id="tips" style="color:red;padding:10px 15px;background-color:#ffffcc;display:none;">
+                    <p>提示：</p>
+                    <ol>
+                        <li>1、为了保证使用效果，请使用IE9以上版本（或火狐、搜狗、360、谷歌、QQ浏览器……）。</li>
+                        <li>2、军警医疗机构可分别在“营业执照”和“组织机构代码证”处上传军队（武警）单位对外有偿服务许可证扫描件。</li>
+                        <li>3、三证合一的单位，在组织机构代码证和营业执照上传框中均上传三证合一资质证明即可。</li>
+                    </ol>
+                </div>
+                <div id="step_register" class="j-third-step  ">
+                    <input type="hidden" name="is_register" id="is_register" value="1">
+                    <h4 class="form-title">注册信息<span class="text-red">*</span></h4>
+                    <table class="table">
+                        <tr style="background-color:#ffffcc;" class="hnsf_tips hide">
+                            <td colspan="2" style="text-align:left;">
+                                <p>重要提醒：欢迎来我校招聘！</p>
+                                <p>1.请来校招聘人员携带盖有本公司公章的介绍信。</p>
+                                <p>2.请招聘单位不要未经允许在招就处大楼任何地方粘贴宣传海报等资料（现已有多处场所因此损坏），违者需支付相关清洁费用，并将被拉入招聘黑名单，谢谢配合！</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="form-field" width="100px">企业名称</td>
+                            <td><input type="text" class="form-control" id="company_name" name="company_name"
+                                    maxlength="50" placeholder="请输入企业全称（与组织机构代码证上一致）"></td>
+                        </tr>
+                        <tr>
+                            <td class="form-field">HR姓名</td>
+                            <td><input type="text" class="form-control" id="hr" name="hr" maxlength="50" placeholder="请输入HR的真实姓名"></td>
+                        </tr>
+                        <tr >
+                            <td class="form-field">联系手机</td>
+                            <td><input type="text" class="form-control" id="mobile" name="mobile" placeholder="请输入手机（同时可用于账号登录）"></td>
+                        </tr>
+                        <tr >
+                            <td class="form-field">登录密码</td>
+                            <td style="position: relative">
+                                <input type="password" class="form-control" value="" id="password1" name="password1" placeholder="请输入登录密码">
+                                <span class="glyphicon glyphicon-eye-close" title="密码不可见" id="span_ico_eye" style="position: absolute;right: 20px;top: 18px;cursor: pointer" aria-hidden="true"></span>
+                                <input type="hidden" value="" name="password" id="password"/>
+                            </td>
+                        </tr>
+                        <tr  id="tr_img_code" style="display:;">
+                            <td class="form-field">图形验证码</td>
+                            <td>
+                                <div class="code-wrap">
+                                    <input type="text" class="form-control" placeholder="图形验证码" id="img_valid_code" name="img_valid_code">
+                                    <img id="img_code" src="login/imgcode" alt="点击刷新验证码" title="点击刷新验证码">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr >
+                            <td class="form-field">手机验证码</td>
+                            <td>
+                                <div class="code-wrap">
+                                    <input type="text" class="form-control" id="valid_code"  placeholder="请输入手机验证码"
+                                        name="valid_code">
+                                    <a class="btn btn-success" id="btn_getCode">获取验证码</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <h4 class="form-title">认证资料<span class="text-red">*</span></h4>
+                    <table class="table">
+                        <tr>
+                            <td class="form-field" style="width: 100px">所在省份</td>
+                            <td>
+                                <select class="form-control" name="province" id="province" style="width: 150px;">
+                                    <option value="">请选择省份</option>
+                                    <option value="湖南">湖南</option>
+                                    <option value="湖北">湖北</option>
+                                    <option value="云南">云南</option>
+                                    <option value="吉林">吉林</option>
+                                    <option value="广东">广东</option>
+                                    <option value="辽宁">辽宁</option>
+                                    <option value="福建">福建</option>
+                                    <option value="河南">河南</option>
+                                    <option value="广西">广西</option>
+                                    <option value="北京">北京</option>
+                                    <option value="上海">上海</option>
+                                    <option value="天津">天津</option>
+                                    <option value="重庆">重庆</option>
+                                    <option value="山东">山东</option>
+                                    <option value="江苏">江苏</option>
+                                    <option value="浙江">浙江</option>
+                                    <option value="安徽">安徽</option>
+                                    <option value="海南">海南</option>
+                                    <option value="江西">江西</option>
+                                    <option value="黑龙江">黑龙江</option>
+                                    <option value="四川">四川</option>
+                                    <option value="贵州">贵州</option>
+                                    <option value="西藏">西藏</option>
+                                    <option value="河北">河北</option>
+                                    <option value="山西">山西</option>
+                                    <option value="内蒙古">内蒙古</option>
+                                    <option value="陕西">陕西</option>
+                                    <option value="新疆">新疆</option>
+                                    <option value="甘肃">甘肃</option>
+                                    <option value="宁夏">宁夏</option>
+                                    <option value="青海">青海</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td class="form-field" style="width: 100px">所在城市</td>
+                            <td><input type="text" placeholder="必填，请选择或者输入所在城市，多个城市间使用空格分割" class="form-control CitySelector" id="city_name" name="city_name"></td>
+                        </tr>
+                        <tr>
+                            <td class="form-field">企业地址</td>
+                            <td><input type="text" placeholder="必填，请输入企业地址" class="form-control" id="address" name="address"></td>
+                        </tr>
+                        <tr>
+                            <td class="form-field">固定电话</td>
+                            <td><input type="text" placeholder="必填，如：0755-88888888" class="form-control" id="tel" name="tel"></td>
+                        </tr>
+                        <tr>
+                            <td class="form-field">企业邮箱</td>
+                            <td><input type="text" placeholder="必填，须企业官方邮箱 如：yunyan@bibibi.net" class="form-control j-mail" id="mail" name="mail"></td>
+                        </tr>
+                        <tr>
+                            <td class="form-field">招聘邮箱</td>
+                            <td><input type="text" placeholder="必填，如：zhaopin@bibibi.net" class="form-control" id="job_mail" name="job_mail"></td>
+                        </tr>
+                        <tr>
+                            <td class="form-field">邮编</td>
+                            <td><input type="text" maxlength="6" placeholder="必填，如：100000" class="form-control" id="post_code" name="post_code"></td>
+                        </tr>
+                        <tr>
+                            <td class="form-field">单位性质</td>
+                            <td><select class="form-control" id="company_property" name="company_property" style="color: #8f8f8f">
+                                <option selected value="">必填，请选择</option>
+                                <option>机关</option>
+                                <option>科研设计单位</option>
+                                <option>高等教育单位</option>
+                                <option>中初教育单位</option>
+                                <option>医疗卫生单位</option>
+                                <option>其他事业单位</option>
+                                <option>国有企业</option>
+                                <option>民营企业</option>
+                                <option>三资企业</option>
+                                <option>其他企业</option>
+                                <option>部队</option>
+                                <option>农村建制村</option>
+                                <option>城镇社区</option>
+                                <option>其他</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td class="form-field">所属行业</td>
+                            <td><select class="form-control" id="industry_category" name="industry_category" style="color: #8f8f8f">
+                                <option selected value="">必填，请选择</option>
+                                <option>农、林、牧、渔业</option>
+                                <option>采矿业</option>
+                                <option>制造业</option>
+                                <option>电力、热力、燃气及水生产和供应业</option>
+                                <option>建筑业</option>
+                                <option>批发和零售业</option>
+                                <option>交通运输、仓储和邮政业</option>
+                                <option>住宿和餐饮业</option>
+                                <option>信息传输、软件和信息技术服务业</option>
+                                <option>金融业</option>
+                                <option>房地产业</option>
+                                <option>租赁和商务服务业</option>
+                                <option>科学研究和技术服务业</option>
+                                <option>水利、环境和公共设施管理业</option>
+                                <option>居民服务、修理和其他服务业</option>
+                                <option>教育</option>
+                                <option>卫生和社会工作</option>
+                                <option>文化、体育和娱乐业</option>
+                                <option>公共管理、社会保障和社会组织</option>
+                                <option>国际组织</option>
+                                <option>军队</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td class="form-field">单位规模</td>
+                            <td><select class="form-control" id="scale" name="scale" style="color: #8f8f8f">
+                                <option selected value="">必填，请选择</option>
+                                <option>少于50人</option><option>50-150人</option>
+                                <option>150-500人</option>
+                                <option>500-1000人</option>
+                                <option>1000-5000人</option>
+                                <option>5000-10000人</option>
+                                <option>10000人以上</option></select></td>
+                        </tr>
+                        <tr>
+                            <td class="form-field">注册资金</td>
+                            <td><select class="form-control" id="registered_capital" name="registered_capital" style="color: #8f8f8f">
+                                <option selected value="">必填，请选择</option>
+                                <option>10万以下</option>
+                                <option>10-50万</option>
+                                <option>50-100万</option>
+                                <option>100-1000万</option>
+                                <option>1000万以上</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td class="form-field">单位标签<br>（非必填）</td>
+                            <td>
+                                <label class="checkbox-inline"><input type="checkbox" class="checkbox" value="世界500强" /> 世界500强</label>
+                                <label class="checkbox-inline"><input type="checkbox" class="checkbox" value="中国100强" /> 中国100强</label>
+                                <label class="checkbox-inline"><input type="checkbox" class="checkbox" value="中国500强" /> 中国500强</label>
+                                <label class="checkbox-inline"><input type="checkbox" class="checkbox" value="民企500强" /> 民企500强</label>
+                                <label class="checkbox-inline"><input type="checkbox" class="checkbox" value="上市公司"  /> 上市公司</label>
+                                <input type="text" class="hide" id="label" name="label" />
+                            </td>
+                        </tr>
+                        <tr id="tr_stock_code" style="display: none">
+                            <td class="form-field">股票代码：</td>
+                            <td>
+                                <input type="tel" class="form-control" id="stock_code" name="stock_code" placeholder="上市公司请录入股票代码" maxlength="20" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="form-field" style="background-color:#ffffcc;">
+                                <p class="text-red">请填写9位组织机构代码或18位统一社会信用代码。三证合一的单位，在组织机构代码证和营业执照上传框中均上传三证合一资质证明。</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="form-field">统一社会<br>信用代码</td>
+                            <td><input type="text" class="form-control" id="org_code" name="org_code" placeholder="必填，18位统一社会信用代码/9位组织机构代码"></td>
+                        </tr>
+                        <tr>
+                            <td class="form-field" valign="top">营业执照(或其他证明文件，如法人、办学许可，最大支持2M)</td>
+                            <td>
+                                <div id="upload_oper" class="form-group uploadimg-wrap">
+                                    <div class="img-wraps clearfix">
+                                    </div>
+                                </div>
+                                <button type="button" style="display:none" id="btn_upload_oper">上传</button>
+                                <input type="hidden" id="oper_url" name="oper_url"/>
+                                <input type="hidden" id="identification_pics" name="identification_pics"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="form-field" valign="top">组织机构代码证(最大支持2M。<span class="text-red">若已三证合一，请上传三证合一的营业执照)</span></td>
+                            <td>
+                                <div id="upload_org" class="form-group uploadimg-wrap">
+                                    <div class="img-wraps clearfix">
+                                    </div>
+                                </div>
+                                <button type="button" style="display:none" id="btn_upload_org">上传</button>
+                                <input type="hidden" id="org_url" name="org_url"/>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="form-field" valign="top">企业LOGO(最大支持100k)</td>
+                            <td>
+                                <div id="upload_logo_url" class="form-group uploadimg-wrap">
+                                    <div class="img-wraps clearfix">
+                                    </div>
+                                    <span style="color:red;">请上传企业LOGO不得上传营业执照</span>
+                                </div>
+                                <button type="button" style="display:none" id="btn_upload_logo_url">上传</button>
+                                <input type="hidden" id="logo_url" name="logo_url"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="form-field">公司简介</td>
+                            <td><textarea rows="6" class="form-control" id="introduction" name="introduction" placeholder="必填，字数不超过400，请输入公司简介" maxlength="400"></textarea></td>
+                        </tr>
+                    </table>
+                    <div class="align-c">
+                        <button type="button" class="btn-pr ok-btn" id="btn_register">下一步</button>
+                    </div>
+                </div>
+                <div id="step_apply" style="display:none;">
+                    <ul class="apply_type_list">
+                        <li class="apply_type" data-value="-1">暂不招聘</li>
+                                    <li class="apply_type" data-value="0">申请宣讲会</li>
+                                                <li class="apply_type" data-value="1">申请双选会</li>
+                                                <li class="apply_type" data-value="2">申请在线招聘</li>
+                                    <!-- 招聘节期间放出 -->
+                                </ul>
+                    <div id="prompt_1" style="background-color:#ffffcc;padding:10px 0;display:none;">
+                        <h4 class="align-c">您的注册信息已成功提交，需等待学校确认，审批结果将在24小时内通知您，请留意相关信息。</h4>
+                        <p class="align-c">
+                            绑定微信账号，免费获得更多校招服务和通知
+                            <a class="align-c btn-blue" href="/user/bind">绑定微信</a>
+                        </p>
+                        <p class="align-c" style="color:#5cb85c;">如需进校招聘，请继续完善申请信息！</p>
+                    </div>
+                    <input type="hidden" name="apply_type" id="apply_type">
+                    <table class="table apply-table">
+                        <thead>
+                            <tr>
+                                <td width="100px"></td>
+                                <td></td>
+                            </tr>
+                        </thead>
+                        <tbody class="hide-wrap">
+                            
+                                            <tr id="career_notices">
+                                <td class="form-field">宣讲会注意事项</td>
+                                <td><p><span style=";font-family:宋体;font-size:14px">备注：学校招就处就业助理会在宣讲会前一天下午与您取得联系（请确保企业账号后台中所留电话号码无误），面试间只能在宣讲会开始前进行预定，不接受提前预定，有其它任何问题，可以询问就业助理。</span></p><p><br/></p></td>
+                            </tr>
+                            
+
+                            <tr class="j-career-tr">
+                                <td class="form-field">标题（选填）</td>
+                                <td>
+                                    <input type="text" maxlength="30" class="form-control" id="apply_career_name" name="apply_career_name" placeholder="宣讲会标题默认为公司名，如无特殊情况请勿改动">
+                                </td>
+                            </tr>
+                            <tr class="j-career-tr">
+                                <td class="form-field">预定时间</td>
+                                <td>
+                                    
+                                    <input type="text"
+                                        style="width: 160px"
+                                        onclick='WdatePicker({disabledDates:[], dateFmt: "yyyy-MM-dd", minDate: "2017-11-28", maxDate: "2018-02-28"})'
+                                        class="form-control Wdate" id="apply_career_time"
+                                        name="apply_career_time" placeholder="请选择预定日期">
+
+                                    <p style="margin-top: 10px">
+                                                                        <label class="radio-inline">
+                                                <input type="radio" name="career_time" checked value="08:30">08:30-10:00                                </label>
+                                                                        <label class="radio-inline">
+                                                <input type="radio" name="career_time"  value="10:00">10:00-11:30                                </label>
+                                                                        <label class="radio-inline">
+                                                <input type="radio" name="career_time"  value="14:30">14:30-16:00                                </label>
+                                                                        <label class="radio-inline">
+                                                <input type="radio" name="career_time"  value="16:00">16:00-17:30                                </label>
+                                                                        <label class="radio-inline">
+                                                <input type="radio" name="career_time"  value="18:00">18:00-21:00                                </label>
+                                                                </p>
+                                </td>
+                            </tr>
+                                            <tr>
+                                <td class="form-field">招聘信息渠道</td>
+                                <td>
+                                                                <label class="radio-inline" style="display: none">
+                                            <input type="radio" name="recommend_type" value="0">
+                                        </label>
+                                        <label class="radio-inline" id="recommend_unit">
+                                            <input type="radio" name="recommend_type" checked value="1">推荐学院							</label>
+                                        
+                                                                    <label class="radio-inline">
+                                            <input type="radio" name="recommend_type" value="3">其他
+                                        </label>
+                                                                                        <input type="hidden" id="recept_faculty" name="recept_faculty"/>
+                                </td>
+                            </tr>
+                                            <tr id="tr_recommend_type" style="display: none">
+                                <td class="form-field"></td>
+                                <td id="td_recommend_type">
+                                </td>
+                            </tr>
+                            <tr id="tr_job_fair" style="display: none;">
+                                <td class="form-field">选择双选会</td>
+                                <td><select class="form-control" id="apply_fair_id" name="apply_fair_id"></select></td>
+                            </tr>
+                            <tr style="display:none;" id="recruit_notices"></tr>
+                            <tr class="jobfair" style="display:none;">
+                                <td></td>
+                                <td>
+                                    <p style="color:red;">备注：本次供需见面会务必先缴纳报名费，并需在报名过程中填写报名费转账流水号、上传转账凭条及上传已盖公章的参会回执，如若缴费成功但最终未能成功报名的单位，报名费将于招聘会结束后通过原账号退回。由于场地有限，原则上一个单位只安排一个展位，请勿重复缴费！</p>
+                                    <a class="j-fair-order-remark" target="_blank" href="javascript:;">点击缴费</a>&nbsp;&nbsp;
+                                </td>
+                            </tr>
+                            <tr class="offline-pay" id="tr_payment_type" style="display: none">
+                                <td class="form-field">缴费方式</td>
+                                <td>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="payment_type" value="现场缴费">现场缴费
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="payment_type" value="转账缴费">转账缴费
+                                    </label>
+                                    <input type="hidden" id="payment_type" name="payment_type"/>
+                                </td>
+                            </tr>
+                            <tr class="offline-pay" id="tr_payment_remark" style="display: none">
+                                <td></td>
+                                <td>
+                                    <span style="color:red;" id="payment_remark"></span>
+                                </td>
+                            </tr>
+                            <tr id="tr_job_fair_desc" style="display: none;">
+                                <td>报名费</td>
+                                <td>
+                                    <ul>
+                                        <li><span style="color:red" id="sp_disposit">0</span>元</li>
+                                        <li>说明：如果双选会审核未通过，报名费将原路退还。</li>
+                                        <span id="sp_organisers" class="hide"></span>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr class="jobfair" style="display: none">
+                                <td>缴费流水单号</td>
+                                <td>
+                                    <input type="text" id="bank_trade_no" name="bank_trade_no" class="form-control" maxlength="20" placeholder="必填，请输入缴费流水单号">
+                                </td>
+                            </tr>
+                            <tr class="jobfair" style="display: none">
+                                <td>上传缴费凭证</td>
+                                <td>
+                                    <label ><span class="label-desc">最大支持1M(点击图片可更换新的图片)</span></label>
+                                    <div id="upload_pay" class="form-group uploadimg-wrap">
+                                        <div class="img-wraps clearfix">
+                                        </div>
+                                    </div>
+                                    <button type="button" style="display:none" id="upload_pay_btn">上传</button>
+                                    <input type="hidden" id="bank_pay_image" name="bank_pay_image"/>
+                                </td>
+                            </tr>
+
+                            <tr id="tr_invoice_type" class="need-pay" style="display: none;">
+                                <td>发票类型</td>
+                                <td>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="invoice_type" value="增值税专用发票">增值税专用发票
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="invoice_type" value="增值税普通发票">增值税普通发票
+                                    </label>
+                                    <input type="hidden" id="invoice_type" name="invoice_type"/>
+                                </td>
+                            </tr>
+                            <tr id="tr_invoice_header" class="need-pay" style="display: none">
+                                <td>发票抬头</td>
+                                <td>
+                                    <input type="text" id="invoice_header" name="invoice_header" class="form-control" maxlength="50" placeholder="必填，请输入发票抬头">
+                                </td>
+                            </tr>
+                            <tr id="tr_taxpayer_identity_number" class="need-pay" style="display: none">
+                                <td>纳税人识别号</td>
+                                <td>
+                                    <input type="text" id="taxpayer_identity_number" name="taxpayer_identity_number" class="form-control" maxlength="50" placeholder="必填，请输入纳税人识别号">
+                                </td>
+                            </tr>
+                            <tr id="tr_invoice_address" class="need-pay" style="display: none">
+                                <td>地址</td>
+                                <td>
+                                    <input type="text" id="invoice_address" name="invoice_address" class="form-control" maxlength="100" placeholder="必填，请输入发票中的开票地址">
+                                </td>
+                            </tr>
+                            <tr id="tr_invoice_mobile" class="need-pay" style="display: none">
+                                <td>电话</td>
+                                <td>
+                                    <input type="text" id="invoice_mobile" name="invoice_mobile" class="form-control" maxlength="20" placeholder="必填，请输入发票中的开票电话">
+                                </td>
+                            </tr>
+                            <tr id="tr_invoice_bank_name" class="need-pay" style="display: none">
+                                <td>开户行</td>
+                                <td>
+                                    <input type="text" id="invoice_bank_name" name="invoice_bank_name" class="form-control" maxlength="50" placeholder="必填，请输入发票中的开户行">
+                                </td>
+                            </tr>
+                            <tr id="tr_invoice_bank_account" class="need-pay" style="display: none">
+                                <td>账号</td>
+                                <td>
+                                    <input type="text" id="invoice_bank_account" name="invoice_bank_account" class="form-control" maxlength="50" placeholder="必填，请输入发票中的开户行账号">
+                                </td>
+                            </tr>
+
+                            <tr class="jobfair" style="display: none">
+                                <td>发票金额</td>
+                                <td>
+                                    <input type="text" id="invoice_amount" name="invoice_amount" class="form-control" maxlength="10" placeholder="必填，请输入发票金额">
+                                </td>
+                            </tr>
+                                            <tr class="jobfair" style="display: none">
+                                <td>参会回执图片</td>
+                                <td>
+                                    <label><span class="label-desc">最大支持1M(点击图片可更换新的图片)</span></label>
+                                    <div id="upload_receipt" class="form-group uploadimg-wrap">
+                                        <div class="img-wraps clearfix">
+                                        </div>
+                                    </div>
+                                    <button type="button" style="display:none" id="upload_receipt_btn">上传</button>
+                                    <input type="hidden" id="receipt_pic" name="receipt_pic"/>
+                                </td>
+                            </tr>
+                                            <tr>
+                                <td>是否校友企业</td>
+                                <td>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="is_schoolmate" value="1">是
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="is_schoolmate" checked value="0">否
+                                    </label>
+                                    <label class="radio-inline" style="color:#888">(企业法人或合伙人是校友)</label>
+                                </td>
+                            </tr>
+                                            <tr style="display:none">
+                                <td>是否需要校园大使</td>
+                                <td>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="is_need_envoy" value="1">是
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="is_need_envoy" value="0" checked>否
+                                    </label>
+                                </td>
+                            </tr>
+
+                    <!--企业问卷-->
+                    <tr class="questionnaire hide">
+                        <td class="form-field">是否招聘过本校学生</td>
+                        <td>
+                            <label class="radio-inline">
+                                <input type="radio" name="is_recruit_schoolmate" checked value="0">否
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="is_recruit_schoolmate" value="1">是
+                            </label>
+                        </td>
+                    </tr>
+                    <tr class="code-wrap hide">
+                        <td class="form-field">企业问卷</td>
+                        <td>
+                            <div class="code_url">
+                                <img id="code-img"  style="height: 120px" alt="二维码">
+                            </div>
+                            <span id="questionnaire_url">扫描二维码填写问卷</span>
+                        </td>
+                    </tr>
+                            <tr class="j-online-tr hide">
+                                <td>招聘类别</td>
+                                <td>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="recruit_type" checked value="正式招聘">正式招聘
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="recruit_type" value="实习招聘">实习招聘
+                                    </label>
+                                </td>
+                            </tr>
+                                                <tr id="tr_book_booth_num">
+                                    <td>申请展位数量</td>
+                                    <td>
+                                        <input type="number" value="1" class="form-control" id="book_booth_num" name="book_booth_num" min="1" max="100" placeholder="必填，请输入申请展位数量，只能输入大于0的整数">
+                                    </td>
+                                </tr>
+                                                            <tr>
+                                <td class="form-field">招聘需求</td>
+                                <td>
+                                    <div class="grid" id="grid">
+                                        <div class="grid-toolbar clearfix">
+                                            <div class="pull-right">
+                                                <a href="javascript:;" id="edit-post" class="btn-add">
+                                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span><span>新增职位</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <table class="table table-hover form" style="background-color:#fff;" id="recruitment_table">
+                                            <thead>
+                                            <tr>
+                                                <th width="135px">岗位名称</th>
+                                                <th width="145px">需求专业</th>
+                                                <th width="70px">学历要求</th>
+                                                <th width="70px">薪资待遇</th>
+                                                <th width="60px">招聘人数</th>
+                                                <th width="60px">操作</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                    <script type="text/template" id="gridrow_template">
+                                        <td><a href="javascript:;" onclick="$(this).closest('tr').find('.add').trigger('click');"><%- job_name %></a></td>
+                                        <td title="<%- about_major %>">
+                                            <div style="text-overflow:ellipsis;overflow:hidden;white-space:nowrap;width:145px;"><%- about_major %></div>
+                                        </td>
+                                        <td><%- degree_require %></td>
+                                        <td><%- salary %></td>
+                                        <td><%- job_number %></td>
+                                        <td class="align-c">
+                                            <p>
+                                                <a href="javascript:;" class="add" data-id="<%- id %>">修改</a>
+                                                <a href="javascript:;" class="del">删除</a>
+                                            </p>
+                                        </td>
+                                    </script>
+                                </td>
+                            </tr>
+                            <tr id="tr_attend_list">
+                                <td class="form-field">参会人员</td>
+                                <td>
+                                    <table class="table table-bordered" id="attend_table" style="background-color:#fff;border-top:1px solid #e7e8eb;">
+                                        <thead>
+                                            <tr>
+                                                <th class="form-field align-c" width="90px">姓名</th>
+                                                <th class="form-field align-c" width="70px">性别</th>
+                                                <th class="form-field align-c">职务职称</th>
+                                                <th class="form-field align-c" width="130px">手机号码</th>
+                                                <th class="form-field align-c" width="140px">邮箱</th>
+                                                <th class="form-field align-c" width="70px">操作</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><input type="text" class="form-control name" data-empty="姓名不能为空" placeholder="必填"></td>
+                                                <td>
+                                                    <select class="form-control sex">
+                                                        <option value="男" selected>男</option>
+                                                        <option value="女">女</option>
+                                                    </select>
+                                                </td>
+                                                <td><input type="text" class="form-control post" placeholder="请输入" data-empty="职务职称不能为空"></td>
+                                                <td><input type="text" class="form-control mobile" data-empty="手机号码不能为空" data-invalid="请输入正确的手机号码" placeholder="必填"></td>
+                                                <td><input type="text" class="form-control email" data-empty="邮箱不能为空" data-invalid="请输入正确的邮箱" placeholder="请输入"></td>
+                                                <td>
+                                                    <a class="attend-add-btn" href="javascript:;">增加</a>
+                                                    <a class="attend-del-btn" href="javascript:;">删除</a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <input type="hidden" id="attend_list" name="attend_list" />
+                                </td>
+                            </tr>
+
+                            <tr id="tr_parking_spaces_cnt" style="display: none">
+                                <td>自驾来校车辆数</td>
+                                <td>
+                                    <input type="number" id="parking_spaces_cnt" name="parking_spaces_cnt" class="form-control" maxlength="1" value="0" min="0" max="9" placeholder="选填，只能输入大于等于0的整数，不开车来校可不填">
+                                </td>
+                            </tr>
+
+                            <!--西安建筑科技大学是否报名第二天草堂校区双选会-->
+                                                            <tr>
+                                <td class="form-field">申请说明</td>
+                                <td><textarea class="form-control" id="apply_desc" maxlength="100" name="apply_desc">我想报名参加双选会</textarea></td>
+                            </tr>
+                            <tr id="tr_apply_company_profile" style="display: none">
+                                <td class="form-field">企业简介</td>
+                                <td>
+                                    <textarea class="form-control" id="apply_company_profile" name="apply_company_profile" placeholder="字数200-300，学校将根据实际情况，可能用于制作双选会参会单位海报。" maxlength="400" rows="5"></textarea>
+                                </td>
+                            </tr>
+                            <tr class="motoley-require hide">
+                                <td class="form-field">招聘简章</td>
+                                <td>
+                                    <a href="/pcend/company/jzyz.docx" class="btn-add" style="margin-bottom:10px;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span><span>招聘简章样张下载</span></a>
+                                    <span style="margin-left:5px;color: red">请参考招聘样张，粘贴选项请保留原格式，建议内容中的表格使用截图</span>
+                                    <!-- <textarea rows="8" style="margin-top: 10px" placeholder="必填，请输入招聘简章" class="form-control" id="recruitment" name="recruitment"></textarea> -->
+                                    <input type="hidden" name="recruitment" id="recruitment">
+                                    <script id="recruitment_edit" name="content" type="text/plain"></script>
+                                </td>
+                            </tr>
+
+                            
+                            
+
+                            <tr>
+                                <td>
+                                    <input type="hidden" name="school_token" id="school_token">
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot class="hide_tip hide">
+                            <tr style="background-color:#f2dede;">
+                                <td colspan="2" style="text-align:left;">目前我校暂无双选会安排，如需申请双选会请及时关注我校双选会安排，或申请其它招聘类型，谢谢！</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                    <div class="align-c">
+                        <button type="button" class="btn-pr ok-btn" id="btn_apply">完成申请</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="footer">
+                <div class="wrapper">
+                    <div class="copyright">
+                        <span><em>©</em>2015 Yunxiaozhao </span>
+                        <a target="_blank" rel="nofollow">湘ICP备15008277号</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<script>
+    var G_MODULES = [
+        ['login', 'schoolregister'],
+        ['plugs', 'form'],
+        ['plugs', 'uploadimg'],
+        ['libs', 'md5'],
+        ['plugs', 'dialog'],
+        ['plugs', 'tooltips'],
+        ['plugs', 'grid']
+    ];
+    var __page_ver = 19, __auth_tokens = ["yxqqnn1588930021","yxqqnn0000000013","yxqqnn0000000017","yxqqnn0000000022","yxqqnn0000000058"];
+</script>
+<script src="components/??ueditor/ueditor.config.js,ueditor/ueditor.all.min.js,ueditor/lang/zh-cn/zh-cn.js,plupload/plupload.full.min.js"></script>
+<link href="public/css/base/selectcity.css" rel="stylesheet" type="text/css">
+<script src="pcend/public/js/plugs/selectcity.js"></script>
+<script src="pcend/public/js/??libs/seajs/sea.js,libs/3rd/seajs-combo.js,libs/jquery/jquery-1.11.3.min.js,libs/3rd/jquery-cookie.js,jqsea-extend.js?v=20151103"></script>
+<script type="text/javascript" src="http://static.bibibi.net/backend/public/components/My97DatePicker/WdatePicker.js"></script>
+<script>
+    var G_CONFIG = {version:'06', "picPath":"http://pic.bibibi.net","aliPath":"http://yun-campus-res.oss-cn-shenzhen.aliyuncs.com","portalSite":"http://portal.bibibi.net","pic512":"@1e_512w_512h_1c_0i_1o_80Q_1x.jpg","pic256":"@1e_256w_256h_1c_0i_1o_80Q_1x.jpg","pic128":"@1e_128w_128h_1c_0i_1o_70Q_1x.jpg","pic64":"@1e_64w_64h_1c_0i_1o_70Q_1x.jpg","hots":[0,10,20,30,50]};
+    //版本更新
+    var config = {
+        base: '/pcend',
+        paths: {
+            'libs': 'public/js/libs',
+            'plugs':'public/js/plugs'
+        },
+        comboSuffix: '?v=' + G_CONFIG.version
+    };
+    if(window.__page_ver){
+        config.comboSuffix = config.comboSuffix + __page_ver;
+    }
+    _modulePath = [];
+    for (var i = 0, len = G_MODULES.length; i < len; i++) {
+        var module = G_MODULES[i];
+        if(i == 0) {
+            config.paths[module[0]] = 'company/js/' + module[i];
+        }
+        _modulePath.push(module.join('/'));
+    }
+
+    seajs.config(config);
+    _modulePath.push('plugs/browserCheck');
+    _modulePath.push('company/js/utils');
+    _modulePath.push('libs/md5');
+    _modulePath.push('libs/template');
+    _modulePath.push('libs/dialog');
+    _modulePath.push('libs/artDialog/src/dialog-plus');
+    _modulePath.push('libs/artDialog/src/artdialog');
+    _modulePath.push('libs/artDialog/src/drag');
+    _modulePath.push('libs/artDialog/src/popup');
+    _modulePath.push('libs/artDialog/src/dialog-config');
+    _modulePath.push('plugs/chargeDialog');
+
+    //处理南方医科大学
+    if ($.getQueryStr('school_token') == 'yxqqnn0400000007') {
+        $('#tips').removeClass('hide');
+        $('#recommend_unit').remove();
+    }
+    //处理湖南师范大学
+    if ($.getQueryStr('school_token') == 'yxqqnn0000000003') {
+        $('.hnsf_tips').removeClass('hide');
+    }
+
+    seajs.use(_modulePath, function () {
+        $.browserCheck();
+        var _security = arguments[arguments.length-8];
+
+        //登录相关
+        var login_url = '/login/index.html';
+        if(location.href.indexOf('/login/') < 0){
+            if(!G_CONFIG.hr){
+                var dialog = $.dialog({content: '登录超时', quickClose: true}).show();
+                _timeout = setTimeout(function () {
+                    dialog.close().remove();
+                    location.href = login_url;
+                }, 2000);
+            }else{
+                $('#btn_logout').click(function(){
+                    $.get('/login/logout', function(data){
+                        var dialog = $.dialog({content: '退出登录成功', quickClose: true}).show();
+                        _timeout = setTimeout(function () {
+                            dialog.close().remove();
+                            location.href = login_url;
+                        }, 2000);
+                    });
+                });
+            }
+        }else if(location.href.indexOf(login_url) > 0){
+            if(!!G_CONFIG.hr) {
+                var fair_id = $.getQueryStr('fair_id');
+                if(!!fair_id){
+                    var url_jobfair = '/campus/jobfair?school_token='+$.getQueryStr('school_token')+'&apply_type='+$.getQueryStr('apply_type')+'&fair_id='+fair_id;
+
+                    var job_fair = $.getQueryStr('job_fair');
+                    if(!!job_fair){
+                        url_jobfair += '&job_fair='+encodeURIComponent(job_fair);
+                    }
+
+                    var meet_time = $.getQueryStr('meet_time');
+                    if(!!meet_time){
+                        url_jobfair += '&meet_time='+encodeURIComponent(meet_time);
+                    }
+
+                    var address = $.getQueryStr('address');
+                    if(!!address){
+                        url_jobfair += '&address='+encodeURIComponent(address);
+                    }
+                    location.href = url_jobfair;
+                }else {
+                    location.href = '/gallery/index';
+                }
+            }
+        }
+
+        //修改密码
+        $("#update_pwd").click(function () {
+            $.message({
+                title: '修改密码',
+                content: ''+
+                '<div class="form-group"><label for="pwd" class="control-label">旧密码：</label><input id="pwd" type="password" class="form-control" placeholder="请输入旧密码"/></div>'+
+                '<div class="form-group"><label for="pwd1" class="control-label">新密码：</label><input id="pwd1" type="password" class="form-control" placeholder="请输入新密码"/></div>'+
+                '<div class="form-group"><label for="pwd2" class="control-label">重复新密码：</label><input id="pwd2" type="password" class="form-control" placeholder="请重复输入新密码"/></div>',
+                btns: [
+                    ['取消', function () {
+                        this.close();
+                    }],
+                    ['确定', function () {
+                        var _this = this;
+                        var postData = {};
+                        if($.trim($("#pwd").val()).length > 0 && $.trim($("#pwd1").val()).length >0) {
+                            postData.pwd = _security.hex_md5($("#pwd").val());
+                            postData.pwd1 = _security.hex_md5($("#pwd1").val());
+                            postData.pwd2 = _security.hex_md5($("#pwd2").val());
+                            if (postData.pwd1 != postData.pwd2) {
+                                $("#pwd2").val("").focus();
+                                var dialog = $.dialog({content: '两次密码输入不一致', quickClose: true}).show();
+                                _timeout = setTimeout(function () {
+                                    dialog.close().remove();
+                                }, 2000);
+                                return false;
+                            }else if(postData.pwd == postData.pwd1){
+                                var dialog = $.dialog({content: '新密码和旧密码不能一样', quickClose: true}).show();
+                                _timeout = setTimeout(function () {
+                                    dialog.close().remove();
+                                }, 2000);
+                                return false;
+                            }
+
+                            $.ajax({
+                                url: "/login/update_pwd",
+                                dataType: "json",
+                                type: 'post',
+                                data: postData,
+                                success: function (data) {
+                                    var d = $.dialog({content: data.msg, quickClose: true}).show();
+                                    setTimeout(function () {
+                                        d.close().remove();
+                                        if (data.code == 1)
+                                            _this.close();
+                                    }, 1000);
+                                }
+                            });
+                        }
+                        return false;
+                    }]
+                ]
+            });
+            $("#txtFaculty_name").focus();
+        });
+
+        arguments[0].init(Array.prototype.slice.call(arguments, 1));
+    });
+</script>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?38ebd6cc310b1f1816a3450dbafcb03b";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>

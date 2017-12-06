@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+:focus {
+    outline-width: 0px;
+}
+.biankuang{ border:1px #376a01 solid;}
+.list_alter{ background:#5a9707;
+height:40px;
+line-height:40px;
+padding-left:10px;
+border-bottom:1px #376a01 solid;
+}
+.fanhui{ padding-right:10px;}
+.list_alter li{ padding-right:15px;}
+.list_alter li:last-child{ padding-right:0;}
+.list_alter img{ padding-right:5px
+}
+.list_alter a{ color:#fff;
+}
+.list_alter a:hover{ color:#F30;
+}
+
+
+.tal{ padding:10px 10px 0 10px;}
+.tal .table thead tr th { border-bottom:0;
+background:#e0e0df;
+vertical-align:middle;
+}
+.tal .table tbody tr td{ border-top:0;white-space:nowrap;
+}
+table.datagrid td input[type='checkbox'] ,table.datagrid th input[type='checkbox']  {
+    margin: auto;
+    display: block;
+    line-height: 40px;
+    font-size: 25px;
+    height: 20px;
+    width: 20px;
+    vertical-align: bottom;
+}
+table.datagrid td input[type='radio'] {
+    margin: auto;
+    display: block;
+    line-height: 40px;
+    font-size: 25px;
+    height: 20px;
+    width: 20px;
+    vertical-align: bottom;
+}
+.fenye .pagination li.active span {
+    color: #fff;
+    background: #376a01;
+}

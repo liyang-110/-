@@ -1,0 +1,61 @@
+
+@font-face {font-family: "clffont";
+  src: url("font_83xi7lcp611yvi.eot-t=1487318845864")/*tpa=https://at.alicdn.com/t/font_83xi7lcp611yvi.eot?t=1487318845864*/; /* IE9*/
+  src: url("font_83xi7lcp611yvi.eot-t=1487318845864#iefix")/*tpa=https://at.alicdn.com/t/font_83xi7lcp611yvi.eot?t=1487318845864#iefix*/ format('embedded-opentype'), /* IE6-IE8 */
+  url("font_83xi7lcp611yvi.woff-t=1487318845864")/*tpa=https://at.alicdn.com/t/font_83xi7lcp611yvi.woff?t=1487318845864*/ format('woff'), /* chrome, firefox */
+  url("font_83xi7lcp611yvi.ttf-t=1487318845864")/*tpa=https://at.alicdn.com/t/font_83xi7lcp611yvi.ttf?t=1487318845864*/ format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url("font_83xi7lcp611yvi.svg-t=1487318845864#clffont")/*tpa=https://at.alicdn.com/t/font_83xi7lcp611yvi.svg?t=1487318845864#clffont*/ format('svg'); /* iOS 4.1- */
+}
+
+.clffont {
+  font-family:"clffont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.yjy-dianhua:before { content: "\e600"; }
+
+.yjy-web:before { content: "\e601"; }
+
+.yjy-qq:before { content: "\e606"; }
+
+.yjy-shouji:before { content: "\e610"; }
+
+.yjy-svg13:before { content: "\e834"; }
+
+.yjy-youxiang:before { content: "\e63e"; }
+
+.yjy-wechat:before { content: "\e64b"; }
+
+.yjy-zizhirongyu:before { content: "\e6a0"; }
+
+.yjy-xwzx:before { content: "\e604"; }
+
+.yjy-gywm:before { content: "\e607"; }
+
+.yjy-hzkh:before { content: "\e6cb"; }
+
+.yjy-101:before { content: "\e62e"; }
+
+.yjy-chanpinjieshao:before { content: "\e7b8"; }
+
+.yjy-bumen:before { content: "\e631"; }
+
+.yjy-cp:before { content: "\e605"; }
+
+.yjy-khfw:before { content: "\e69c"; }
+
+.yjy-meitibaodao:before { content: "\e6a3"; }
+
+.yjy-lianxifangshi:before { content: "\e613"; }
+
+.yjy-xuexiao:before { content: "\e619"; }
+
+.yjy-fengongsixinwen:before { content: "\e64c"; }
+
+.yjy-gongsijieshao:before { content: "\e60d"; }
+
+.yjy-app:before { content: "\e6c4"; }
+

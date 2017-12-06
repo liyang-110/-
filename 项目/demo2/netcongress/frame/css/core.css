@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+body{ font-size:14px;
+font-family:"微软雅黑";
+}
+*{ margin:0px; 
+padding:0px;
+}
+a{ color:#000000; 
+text-decoration:none;
+}
+a:link{ color:#000000; 
+text-decoration:none;
+}
+a:active{ color:#000000; 
+text-decoration:none;
+}
+a:hover{ color:#000000; 
+text-decoration:none;
+}
+a:visited{ color:#000000; 
+text-decoration:none;
+}
+a:focus {outline:0;
+}
+
+ul{ list-style:none;
+}
+.clear{ clear:both;
+}
+img{ border:0px;
+}
+select:hover{ cursor:pointer;}
+input,select{ vertical-align:middle;}
+/*公共样式结束*/
+.container{ width:795px;
+margin:0px auto;
+padding:0;
+}
+.head { background:#0fad8c;
+border-radius:15px 15px 0 0;
+box-shadow:0px 0px 10px #807f7f;
+}
+.head .top_list{ text-align:center;
+}
+.head .top_list h1{ color:#fff;
+font-size:30px;
+padding:25px 0 5px 0;
+margin-top:0;
+}
+/*head完成*/
+.list{ padding:15px 0;
+border-radius: 0 0 15px 15px;
+box-shadow:0px 0px 10px #807f7f;
+}
+.cont{ overflow-y:scroll;
+height:290px; 
+width:760px; 
+margin:0 auto; 
+border:1px #e5e5e5 solid;
+padding:5px 10px;
+}
+.list .yuan h1{ background:url(../img/list.png) no-repeat;
+height:45px;
+width:200px;
+line-height:45px;
+color:#fff;
+font-size:16px;
+padding:0;
+margin:0;
+}
+.list .yuan h1 span{ padding:0 40px 0 18px;
+}
+.list .yuan p{ text-indent:2em;
+line-height:2em;
+color:#017059;
+margin-left:30px;
+margin-top:5px;
+}
+.list .list_li li{ line-height:2em;
+color:#017059;
+margin-left:20px;
+background:url(../img/list_li.png) no-repeat 10px 10px;
+padding-left:35px;
+}
+.list p.yellow{ color:#ff8e15;
+font-size:16px;
+text-indent:0;
+}
+
+.list .text p{ text-align:center;
+color:#017059;
+}
+.list .erweima{ text-align:center;
+}
+/*.footer .xian{ height:1px;
+background:#0fad8c;
+margin:20px 0;
+}*/
+.footer form{ text-align:center;}
+.btn-default{ background-color: #0fad8c;
+border-color:#fff;
+color:#fff;
+width:100px;
+font-size:16px;
+}
+.btn-default:hover{ background:#069174;
+color:#fff;
+border-color: #fff;
+}
+.btn-default[disabled] {
+	background:#666;
+}
+.btn-default[disabled]:hover {
+	background:#666;
+}

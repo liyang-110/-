@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<script src="/assets/jquery/jquery.min.js"></script>
+
+<link rel="stylesheet" href="/statics/css/main4.css" />
+<script type="text/javascript">
+	var cur_path = "";
+</script>
+<script src="/assets/artDialog/artDialog.js?skin=green"></script> 
+<script src="/assets/artDialog/plugins/iframeTools.js"></script>
+<script type="text/javascript" src="/assets/scripts/front.js"></script>
+<script type="text/javascript" src="js/jquery-scrollable.js" charset="utf-8"></script>
+
+<style>
+.f_login {height:auto;margin:auto;text-align: center;}
+.login4 #login4 .input-prepend {margin:auto;width:auto;}
+.login4 #login4 .input-prepend input {
+  width:220px;
+  }
+.f_login .controls {width:290px;margin-left:auto;margin-right:auto;}
+
+.f_login .control-group {
+	width: auto;
+}
+.login4 #login4 {
+  width: auto;
+  height: auto;
+  background-color:transparent;
+  border-radius: none;
+  padding:0;
+  box-shadow:none;
+}
+.intobtn{display: block;
+	position: absolute;
+	right:60px;
+	top:110px;
+	color:#FFC400;
+	background-repeat:no-repeat;
+	text-decoration:none;
+	cursor:pointer;
+}
+.intobtn:hover{
+	color:#FFC400;
+	text-decoration:none;
+}
+.aui_close_btn {
+	position: absolute;
+	right:-22px;
+	top: -23px;
+	background-color:#000;
+	line-height:30px;
+	padding:0px 5px 2px 5px;
+	font-size:30px;font-weight:bolder;color:#C7CBC3;
+}
+a.aui_close_btn:hover {text-decoration:none;color:#EF4B4B;}
+
+</style>
+</head>
+<body style="background-color:transparent; ;padding:0;margin:0;">
+		<div style="padding:8px 10px 11px 10px;">
+		<!--
+		<a href="javascript:;"  class="pull-right aui_close_btn" style="">&times;</a>
+		-->
+			<div style="clear:both;"></div>
+		</div>
+    	<div class="f_login" style="position:relative;height:290px;width:900px;margin:100px auto 0 auto;background:url(images/20160225-1.png) no-repeat center center; ">
+				<a class=" intobtn">
+					<img src="images/20160225-2.png" />
+				</a>
+				<a href="javascript:;"  class="pull-right aui_close_btn" style="">&times;</a>
+				
+ 		</div><!-- login -->
+<script type="text/javascript">
+  $(function(){
+		var parent = art.dialog.parent		
+		api = art.dialog.open.api ;
+		
+		var height =$(".aui_inner",parent.document ).height();
+		var top=0;
+		if( height>290){
+			top = (height-290)/2;
+		}
+		$(".f_login").css("margin-top",top);
+		$(".aui_main",parent.document ).css({"padding-top":0});  
+		$(".aui_inner",parent.document ).css({"border":"none"});  
+		$(".aui_inner",parent.document ).css({"background-color":"transparent"});  
+		
+		
+		$(".aui_close_btn").click(function(){
+			api.close();
+		});
+		
+		$("body",document).click("bind",function(){
+			//$(".gotolink").trigger("click");
+			parent.location="http://www.211zph.com/netcongress/start.do?id=201602190007522";
+			api.close();
+		});
+		
+		setTimeout("api.close();",15000 );
+  });
+</script>
+<script src="/assets/bootstrap/js/bootstrap.min.js" type="text/javascript"></script> 
+</body>
+</html>

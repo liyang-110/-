@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<script src="/assets/jquery/jquery.min.js"></script>
+<script type="text/javascript">
+	var cur_path = "";
+</script>
+<script src="/assets/artDialog/artDialog.js?skin=green"></script> 
+<script src="/assets/artDialog/plugins/iframeTools.js"></script>
+<style>
+.f_login {height:auto;margin:auto;text-align: center;}
+.intobtn{display: block;
+	position: absolute;
+	right:2px;
+	top:200px;
+	color:#FFC400;
+	background-repeat:no-repeat;
+	text-decoration:none;
+	cursor:pointer;
+}
+.intobtn:hover{
+	color:#FFC400;
+	text-decoration:none;
+}
+.aui_close_btn {
+	position: absolute;
+	right:0;
+	top: 0;
+	background-color:#000;
+	font-size: 20px;
+	line-height:25px;
+	padding:0;
+	font-weight:bolder;
+	color:#C7CBC3;
+	text-decoration: none;
+}
+a.aui_close_btn:hover {text-decoration:none;color:#EF4B4B;}
+
+</style>
+</head>
+<body style="background-color:transparent; ;padding:0;margin:0;">
+    	<div class="f_login" style="position:relative;height:230px;width:328px;margin:0;background:url(img01/20160324s.jpg) no-repeat center center; ">
+				
+				<a style="display:block;width:328px;height:230px;" href="http://www.211zph.com/netcongress/start.do?id=201603010007702" target="_blank">
+				</a>
+				<a href="javascript:;"  class="pull-right aui_close_btn" style="">&times;</a>
+				
+ 		</div><!-- login -->
+<script type="text/javascript">
+  $(function(){
+		var parent = art.dialog.parent		
+		api = art.dialog.open.api ;
+		
+		var panel=  api.content();
+		$(panel).parents(".aui_inner").css({"border":"none"}); 
+		$(panel).parents(".aui_inner").css({"background-color":"transparent"});
+		$(".aui_close_btn").click(function(){
+			api.close();
+		});
+  });
+</script>
+</body>
+</html>

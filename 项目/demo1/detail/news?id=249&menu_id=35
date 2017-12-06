@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="Keywords" content="长沙理工大学云就业平台 云就业 高校 大学 大学生 就业 就业网 就业信息网 就业指导 就业指导中心 就业中心 创业 创业指导"/>
+<meta name="Description" content="长沙理工大学云就业平台 云就业 高校 大学 大学生 就业 就业网 就业信息网 就业指导 就业指导中心 就业中心 创业 创业指导"/>
+<link href="/skin/blue/??public/css/global.css,public/css/layout.css,public/css/common.css?20170321" rel="stylesheet">
+<link rel="stylesheet" href="/public/css/base/base.css">
+<link rel="icon" href="http://pic.bibibi.net/public/images/icon/favicon.ico?1" otype="image/x-icon"/>
+<link rel="shortcut icon" href="http://pic.bibibi.net/public/images/icon/favicon.ico?1" type="image/x-icon"/>
+<style type="text/css">
+    </style>
+    <meta name="Keywords" content="学校简介"/>
+    <title>学校简介-文章详情</title>
+    <link href="/skin/blue/??public/css/global.css,public/css/layout.css,public/css/common.css,css/details/details.css?20170321"
+          rel="stylesheet">
+    <style>.btn-disabled {
+        background-color: #d3d3d3;
+        cursor: default
+    }
+
+    .btn-disabled:hover {
+        color: #333
+    }
+
+    .dh-info {
+        font-size: 14px
+    }
+
+    .dh-info .time {
+        font-size: 12px
+    }</style>
+    </head>
+<body>
+<input type="hidden" id="token" value="yunyan1869229336">
+<input type="hidden" id="qq_services" value="">
+<div class="header">
+        <div class="inner clearfix">
+        <div class="logo" id="logo">
+            <a href="javascript:;" class="logo-link">
+                <img src="http://yun-campus-res.oss-cn-shenzhen.aliyuncs.com/school/1490080178-7469.png"/>
+            </a>
+        </div>
+                            <div class="pub-search" id="search_bar" style="position:absolute;right:0;bottom:10px;display:none;">
+                    <div class="search-inner">
+                <div class="search-txt-wrap" style="background-color:#fff;">
+
+                    <input class="search-txt" placeholder="搜索你感兴趣的内容" id="G_keyword" type="text" onkeydown="if(event.keyCode==13){location.href='/module/search?keyword='+G_keyword.value;}">
+                </div>
+                <a class="search-btn has-icon-svg" id="search_btn" onclick="location.href='/module/search?keyword='+G_keyword.value;">
+                    <span class="icon-svg icon-svg-search"></span>
+                </a>
+            </div>
+        </div>
+                <div style="width:80px;float:left;margin-top:10px;margin-left:20px;">
+            <img src="http://pic.bibibi.net/public/images/other/s-yunyan1869229336.png">
+        </div>
+                <div style="width:100px;float:right;">
+                                                        </div>
+    </div>
+</div>
+</div>
+<div class="main-nav">
+    <div class="inner">
+        <!--导航-->
+        <ul class="nav-list clearfix" id="main_nav">
+            <li class="item ">
+                <a href="/index" class="item-link">首页</a>
+                            </li>
+                        <li class="item curr">
+                <a href="/detail/news?id=249&menu_id=35"
+                    class="item-link"  >学校概况</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/detail/news?id=249&menu_id=35">学校简介</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=78&menu_id=35">办学特色</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/detail/news?id=253&menu_id=35">部门概况</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/detail/news?id=254&menu_id=35">机构设置</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/detail/news?id=255&menu_id=35">岗位职责</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=13&menu_id=41"
+                    class="item-link"  >新闻公告</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=102&menu_id=41">焦点新闻</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=13&menu_id=41">就业快讯</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/careers?menu_id=44"
+                    class="item-link"  >招聘信息</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/careers?menu_id=44">校内宣讲会</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/careers?type=outer&menu_id=44">校外宣讲会</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/jobfairs?menu_id=44">校内双选会</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link" target="_blank" href="/module/jobfairs?type=2&menu_id=44">校外双选会</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/onlines?menu_id=44">在线招聘</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/jobs?is_practice=0&menu_id=44">正式岗位</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/jobs?is_practice=1&menu_id=44">实习岗位</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=79&menu_id=51"
+                    class="item-link"  >生源信息</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=79&menu_id=51">生源速览</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=99&menu_id=51">学院专业</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=100&menu_id=51">硕士点</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=101&menu_id=51">博士点</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=80&menu_id=56"
+                    class="item-link"  >就业指导</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=80&menu_id=56">就业指导</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=83&menu_id=56">政策法规</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=103&menu_id=56">职业测评</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=104&menu_id=56">网上学堂</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=84&menu_id=56">求职技巧</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=105&menu_id=56">典型事迹</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=81&menu_id=56">创新创业</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=11&menu_id=61"
+                    class="item-link"  >服务指南</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=11&menu_id=61">办事流程</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=85&menu_id=61">常用下载</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=87&menu_id=65"
+                    class="item-link"  >专项计划</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=87&menu_id=65">预征入伍</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=88&menu_id=65">公务选调</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=89&menu_id=65">村官计划</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=98&menu_id=65">西部志愿</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=90&menu_id=65">特岗教师</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=91&menu_id=65">三扶一持</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="?menu_id=1230"
+                    class="item-link"  >报到证/档案查询</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link" target="_blank" href="http://www.hunbys.com/hnbys/archives.do?m=loadSearchJyfa2&menu_id=1230">报到证查询</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link" target="_blank" href="http://222.240.152.232/index.asp?w=web&menu_id=1230">档案查询</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=86&menu_id=154"
+                    class="item-link"  >联系我们</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=86&menu_id=154">联系我们</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                    </ul>
+    </div>
+</div>
+<div class="container">
+    <div class="inner">
+        <div class="content clearfix">
+                        <div class="side">
+                <div class="side-menu-wrap">
+    <ul class="side-menu">
+                <li class="sm-item curr">
+            <p class="sm-tit">
+                <a href="/detail/news?id=249&menu_id=35" class="sm-link">
+                    <span class="sm-text">学校简介</span>
+                </a>
+            </p>
+        </li>
+                <li class="sm-item">
+            <p class="sm-tit">
+                <a href="/module/news?type_id=78&menu_id=35" class="sm-link">
+                    <span class="sm-text">办学特色</span>
+                </a>
+            </p>
+        </li>
+                <li class="sm-item">
+            <p class="sm-tit">
+                <a href="/detail/news?id=253&menu_id=35" class="sm-link">
+                    <span class="sm-text">部门概况</span>
+                </a>
+            </p>
+        </li>
+                <li class="sm-item">
+            <p class="sm-tit">
+                <a href="/detail/news?id=254&menu_id=35" class="sm-link">
+                    <span class="sm-text">机构设置</span>
+                </a>
+            </p>
+        </li>
+                <li class="sm-item">
+            <p class="sm-tit">
+                <a href="/detail/news?id=255&menu_id=35" class="sm-link">
+                    <span class="sm-text">岗位职责</span>
+                </a>
+            </p>
+        </li>
+            </ul>
+</div>                            </div>
+                        <div class="main">
+                <div class="main-inner detail-main">
+                    <div class="pub-curr-pos">
+                        <a class="cp-link has-icon-svg" href="/index"><span
+                                class="icon-svg icon-svg-home"></span>网站首页</a>
+                        <span class="cp-arrow">&gt;</span>
+                        <a class="cp-link"
+                           href="/module/news?type_id=">学校概况</a>
+                        <span class="cp-arrow">&gt;</span>
+                        <span class="cp-text">详情</span>
+                    </div>
+                    <div class="bshare-custom" style="text-align: right">
+                        <div class="bsPromo bsPromo2"></div>
+                        <a title="分享到微信" class="bshare-weixin" href="javascript:void(0);"></a><a title="分享到QQ好友"
+                                                                                                 class="bshare-qqim"
+                                                                                                 href="javascript:void(0);"></a><a
+                            title="分享到新浪微博" class="bshare-sinaminiblog" href="javascript:void(0);"></a><a
+                            title="分享到QQ空间" class="bshare-qzone"></a><a title="分享到腾讯微博" class="bshare-qqmb"></a><a
+                            title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a><span
+                            class="BSHARE_COUNT bshare-share-count" style="float: none;">31.5K</span></div>
+                    <script type="text/javascript" charset="utf-8"
+                            src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh"></script>
+                    <script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
+                    <div class="news-details" id="data_details">
+                        <div class="details-head" style="position: relative">
+                            <h1 class="dh-tit"
+                                style="font-weight:normal;text-align: center;line-height: 50px">学校简介</h1>
+                            <p class="dh-info" style="text-align: center">
+
+                                                            <span class="time">2015年12月23日</span>
+                                &nbsp;
+                                <span class="time">点击量:14302</span>
+                            </p>
+                                                    </div>
+                        <div class="details-content">
+                            
+                                                        <section class="article135" label="powered by 135editor.com" style="font-family: 微软雅黑;"><p style="white-space: normal;">长沙理工大学是一所以工为主，工、理、管、经、文、法、艺等多学科协调发展，以本科教育为主体，具有博士后科研流动站、博士学位授予权和硕士生推免权的多科性大学。学校是全国先进基层党组织、湖南省文明标兵单位、湖南省依法治校示范学校。经过近60年的建设和发展，学校积淀了以“博学、力行、守正、拓新”为校训和以“铺路石精神”为核心的长理文化。自建校以来，为交通、电力、水利、轻工等行业和区域经济社会发展培养了近20万高级专门人才。学校本科招生第一批次覆盖全国，毕业生就业率连续多年保持在95%以上。</p><p style="white-space: normal;"><br/></p><p style="white-space: normal;">学校是国家“中西部高校基础能力建设工程”高校。现有金盆岭、云塘两个校区，校园占地面积3112亩，校舍总建筑面积115.1万平方米，固定资产总值33.80亿元，其中教学科研仪器设备总值4.74亿元。图书馆纸本藏书312.8万册，电子图书76.6万册，中外期刊1951种，建立了教育部科技查新工作站和中国电机工程学会电力科技查新工作站。体育运动场地21.37万平方米，其中室内体育场馆3.45万平方米。</p><p style="white-space: normal;"><br/></p><p style="white-space: normal;">学校坚持“人才强校”发展战略，现有专任教师1931人，其中正教授310人，副教授682人，具有博士学位的教师700人。拥有外聘中国工程院院士3人，国家“千人计划”人选2人，“973计划”项目首席科学家1人，“长江学者”特聘教授2人，“国家杰出青年基金”获得者4人，国家“高端外国专家项目”（文教类）计划人选3人，享受国务院政府特殊津贴专家57人，国家级教学名师4人，全国优秀教师7人，湖南省“百人计划”人选12人，湖南省科技领军人才2人。</p><p style="white-space: normal;"><br/></p><p style="white-space: normal;">学校设有17个教学学院，1个独立学院和1个继续教育学院，是中国人民解放军空军依托培养干部基地。现有全日制在校本科学生30000余人，博士、硕士研究生5000余人。</p><p style="white-space: normal;"><br/></p><p style="white-space: normal;">学校紧紧依托行业，建成了水平较高、特色鲜明的本科教育教学体系。现有61个本科专业，其中国家级特色专业9个、国家级本科人才培养模式创新实验区1个（土木工程专业）、国家级专业综合改革试点专业1个（会计学专业）、通过国家工程教育专业认证的专业7个、列入教育部“卓越工程师教育培养计划”本科专业8个、教育部批准的中外合作办学本科教育项目1个。近五年，获准立项的国家级本科教学工程项目数量在省属高校中名列前茅，其中国家级精品在线开放课程8门、国家级实验（实践）教学示范中心2个、国家级虚拟仿真实验中心2个、国家工程实践教育中心6个、国家级大学生校外实践教育基地1个。学校先后获准为教育部“卓越工程师教育培养计划”试点学校，教育部“大学生研究性学习与创新性实验”、“国家级大学生创新创业训练计划”项目实施学校。近五年，获得国家级教学成果奖4项，省级教学成果奖38项；大学生获得国家级各类学科竞赛和科技成果奖174项，省级学科竞赛和科技成果奖951项。</p><p style="white-space: normal;"><br/></p><p style="white-space: normal;">学校现有3个博士后科研流动站，3个一级学科博士学位授权点，15个二级学科博士学位授权点，20个一级学科硕士学位授权点，105个二级学科硕士学位授权点，8个硕士专业学位授权点，具有授予同等学力硕士学位资格。拥有国家级科研平台2个、教育部创新团队2个、省部级重点实验室和工程（技术）研究中心等自然科学创新平台36个、省级哲学社会科学研究基地14个，省部级重点学科11个。</p><p style="white-space: normal;"><br/></p><p style="white-space: normal;">学校主持完成的“膨胀土地区公路建设成套技术”项目2009年获得国家科学技术进步奖一等奖；主持完成的“混凝土桥梁施工期和使用期安全控制的关键技术”、“混凝土桥梁服役性能与剩余寿命评估方法及应用”、“沥青路面状态设计法与结构性能提升技术及工程应用”项目分别于2006、2011、2012年3次获得国家科学技术进步奖二等奖。“十二五”以来，学校主持承担国家级项目286项，实现了国家重点基础研究发展计划（“973计划”）项目历史性突破，并获国家科技支撑计划课题、国家863计划课题、国家社会科学基金重大项目、国家杰出青年基金项目等高端项目资助；获得国家科技成果奖6项，其中主持2项；职务发明专利238项；科研进校经费10亿余元。</p><p style="white-space: normal;"><br/></p><p style="white-space: normal;">学校坚持开放办学，广泛开展国际合作交流，先后与美国、英国、法国、加拿大、俄罗斯、韩国及港澳台等20多个国家和地区的68所高等院校和科研机构建立了交流与合作关系，在引进智力与优质教育资源、人才培养、学术研究、合作办学、国际会议承办、对外汉语教学等方面开展了实质性的合作。学校具有招收和培养来华留学生资格，是中国政府奖学金来华留学生培养单位。目前在校留学生200余人，其中学历生占80%。与黑山大学、利比里亚大学分别合作共建孔子学院。近年来，共派出1000余名在籍学生出国出境交流学习。</p><p style="white-space: normal;"><br/></p><p style="white-space: normal;">面向未来，长沙理工大学将传承和发扬优良办学传统，遵循现代大学办学规律，遵守《长沙理工大学章程》，实施“质量立校、学科兴校、人才强校、依法治校”战略，坚持改革创新，强化内涵发展，全面提升办学质量和水平，为创建特色鲜明的高水平大学砥砺奋进，为培养具有社会责任感、创新精神和实践能力的德智体美全面发展的研究应用型高级专门人才作出新的更大贡献。（2015年6月更新）</p><p style="white-space: normal;"><br/></p><p style="white-space: normal;"><br/></p><section class="135editor" style="position: static; box-sizing: border-box; border: 0px none; padding: 0px; margin: 0px;" data-id="78034"><section style="border: 0px none rgb(215, 204, 200); margin: 0.5em 0px; clear: both; box-sizing: border-box; padding: 0px; height: 50px;"><section style="text-align: center; font-size: 1em; font-weight: inherit; text-decoration: inherit; color: rgb(254, 254, 254); border-color: rgb(215, 204, 200); box-sizing: border-box; padding: 0px; margin: 0px; clear: both; position: static;"><section data-bcless="lighten" data-bclessp="15%" style="margin: 5px 10px; display: inline-block; color: inherit; border-color: rgb(199, 198, 201); border-left-width: 10px; border-left-style: solid; border-right-width: 10px; border-right-style: solid; padding: 0px; transform: skew(-20deg); box-sizing: border-box;"><section data-bcless="lighten" data-bclessp="8%" style="margin: 0px; display: inline-block; color: rgb(93, 74, 67); border-left-width: 10px; border-left-style: solid; border-color: rgb(145, 145, 157); border-right-width: 10px; border-right-style: solid; box-sizing: border-box; padding: 0px; background-color: rgb(110, 109, 123);"><span style="box-sizing:border-box; color:inherit; margin:0px; padding:0px"><strong style="border-color: rgb(215, 204, 200); box-sizing: border-box; color: inherit; margin: 0px; padding: 0px; display: block; position: static;"><span class="135brush" data-brushtype="text" style="transform: skew(20deg); border-color: rgb(215, 204, 200); box-sizing: border-box; color: rgb(254, 254, 254); display: inline-block; margin: 0px; padding: 8px 15px; position: static box-sizing: border-box;transform: skew(20deg);-webkit-transform: skew(20deg);-moz-transform: skew(20deg);-ms-transform: skew(20deg);-o-transform: skew(20deg); box-sizing: border-box;">长沙理工大学的八大特点</span></strong></span></section></section><section style="margin-top: -2em; box-sizing: border-box; color: inherit; padding: 0px;"><section style="border-top-width: 2px; border-top-style: solid; width: 35%; float: left; border-color: rgb(111,108,127); box-sizing: border-box; color: inherit; padding: 0px; margin: 0px;" data-width="35%"></section><section style="border-top-width: 2px; border-top-style: solid; width: 35%; float: right; border-color: rgb(111,108,127); box-sizing: border-box; color: inherit; padding: 0px; margin: 0px;" data-width="35%"></section></section></section></section><section style="width: 0px; height: 0px; clear: both; box-sizing: border-box; padding: 0px; margin: 0px;"></section></section><p style="white-space: normal;"><br/></p><section class="135editor" style="position: static; box-sizing: border-box; border: 0px none; padding: 0px; margin: 0px;" data-id="45"><section style="margin: 0.8em 0px 0.5em; line-height: 32px; font-weight: bold; box-sizing: border-box; padding: 0px;"><section style="display: inline-block; float: left; width: 32px; height: 32px; border-radius: 32px; vertical-align: top; text-align: center; border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px; margin: 0px; background-color: rgb(72, 192, 163);"><section style="display: table; width: 100%; color: inherit; border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px; margin: 0px;" data-width="100%"><section class="autonum" placeholder="1" style="display: table-cell; vertical-align: middle; color: rgb(255, 255, 255); border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px; margin: 0px;" data-original-title="" title="">1</section></section></section><section class="135brush" data-brushtype="text" style="margin-left: 36px; color: rgb(72, 192, 163); border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px;">这是一所发展迅速，综合实力显著提升的大学。</section></section><section style="width: 0px; height: 0px; clear: both; box-sizing: border-box; padding: 0px; margin: 0px;"></section></section><p style="white-space: normal;"><br/></p><p style="white-space: normal;">学校始建于新中国建设初期，六十年筚路蓝缕，薪火相传，为国家公路交通、电力工业、水利水电等基础建设事业和国民经济发展作出了不可磨灭的贡献。2003年合并建校以来，学校紧紧抓住高等教育发展的历史机遇，顺势而谋，乘势而上，相继取得了获批博士学位授予权、获批国家级教学科研平台、突破国家科技进步一等奖、建设国家工程实验室、教育部本科教学评估获得优秀、全国范围进入一本招生、新校区建成投入使用等一大批标志性成果，综合实力显著提升，已经发展成为一所行业特色鲜明，学科优势明显，在国内有重要影响力的高水平教学研究型大学。2012年学校成功入选“中西部高校基础能力建设工程”，这是国家继“985”、“211”后推动高等教育发展又一重大工程，必将为学校今后的持续快速发展构筑更宽广的平台。</p><p style="white-space: normal;"><br/></p><p style="white-space: normal;"><br/></p><section class="135editor" style="position: static; box-sizing: border-box; border: 0px none; padding: 0px; margin: 0px;" data-id="45"><section style="margin: 0.8em 0px 0.5em; line-height: 32px; font-weight: bold; box-sizing: border-box; padding: 0px;"><section style="display: inline-block; float: left; width: 32px; height: 32px; border-radius: 32px; vertical-align: top; text-align: center; border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px; margin: 0px; background-color: rgb(72, 192, 163);"><section style="display: table; width: 100%; color: inherit; border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px; margin: 0px;" data-width="100%"><section class="autonum" placeholder="1" style="display: table-cell; vertical-align: middle; color: rgb(255, 255, 255); border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px; margin: 0px;" data-original-title="" title="">2</section></section></section><section class="135brush" data-brushtype="text" style="margin-left: 36px; color: rgb(72, 192, 163); border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px;">这是一所办学特色鲜明的大学。</section></section><section style="width: 0px; height: 0px; clear: both; box-sizing: border-box; padding: 0px; margin: 0px;"></section></section><p style="white-space: normal;"><br/></p><p style="white-space: normal;">学校前身的长沙交通学院、长沙电力学院分别是原交通部和原国家电力公司直属高校，在长期的行业办学过程中，学校积累形成了面向行业、依托行业、服务行业的学科专业结构。本科专业中涉及交通、电力、水利的专业有29个，占现有专业总数的50%以上，相关学科专业办学时间长，办学经验积淀深厚，是学校传统优势学科和省部级以上重点学科，在交通、电力、水利等行业内具有广泛的影响力。学校以“传承‘铺路石精神’，主动服务国家基础产业，强化学生工程实践能力，面向基层培养应用型人才”为办学特色，人才培养质量得到社会各界尤其是交通、电力、水利行业的广泛认可，“南路桥，北财会”是全国交通系统对学校毕业生的充分肯定。财经类专业毕业生遍布全国交通、电力行业，有行业内财经人才的“黄埔军校”之美誉。合并建校以后，学校的建设和发展仍然得到了交通、电力、水利行业的大力支持，学校是交通运输部与湖南省人民政府共建高校，与国家电网公司、中国交通建设集团有限公司、中国南方电网以及五大发电集团在人才培养、科学研究、校企合作等方面开展了广泛而深入的合作。</p><p style="white-space: normal;"><br/></p><section class="135editor" style="position: static; box-sizing: border-box; border: 0px none; padding: 0px; margin: 0px;" data-id="45"><section style="margin: 0.8em 0px 0.5em; line-height: 32px; font-weight: bold; box-sizing: border-box; padding: 0px;"><section style="display: inline-block; float: left; width: 32px; height: 32px; border-radius: 32px; vertical-align: top; text-align: center; border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px; margin: 0px; background-color: rgb(72, 192, 163);"><section style="display: table; width: 100%; color: inherit; border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px; margin: 0px;" data-width="100%"><section class="autonum" placeholder="1" style="display: table-cell; vertical-align: middle; color: rgb(255, 255, 255); border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px; margin: 0px;" data-original-title="" title="">3</section></section></section><section class="135brush" data-brushtype="text" style="margin-left: 36px; color: rgb(72, 192, 163); border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px;">这是一所名师云集，潜心教学的大学。</section></section><section style="width: 0px; height: 0px; clear: both; box-sizing: border-box; padding: 0px; margin: 0px;"></section></section><p style="white-space: normal;"><br/></p><p style="white-space: normal;"><br/></p><p style="white-space: normal;">学校树立“办学以教师为本，育人以学生为本”的教育理念，拥有一支由2000余名教师构成的优秀师资队伍，其中中国工程院院士5人、高级（含副高）以上职称的教师1200余人，博、硕士生导师近500人, 教师队伍中拥有如国家“千人计划”人选、国家有突出贡献专家、国家级教学名师、国家“杰出青年基金”获得者、享受国务院政府特殊津贴人员、全国师德标兵、全国优秀教师、国家科技进步奖获得者、国家级教学团队、“新世纪百千万人才工程”人选、教育部“长江学者与创新团队发展计划”科研团队、湖南省“芙蓉学者”特聘教授等一大批在教育、科研方面的优秀人才。学校倡导积极进取、爱岗敬业、无私奉献的精神风尚，实施了“青年英才计划”、“杰出人才计划”、“领军人才计划”等人才建设计划，积极创造条件鼓励教师潜心教学科研。</p><p style="white-space: normal;"><br/></p><section class="135editor" style="position: static; box-sizing: border-box; border: 0px none; padding: 0px; margin: 0px;" data-id="45"><section style="margin: 0.8em 0px 0.5em; line-height: 32px; font-weight: bold; box-sizing: border-box; padding: 0px;"><section style="display: inline-block; float: left; width: 32px; height: 32px; border-radius: 32px; vertical-align: top; text-align: center; border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px; margin: 0px; background-color: rgb(72, 192, 163);"><section style="display: table; width: 100%; color: inherit; border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px; margin: 0px;" data-width="100%"><section class="autonum" placeholder="1" style="display: table-cell; vertical-align: middle; color: rgb(255, 255, 255); border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px; margin: 0px;" data-original-title="" title="">4</section></section></section><section class="135brush" data-brushtype="text" style="margin-left: 36px; color: rgb(72, 192, 163); border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px;">这是一所为学生成长提供了广阔发展空间的大学。</section></section><section style="width: 0px; height: 0px; clear: both; box-sizing: border-box; padding: 0px; margin: 0px;"></section></section><p style="white-space: normal;"><br/></p><p style="white-space: normal;"><br/></p><p style="white-space: normal;">学校拥有2个博士后科研流动站，近20个博士学位授权点，100余个硕士学位授权点、7类硕士专业学位授权点，具有推荐优秀应届本科毕业生免试攻读硕士研究生的资格，形成了从本科生到博士研究生完整的人才培养体系。学校是“国家大学生创新性实验计划”、“卓越工程师教育培养计划”项目实施单位。“大学生创新性试验计划”是指学生在导师指导下，通过自主设计、自主完成、自主管理的方式开展实验，培养创新思维和创新意识，提高动手实践能力，每年有近千名学生报名参与该项目。学校在土木工程（道路工程）、土木工程（桥梁工程）、电气工程及其自动化专业、能源与动力工程、水利类（包括港口航道与海岸工程、水利水电工程）、会计学等6个专业（方向）开办了“卓越人才培养试验班”，实行“3+1”校企联合、导师制指导的培养模式，着力培养一批工程实践能力强、综合素质高、掌握工程领域关键技术的应用型人才。学校是首批“中国国际化人才培养基地”、“中国政府奖学金”留学资助高校，具有招收和培养来华留学生及港澳台学生资格，现有在校留学生近200人。同时学校与20多个国家和地区的高水平大学建立了交流与合作关系，开设了“校际交换生”、“2+2、3+1联合培养”、“海外实习实践”等项目，为学生拓展国际视野，培养多元文化背景下的学习能力提供了广阔的空间。</p><p style="white-space: normal;"><br/></p><p style="white-space: normal;"><br/></p><section class="135editor" style="position: static; box-sizing: border-box; border: 0px none; padding: 0px; margin: 0px;" data-id="45"><section style="margin: 0.8em 0px 0.5em; line-height: 32px; font-weight: bold; box-sizing: border-box; padding: 0px;"><section style="display: inline-block; float: left; width: 32px; height: 32px; border-radius: 32px; vertical-align: top; text-align: center; border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px; margin: 0px; background-color: rgb(72, 192, 163);"><section style="display: table; width: 100%; color: inherit; border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px; margin: 0px;" data-width="100%"><section class="autonum" placeholder="1" style="display: table-cell; vertical-align: middle; color: rgb(255, 255, 255); border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px; margin: 0px;" data-original-title="" title="">5</section></section></section><section class="135brush" data-brushtype="text" style="margin-left: 36px; color: rgb(72, 192, 163); border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px;">这是一所教学科研条件非常优越的大学。</section></section><section style="width: 0px; height: 0px; clear: both; box-sizing: border-box; padding: 0px; margin: 0px;"></section></section><p style="white-space: normal;"><br/></p><p style="white-space: normal;">学校拥有“公路养护技术”国家工程实验室、国家人才培养创新实验区、国家实验(实践)教学示范中心、国家级工程实践教育中心、国家级特色专业等各类国家级人才培养平台，拥有2个湖南省优势特色重点学科、11个湖南省重点学科和近40个省部级以上重点实验室、工程研究中心和科技创新平台。学校建有如亚洲最大的路面直道实验中心，南方地区最大的港航实验中心，中南地区最大的结构实验中心等一大批国内领先的教学科研实验中心；学校与中国交通建设集团有限公司、中国大唐集团有限公司、湖南省电力公司、湖南电信实业集团有限公司等189个大、中型企业签订了建立实习基地的长期协议，构建了一批高水平、多功能的实践教学基地群；开发建立了道路桥梁勘测设计与施工、电力生产与输送、航道开发与整治、城市污水处理等20多个具有明显工程背景的校内虚拟实习教学平台，为教师和学生提供了非常优越的教学科研和实践创新条件。学校教学科研水平不断跃上新的台阶，先后获得国家科技进步奖、国家技术发明奖、国家级教学成果奖等多项国家级奖励，其中郑健龙教授主持的“膨胀土地区公路建设成套技术”项目获2009年国家科技进步奖一等奖。学生科研项目也多次获得包括全国“挑战杯”科技学术作品竞赛特等奖等在内的近百项大奖。</p><p style="white-space: normal;"><br/></p><p style="white-space: normal;"><br/></p><section class="135editor" style="position: static; box-sizing: border-box; border: 0px none; padding: 0px; margin: 0px;" data-id="45"><section style="margin: 0.8em 0px 0.5em; line-height: 32px; font-weight: bold; box-sizing: border-box; padding: 0px;"><section style="display: inline-block; float: left; width: 32px; height: 32px; border-radius: 32px; vertical-align: top; text-align: center; border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px; margin: 0px; background-color: rgb(72, 192, 163);"><section style="display: table; width: 100%; color: inherit; border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px; margin: 0px;" data-width="100%"><section class="autonum" placeholder="1" style="display: table-cell; vertical-align: middle; color: rgb(255, 255, 255); border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px; margin: 0px;" data-original-title="" title="">6</section></section></section><section class="135brush" data-brushtype="text" style="margin-left: 36px; color: rgb(72, 192, 163); border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px;">这是一所就业优势明显的大学。</section></section><section style="width: 0px; height: 0px; clear: both; box-sizing: border-box; padding: 0px; margin: 0px;"></section></section><p style="white-space: normal;"><br/></p><p style="white-space: normal;">学校高度重视学生就业工作，从大一开始进行职业生涯规划指导，贯穿大学四年，并针对学生特点进行个性化辅导，各学院设立就业工作专干，负责学生就业指导与服务工作。学校秉承传统，保持了与交通、电力、水利行业的密切联系，是“全国公路交通类专业就业工作协作组成员”、“全国电力人才网络联盟校园招聘基地”。中国交通建设集团、国家电网公司、中国南方电网、五大发电集团（华能、大唐、华电、国电、中电投）、中国水利水电建设集团等一大批相关行业用人单位每年定点到校招聘人才，超过半数的毕业生进入交通、电力、水利行业相关单位。随着办学质量和水平不断提高，学校在珠三角、长三角等发达地区都具有了较高的知名度,毕业生受到各地政府机关、企事业单位的欢迎，国内外很多知名企业，如中国建筑、三一重工、中联重科、中广核、华为、中兴、中国平安、中国一汽、上海汽车、广州本田、苏宁电器、华润电力等都在我校招收毕业生，每年召开的各类校园专场招聘会近800场。学校毕业生就业率稳居湖南省重点院校前列，入选教育部向全国推介的50所毕业生就业典型经验高校。</p><p style="white-space: normal;"><br/></p><section class="135editor" style="position: static; box-sizing: border-box; border: 0px none; padding: 0px; margin: 0px;" data-id="45"><section style="margin: 0.8em 0px 0.5em; line-height: 32px; font-weight: bold; box-sizing: border-box; padding: 0px;"><section style="display: inline-block; float: left; width: 32px; height: 32px; border-radius: 32px; vertical-align: top; text-align: center; border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px; margin: 0px; background-color: rgb(72, 192, 163);"><section style="display: table; width: 100%; color: inherit; border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px; margin: 0px;" data-width="100%"><section class="autonum" placeholder="1" style="display: table-cell; vertical-align: middle; color: rgb(255, 255, 255); border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px; margin: 0px;" data-original-title="" title="">7</section></section></section><section class="135brush" data-brushtype="text" style="margin-left: 36px; color: rgb(72, 192, 163); border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px;">这是一所地理位置优越，校园环境优美的大学。</section></section><section style="width: 0px; height: 0px; clear: both; box-sizing: border-box; padding: 0px; margin: 0px;"></section></section><p style="white-space: normal;"><br/></p><p style="white-space: normal;"><br/></p><p style="white-space: normal;">学校地处湖南省会长沙市。长沙是全国文明城市，中国历史文化名城，全国“两型社会”综合配套改革试验区，湘流北去，岳色南来，尽享山水洲城之胜，素有“中国最具幸福感城市”之美誉。长沙连南接北，承东启西，具有明显比较优势的区位。黄花国际机场可直飞国内外很多大中城市，穿境而过的京港澳高速、京广铁路是我国南北大动脉之一，京广高铁、沪昆高铁和规划中的渝夏高铁在此交汇，使之成为中国南方地区重要的交通枢纽。学校的两个校区均坐落于长沙市区内，占地面积3100余亩，芙蓉南路和建设中的长沙地铁1号线连接起金盆岭和云塘两个校区。金盆岭校区静居城央，是学校始源之地，见证了长理人几十年的奋斗历程，记载着学校的光荣与历史，校园内林木葱茏，绿荫蔽地，目前仍然是学校与社会沟通的窗口；云塘校区兴建于2005年，校园布局恢弘大气，建筑风格厚重典雅，功能分区科学合理，充分体现现代大学办学理念和湖湘文化特色，更融合了江南园林的设计思想。校园以云霞山、云影湖为轴，以图书馆为中心、教学楼栋错落有致，学生生活区温馨相连，亭台水榭点缀其中，更有以“云湖柳绿，云顶松涛、杏园秋色、梅岭映雪”为象征的四时胜景，也传颂着以“校园传说”为代表的温馨故事，被誉为湖南最美的大学校园，更是激励着莘莘学子前来探求真理，放飞梦想。</p><p style="white-space: normal;"><br/></p><p style="white-space: normal;"><br/></p><section class="135editor" style="position: static; box-sizing: border-box; border: 0px none; padding: 0px; margin: 0px;" data-id="45"><section style="margin: 0.8em 0px 0.5em; line-height: 32px; font-weight: bold; box-sizing: border-box; padding: 0px;"><section style="display: inline-block; float: left; width: 32px; height: 32px; border-radius: 32px; vertical-align: top; text-align: center; border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px; margin: 0px; background-color: rgb(72, 192, 163);"><section style="display: table; width: 100%; color: inherit; border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px; margin: 0px;" data-width="100%"><section class="autonum" placeholder="1" style="display: table-cell; vertical-align: middle; color: rgb(255, 255, 255); border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px; margin: 0px;" data-original-title="" title="">8</section></section></section><section class="135brush" data-brushtype="text" style="margin-left: 36px; color: rgb(72, 192, 163); border-color: rgb(72, 192, 163); box-sizing: border-box; padding: 0px;">这是一所学风严谨，崇尚实干，承载湖湘文化特质的大学。</section></section><section style="width: 0px; height: 0px; clear: both; box-sizing: border-box; padding: 0px; margin: 0px;"></section></section><p style="white-space: normal;"><br/></p><p style="white-space: normal;">学校地处以经世致用，敢为人先为文化特质的湖湘热土，素以学风严谨，管理规范，崇尚实干而闻名。学校秉承“博学、力行、守正、拓新”的校训，倡导“做事文化”，践行和传承以“脚踏实地、艰苦奋斗、乐于奉献、锐意进取”为主要内涵的“铺路石精神”， 面向基层生产一线需要，强化学生工程实践能力，为国家经济建设和社会发展培养了大批“下得去、用得上、干得好”的应用型人才。学校注重学生全面发展，不断培育和发展独具特色的校园文化，构建了以“学生科技立项”、“科技文化艺术节”、“博力学术论坛”为主体的学生科技活动体系，打造了以“金盆夜话”、“云影大讲堂”、“高雅艺术进校园”、“十月诗会”、“四星大赛”、“共青杯体育赛事”为代表的校园文化活动品牌，涌现出了如“大禹之子”志愿者协会、阳光艺术团、“青砖影视戏剧社”、“心星志愿者协会”、“风华文学社”等一大批优秀学生社团组织，在活动中“培养学生社会责任感、创新精神、实践能力”。</p><p style="font-family: 宋体; line-height: 32px; text-indent: 32px; white-space: normal;"><br/></p></section><p><br/></p>                            
+                        </div>
+
+                                                <div class="pub-code">
+                                                        <img src="http://pic.bibibi.net/public/images/other/yunyan1869229336.png"/>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="inner">
+                <div class="foot-content">
+            <div class="fc-inner">
+                <p class="foot-nav">
+                                        <a class="item"
+                       href="/detail/news?id=249&menu_id=35">学校概况</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=13&menu_id=41">新闻公告</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/careers?menu_id=44">招聘信息</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=79&menu_id=51">生源信息</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=80&menu_id=56">就业指导</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=11&menu_id=61">服务指南</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=87&menu_id=65">专项计划</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="?menu_id=1230">报到证/档案查询</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=86&menu_id=154">联系我们</a>
+                                    </p>
+                <p class="copyright">
+                    <span class="text">长沙理工大学版权所有</span>
+<span class="line">|</span>
+<span class="text">域名备案信息：湘ICP备05003881号</span>
+<span class="line">|</span>
+<span class="text">前置审核编号：湘教QS3-200505-000255</span>                </p>
+                <p class="copyright">
+                    <span class="text">可信网站验证</span>
+                    <span class="text">诚信网站验证</span>
+                    <span class="text">安全联盟</span>
+                    <span class="text">行业验证</span>
+                    <span class="text">浏览量：今日11298&nbsp;/&nbsp;共计5193372</span>
+                    <a class="item" href="http://www.bibibi.net" target="_blank" style="color:#6d6d6d;">技术支持：云研科技</a>
+                </p>
+                <div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script>
+    var G_MODULES = [
+        ['js/detail', 'news']
+    ];
+</script>
+<script src="/public/js/libs/??seajs/sea.js,3rd/seajs-combo.js,jquery/jquery.1.9.1.min.js,jquery/jquery-extend.js,jquery/pagination.min.js?v=20151103"></script>
+<script>
+    var G_CONFIG = {"version":"20170321","picPath":"http://pic.bibibi.net","aliPath":"http://yun-campus-res.oss-cn-shenzhen.aliyuncs.com","hrSite":"http://hr.bibibi.net"};
+    //版本更新
+    var config = {
+        base: '/',
+        paths: {
+            'libs': 'public/js/libs',
+            'plugs':'public/js/plugs'
+        },
+        comboSuffix: '?v=' + G_CONFIG.version
+    };
+    if(window.__page_ver){
+        config.comboSuffix = config.comboSuffix + __page_ver;
+    }
+
+    _modulePath = [];
+    for (var i = 0, len = G_MODULES.length; i < len; i++) {
+        var module = G_MODULES[i];
+        _modulePath.push(module.join('/'));
+    }
+
+    seajs.config(config);
+
+    _modulePath.push('libs/template');
+    _modulePath.push('plugs/browserCheck');
+    _modulePath.push('plugs/mainNav');
+    _modulePath.push('plugs/floatToolbar');
+    _modulePath.push('plugs/customCombox');
+
+    seajs.use(_modulePath, function () {
+        //主导航
+        $.browserCheck();
+        $('#main_nav').mainNav();
+        $('.j-pub-combox').customCombox();
+
+        // 咨询qq
+        var params = {"site_logo":"http:\/\/yun-campus-res.oss-cn-shenzhen.aliyuncs.com\/school\/1490080178-7469.png","jy_qq":"","logo_text":"","about_us":"<h4 class=\"ii-tit\">\u5173\u4e8e\u6211\u4eec<\/h4>\n<p class=\"ii-text\">\u4e3a\u5b66\u751f\u957f\u8fdc\u53d1\u5c55\u670d\u52a1\uff0c\u4e3a\u5b66\u79d1\u5efa\u8bbe\u548c\u4e13\u4e1a\u53d1\u5c55\u670d\u52a1\uff0c\u4e3a\u5b66\u98ce\u5efa\u8bbe\u670d\u52a1\uff0c\u4e3a\u884c\u4e1a\u548c\u5730\u65b9\u7ecf\u6d4e\u53d1\u5c55\u670d\u52a1\u3002<\/p>","contact_us":"<h4 class=\"ii-tit\">\u8054\u7cfb\u6211\u4eec<\/h4>\n<p class=\"ii-text\">\u8054\u7cfb\u5730\u5740\uff1a\u6e56\u5357\u7701\u957f\u6c99\u5e02\u5929\u5fc3\u533a\u8d64\u5cad\u8def45\u53f7 <\/p>\n<p class=\"ii-text\">\u90ae\u653f\u7f16\u7801\uff1a410076<\/p>\n<p class=\"ii-text\">\u5c31\u4e1a\u79d1\u529e\u516c\u5ba4\uff1a\u91d1\u76c6\u5cad\u6821\u533a\u529e\u516c\u5927\u697c\u9644105<\/p>\n<p class=\"ii-text\">\u670d\u52a1\u70ed\u7ebf\uff1a0731-82309241\uff1b85219289<\/p>\n<p class=\"ii-text\">\u90ae\u7bb1\uff1ajobxx@126.com<\/p>","work_guide":"","contact_dept":"","copyright":"<span class=\"text\">\u957f\u6c99\u7406\u5de5\u5927\u5b66\u7248\u6743\u6240\u6709<\/span>\n<span class=\"line\">|<\/span>\n<span class=\"text\">\u57df\u540d\u5907\u6848\u4fe1\u606f\uff1a\u6e58ICP\u590705003881\u53f7<\/span>\n<span class=\"line\">|<\/span>\n<span class=\"text\">\u524d\u7f6e\u5ba1\u6838\u7f16\u53f7\uff1a\u6e58\u6559QS3-200505-000255<\/span>","institution_like_url":"","site_news_type":"92","site_notice_type":"3","site_employee_base":"","site_theme":"rich","token":"yunyan1869229336"};
+
+        $.floatToolbar({qq:params.jy_qq});
+
+        arguments[0].init(Array.prototype.slice.call(arguments, 1));
+    });
+
+    // footer始终靠底部
+    $('body').css({
+        'display': 'flex',
+        'flex-direction': 'column',
+        'height': 'auto',
+        'min-height': '100%'
+    });
+    $('.container').css({
+        'flex': 'auto'
+    });
+        $('.bar-main').click(function(){
+            $('.float-bar .content-wrap').toggleClass('hide');
+        })
+
+</script>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?9d62b12bee08da154fa2a80d8ee90355";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>

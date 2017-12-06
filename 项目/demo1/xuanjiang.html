@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="renderer" content="webkit">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <link rel="stylesheet" href="public-1/css/base/base.css">
+        <link rel="stylesheet" href="public-1/css/base/index.css"/>
+        <link rel="stylesheet" href="public-1/css/base/layout.css"/>
+        <link rel="stylesheet" href="public-1/css/base/common.css"/>
+        <link rel="stylesheet" href="public-1/css/base/global.css"/>
+        <link rel="icon" href="http://pic.bibibi.net/public/images/icon/favicon.ico?1" otype="image/x-icon"/>
+        <link rel="shortcut icon" href="http://pic.bibibi.net/public/images/icon/favicon.ico?1" type="image/x-icon"/>
+        <title>招聘信息-宣讲会</title>
+
+        <link rel="stylesheet" href="public/js/libs/jquery/pagination.css"/>
+        <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="static/css/common-element.css" rel="stylesheet" type="text/css">
+        <link href="static/css/xyzph.css" rel="stylesheet" type="text/css">
+        <link href="static/css/font-awesome.min.css" rel="stylesheet" media="screen">
+
+        <style>
+            .page-fixed{position: fixed;bottom:10px;}
+            .main_nav ul{
+                text-align: center;
+            }
+            
+            .main_nav ul li a{
+                margin-left:100px; 
+            }
+        </style>
+    </head>
+    <body>
+            <div class="sub_nav">
+                    <div class="sub_nav_inner">
+                        <div style="color:#1e649f;font-size:30px;">LOGO 新才云智慧招聘系统</div>
+                    <!-- <p style="float:left;line-height:30px;">
+                        2017年11月22日,
+                        企业<span style="font-weight:bold;font-style:italic;color:#FF5F00;">123471</span>家.
+                        高校<span style="font-weight:bold;font-style:italic;color:#FF5F00;">2826</span>所.
+                        招聘会<span style="font-weight:bold;font-style:italic;color:#FF5F00;">5260</span>场.
+                        本月新增会员企业<span style="font-weight:bold;font-weight:bold;color:#FF5F00;">698</span>家.
+                    
+                    </p> -->
+                    <!-- <span id="login_qq_info" style="float:right;display:none;">
+                        <a class="login_qq_info" href=""  style="max-width:115px;overflow:hidden;text-overflow:ellipsis;display:inline-block;white-space:nowrap;">
+                        </a>
+                        <a style="margin-left:10px;display: inline-block; vertical-align: top;" href="/loginOut.do?method=exitData">退出</a>
+                    </span> -->
+
+                    <style>
+                        #login_user_info li{
+                            margin-left: 50px;
+                        }
+                     </style>
+                    
+                    
+                    <!-- <ul id="login_user_info"> -->
+                        
+                        <!-- <li><a href="member/accountLogin.do?users=geren" target="_blank">&nbsp;<span>登录</span>&nbsp;&nbsp;|</a></li> -->
+                        <!-- <li><a href="admin.html" target="_blank">&nbsp;<span>登录</span></a></li> -->
+                        <!-- <li><a href="member/accountRegister.do?users=student" target="_blank"><span>免费注册</span>&nbsp;</a></li> -->
+                        <!-- <li><a href="zhuce.html" target="_blank"><span>免费注册</span>&nbsp;</a></li> -->
+                        <!-- <li> -->
+                            <!-- <a style="color:#76746F;" target="_blank" href="http://www.211zph.com/auth/index.do">
+                                <img src="auth/img/bt_white_76X24.png">
+                            </a> -->
+                            <!-- <a style="color:#76746F;" target="_blank" href="http://www.211zph.com/auth/wxLogin.do">
+                                <img src="auth/img/bt_white_wechat_76X24.png">
+                            </a> -->
+                        <!-- </li> -->
+                    <!-- </ul> -->
+                    <script type="text/javascript">
+                        $(function(){
+                                $.get( '/login.do?check=true&date='+new Date(),function(data){
+                                if(data.login){
+                                    var login = data.login;
+                                    if( login.nickname ){
+                                        var path="/auth/bind_qq.jsp";
+                                        if( login.user_id ){
+                                            path="/member/home.do";
+                                        }
+                                        var link = $("#login_qq_info").find(".login_qq_info");
+                                        link.attr("href",path );
+                                        var str='<img style="width:20px;height:20px;" src="'+login.avatar+'"  />'+login.nickname;
+                                        link.html( str );
+                                        $("#login_user_info").hide();
+                                        $("#login_qq_info").show();
+                                    }else{
+                                        var user_id=(login.user_id.length>10)?login.user_id.substring(0,7)+'...':login.user_id;
+                                        var str='<li>'+'<a title="'+login.user_id+'" style="text-decoration:none;">'+user_id+'</a>';
+                                                str+='&nbsp;&nbsp;<a href="member/home.do" >'+login.user_type_name+'中心</a>';
+                                                str+="</li><li>";
+                                                str+='&nbsp;&nbsp;<a href="/loginOut.do?method=exitData">退出</a>';
+                                                str+="</li>";
+                                        $("#login_user_info").html(str);
+                                    }
+                                }
+                            });
+                        });
+                      </script>
+                    <div class="clear"></div>
+                  </div>
+                <div class="clear"></div> 
+            </div>
+    
+            <div class="top_nav" style="background-color:#1e649f;">
+                    <div class="nav_inner">
+                        <!-- <div class="logo">
+                            <a href="/" title="211校招网">
+                            <img src="static/images/LOGO.png"/>
+                            </a>
+                        </div>              
+                        <div><a class="province switch" href="javascript:;" id="site_select_btn">
+                                
+                            陕西
+                                <span><i class="arrow"></i></span>
+                                </a>
+                        </div> -->
+                        <div class="main_nav" style="background-color:#f0f0f0;width:100%;margin-left:80px;">
+                            <ul>
+                                <li>
+                                    <a class="nav_shouye" href="index.html" title="首页">
+                                          首页
+                                    </a>
+                                </li>
+                                <!-- <li>|</li> -->
+                                <li>
+                                    <a class="nav_wlzph" href="shuangxuan.html" title="双选会">
+                                        双选会
+                                    </a>
+                                </li>
+                                <!-- <li>|</li> -->
+                                <li>
+                                    <a class="nav_xyzph" href="xuanjiang.html" title="宣讲会" style="color:#676767;border-bottom: 0px solid white;">
+                                        <div style="color:#e03919;height:60px;font-weight:bold;border-bottom:3px solid #e03919;">宣讲会</div>
+                                    </a>
+                                </li>
+                                <!-- <li>|</li> -->
+                                <li>
+                                    <!-- <a class="nav_app" href="/app" title="APP下载" target="_blank">
+                                        APP下载
+                                    </a> -->
+                                    <a class="nav_app" href="shipinghui.html" title="视频会" target="_blank">
+                                        视频会
+                                    </a>
+                                </li>
+                            </ul>                 
+                        </div>                                                          
+                    </div>
+                </div> 
+
+
+
+      <div class="container">
+         <div class="inner">
+            <div class="content clearfix">
+                <div class="side">
+                  <div class="side-date" id="side_date"></div>
+                    <a href="javascript:;" class="date-check-all mb20" id="check_all">查看全部宣讲会</a>
+                       <div class="side-menu-wrap">
+                          <ul class="side-menu">
+                            <li class="sm-item curr">
+                                <p class="sm-tit">
+                                    <a href="/module/careers?menu_id=44" class="sm-link">
+                                        <span class="sm-text">校内宣讲会</span>
+                                    </a>
+                                </p>
+                            </li>
+                            <li class="sm-item">
+                                <p class="sm-tit">
+                                    <a href="/module/careers?type=outer&menu_id=44" class="sm-link">
+                                        <span class="sm-text">校外宣讲会</span>
+                                    </a>
+                                </p>
+                            </li>
+                            <!-- <li class="sm-item">
+                                <p class="sm-tit">
+                                    <a href="/module/jobfairs?menu_id=44" class="sm-link">
+                                        <span class="sm-text">校内双选会</span>
+                                    </a>
+                                </p>
+                            </li>
+                            <li class="sm-item">
+                                <p class="sm-tit">
+                                    <a href="/module/jobfairs?type=2&menu_id=44" class="sm-link">
+                                        <span class="sm-text">校外双选会</span>
+                                    </a>
+                                </p>
+                            </li>
+                            <li class="sm-item">
+                                <p class="sm-tit">
+                                    <a href="/module/onlines?menu_id=44" class="sm-link">
+                                        <span class="sm-text">在线招聘</span>
+                                    </a>
+                                </p>
+                            </li> -->
+                            <li class="sm-item">
+                                <p class="sm-tit">
+                                    <a href="/module/jobs?is_practice=0&menu_id=44" class="sm-link">
+                                        <span class="sm-text">正式岗位</span>
+                                    </a>
+                                </p>
+                            </li>
+                            <li class="sm-item">
+                               <p class="sm-tit">
+                                  <a href="/module/jobs?is_practice=1&menu_id=44" class="sm-link">
+                                      <span class="sm-text">实习岗位</span>
+                                  </a>
+                               </p>
+                            </li>
+                        </ul>
+                     </div>
+                </div>
+                <div class="main">
+                    <p style="padding:4px 20px;font-size:16px;background-color:white;">警示语：抵制招聘诈骗、加强自我保护，如遇可疑信息，请及时与学院联系或拨打就业管理科电话</p>
+                    <p style="background-color:#f0f0f0;height:20px;"></p>
+                    <div class="main-inner">
+                        <div class="pub-curr-pos">
+                            <a class="cp-link has-icon-svg" href="/index">
+                                <!-- <span class="icon-svg icon-svg-home"></span> -->网站首页
+                            </a>
+                            <!-- <span class="cp-arrow">&gt;</span>
+                            <a class="cp-link" href="module/careers">招聘信息</a> -->
+                            <span class="cp-arrow">&gt;</span>
+                            <span class="cp-text">宣讲会</span>
+                        </div>
+                        <div class="pub-search" id="search_bar">
+                            <div class="search-inner">
+                                <div class="search-txt-wrap">
+                                    <input class="search-txt" placeholder="请输入单位名称" id="keyword" type="text"/>
+                                    <span class="search-remove hide">
+                                        <span class="icon-svg icon-svg-clear"></span>
+                                    </span>
+                                </div>
+                                <span class="search-btn has-icon-svg" id="search_btn">
+                                    <span class="icon-svg" style="color:white;">搜索</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="pub-page" id="my_page">
+                            <ul class="pub-list" id="data_html"></ul>
+                        </div>
+                        <div style="z-index: 999;margin-top: 18px;height: 30px;background-color: white;border-radius: 3px" class="pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/template" id="tmpl_html">
+        <% for(var i=0;i<list.length;i++){ %>
+            <% var item = list[i] %>
+            <li class="item">
+                <div class="item-content has-side has-other">
+                    <div class="item-side">
+                        <div class="img">
+                            <% if(!!item.logo){ %>
+                                <img src="<%- item.logo %>" alt="<%- item.company_name %>" />
+                            <% }else{ %>
+                                <img src="public/images/global/default-logo.png" alt="<%- item.company_name %>" />
+                            <% } %>
+                        </div>
+                    </div>
+                    <div class="item-main">
+                        <p class="item-tit text-eps">
+                            <a class="item-link" href="detail/career?id=<%- item.career_talk_id %>" target="_blank" title="<%- item.company_name %>"><%- item.company_name %></a>
+                            <% if(item.is_yun != 0){ %>
+                                <span class="item-mark pub-orange-bg">云宣讲</span>
+                            <% } %>
+
+                            <% if(item.career_state == '1'){ %>
+                                <span class="item-mark pub-gray-bg">取消宣讲</span>
+                            <% }else if(item.career_state == '2'){ %>
+                                <span class="item-mark pub-gray-bg">场地变更</span>
+                            <% }else if(item.career_state == '3'){ %>
+                                <span class="item-mark pub-gray-bg">时间变更</span>
+                            <% } %>
+
+                            <% if(item.overdue == '0'){ %>
+                                <span class="item-mark pub-gray-bg">过</span>
+                            <% }else if(item.is_recommend == '1'){ %>
+                                <span class="item-mark pub-orange-bg">荐</span>
+                            <% } %>
+                        </p>
+                        <div class="item-grid-wrap">
+                            <ul class="item-grid">
+                                <li class="grid-col">
+                                    <p class="grid-cell"><%- item.school_name?item.school_name:'' %></p>
+                                    <p class="grid-cell">
+                                        <%- item.address %>
+                                        <%- !!item.room?'，教室号'+item.room : '' %>
+                                    </p>
+                                </li>
+                                <li class="grid-col">
+                                    <% if(!!item.company_property){ %>
+                                        <p class="grid-cell"><%- item.company_property %></p>
+                                    <% } %>
+                                    <% if(!!item.industry_category){ %>
+                                        <p class="grid-cell"><%- item.industry_category %></p>
+                                    <% } %>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="item-other">
+                        <div class="io-inner">
+                            <p class="io-text" style="color:#f00"><%- item.meet_day %>&nbsp;&nbsp;<%- item.meet_time %></p>
+                            <p class="io-text has-icon-svg"><span class="icon-svg icon-svg-eye"></span><%- this.parseInt(item.view_count)?(this.parseInt(item.view_count)>99999?'99999+':this.parseInt(item.view_count)):0 %></p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        <% } %>
+    </script>
+
+      <script type="text/template" id="tmpl_nodata">
+          <li class="pub-nodata">
+              <div class="pn-inner">
+                  <p class="pn-text">暂无数据</p>
+              </div>
+          </li>
+      </script>
+ 
+      <div class="footer" style="background-color:#333;height:100px;">
+         <div class="inner">
+            <div class="foot-content">
+                  <div class="fc-inner">
+                      <!-- <p class="foot-nav">
+                        <a class="item" href="/detail/news?id=249&menu_id=35">学校概况</a>
+                        <span class="line">|</span>
+                        <a class="item" href="/module/news?type_id=13&menu_id=41">新闻公告</a>
+                        <span class="line">|</span>
+                        <a class="item" href="/module/careers?menu_id=44">招聘信息</a>
+                        <span class="line">|</span>
+                        <a class="item" href="/module/news?type_id=79&menu_id=51">生源信息</a>
+                        <span class="line">|</span>
+                        <a class="item" href="/module/news?type_id=80&menu_id=56">就业指导</a>
+                        <span class="line">|</span>
+                        <a class="item" href="/module/news?type_id=11&menu_id=61">服务指南</a>
+                        <span class="line">|</span>
+                        <a class="item" href="/module/news?type_id=87&menu_id=65">专项计划</a>
+                        <span class="line">|</span>
+                        <a class="item" href="?menu_id=1230">报到证/档案查询</a>
+                        <span class="line">|</span>
+                        <a class="item" href="/module/news?type_id=86&menu_id=154">联系我们</a>
+                      </p> -->
+                        <style>
+                            #list-footer-one .copyright span{
+                                  margin-left: 20px;
+                            }
+                            #list-footer-two .copyright span{
+                                  margin-left:20px;
+                            }
+                         </style>
+                        <div id="list-footer-one">
+                            <p class="copyright" style="position:relative;top:10px;line-height:50px;font-size:12px;">
+                                <span class="text">*****大学版权所有</span>
+                                <span class="text">域名备案信息：陕ICP备********号</span>
+                                <span class="text">前置审核编号：陕教***-******-******</span>
+                            </p>
+                        </div>
+                        <div id="list-footer-two">
+                            <p class="copyright" style="font-size:12px;">
+                                <span class="text">可信网站验证</span>
+                                <span class="text">诚信网站验证</span>
+                                <span class="text">安全联盟</span>
+                                <span class="text">行业验证</span>
+                                <span class="text">浏览量：今日6666&nbsp;/&nbsp;共计99999</span>
+                                <span>
+                                    <a class="item" href="http://www.bibibi.net" target="_blank" style="color:#6d6d6d;">技术支持：新才云智慧就业系统</a>
+                                </span>
+                            </p>
+                        </div>
+                      <div></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <script>
+          var G_MODULES = [
+              ['js/page', 'careers']
+          ];
+          var __page_ver = 1;
+      </script>
+      <script src="public/js/libs/??seajs/sea.js,3rd/seajs-combo.js,jquery/jquery.1.9.1.min.js,jquery/jquery-extend.js,jquery/pagination.min.js?v=20151103"></script>
+      <script src="public/js/libs/pagination.min.js"></script>
+      <script src="public/js/libs/seajs-combo.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,274 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+p{margin:0;}
+.clear{clear:both;}
+/*样式重置开始*/
+
+
+.banner{
+	height:100px;
+	background:url(/static/images/company_bg.png);
+}
+.banner p{
+	padding:20px 0 0 50px; 
+	text-align:left;
+	font-size:30px;
+	font-family:"微软雅黑" ;
+	color: #fff;
+}
+.nav_xyzph{
+	/* 
+	background:#e03919; */}
+.top_nav .main_nav a.nav_xyzph {
+	color: #e03919;
+    font-weight: bold;
+    border-bottom: 3px solid #e03919;
+    height: 60px;
+    }
+
+.xuexiaojianjie{
+	width:1024px;
+	background:#efefef;
+}
+.position {
+    height: 40px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    padding: 10px 0px 0px 18px;
+}
+.position a {
+    color: #2D2B2B;}
+.position p{
+	margin:0;}
+
+.xuexiaojianjie .title{
+	font-family: "微软雅黑";
+    font-size: 18px;
+    color: #333;
+    margin-left:22px;
+    }
+
+.title img{
+	margin-top:10px;
+	float:left;
+	margin-right:10px;}
+.title p{
+	margin-top:12px;
+	margin-bottom: 10px;
+    float: left; 
+    border-bottom: 2px solid #e03919;
+    letter-spacing: 2px;
+    height: 28px;
+    width: 80px;}
+.zphcaption .title {	
+	font-family:"微软雅黑";
+	font-size:18px;
+	color:#333;
+	margin-left:14px;
+	margin-top:16px;
+}	
+.xuexiaojianjie .introduction{
+	margin-top:2px;
+	width:984px;
+	letter-spacing:0px;
+	border-bottom:none;
+	font-size: 12px;
+	line-height:26px;
+	padding:0 25px 20px 25px;
+}
+.xuexiaojianjie .introduction p{
+	text-indent: 2em;
+}
+  .zhiwei{
+	 width:1024px;
+	padding-bottom:10px;
+	background:#efefef; 
+	  
+	  }
+  .zhiwei .title {	
+	font-family:"微软雅黑";
+	font-size:18px;
+	color:#333;
+	margin-left:22px;
+	margin-top:20px;
+}	
+ .zhiwei li{
+	 float: left;
+    height: 28px;
+    text-align: center;
+    background: #fff;
+    line-height: 28px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    margin-right: 2px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+	 } 
+	
+.zhiwei_biaoqian{
+	margin-left:20px;
+	margin-top:10px;
+	margin-bottom:0;}
+  
+  .zhiwei_type{
+	  width:140px;}
+  
+  
+   .zhiwei_name{
+	  width:180px;}
+  
+  
+   .zhiwei_degree{
+	  width:140px;}
+  
+  
+   .zhiwei_address{
+	  width:200px;}
+  
+  
+  .zhiwei_salary{
+	  width:154px;}
+  
+  
+ .send_resume{
+	  width:160px;
+	  text-align:center;
+	  line-height:32px;
+	 
+	  }
+	.send_resume1{
+		 width:160px;
+	  text-aligh:center;
+	  line-height:28px;
+		}
+	.send_resume1 a{
+		color:#333;}
+
+.send_resume a{
+	display:block;
+	width:76px;
+	height:20px;
+	background:#e03919;
+	color:#fff;
+	text-aligh:center;
+	line-height:20px;
+	 border-radius:4px;
+	 margin-left:42px;
+	 margin-top:4px;
+	}
+
+.xianchangzph {
+	width:1024px;
+	margin-top:10px;
+	background:#efefef;}
+
+.xianchangzph .title{
+	font-family: "微软雅黑";
+    font-size: 18px;
+    color: #333;
+    margin-left:22px;
+	width:800px;
+	}
+
+.xianchangzph .title p{
+  width: 100px;
+}
+
+
+
+
+.zph_daohang li a {
+    display: block;
+    width: 494px;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: #372923;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.zph_daohang li a.jinqizph{
+	margin-left:18px;
+	background: #372823;
+	color:#fff;
+}
+.zph_daohang li a.yijieshuzph{
+	color:#fff;
+	background:#372823;
+}	
+.zph_daohang li a:hover, 
+.zph_daohang li.active a, 
+.zph_daohang li.active a:hover, 
+.zph_daohang li.active a:focus {
+    background:#e03919;
+    color:#FFF;
+    border: 0;
+}
+.zph_nav li {
+    float: left;
+    height: 36px;
+    text-align: center;
+    background: #fff;
+    line-height: 36px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 2px;
+    margin-bottom: 10px;
+}
+.zph_nav_zph1 li.xuhao {
+    margin-left: 18px;
+    width: 46px;
+}
+
+.zph_nav_zph1 li.zphmingchen {
+    width: 400px;
+    text-align: center;
+    padding-left: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;}
+.zph_nav_zph1 li.time {
+    width: 120px;
+    text-aligh:center;}
+	
+.zph_nav_zph1 li.address{
+	 width: 416px;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+	}	
+	
+	
+.wangluozph {
+	width:1024px;
+	margin-top:10px;
+	background:#efefef;}
+
+.wangluozph  .title{
+	font-family: "微软雅黑";
+    font-size: 18px;
+    color: #333;
+    margin-left:22px;
+	width:800px;
+	}
+
+.wangluozph  .title p{
+  width: 100px;
+}
+	
+	
+	
+	

@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+.right_top h1{ font-size:16px;
+font-weight:normal;
+color:#F60;
+margin-bottom:10px;
+margin-left:10px;
+}
+.right_top h1.upload{background:url(../img/upload.png) no-repeat 0 center;
+padding-left:30px;
+ }
+.right_top h1.account{ background:url(../img/account.png) no-repeat 0 center;
+padding-left:40px;
+}
+.right_top h1.post{ background:url(../img/post.png) no-repeat 0 center;
+padding-left:40px;
+padding-bottom:5px;
+}
+.right_top h1.job{ background:url(../img/job.png) no-repeat 0 center;
+padding-left:40px;
+padding-bottom:5px; 
+}
+.right_top h1.interview{ background:url(../img/tongzhi.png) no-repeat 0 center;
+padding:5px 0 5px 60px;
+}
+.right_top h1.record{ background:url(../img/record.png) no-repeat 0 center;
+padding:3px 0 3px 30px;
+
+}
+.right_top .xian{ background:#b7b7b7;
+height:2px;
+}
+.table{ margin:40px 0px 30px 40px;}
+.table table td{ line-height:3em;
+}
+.table table .text{ width:150px;
+height:25px;
+border:1px #b7b7b7 solid;
+}
+.table table .but{ border:1px #b7b7b7 solid;
+width:70px;
+height:27px;
+background:#CCC;
+margin-left:10px;
+cursor:pointer;
+}
+
+
+
+.table table .but:hover{ color:#03F;}
+.table table .r_align{ text-align:right;
+}
+.table table .l_align{ text-align:left;
+padding-left:20px;
+}
+.table table td .file,.table table td .upload{ width:100px;
+background:#1296f5;
+height:30px;
+display:block;
+line-height:30px;
+text-align:center;
+color:#FFF;
+border:1px #b7b7b7 solid;
+}
+.table table td .file:hover,.table table td .upload:hover{ background:#F90;}
+.table table td .upload{ width:80px;
+background:#198f0a;
+}
+
+
+
+.form .xian{background:#fc9807;
+height:5px;
+margin:10px 10px;}
+.form tr td{line-height:3em;
+text-align:center;
+color:#494949;
+}
+table tr td.yi a{ color:#53b72d;
+background:url(../img/yixiazai.png) no-repeat 0 center;
+padding-left:35px;}
+table tr td.wei a{ color:#aaaaaa;
+background:url(../img/weixiazai.png) no-repeat 0 center;
+padding-left:35px;}
+table tr td.bag{ background:url(../img/anniu.png) no-repeat center center;
+text-align:center;
+padding:3px 10px;
+}
+table tr td.bag a{ color:#fff;
+text-decoration:none;
+}
+table tr td.bag a:hover{ color:#F30;}
+table tr td a:hover{ color:#F60; }
+table tr td a.blue{ color:#39F;}
+table tr td a.blue:hover{ color:#36F;}
+.form tr input{ vertical-align:middle;}
+.form tr td a{ color:#FFF;
+}
+.form tr{ transition: all 0.5s;
+-moz-transition: all 0.5s;
+-webkit-transition: all 0.5s;
+-o-transition: all 0.5s;
+}
+
+.form tr:hover{ background:#dddedd;
+cursor:pointer;
+}
+/*
+.form tr:first-child{ background:none;
+cursor:pointer;
+}
+*/
+
+
+

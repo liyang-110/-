@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*样式重置开始*/
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+.clear{clear:both;}
+/*样式重置开始*/
+
+.top_nav .main_nav a.personal_center {
+	color:#e03919;
+	border-bottom:3px solid #e03919;
+	}
+
+.news{
+	border-bottom:1px solid #efefef;}
+/*mian区属性描述开始*/
+
+.main_l a.inform_mianshi{
+	background:#efefef;
+	color:#e03919;
+	border-right:4px solid #e03919;}
+
+.main_r{
+	margin-left: 16px;
+	float:left;
+	box-shadow: 1px 0px 6px rgba(241,241,241,1.00);
+	background: #fff;
+	width:808px;
+	
+	
+	}
+
+.main_r .time{
+	float:left;
+}
+
+.main_r dl{
+	margin-left:20px;
+	float:left;
+	margin-bottom:4px;}
+.main_r dt{
+	font-size:14px;
+	color:#333;}
+	
+
+.main_r dd{
+	line-height:28px;
+	font-size:14px;
+	color:#999;
+	
+}
+.main_r li{
+	font-size:14px;
+	color:#D33E15;
+	line-height:28px;}
+
+.main_r .neirong{
+	display:none;
+	background: #fefef2;
+	width:400px;
+	margin-left:160px;
+	padding: 20px 18px;
+	margin-bottom:10px;
+	box-shadow:0px 5px 8px rgba(0,0,0,0.39);
+	
+	}
+	
+.chakanxiangqing{
+	color:#e03919;
+	}
+	
+.main_r .invitation{
+	padding:15px 25px 20px 125px;
+	
+	border-bottom:1px dotted #999;
+	}
+
+.main_r .invitation:hover{
+	background:#fafafa;}
+
+/*mian区属性描述结束*/

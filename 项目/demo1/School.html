@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>云就业运营管理平台</title>
+        <link rel="icon" href="https://yun-campus-res.oss-cn-shenzhen.aliyuncs.com/public/images/icon/favicon.ico?1" otype="image/x-icon"/>
+        <link rel="shortcut icon" href="https://yun-campus-res.oss-cn-shenzhen.aliyuncs.com/public/images/icon/favicon.ico?1" type="image/x-icon"/>
+        <!-- <link href="/backend/public/css/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="public/fonts/zd/iconfont.css">
+        <link rel="stylesheet" href="public/css/base/base.css">
+        <link rel="stylesheet" href="public/css/base/common.css">
+        <link rel="stylesheet" href="public/css/base/global.css">
+        <link rel="stylesheet" href="public/css/base/index.css">
+        <link rel="stylesheet" href="public/css/base/layout.css">
+        <link rel="stylesheet" href="public/skin/blue/common.css">
+        <link rel="stylesheet" href="public/skin/blue/global.css">
+        <link rel="stylesheet" href="public/skin/blue/layout.css">
+    <style>
+      /********浏览器兼容判断********/
+        .browser-check{
+          background-color: #f6f6b4;
+        }
+        .browser-check .browser-list{
+          float:right;
+          width: 180px;
+        }
+        .browser-check .item{
+          float: left;
+          margin:0 10px;
+          width: 70px;
+        }
+
+        .browser-check .browser-link{
+          display: block;
+          text-align: center;
+        }
+        .browser-check .browser-link img{
+          height: 60px;
+          width: 60px;
+        }
+        .browser-check .browser-name{
+          padding: 5px 0 0 0;
+        }
+        .browser-check .browser-tip{
+          overflow: hidden;
+          width: 700px;
+          padding: 10px 10px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .browser-check .notice-info{
+          margin-right: 280px;
+          padding-top: 15px;
+        }
+        .browser-check .notice-text{
+          font-size: 16px;
+        }
+
+
+        .pub-popup{
+          border:1px solid #ccc;
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(0,0,0,.1);
+          background: #fff;
+          display: table;
+          position: fixed;
+          top:50%;
+          left:50%;
+          margin:-100px 0 0 -150px;
+          height: 200px;
+          width: 400px;
+          z-index: 10000;
+        }
+        .pub-popup .popup-inner{
+          display: table-cell;
+          vertical-align: middle;
+          padding: 10px 30px;
+        }
+        .pub-popup .popup-text{
+          font-size: 16px;
+        }
+        .pub-popup .orange-text{
+          color:#f40;
+        }
+        .pub-popup .popup-btn-wrap{
+          padding-top: 10px;
+          text-align: center;
+        }
+      .login-type-icon{
+          cursor: pointer;
+          width:47px;height: 47px;background-image: url(https://yun-campus-res.oss-cn-shenzhen.aliyuncs.com/public/images/icon/qr_ico.png);position: absolute;top:5px;right: 5px;
+      }
+      .login-tip {
+           position: absolute;
+           top: 10px;
+           right: 52px;
+       }
+      .poptip {
+          border: 1px solid #f3d995;
+          height: 30px;
+          line-height: 30px;
+          padding: 0 20px 5px 15px;
+          background: #fefcee;
+          position: relative;
+          z-index: 9999;
+          display: block;
+      }
+      .poptip-arrow {
+          top: 8px;
+          right: 0;
+          position: absolute;
+          z-index: 10;
+      }
+
+      .poptip-arrow em, .poptip-arrow span {
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-color: rgba(255,255,255,0);
+          border-color: transparent \0;
+          _border-color: tomato;
+          _filter: chroma(color=tomato);
+          border-style: solid;
+          overflow: hidden;
+          top: 0;
+          left: 0;
+          font-style: normal;
+          font-weight: 400;
+      }
+      .poptip-arrow em {
+          top: 0;
+          left: 1px;
+          border-left-color: #f3d995;
+          border-width: 6px 0 6px 6px;
+      }
+      .poptip-arrow span {
+          border-left-color: #fefcee;
+          border-width: 6px 0 6px 6px;
+      }
+      .poptip .poptip-content {
+          color: #df9c1f;
+          font-size: 12px;
+          font-weight: 400;
+      }
+
+        .qrcode-login{text-align: center}
+        .qrcode-main{margin: 20px 0 20px 95px}
+        .j-qr-img{width: 120px;height: 120px}
+    </style>
+     <!--教师登录样式-->
+      <style>
+        html,body{
+            height: 100%;
+        }
+        li a{color: #000}
+        .container{
+          min-height: 85%;
+        }
+        body{
+          border-top: 4px solid #44b549;
+        }
+        .manage-header{
+          width: 1200px;
+          margin: auto;
+          border: none !important;
+        }
+        .bg{background-color: #F2F2F2; position: absolute; width: 100%; z-index: -1;}
+        .bg .wrap{width: 1200px; margin: auto;}
+        .main{
+          width: 1000px;
+          box-shadow: 8px 8px 5px #b3b3b3;
+          background-color: #fff;
+          margin: 240px auto 0;
+          padding: 30px;
+            position: relative;
+        }
+        .main .news{
+          float: left;
+          width: 610px;
+          margin-right: 30px;
+        }
+        .main .title h4{
+          /* border-bottom: 4px solid #44b549; */
+          margin: 0;
+          width: 100px;
+          float: left;
+          line-height: 2;
+        }
+        .main .loginBox{
+          float: left;
+        }
+        .main .title {
+          border-bottom: 1px solid gray;
+          width: 608px;
+          height: 36px;
+        }
+        .news ul{
+          padding-top: 10px;
+          /* border-top: 1px solid gray; */
+          margin-top: 0;
+          clear:both;
+          overflow: hidden;
+        }
+        .news li{
+          padding-right: 100px;
+          position: relative;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          line-height: 22px;
+        }
+        .news .date{
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        .login-form{
+          position: static !important;
+          padding: 0 !important;
+          width: 300px !important;
+        }
+        .loginBox form p:first-child{
+          font-size: 16px;
+          margin-bottom: 6px;
+        }
+      /*新闻样式*/
+        .newsContainer{
+          display: none;
+          height: 550px;
+          background-color: rgb(242,242,242);
+          padding-top: 20px;
+        }
+        .newsContainer .panel{
+          width: 1200px;
+          margin: auto;
+          height: 500px;
+          padding: 5px 30px;
+          box-shadow: 8px 8px 5px #b3b3b3;
+        }
+        .panel .head{
+          position: relative;
+          padding-bottom: 10px;
+          margin-bottom: 20px;
+          border-bottom: 1px dashed #b3b3b3;
+        }
+        .panel .shareBox{
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        .panel .content{
+          height: 350px;
+          overflow-y: scroll;
+          overflow-x: hidden;
+        }
+        .tit-selected{
+           border-bottom: 4px solid #44b549;
+        }
+        h4{
+          cursor: pointer;
+        }
+      </style>
+    </head>
+<body class="loginpage">
+<div class="manage-header">
+    <div class="container-fixed" style="width:100%;padding:5px">
+                <img src="http://yun-campus-res.oss-cn-shenzhen.aliyuncs.com/school/1490080178-7469.png" height="50px">
+          </div>
+</div>
+
+<!--运营端登陆 -->
+<!---->
+<div class="container">
+    <div class="content-wrap" style="width:100%;">
+        <div class="tips color-white f24"></div>
+        <div class="bg">
+          <div class="wrap">
+            <img src="backend/public/images/global/login-bg-teacher.png">
+            </div>
+        </div>
+
+        <div class="main clearfix">
+          <div class="news">
+                                <div class="title">
+                  <h4 style="margin-top: 0; font-size: 16px;" class="tit-selected">全国就业新闻</h4>
+                  <h4 style="margin-top: 0; font-size: 16px; margin-left: 10px;">湖南就业新闻</h4>
+                  </div>
+                          <div class="box">
+              <ul>
+                                <li>
+                    <span class="arrow" style="color: #FF5815">▶&nbsp&nbsp</span>
+                    <a href="javascript:loadNews(30397)">武汉确定大学毕业生最低年薪标准：专科4万本科5万</a>
+                    <span class="date">[2017-12-01]</span>
+                  </li>
+                                <li>
+                    <span class="arrow" style="color: #FF5815">▶&nbsp&nbsp</span>
+                    <a href="javascript:loadNews(30346)">哈工程举办“东北五校”2018届毕业生冬季大型双选会</a>
+                    <span class="date">[2017-11-30]</span>
+                  </li>
+                                <li>
+                    <span class="arrow" style="color: #FF5815">▶&nbsp&nbsp</span>
+                    <a href="javascript:loadNews(30347)">重庆市合川区精准施策点对点促进大学生就业</a>
+                    <span class="date">[2017-11-30]</span>
+                  </li>
+                                <li>
+                    <span class="arrow" style="color: #FF5815">▶&nbsp&nbsp</span>
+                    <a href="javascript:loadNews(30029)">杭州大学生创业迎黄金时代</a>
+                    <span class="date">[2017-11-28]</span>
+                  </li>
+                                <li>
+                    <span class="arrow" style="color: #FF5815">▶&nbsp&nbsp</span>
+                    <a href="javascript:loadNews(30030)">西安加大开发公益专岗 确保贫困家庭大学生100%就业</a>
+                    <span class="date">[2017-11-28]</span>
+                  </li>
+                                <li>
+                    <span class="arrow" style="color: #FF5815">▶&nbsp&nbsp</span>
+                    <a href="javascript:loadNews(29219)">陕西300多家单位 携14000余岗位招揽人才</a>
+                    <span class="date">[2017-11-24]</span>
+                  </li>
+                            </ul>
+
+                                <ul style="display:none;">
+                                      <li data-province='湖南'>
+                      <span class="arrow" style="color: #FF5815">▶&nbsp&nbsp</span>
+                      <a href="javascript:loadNews(30398)">省就业指导中心组织学习《中国共产党章程（修正案）》</a>
+                      <span class="date">[2017-12-01]</span>
+                    </li>
+                                      <li data-province='湖南'>
+                      <span class="arrow" style="color: #FF5815">▶&nbsp&nbsp</span>
+                      <a href="javascript:loadNews(30251)">湖南省普通高等学校毕业生就业促进会换届选举暨2017年年会在长沙成功召开</a>
+                      <span class="date">[2017-11-29]</span>
+                    </li>
+                                      <li data-province='湖南'>
+                      <span class="arrow" style="color: #FF5815">▶&nbsp&nbsp</span>
+                      <a href="javascript:loadNews(29221)">省就业指导中心开展“阅&#8226;享”读书会活动 ——学习分享《习近平的七年知青岁月》</a>
+                      <span class="date">[2017-11-24]</span>
+                    </li>
+                                      <li data-province='湖南'>
+                      <span class="arrow" style="color: #FF5815">▶&nbsp&nbsp</span>
+                      <a href="javascript:loadNews(29222)">积极主动，高效就业——2018届毕业生国际贸易类专场招聘会成功举办</a>
+                      <span class="date">[2017-11-24]</span>
+                    </li>
+                                      <li data-province='湖南'>
+                      <span class="arrow" style="color: #FF5815">▶&nbsp&nbsp</span>
+                      <a href="javascript:loadNews(29158)"><span style="font-weight:bold;">湖南科技学院大学生创新创业基地双喜临门</span></a>
+                      <span class="date">[2017-11-23]</span>
+                    </li>
+                                      <li data-province='湖南'>
+                      <span class="arrow" style="color: #FF5815">▶&nbsp&nbsp</span>
+                      <a href="javascript:loadNews(29081)">脚踏实地，顺利就业——2018届毕业生系列招聘会行政管理类专场成功举办</a>
+                      <span class="date">[2017-11-22]</span>
+                    </li>
+                                    </ul>
+                            </div>
+          </div>
+          <div class="loginBox">
+            <div class="login-form form-signin" style="right: 100px;">
+            <div class="login-type-icon"></div>
+            <div class="login-tip">
+                <div class="poptip">
+                    <div class="poptip-arrow">
+                        <em></em>
+                        <span></span>
+                    </div>
+                    <div class="poptip-content">
+                        扫码登录更安全
+                    </div>
+                </div>
+            </div>
+              <form action="/welcome/index?app=1" method="post" class="clearfix">
+                  <p class="f18 mb18">管理员登录</p>
+                  <div class="text-wrap j-pc">
+                      <span class="icon icon-name"></span>
+                      <input type="text" placeholder="用户名" id="user_name" name="LoginForm[userName]" value="" required >
+                  </div>
+                  <div class="text-wrap j-pc" id="div_password">
+                      <span class="icon icon-pass"></span>
+                      <input type="password" placeholder="密码" id="password">
+                      <input type="hidden" id="passwd_enc" name="LoginForm[password]">
+                  </div>
+                  <div class="text-wrap j-pc" id="div_code_input" style="width: 190px;float: left;display:none">
+                      <span class="icon icon-pass"></span>
+                      <input type="text" style="width: 140px" placeholder="验证码" name="LoginForm[validcode]">
+                  </div>
+                  <div class="text-wrap j-pc" id="div_code" style="float: right;padding: 3px;border-left: none;display:none">
+                      <img id="valid_code" alt="点击刷新验证码" title="点击刷新验证码" src="/welcome/validcode">
+                  </div>
+                  <div class="login j-pc" style="float:left;width:100%;">
+                      <input type="checkbox" id="remember" />
+                      <label for="remember" class="f14">记住登录账号</label>
+                      <button type="submit" id="login_btn" class="btn-pr ok-btn f14 login-btn">登录</button>
+                  </div>
+                  <div class="qrcode-login j-qr" style="display: none">
+                      <div class="qrcode-mod">
+                          <div class="qrcode-main">
+                              <div class="qrcode-img" style="opacity: 1;"><img class="j-qr-img" style="display: block;"></div>
+                          </div>
+
+                          <div class="qrcode-desc">
+                              <p style="font-size: 12px">打开<a href="javascript:;">微信</a>，扫一扫登录 <br>
+                                  <strong>更安全的登录方式</strong>
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <p class="error-info color-red" id="error_info"></p>
+              </form>
+          </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+<div class="newsContainer">
+  <div class="panel">
+    <a href="javascript: location.reload();" style="font-size: 13px;">返回</a>
+    <div class="head">
+      <h2 id="notice_name"> </h2>
+      <p class="sub">
+        <span id="create_time" class="time"> </span>
+        &nbsp&nbsp点击次数：
+        <span id="view_count" class="count"> </span>
+      </p>
+      <div class="shareBox">
+        <div class="bshare-custom"><a title="分享到QQ空间" class="bshare-qzone"></a><a title="分享到新浪微博" class="bshare-sinaminiblog"></a><a title="分享到人人网" class="bshare-renren"></a><a title="分享到腾讯微博" class="bshare-qqmb"></a><a title="分享到网易微博" class="bshare-neteasemb"></a><a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a></div><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh"></script><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
+      </div>
+    </div>
+    <div id="content" class="content">
+      无内容
+    </div>
+  </div>
+</div>
+
+
+
+<div class="manage-footer color-gray align-c f14">
+    Copyright © 2015-2017 All Rights Reserved.</div>
+
+<script type="text/javascript" src="public/js/jquery/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="public/js/overall.js"></script>
+<script type="text/javascript" src="public/js/seajs/sea.js"></script>
+<script type="text/javascript" src="public/js/sea-config.js"></script>
+<script type="text/javascript" src="public/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="public/js/md5-min.js"></script>
+<script type="text/javascript">
+(function($){
+  $.browserCheck = function(options){
+    var defaults = {
+      t : 500
+    };
+    var options = $.extend({}, defaults, options);
+    var obj = new browserCheck(this,options);
+    obj.init();
+  }
+
+  function browserCheck(o,v){
+    this.o = o;
+    for(var i in v){
+      this[i] = v[i];
+    }
+  }
+
+  browserCheck.prototype = {
+    init:function(){
+      this.check();
+    },
+    check : function(){
+      if (!!window.ActiveXObject || "ActiveXObject" in window){
+        this.createHtml();
+      }
+    },
+    createHtml : function(){
+      var str='<div class="browser-check" style="display:none">'+
+                '<div class="browser-tip">'+
+                    '<ul class="browser-list">'+
+                        '<li class="item">'+
+                            '<a class="browser-link" href="https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=chrome%E4%B8%8B%E8%BD%BD&oq=chrome%E4%B8%8B%E8%BD%BD&rsv_pq=ebb306a000019485&rsv_t=c0b2TpIGEjmKl5XOmYzFxS5UqBhFMDiz97br%2F4tvLTeBLwpSOjSF7wf2WMs&rsv_enter=0" target="_blank">'+
+                                '<img src="/backend/public/images/icon/chrome.png">'+
+                                '<p class="browser-name">Chrome</p>'+
+                            '</a>'+
+                        '</li>'+
+                    '</ul>'+
+                    '<div class="notice-info">'+
+                        '<p class="notice-text">为了你能正常使用网站功能，请使用google浏览器。</p>'+
+                    '</div>'+
+                '</div>'+
+            '</div>';
+      $('body').prepend(str);
+      this.showTip();
+    },
+    showTip : function(){
+      var $browserTip = $('.browser-check');
+      if($browserTip.length){
+        setTimeout(function(){
+          $browserTip.slideDown(this.t);
+        },this.t);
+      }
+    }
+  }
+})(jQuery);
+$(function(){
+  $.browserCheck();
+});
+</script>
+<script type="text/javascript">
+      var _interval;
+      $(function(){
+          //登录方式
+          var display = $('#div_code').css('display');
+          $('.login-type-icon').click(function(){
+              var bg_url = $(this).css('background-image');
+              if(bg_url.indexOf('pc_') > 0){
+                  $('.j-pc').each(function() {
+                      if (this.id == 'div_code' || this.id == 'div_code_input') {
+                          if (display != 'none') {
+                              $(this).show();
+                          }
+                      }
+                      else {
+                          $(this).show();
+                      }
+                  });
+                  $('.j-qr').hide();
+                  $(this).css('background-image', 'url(https://yun-campus-res.oss-cn-shenzhen.aliyuncs.com/public/images/icon/qr_ico.png)');
+                  $('.poptip-content').text('扫码登录更安全');
+
+                  window.clearInterval(_interval);
+              }
+              else{
+                  $('.j-pc').hide();
+                  $('.j-qr').show();
+                  $(this).css('background-image', 'url(https://yun-campus-res.oss-cn-shenzhen.aliyuncs.com/public/images/icon/pc_ico.png)');
+                  $('.poptip-content').text('密码登录在这里');
+
+                  $("#error_info").text('');
+
+                  fnQrLogin();
+                  _interval = window.setInterval(function(){
+                      fnQrLogin();
+                  }, 3000);
+              }
+
+          });
+
+          var fnQrLogin = function(){
+              $.get('/welcome/login_qr', function(result) {
+                  if(result.code === 1) {
+                      $.cookie('remember_inform',null,{path: '/welcome'});
+                      var data = result.data;
+
+                      if(!!data && !!data.redirect) {
+                          window.setTimeout(function () {
+                              location.href = data.redirect;
+                          }, 150);
+                      }
+                      else{
+                          $('.j-qr-img').attr('src', data.qr_login);
+                      }
+                  }
+              });
+          };
+
+          // 账号登录失败显示账号登陆框
+          if ($.cookie('loginError') != 'true') {
+            $('.login-type-icon').click();
+          }
+
+          $('#valid_code').click(function(){
+             $(this).attr('src', '/welcome/validcode?'+Math.random());
+          });
+
+          var data = {"retCode":0,"retMsg":"","data":{"logo_url":"http://yun-campus-res.oss-cn-shenzhen.aliyuncs.com/school/1490080178-7469.png","notice_list":[{"notice_id":30397,"notice_name":"武汉确定大学毕业生最低年薪标准：专科4万本科5万","remark":null,"recept_faculty":"","is_recommend":0,"modify_time":"2017-12-02 06:00","state":1,"push_time":0,"create_time":"2017-12-01","sign_up_type":0,"type":44,"content_source_type":0,"content_source_url":"http://www.ncss.org.cn/zx/jydt/jyxsfx/296161.shtml"},{"notice_id":30346,"notice_name":"哈工程举办“东北五校”2018届毕业生冬季大型双选会","remark":null,"recept_faculty":"","is_recommend":0,"modify_time":"2017-12-01 06:00","state":1,"push_time":0,"create_time":"2017-11-30","sign_up_type":0,"type":44,"content_source_type":0,"content_source_url":"http://www.ncss.org.cn/zx/jydt/jyxsfx/296160.shtml"},{"notice_id":30347,"notice_name":"重庆市合川区精准施策点对点促进大学生就业","remark":null,"recept_faculty":"","is_recommend":0,"modify_time":"2017-12-01 06:00","state":1,"push_time":0,"create_time":"2017-11-30","sign_up_type":0,"type":44,"content_source_type":0,"content_source_url":"http://www.ncss.org.cn/zx/jydt/jyxsfx/296155.shtml"},{"notice_id":30029,"notice_name":"杭州大学生创业迎黄金时代","remark":null,"recept_faculty":"","is_recommend":0,"modify_time":"2017-11-29 06:00","state":1,"push_time":0,"create_time":"2017-11-28","sign_up_type":0,"type":44,"content_source_type":0,"content_source_url":"http://www.ncss.org.cn/zx/jydt/cy/296150.shtml"},{"notice_id":30030,"notice_name":"西安加大开发公益专岗 确保贫困家庭大学生100%就业","remark":null,"recept_faculty":"","is_recommend":0,"modify_time":"2017-11-29 06:00","state":1,"push_time":0,"create_time":"2017-11-28","sign_up_type":0,"type":44,"content_source_type":0,"content_source_url":"http://www.ncss.org.cn/zx/jydt/jyxsfx/296148.shtml"},{"notice_id":29219,"notice_name":"陕西300多家单位 携14000余岗位招揽人才","remark":null,"recept_faculty":"","is_recommend":0,"modify_time":"2017-11-25 06:00","state":1,"push_time":0,"create_time":"2017-11-24","sign_up_type":0,"type":44,"content_source_type":0,"content_source_url":"http://www.ncss.org.cn/zx/jydt/jyxsfx/296145.shtml"}],"province":"湖南","hn_notice_list":[{"notice_id":30398,"notice_name":"省就业指导中心组织学习《中国共产党章程（修正案）》","remark":null,"recept_faculty":"","is_recommend":0,"modify_time":"2017-12-02 06:01","state":1,"push_time":0,"create_time":"2017-12-01","sign_up_type":0,"type":45,"content_source_type":0,"content_source_url":"http://www.hunbys.com/show/12,224.html"},{"notice_id":30251,"notice_name":"湖南省普通高等学校毕业生就业促进会换届选举暨2017年年会在长沙成功召开","remark":null,"recept_faculty":"","is_recommend":0,"modify_time":"2017-11-30 06:01","state":1,"push_time":0,"create_time":"2017-11-29","sign_up_type":0,"type":45,"content_source_type":0,"content_source_url":"http://www.hunbys.com/show/12,223.html"},{"notice_id":29221,"notice_name":"省就业指导中心开展“阅&#8226;享”读书会活动 ——学习分享《习近平的七年知青岁月》","remark":null,"recept_faculty":"","is_recommend":0,"modify_time":"2017-11-25 06:01","state":1,"push_time":0,"create_time":"2017-11-24","sign_up_type":0,"type":45,"content_source_type":0,"content_source_url":"http://www.hunbys.com/show/12,220.html"},{"notice_id":29222,"notice_name":"积极主动，高效就业——2018届毕业生国际贸易类专场招聘会成功举办","remark":null,"recept_faculty":"","is_recommend":0,"modify_time":"2017-11-25 06:01","state":1,"push_time":0,"create_time":"2017-11-24","sign_up_type":0,"type":45,"content_source_type":0,"content_source_url":"http://www.hunbys.com/show/12,219.html"},{"notice_id":29158,"notice_name":"<span style=\"font-weight:bold;\">湖南科技学院大学生创新创业基地双喜临门</span>","remark":null,"recept_faculty":"","is_recommend":0,"modify_time":"2017-11-24 06:02","state":1,"push_time":0,"create_time":"2017-11-23","sign_up_type":0,"type":45,"content_source_type":0,"content_source_url":"http://www.hunbys.com/show/12,218.html"},{"notice_id":29081,"notice_name":"脚踏实地，顺利就业——2018届毕业生系列招聘会行政管理类专场成功举办","remark":null,"recept_faculty":"","is_recommend":0,"modify_time":"2017-11-23 06:01","state":1,"push_time":0,"create_time":"2017-11-22","sign_up_type":0,"type":45,"content_source_type":0,"content_source_url":"http://www.hunbys.com/show/12,217.html"}]}};
+          if(data.data){
+              $("#error_info").text(data.data.msg).show();
+          }
+          $("form").submit(function() {
+              if($.trim( $("#user_name").val()).length == 0 ) return false;
+              $("#passwd_enc").val(hex_md5($("#password").val()));
+              setCookie();
+              return true;
+          });
+          var COOKIE_NAME = 'user_name';
+          if( $.cookie(COOKIE_NAME) && $.cookie(COOKIE_NAME) != "null"){
+              $("#user_name").val(  $.cookie(COOKIE_NAME) );
+              document.getElementById("remember").checked =  true;
+          }
+          var setCookie = function(){
+              if(document.getElementById("remember").checked){
+                $.cookie(COOKIE_NAME, $("#user_name").val() , { path: '/', expires: 10 });
+                //var date = new Date();
+                //date.setTime(date.getTime() + (3 * 24 * 60 * 60 * 1000)); //三天后的这个时候过期
+                //$.cookie(COOKIE_NAME, $("#username").val(), { path: '/', expires: date });
+              }else {
+                  $.cookie(COOKIE_NAME, null , {path: '/'});  //删除cookie
+              }
+              $.cookie('loginError', true, {path: '/'});
+          };
+         $(".title h4").click(function(){//鼠标点击切换
+              var index=$(this).index()
+              $(this).addClass("tit-selected").siblings().removeClass("tit-selected");
+              $(".box ul").eq(index).show().siblings().hide();
+          });
+
+      });
+
+
+
+
+        //新闻查看相关
+        $(document).keydown(function(event) {
+            /* Act on the event */
+            if(event.which == 8 && event.target.tagName != 'INPUT'){
+            event.preventDefault();
+            location.reload();
+            }
+        });
+        window.loadNews = function(notice_id){
+            $.get('/login/get_notice?notice_id=' + notice_id, function(data) {
+            /*optional stuff to do after success */
+            if(data.code === 1) {
+                data = data.data;
+                $('#notice_name').text(data.notice_name);
+                $('#create_time').text(data.create_time);
+                $('#view_count').text(data.view_count);
+                $('#content').html(data.content);
+                $('.container').hide();
+                $('.newsContainer').show();
+            }
+            });
+        }
+      </script>
+</body>
+</html>

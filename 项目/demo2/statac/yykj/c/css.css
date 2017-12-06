@@ -1,0 +1,586 @@
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both
+}
+
+.css-breadcrumb {
+    background-color: #36aef7;
+    padding: 10px 0;
+    color: #fff
+}
+
+.css-breadcrumb li .fa-home {
+    font-size: 16px;
+    color: #fff;
+    margin-left: 10px
+}
+
+.css-breadcrumb li a {
+    padding: 0 5px;
+    color: #fff
+}
+
+.css-sidebar {
+    width: 215px;
+    background-color: #fff;
+    float: left
+}
+
+.css-sidebar .css-nav li {
+    border-bottom: 1px solid #eee;
+    line-height: 40px;
+    background-color: #fff;
+    padding: 0 15px 0 30px;
+    font-size: 16px
+}
+
+.css-sidebar .css-nav li i {
+    margin-right: 10px
+}
+
+.css-sidebar .css-nav .active a {
+    color: #0069ae
+}
+
+.css-sidebar .css-help {
+    width: 100%;
+    padding-top: 5px;
+    background-color: #f8f8f8
+}
+
+.css-sidebar .css-help li {
+    padding: 8px 0 8px 26px;
+    border-bottom: 1px solid #eee;
+    background-color: #fff
+}
+
+.css-sidebar .css-help li:last-child {
+    border-bottom: none
+}
+
+.css-sidebar .css-help li:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both
+}
+
+.css-sidebar .css-help li img {
+    width: 30px;
+    float: left
+}
+
+.css-sidebar .css-help li .css-i1 {
+    margin-top: 35px
+}
+
+.css-sidebar .css-help li .css-i2 {
+    margin-top: 20px
+}
+
+.css-sidebar .css-help li .css-i3 {
+    margin-top: 35px
+}
+
+.css-sidebar .css-help li .css-txt b {
+    font-size: 15px;
+    display: block;
+    margin-bottom: 0;
+    color: #0069ae;
+    font-weight: 400
+}
+
+.css-sidebar .css-help li .css-txt a, .css-sidebar .css-help li .css-txt p {
+    line-height: 20px;
+    font-size: 14px;
+    display: block;
+    color: #555;
+    word-wrap: break-word;
+    margin-top: 4px;
+    vertical-align: middle
+}
+
+.css-sidebar .css-help li .css-txt a:hover {
+    color: #0069ae
+}
+
+.css-sidebar .css-help li .css-txt i {
+    margin-right: 5px;
+    font-size: 14px;
+    width: 14px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center
+}
+
+.css-sidebar .css-help li .css-txt .i20 {
+    font-size: 20px
+}
+
+.css-sidebar .css-help li .css-txt .i12 {
+    font-size: 12px
+}
+
+.css-ptitle {
+    background-color: #9da2a8;
+    position: relative
+}
+
+.css-ptitle img {
+    display: block;
+    margin: 0 auto;
+    min-height: 190px;
+}
+
+.css-ptitle .css-txt {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    font-size: 24px;
+    color: #fff;
+    width: 200px;
+    text-align: center;
+    margin-left: -100px
+}
+
+.css-ptitle .css-txt .clffont {
+    display: block;
+    font-size: 40px
+}
+
+.css-nav {
+    background-color: #ececec
+}
+
+.css-nav:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both
+}
+
+.css-nav li {
+    float: left;
+    height: 48px;
+    line-height: 48px;
+    border-bottom: 2px solid #ececec;
+    font-size: 16px;
+    padding: 0 15px;
+    margin-right: 10px
+}
+
+.css-nav .active {
+    border-color: #1b75c2
+}
+
+.css-main {
+    min-height: 468px;
+    padding: 15px 0;
+    background-color: #fff;
+    font-size: 16px
+}
+
+.css-main p {
+    padding-bottom: 5px;
+    font-size: 14px
+}
+
+.css-main .css-mtit {
+    height: 30px;
+    font-size: 16px;
+    border-bottom: 1px solid #d5d5d5
+}
+
+.css-main .css-content {
+    padding: 15px;
+    font-size: 14px
+}
+
+.css-main .css-oneimg {
+    margin: 0 auto 20px;
+    display: block;
+    width: 100%;
+    height: 350px
+}
+
+.css-main .css-twoimg:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both
+}
+
+.css-main .css-twoimg li {
+    float: left;
+    margin: 15px 0 0 165px
+}
+
+.css-main .css-twoimg img {
+    margin: 0 auto
+}
+
+.css-main .css-threeimg {
+    margin: 10px auto 10px;
+    display: block;
+    width: 100%;
+    max-height: 350px
+}
+
+.css-main .css-list li {
+    line-height: 30px;
+    padding-left: 30px;
+    color: #555
+}
+
+.css-main .css-maintabs {
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding: 0 15px;
+    height: 40px;
+    border-bottom: 1px solid #eee
+}
+
+.css-main .css-maintabs span {
+    height: 40px;
+    line-height: 40px;
+    float: left
+}
+
+.css-main .css-maintabs ul:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both
+}
+
+.css-main .css-maintabs ul li {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 5px;
+    float: left
+}
+
+.css-main .css-maintabs ul li a {
+    padding: 3px 6px;
+    color: #0069ae
+}
+
+.css-main .css-maintabs ul li:hover a {
+    color: #fff;
+    background-color: #0069ae
+}
+
+.css-main .css-maintabs ul .current a {
+    color: #fff;
+    background-color: #0069ae
+}
+
+.css-main .css-xhcon .css-text {
+    padding: 0 0 15px 15px
+}
+
+.css-main .css-xhcon ul:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both
+}
+
+.css-main .css-xhcon ul li {
+    width: 166px;
+    height: 135px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-align: center;
+    float: left
+}
+
+.css-main .css-xhcon ul li a img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block
+}
+
+.css-main .css-xhcon ul li a p {
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.css-main .css-imgtext li {
+    padding-top: 15px;
+    margin: 0 0 15px 0;
+    border-top: 1px solid #eee
+}
+
+.css-main .css-imgtext li:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both
+}
+
+.css-main .css-imgtext li:first-child {
+    border: none;
+    padding: 0
+}
+
+.css-main .css-imgtext li .css-img {
+    float: left;
+    width: 175px;
+    height: 100px;
+}
+
+.css-main .css-imgtext li .css-txt {
+    height: 110px;
+    overflow: hidden;
+    float: left;
+    width: 800px;
+    margin-left: 15px
+}
+
+.css-main .css-imgtext li .css-txt b {
+    margin-bottom: 0;
+    display: block;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.css-main .css-imgtext li .css-txt small {
+    color: #555
+}
+
+.css-main .css-imgtext li .css-txt p {
+    margin-top: 5px;
+    color: #555;
+    font-size: 14px;
+    line-height: 20px
+}
+
+.css-main .css-newstext li {
+    padding-top: 15px;
+    margin: 0 0 15px 0;
+    border-top: 1px solid #eee
+}
+
+.css-main .css-newstext li:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both
+}
+
+.css-main .css-newstext li:first-child {
+    border: none;
+    padding: 0
+}
+
+.css-main .css-newstext li a {
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    display: block;
+    color: #0069ae
+}
+
+.css-main .css-newstext li small {
+    display: block;
+    margin: 5px 0;
+    color: #999
+}
+
+.css-main .css-newstext li p {
+    font-size: 15px;
+    color: #555
+}
+
+.css-main .css-newscontent .css-title {
+    padding: 10px 0 15px 0;
+    border-bottom: 1px solid #eee;
+    position: relative
+}
+
+.css-main .css-newscontent .css-title b {
+    margin-bottom: 10px;
+    display: block;
+    color: #333
+}
+
+.css-main .css-newscontent .css-title small {
+    display: block
+}
+
+.css-main .css-newscontent .css-content p {
+    margin-top: 5px;
+    text-indent: 2em;
+    color: #555
+}
+
+.css-main .css-showlink {
+    margin-bottom: 10px
+}
+
+.css-main .css-showlink .css-title {
+    height: 40px;
+    line-height: 40px;
+    background-color: #fafafa;
+    border: 1px solid #eee;
+    border-bottom: none;
+    padding: 0 10px
+}
+
+.css-main .css-showlink .css-content {
+    padding: 10px;
+    border: 1px solid #eee;
+    color: #555;
+    font-size: 14px
+}
+
+.css-main .css-showlink .css-content a {
+    color: #0069ae
+}
+
+.css-pagination {
+    width: 100%;
+    padding: 20px 0;
+    height: 30px;
+    line-height: 30px;
+    border-top: 1px solid #f6f6f6;
+    text-align: center;
+    font-size: 14px
+}
+
+.css-pagination:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both
+}
+
+.css-pagination .css-count {
+    display: inline;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: top
+}
+
+.css-pagination .css-page {
+    display: inline;
+    height: 24px;
+    margin-left: 15px;
+    margin-top: 2px;
+    padding-top: 5px
+}
+
+.css-pagination .css-page li {
+    display: inline
+}
+
+.css-pagination .css-page li a {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #333;
+    padding: 3px 6px
+}
+
+.css-pagination .css-page .active a {
+    background-color: #00abd8;
+    color: #fff
+}
+
+.css-footer {
+    min-width: 1200px;
+    width: 100%;
+    height: 156px;
+    padding: 20px 0 0 0;
+    margin: -176px auto 0;
+    background: #333;
+    text-align: center;
+    color: #ddd
+}
+
+.css-footer:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both
+}
+
+.css-footer a {
+    color: #fff
+}
+
+.css-footer .css-left:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both
+}
+
+.css-footer .css-left li {
+    width: 140px;
+    float: left;
+    text-align: left
+}
+
+.css-footer .css-left li b {
+    font-size: 16px;
+    font-weight: 400
+}
+
+.css-footer .css-left li p {
+    line-height: 24px;
+    color: #888
+}
+
+.css-footer .css-left li a {
+    color: #888
+}
+
+.css-footer .css-left li a:hover {
+    color: #f3f3f3
+}
+
+.css-footer .css-left .css-code {
+    width: 70px
+}
+
+.css-footer .css-right {
+    margin: 10px 0;
+    padding: 10px 0 0 0;
+    border-top: 1px solid #4e4e4e;
+    text-align: left;
+    font-size: 12px
+}
+
+.css-footer .css-contact {
+    float: left;
+    width: 250px;
+    padding-left: 100px;
+    text-align: left;
+    margin-top: 8px
+}
+
+.css-footer .css-contact p {
+    color: #888
+}
+
+.img-cp {
+    width: 880px;
+    margin-top: 15px;
+    display: block;
+}
+
+.css-con1 img {
+    width: 100px;
+    height: 100px;
+}
+
+.css-content .icon {
+    height: 65px;
+}

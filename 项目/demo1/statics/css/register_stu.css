@@ -1,0 +1,19 @@
+.register-form .group{
+	margin-bottom:36px;
+}
+.register-form .stu_input{
+	height:30px;
+}
+.register-form .stu_label{
+	height: 30px;
+    line-height: 30px;
+    font-size:15px;
+    font-weight:900;
+}
+.register-form .xinghao{
+	font-size: 22px;
+    color: #e03919;
+    float: left;
+    margin-left: 70px;
+    margin-top: 5px;
+}

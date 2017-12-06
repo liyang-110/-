@@ -1,0 +1,72 @@
+@charset "utf-8";
+*{/* font:normal 12px/2em '微软雅黑'; */padding:0;margin:0}
+ul,li{list-style:none}
+a{ color:#09f;}
+/*容器*/
+#xzw_starSys{clear:both;height:30px;padding-top:7px;}
+#xzw_starBox{position:relative;float:left}
+/*1*/
+#xzw_starSys .description{float:left;margin-left:10px;}
+#xzw_starSys .star{height:20px;width:120px;position:relative;background:url(../img/123.png) repeat-x;cursor:pointer;margin-left:75px;}
+#xzw_starSys .star li{float:left;padding:0px;margin:0px}
+#xzw_starSys .star li a{display:block;width:24px;height:20px;overflow:hidden;text-indent:-9999px;position:absolute;z-index:5}
+#xzw_starSys .star li a:hover{background:url(../img/123.png) 0 -25px repeat-x;z-index:3;left:0}
+#xzw_starSys .star a.one-star{left:0}
+#xzw_starSys .star a.one-star:hover{width:24px}
+#xzw_starSys .star a.two-stars{left:24px}
+#xzw_starSys .star a.two-stars:hover{width:48px}
+#xzw_starSys .star a.three-stars{left:48px}
+#xzw_starSys .star a.three-stars:hover{width:72px}
+#xzw_starSys .star a.four-stars{left:72px}
+#xzw_starSys .star a.four-stars:hover{width:96px}
+#xzw_starSys .star a.five-stars{left:96px}
+#xzw_starSys .star a.five-stars:hover{width:120px}
+#xzw_starSys .current-rating{background:url(../img/123.png) 0 -25px repeat-x;position:absolute;height:20px;z-index:1;top:0;margin-left:75px;}
+.header-top{
+	height:45px;
+}
+.top-icon{
+	color: #fff;
+    font-size: 22px;
+    text-align: center;
+    line-height: 45px;
+}
+.biaoti{
+	float:left;
+	line-height: 26px;
+    font-size: 16px;
+}
+.preview{
+    width: 200px;
+    margin-top: 15px;
+}
+.btn{
+	margin:15px auto;
+}
+.btn .commit_btn{
+	height:35px;
+	width: 70px;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: #F57E0D;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    letter-spacing:3px;
+    outline:none;
+}
+
+.btn .aui_close_btn {
+	height:35px;
+	width: 70px;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: #F57E0D;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    letter-spacing:3px;
+    margin-left: 70px;
+    outline:none;
+}
+.btn.aui_close_btn:hover {text-decoration:none;color:#EF4B4B;}

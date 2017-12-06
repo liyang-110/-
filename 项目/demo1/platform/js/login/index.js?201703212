@@ -1,0 +1,197 @@
+/**
+ * Created by Administrator on 2016/4/9.
+ */
+
+//版本更新
+var config = {
+    base: '/platform',
+    paths: {
+        'libs': '/public/js/libs',
+        'plugs':'/public/js/plugs'
+    },
+    comboSuffix: '?v='+__ver
+};
+seajs.config(config);
+
+var COOKIE_NAME = 'student_no';
+if ($.cookie(COOKIE_NAME) && $.cookie(COOKIE_NAME) != "null") {
+    $("#user_name").val($.cookie(COOKIE_NAME));
+    document.getElementById("remember").checked = true;
+}
+seajs.use(['libs/md5','libs/dialog'],function(security) {
+    $('#img_valid_code').click(function () {
+        $(this).attr('src', '/login/validcode?' + Math.random());
+    });
+    var _submit_flag = false;
+    $("#login_btn").click(function () {
+        var user_name = $.trim($("#user_name").val());
+        var school_id = $(this).data('id');
+        if (user_name.length < 1) {
+            if (school_id == '196') {
+                $.showMessage('请输入18位身份证号');
+            } else {
+                $.showMessage('请输入学号');
+            }
+            return false;
+        }
+        var password = $.trim($('#password').val());
+        if (password.length < 1) {
+            if (school_id == '196') {
+                $.showMessage('请输入18位身份证号');
+            } else {
+                $.showMessage('请输入密码');
+            }
+            return false;
+        }
+        password = security.hex_md5(password);
+
+        var valid_code = $.trim($("#valid_code").val());
+
+        if (!_submit_flag) {
+            _submit_flag = true;
+            $.ajax({
+                url: '/login/submit',
+                type: 'post',
+                dataType: "json",
+                data: {
+                    user_name: user_name,
+                    password: password,
+                    valid_code: valid_code
+                },
+                success: function (result) {
+                    _submit_flag = false;
+                    if (result.code == 1) {
+                        if (result.data.qr_code_url) {
+                            $('.login_qr img').attr('src', result.data.qr_code_url)
+                            $('.login_qr').show();
+                            $('.login_form').hide();
+                            setTimeout(function(){
+                                $("#login_btn").trigger('click');
+                            },5000);
+                        } else {
+                            setCookie();
+                            $.cookie('remember_inform_student',null,{path: '/'});
+                            $.showMessage('登录成功');
+                            if ($.cookie('isBack')=='true') {
+                                $.cookie('isBack', 'false');
+                                history.back();
+                            } else {
+                                location.href = '/student';
+                            }
+                        }
+                    }
+                    else {
+                        if (!!result.data.logo_need_valid) {
+                            $('#div_code_input').show();
+                            $('#div_code').show();
+                        }
+                        $('#img_valid_code').attr('src', '/login/validcode?' + Math.random());
+                        $.showMessage(result.msg,3000);
+                    }
+                },
+                error:function(){
+                    _submit_flag = false;
+                    $.showMessage('登录失败，服务器连接失败！');
+                }
+            });
+        } else {
+            $.showMessage('请不要重复登录');
+        }
+    });
+
+    var setCookie = function () {
+        if (document.getElementById("remember").checked) {
+            $.cookie(COOKIE_NAME, $("#user_name").val(), {path: '/', expires: 10});
+            //var date = new Date();
+            //date.setTime(date.getTime() + (3 * 24 * 60 * 60 * 1000)); //三天后的这个时候过期
+            //$.cookie(COOKIE_NAME, $("#username").val(), { path: '/', expires: date });
+        } else {
+            $.cookie(COOKIE_NAME, null, {path: '/'});  //删除cookie
+        }
+    };
+
+    //忘记密码
+    $('.login-form').on('click', '#showReset', function() {
+        html = $('.login-form').html();
+        $('.login-form').html(resetHtml);
+    });
+
+    $('.login-form').on('click', '#showLogin', function() {
+        $('.login-form').html(html);
+    });
+
+    $('.login-form').on('click', '#resetPassword', function() {
+        var user_name = $.trim($('#user_name').val());
+        var sfzhm = $.trim($('#sfzhm').val());
+        var password = security.hex_md5($.trim($('#password').val()));
+        var valid_code = $.trim($('#valid_code').val());
+
+        if (!user_name) {
+            return $.showMessage('学号不能为空！');
+        }
+        if (!sfzhm) {
+            return $.showMessage('身份证号后六位不能为空！');
+        }
+        if (!password) {
+            return $.showMessage('新密码不能为空！');
+        }
+        if (!valid_code) {
+            return $.showMessage('图形验证码不能为空！');
+        }
+
+        var data = {
+            user_name: user_name,
+            sfzhm: sfzhm,
+            password: password,
+            valid_code: valid_code
+        };
+
+        ajaxReset(data);
+    });
+
+    $('.login-form').on('click', '#span_ico_eye', function(){
+        var is_eye_open = $(this).hasClass('glyphicon-eye-open');
+        if(is_eye_open){
+            $(this).removeClass('glyphicon-eye-open').addClass('glyphicon-eye-close').attr('title', '密码不可见');
+            $('#password').attr('type', 'password');
+        }
+        else{
+            $(this).removeClass('glyphicon-eye-close').addClass('glyphicon-eye-open').attr('title', '密码可见');
+            $('#password').attr('type', 'text');
+        }
+    });
+
+    $('.login-form').on('click', '#img_code', function(){
+        $(this).attr('src', '/login/validcode?'+Math.random());
+    });
+
+    var ajaxReset = function(data) {
+        $.ajax({
+            url: '/login/reset_password',
+            type: 'post',
+            data: data,
+            success: function(result) {
+                if (result.code == 1) {
+                    $.showMessage('修改成功！');
+                    setTimeout(function() {
+                        location.reload();
+                    }, 2000);
+                } else {
+                    $.showMessage(result.msg);
+                }
+            }
+        });
+    };
+
+    var html = '';
+    var resetHtml = [];
+    resetHtml.push('<p class="f18 mb18">重置密码</p>');
+    resetHtml.push('<table id="reset_block">');
+    resetHtml.push('<tr><td>学号</td><td><input type="text" id="user_name" class="form-control"></td></tr>');
+    resetHtml.push('<tr><td>身份证后六位</td><td><input type="text" id="sfzhm" class="form-control"></td></tr>');
+    resetHtml.push('<tr><td>新密码</td><td style="position:relative;"><input type="text" id="password" class="form-control"><span class="glyphicon glyphicon-eye-open" title="密码可见" id="span_ico_eye" aria-hidden="true"></span></td></tr>');
+    resetHtml.push('<tr><td>图形码</td><td><input type="text" id="valid_code" class="form-control"><img id="img_code" src="/login/validcode" style="height:33px;"></td></tr>');
+    resetHtml.push('<tr><td><input type="button" id="resetPassword" class="btn-pr ok-btn" value="提交"></td><td><span id="showLogin" class="login_tips" style="margin-left:10px;">已有账号？去登录</span></td></tr>');
+    resetHtml.push('</table>');
+    resetHtml = resetHtml.join('');
+});

@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>优才优聘APP下载</title>
+	<meta charset="utf-8" />
+    <style>
+        * {
+            margin:0px;
+            padding:0px;
+        }
+        .img1{
+            width: 100vw;
+            height: 100vh;
+            background-image: url('img/1.jpg');
+            background-position: center;
+            background-size:100vw 100vh;
+			overflow:hidden;
+        }
+        .content {
+            width: 100vw;
+            height: 100vh;
+            overflow:hidden;
+            border:0px solid #000000;
+        }
+            .content ul {
+                height:auto;
+                position:absolute;
+                z-index:100;
+                color:red;
+                bottom:0;
+                right:0;
+            }
+                .content ul li {
+                     margin:10px;
+                     height:10px;
+                     width:10px;
+                     background-color:transparent;
+                     border:2px solid rgba(39, 112, 139, 0.4);
+                     border-radius:50%;
+                     opacity:0.6;
+                     list-style-type:none;
+                }
+                .content ul li:hover {
+                    cursor:pointer;
+                    border:2px solid #40b2e2;
+                }
+        .ckeck-li {
+            background-color:#02c084 !important;
+            opacity:1 !important;
+        }
+       .file {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width:100px;
+            color:#fff;
+            z-index:50;
+        }
+        .file > span {
+            background-color: rgba(39, 112, 139, 0.4);
+            position: absolute;
+            width: 100px;
+        }
+        .file > input {
+            position: absolute;
+            opacity: 0;
+            z-index: 9999;
+            width: 100px;
+            height: 30px;
+        }
+		.content .table {height:100%;margin:auto;}
+		.content .table .td {width: 100%; height: 100%; text-align: center;vertical-align:middle;}
+		.content .table .td img {margin-top:2%;max-width:90%;max-height:90%;}
+    </style>
+    <script src="/static/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<body>
+    <div class="content">
+        <div  style="position:relative;" id="content">
+            <div class="img1" style="background-image: url('img/1.jpg');">
+				<div style="width:1000px;margin:auto;position:relative;">
+					<div style="position:absolute;">
+						<a href="/">
+							<img src="img/logo_03.png"  style="margin-top:50px;"/>
+						</a>
+					</div>
+				</div>
+				<div class="table">
+					<div class="td">
+					<img src="img/5.png"/>
+					</div>
+				</div>
+			</div>
+            <div class="img1" style="background-image: url('img/2.jpg');">
+				<div class="table">
+					<div class="td">
+					<img src="img/6.png"/>
+					</div>
+				</div>
+			</div>
+            <div class="img1" style="background-image: url('img/3.jpg');">
+				<div class="table">
+					<div class="td">
+					<img src="img/7.jpg"/>
+					</div>
+				</div>
+			</div>
+            <div class="img1" style="background-image: url('img/4.jpg');">
+				<div class="table">
+					<div class="td">
+					<img src="img/8.jpg"/>
+					</div>
+				</div>
+			</div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

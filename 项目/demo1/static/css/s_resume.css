@@ -1,0 +1,452 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*样式重置开始*/
+*{margin:0;padding:0;}
+li{list-style:none;line-height: 30px;}
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+.clear{clear:both;}
+/*样式重置开始*/
+
+.personal_center{
+/* background:#e03919; */}
+.top_nav .main_nav a.personal_center {
+	color:#e03919;
+	border-bottom:3px solid #e03919;}
+body{
+	background-color: #efefef;
+}
+/*mian区属性描述开始*/
+.news{
+	border-bottom:1px solid #efefef;}
+
+.main{
+	width:1024px;
+	margin:0 auto;
+	background:#efefef;
+	font-family:"微软雅黑";
+	box-shadow:none;
+	margin-top: 10px;
+	}
+.robin_circle{
+	margin-bottom:10px;
+	padding: 10px 0px;
+	text-align:center;
+	background:#efefef;
+}	
+	
+.r_out { border:2px solid #d9d9d9; background:#fff; box-shadow:3px 3px 5px #bfbfbf; -webkit-box-shadow:3px 3px 5px #bfbfbf; -moz-box-shadow:3px 3px 5px #bfbfbf; -ms-box-shadow:3px 3px 5px #bfbfbf; border-radius:50%; -webkit-border-radius:50%; -moz-border-radius:50%; -ms_border-radius:50%; display:inline-block;  position:relative;}
+.r_out p {position:absolute; bottom: -40px; color:#000; text-align:center; margin:0 auto; width:100%; font-size:12px; line-height:1.5; /* font-weight:bold; */}
+
+.r_in {width:40px; height:40px; -webkit-border-radius:50%;  -moz-border-radius:50%; -ms_border-radius:50%; overflow:hidden; position:relative;}
+.r_c {width:40px; height:40px; position:absolute; bottom:0; left:0; height:0;}
+.c1 {background:#fbad4c;}
+.r_num {color:#404040; font-size:14px; line-height:1.5; font-weight:bold; position:absolute; /* top:50%; */  text-align:center; width:100%;margin-top: 14px;}
+
+.main_l{	
+		float:left;
+		margin-left:10px;
+		width:700px;
+		box-shadow:0px 0px 10px rgba(241,241,241,1.00);
+	}	
+.main_l h2{
+		color: #333;
+		text-align:left;
+		font-size: 24px;
+	}	
+.main_l .summary span{
+		padding:0px 10px;}
+.main_l .summary span.line_l {	
+		width: 260px;	
+		height:0px;	
+		border-top: 1px dashed #ccc;	
+}		
+#userpic{
+	margin-top:20px;
+	width: 136px;
+	height: 180px;
+	}
+.mr_top_bg{
+	width: 180px;
+    float: left;
+    }
+.main_l .summary{
+		width: 520px;
+    	float: left;
+        color:#999;	
+		text-align:left;		
+		line-height: 30px;		
+		font-size:14px;
+		}
+.main_l .details{
+	line-height:30px;
+	text-align:center;	}
+.main_l .details span{
+		vertical-align: middle;
+		display: inline-block;}
+.bj a{
+	color:#02c08e;
+}	
+.main_l .biaoti {
+		border-radius: 8px;
+		
+		line-height:30px;
+		text-align:center;
+		color: #333;
+		width: 88px;
+		height: 30px;
+		margin: 0 auto;
+	}
+.main_l .details span.line_l {
+		width: 250px;
+		height:0px;
+		border-top: 1px dashed #ccc;
+}
+.main_l .details span.line_r {
+		width: 190px;
+		height:0px;
+		border-top: 1px dashed #ccc;
+}
+.main_l .details span a{
+		font-size: 14px;
+		color:#02c08e;
+		font-weight:100;
+	}
+.main_l .details  ul span{
+	padding:0px 3px;}		
+
+.main_l dt{
+	margin-bottom:20px;
+	text-align:left;
+	}
+
+.main_l .details input{
+	height:25px;
+	float: left;
+    margin-left: 20px;
+    padding-left: 10px;
+	}
+.main_l .details select{
+	width:100px;
+	height:25px;
+	float: left;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+.main_l .details dd{
+	margin-top:10px;
+	width:720px;
+	/* margin-left:40px; */
+	font-size: 14Ppx;
+    text-align: left;
+	}
+.main_l .details p{
+	float: left;
+    text-align: right;
+    width: 300px;
+    font-weight:600;
+	}
+.main_l .details dd p span{
+	color: red;
+    margin-top: 3px;
+    margin-right: 5px;
+	}
+.main_l .details input.confirm{
+	margin-top:10px;
+	border-radius:4px;
+	border:none;
+	color:#fff;
+	margin-left:300px;
+	height:26px;
+	width:60px;
+	padding-left: 0px;
+	background:#e03919;
+	text-align:center;}
+
+.main_l .details input.cansal{
+	margin-top:10px;
+	border:none;
+	border-radius:4px;
+	color:#fff;
+	height:26px;
+	width:60px;
+	background:#6E5C52;
+	text-align:center;
+	margin-left:15px;
+	padding-left: 0px;}
+.zhi{
+	float:left;
+}
+.main_l .work-experience{
+	width: 620px;
+	text-align:left;
+	margin-left: 50px;
+	padding-left: 170px;
+	padding-bottom: 20px;
+	font-size: 14px;
+    color: #999;
+	}
+	.work-experience:hover{
+		border: 1px dashed #efefef;
+		background: #fafafa;
+		}
+.main_l .work-experience dd{
+	color: #999;
+	margin-left: 58px;
+	text-align:left;
+	}
+
+.main_l .education-background{
+		width: 620px;
+		text-align:left;
+		margin-left: 50px;
+		padding-left:165px;
+		padding-bottom: 20px;
+		font-size:14px;
+		color: #999;
+	}
+
+.main_l .education-background:hover{
+		border: 1px dashed #efefef;
+		background: #fafafa;
+		}
+.main_l .education-background .biaoti{
+	font-weight:900;
+}
+.main_r{
+	float:left;
+	background:#fff;
+}
+.main_r_down{
+	text-decoration:none;
+	color:#333;
+	cursor:pointer;
+	padding-top: 20px;
+    display: block;	
+}
+.main_r_nav.main_r_fixed{
+	display:block;
+	position:fixed;
+	top:100px;
+	background:#fff;
+}
+.main_r_nav.main_r_fixed2{
+	display:block;
+	position:fixed;
+	bottom:448px;
+	background:#fff;
+}
+.main_r_nav dl{
+	margin-bottom:10px;
+}
+.main_r_nav dd{
+	margin: 0 auto;		
+	font-size:14px;		
+
+	}
+.main_r dd a{
+	border-bottom:1px solid #efefef;
+	
+	border-right: 1px solid #efefef;
+	text-align:center;
+	display:block;
+	width:314px;
+	line-height:60px;
+	color:#6e5c52;
+	text-decoration:none;
+	}
+
+.main_r dd a:hover{
+    border-right:4px solid #02c08e;
+	text-decoration:none;
+	color:#02c08e;
+	/* background:#efefef; */
+	}
+
+.main_r dd a.return:hover{
+	border-left:1px solid #efefef;
+	text-decoration:none;
+	color:#02c084;
+	}
+.main_l_top ul{
+	margin-bottom:0px;
+}
+.main_l_top ul li{
+	float: left;
+    width: 175px;
+    height: 70px;
+    background: #fff;
+    border-left: 2px solid #f0f0f9;
+    color: #02c08e;
+    text-align: center;
+    line-height: 70px;
+}
+.details_hope .preview_hope .biaoti{
+	font-weight:900;
+	background:#fff;
+}
+.details_hope .preview_hope ul{
+	color:#999;
+}
+.details_work .work-experience .biaoti{
+	font-weight:900;
+}	
+.details_info{
+	background:#fff;
+	margin-top: 15px;
+	padding-bottom: 20px;
+}
+.details_edu{
+	background:#fff;
+	margin-top: 15px;
+}
+.details_hope{
+	background:#fff;
+	margin-top: 15px;
+	padding-bottom:10px;
+}
+.details_work{
+	background:#fff;
+	margin-top: 15px;
+	
+}
+.details_review{
+	background:#fff;
+	margin-top: 15px;
+}	
+.bianji{
+	float:right;
+	margin: 10px 20px 0 0;
+}
+.bt{
+	margin-top:10px !important;
+}
+.work-experience:hover .gztextarea{
+	background-color:#fafafa !important;
+}
+/*mian区属性描述结束*/
+/*选择学校弹出框样式开始*/
+  	#choose-box-wrapper a {
+  		border-radius: 0;
+  		background:none;
+  		/* background-color:#efefef; */
+  		line-height:1em;
+  		padding:0;
+  	}
+	#choose-box-wrapper{
+		width: 652px;
+		background-color:#000;
+		filter:alpha(opacity=50);
+		background-color:#efefef;
+		padding:10px;
+		border-radius:5px;
+		display:none;
+	}
+	#choose-box{
+		/* border: 1px solid #286A46; */
+		width:630px;
+		background-color:white;
+	}
+	#choose-box-title{
+		background:#e03919;
+		color: white;
+		padding: 4px 10px 5px;
+		font-size: 14px;
+		font-weight: 700;
+		margin: 0;
+	}
+	#choose-box-title span{
+		font-family: Tahoma, Verdana, STHeiTi, simsun, sans-serif;
+	}
+
+	#choose-a-province, #choose-a-school{
+		/* margin:5px 0px 10px 0px; */
+		border-left: 1px solid #C3C3C3;
+    	border-right: 1px solid #C3C3C3;
+    	border-top: 1px solid #C3C3C3;
+    	padding: 10px 0px;
+	}
+	#choose-a-province a{
+		display:inline-block;
+		height: 18px;
+		line-height: 18px;
+		
+		text-decoration: none;
+		font-size: 9pt;
+		font-family: Tahoma, Verdana, STHeiTi, simsun, sans-serif;
+		margin:2px 5px;
+		padding: 1px;
+		text-align: center;
+	}
+	#choose-a-province a:hover{
+		text-decoration:underline;
+		cursor:pointer;
+	}
+	#choose-a-province .choosen{
+		background-color: #999;
+		color:white;
+	}
+	#choose-a-school{
+		overflow-x: hidden;
+		overflow-y: auto;
+		height: 200px;
+	}
+	#choose-a-school a{
+		height: 18px;
+		line-height: 18px;
+		color:#999;
+		text-decoration: none;
+		font-size: 9pt;
+		font-family: Tahoma, Verdana, STHeiTi, simsun, sans-serif;
+		float: left;
+		width: 168px;
+		margin: 4px 12px;
+		padding-left:10px;
+		overflow:hidden;
+	}
+	#choose-a-school a:hover{
+		/*background-color:#307833;*/
+		color:#e03919;
+		cursor:pointer;
+		overflow:visible;
+	}
+	#choose-box-bottom{
+		background: #F0F5F8;
+		padding: 8px;
+		text-align: right;
+		border-top: 1px solid #CCC;
+		height:50px;
+	}
+	#choose-box-bottom input{
+		vertical-align: middle;
+		text-align: center;
+		background-color:#e03919;
+		border-radius:6px;
+		color:white;
+		border:none;
+		cursor: pointer;
+		width: 60px;
+		height: 25px;
+		margin-top: 6px;
+		margin-right: 6px;
+		float:right;
+    	padding-left: 0px;
+	}
+/*选择学校弹出框样式结束*/
+.aui_close{
+	
+	right:25px !important;
+	top:22px !important;
+	font-size:50px !important;
+	color:#fff!important;
+	outline:none !important;
+}
+.aui_close:hover{
+	outline:none !important;
+}
+/*stu_resumet，上传简历关闭按钮  */
+.stu_resumet_close{
+	right:5px !important;
+	top:8px !important;
+}

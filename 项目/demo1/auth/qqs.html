@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<title>Insert title here</title>
+</head>
+<body>
+<a onclick="toLogin();" href="javascript;">
+<span id="qqLoginBtn" >QQ登录</span>
+</a>
+<script type="text/javascript">
+var url='https://graph.qq.com/oauth2.0/authorize?response_type=code&client_id=101262704&redirect_uri=http://www.211zph.com/auth/qqlogin.jsp&scope=get_user_info';
+
+ function toLogin()
+ {
+ 	e.preventDefault();
+   //以下为按钮点击事件的逻辑。注意这里要重新打开窗口
+   //否则后面跳转到QQ登录，授权页面时会直接缩小当前浏览器的窗口，而不是打开新窗口
+   var A=window.open(url,"TencentLogin", 
+   "width=450,height=320,menubar=0,scrollbars=1,resizable=1,status=1,titlebar=0,toolbar=0,location=1");
+ } 
+</script>
+</script>
+</body>
+</html>

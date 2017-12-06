@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="gbk">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>高校会员中心首页</title>
+<link type="text/css" rel="stylesheet" href="style/core.css" />
+<link type="text/css" rel="stylesheet" href="style/first_school.css" />
+<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+</head>
+
+<body>
+<div class="heard">
+    <div class="heard_top">
+        <p>截止<span>8</span>月<span>01</span>日，企业<span>107618</span>家，高校<span>2788</span>所，招聘会<span>3578</span>场，今日新增企业<span>8</span>家，本月新增简历<span>16</span>份</p>     
+        <ul>                         
+            <li><a href="#">北京</a></li>
+            <li><a href="#">上海</a></li>
+            <li><a href="#">广州</a></li>
+            <li><a href="#">深圳</a></li>
+            <li><a href="#">陕西</a></li>
+            <li><a href="#">河南</a></li>
+            <li><a href="#">甘肃</a></li>
+            <li><a href="#">湖南</a></li>
+        </ul>
+        <div class="clear"></div>
+     </div>
+</div>
+<!--heard完成-->
+<div class="midder">
+    <div class="midder_left">
+        <div class="logo">
+            <img src="img/logo.png" height="83" width="234" />
+        </div>
+        <div class="madder_m">
+            <img src="img/qiye.png" height="70" width="5" />
+        </div>
+        <div class="midder_r">
+            <h1>陕西站<img src="img/sanjiao.jpg"/></h1>
+            <p>创校园招聘会第一品牌</p>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="midder_right">
+        <div  id="latest_log" style="height:60px;overflow:hidden;margin-bottom:10px;">
+        <ul>   
+            <li>6分钟前，&nbsp;&nbsp;西安海禄智能科技有限公司下载了李永薛的简历</li>    	
+            <li>7分钟前，&nbsp;&nbsp;亚美大厦注册了企业会员！</li>
+            <li>11分钟前，&nbsp;&nbsp;西安海禄智能科技有限公司下载了刘宝明的简历</li>
+            <li>13分钟前，&nbsp;&nbsp;北京上医世家医药科技有限公司西安分公司发布职位:前台文员</li>
+            <li>13分钟前，&nbsp;&nbsp;北京上医世家医药科技有限公司西安分公司发布职位:销售主管</li>	
+            <li>13分钟前，&nbsp;&nbsp;北京上医世家医药科技有限公司西安分公司发布职位:客服代表</li>
+            <li>14分钟前，&nbsp;&nbsp;西安海禄智能科技有限公司下载了谢鹏飞的简历</li>
+            <li>20分钟前，&nbsp;&nbsp;西安海禄智能科技有限公司下载了何阳的简历</li>
+            <li>21分钟前，&nbsp;&nbsp;西安沃地房地产营销策划有限公司发布职位:置业顾问</li>
+            <li>22分钟前，&nbsp;&nbsp;西安沃地房地产营销策划有限公司发布职位:销售精英</li>
+            <li>22分钟前，&nbsp;&nbsp;西安宇众通信信息科技有限公司下载了李永薛的简历</li>
+            <li>23分钟前，&nbsp;&nbsp;西安宇众通信信息科技有限公司下载了马生强的简历</li>	
+            <li>24分钟前，&nbsp;&nbsp;西安宇众通信信息科技有限公司下载了刘宝明的简历</li>
+            <li>24分钟前，&nbsp;&nbsp;西安宇众通信信息科技有限公司下载了刘宝明的简历</li>
+            <li>2小时前，&nbsp;&nbsp;马生强注册了个人简历！</li>	
+            <li>9小时前，&nbsp;&nbsp;何阳注册了个人简历！</li>
+            <li>9小时前，&nbsp;&nbsp;谢鹏飞注册了个人简历！</li>	
+            <li>9小时前，&nbsp;&nbsp;谢鹏飞向陕西万德软件 有限公司投递了简历</li>
+            <li>10小时前，&nbsp;&nbsp;陈维周注册了个人简历！</li>
+            <li>10小时前，&nbsp;&nbsp;刘宝明注册了个人简历！</li>
+            <li>10小时前，&nbsp;&nbsp;刘宝明向陕西万德软件 有限公司投递了简历</li>
+            <li>10小时前，&nbsp;&nbsp;刘宝明向陕西万德软件 有限公司投递了简历</li>                   	
+            <li>10小时前，&nbsp;&nbsp;郭姗姗注册了个人简历！</li>                    	
+            <li>10小时前，&nbsp;&nbsp;郭姗姗向西安熙朗商贸有限公司投递了简历</li>                    	
+            <li>10小时前，&nbsp;&nbsp;郭姗姗向西安强贯电子科技有限公司投递了简历</li>                    	
+            <li>11小时前，&nbsp;&nbsp;张慧注册了个人简历！</li>                    	
+            <li>11小时前，&nbsp;&nbsp;王慧芳注册了个人简历！</li>                    	
+            <li>11小时前，&nbsp;&nbsp;王慧芳向陕西万德软件 有限公司投递了简历</li>                    	
+            <li>11小时前，&nbsp;&nbsp;王慧芳向陕西万德软件 有限公司投递了简历</li>                    	
+            <li>11小时前，&nbsp;&nbsp;白永龙注册了个人简历！</li> 	    	
+        </ul>
+        </div>
+          <script type="text/javascript"> 
+                        var box2=document.getElementById("latest_log"),can=true; 
+                        box2.innerHTML+=box2.innerHTML; 
+                        box2.onmouseover=function(){can=false}; 
+                        box2.onmouseout=function(){can=true}; 
+                        $(function (){ 
+                            var stop=box2.scrollTop%60==0&&!can; 
+                            if(!stop)box2.scrollTop==parseInt(box2.scrollHeight/2)?box2.scrollTop=0:box2.scrollTop++; 
+                            setTimeout(arguments.callee,box2.scrollTop%60?10:2000); 
+                        }); 
+                </script>
+
+        <div class="bg">
+        	<img src="img/biankuang.png" height="56" width="390" />
+           <ul>
+                <li><a href="http://www.211zph.com/">首页</a><span>/</span></li>
+                <li><a href="http://www.211zph.com/jobfair.do?&a=28">招聘会</a><span>/</span></li>
+                <li><a href="http://www.211zph.com/search.do?type=search_recruit&in_pagenum=20&in_area=28">招聘职位</a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--midder完成-->
+<!--container-->
+<div class="container">
+	<div class="main">
+        <div class="bg_top">
+            <p>2小时前，&nbsp;&nbsp;西安xxxxx软件公司发布了新职位！</p>
+            <ul>
+                <li><a href="first_school.html" target="_blank">会员中心<span>|</span></a></li>
+                <li><a href="#">安全退出</a></li>
+                <div class="clear"></div>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!--main完成-->
+    <div class="cont">
+    	<div class="left">
+        	<div class="left_top">
+            	<div class="ren">
+                	<div class="left_ren">
+                    	<img src="img/ren.png" height="122" width="90" />
+                    </div>
+                    <div class="right_ren">
+                    	<ul>
+                        	<li><a href="#">用户名</a></li>
+                            <li><a href="#">有效期至2016.10.12</a></li>
+                            <li><a href="#">会员类型</a></li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="weixin">
+                    <ul>
+                        <li><a href="#"><img src="img/shouji.png" /><br /><span class="yellow">未认证</span></a></li>
+                        <li><a href="#"><img src="img/xinfeng.png" /><br /><span class="yellow">未认证</span></a></li>
+                        <li><a href="#"><img src="img/qq_a.png" /><br /><span>已绑定</span></a></li>
+                        <li><a href="#"><img src="img/weixin.png" /><br /><span>已绑定</span></a></li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="left_midder">
+            	<h1>基本信息</h1>
+                <ul>
+                	<li><a href="intro_school.html" target="_blank">高校简介</a></li>
+                    <li><a href="upload_school.html" target="_blank">上传毕业生统计表</a></li>
+                </ul>
+                <h1>招聘会管理</h1>
+                <ul>
+                    <li><a href="manage_school.html" target="_blank">管理招聘会</a></li>
+                    <li><a href="campus_school.html" target="_blank">发布校园招聘会</a></li>
+                    <li><a href="network_school.html" target="_blank">发布网络招聘会</a></li>
+                    <li><a href="audit_school.html" target="_blank">审核宣讲会</a></li>
+                </ul>
+                <h1>企业管理</h1>
+                <ul>
+                    <li><a href="invite_school.html" target="_blank">邀请企业记录</a></li>
+                    <li><a href="partners_school.html" target="_blank">合作企业库</a></li>
+                    <li><a href="blacklist_school.html" target="_blank">黑名单企业</a></li>
+                </ul>
+                <h1>学生管理</h1>
+                <ul>
+                    <li><a href="login_school.html" target="_blank">注册统计</a></li>
+                    <li><a href="hire_school.html" target="_blank">录用通知</a></li>
+                    <li><a href="urgency_school.html" target="_blank">紧急通知</a></li>
+                </ul>
+                <dl>
+                	<dt class="yell">业务咨询:</dt>
+                    <dt>QQ：626486739</dt>
+                    <dt>TEL：02988662468</dt>
+                    <dt class="yell">售后客服:</dt>
+                    <dt>TEL：18292085667</dt>
+                    <dt>QQ：2924094057</dt>
+                    <dt class="yell">投诉电话:</dt>
+                    <dt>TEL：18092100098</dt>
+                </dl>
+            </div>
+            <div class="left_bottom">
+            	<img src="img/images/wanshan_29.gif" />
+                <p>下载211校招网APP</p>
+                <p>随时掌控网站进程</p>
+            </div>
+        </div>
+        <!--left完成-->
+        <div class="right">
+        	<div class="right_top">
+            	<ul>
+                   <li><a href="#">赵小川，您好！</a></li>
+                   <li><a href="network_school.html" target="_blank">【发布网络招聘会】 </a></li>
+                   <li><a href="upload_school.html" target="_blank">【上传毕业生统计表】 </a></li>
+                   <li><a href="check_school.html"target="_blank">【审核企业申请】</a><sup>43</sup></li>
+                   <li><a href="urgency_school.html" target="_blank">【紧急通知】 </a><sup>444</sup></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <!--right_top完成-->
+			<!--标签页-->
+            <div class="fenye">
+            	<div class="menu2">
+                    <ul>
+                        <li class="hotel">全部招聘信息</li>                 
+                        <li>公务员</li>
+                        <li>事业单位</li>
+                        <li>国企招聘</li>
+                        <li>名企招聘</li>                                              
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+                <div class="typ">
+            		<div id="typ1" class="content">
+                    	<table width="740" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td>[陕西]</td>             
+                            <td><a href="#">陕西大秦人力资源有限公司</a></td>
+                            <td>2015-09-22</td>
+                            <td><a href="#"><img src="img/qq.png"></a>
+                            <a href="#"><img src="img/weixin_a.png"></a>
+                            <a href="#"><img src="img/xinlang.png"></a></td>
+                          </tr>
+                          <tr>
+                            <td>[陕西]</td>             
+                            <td><a href="#">陕西大秦人力资源有限公司</a></td>
+                            <td>2015-09-22</td>
+                            <td><a href="#"><img src="img/qq.png"></a>
+                            <a href="#"><img src="img/weixin_a.png"></a>
+                            <a href="#"><img src="img/xinlang.png"></a></td>
+                          </tr>
+                          <tr>
+                            <td>[陕西]</td>             
+                            <td><a href="#">陕西大秦人力资源有限公司</a></td>
+                            <td>2015-09-22</td>
+                            <td><a href="#"><img src="img/qq.png"></a>
+                            <a href="#"><img src="img/weixin_a.png"></a>
+                            <a href="#"><img src="img/xinlang.png"></a></td>
+                          </tr>
+                          <tr>
+                            <td>[陕西]</td>             
+                            <td><a href="#">陕西大秦人力资源有限公司</a></td>
+                            <td>2015-09-22</td>
+                            <td><a href="#"><img src="img/qq.png"></a>
+                            <a href="#"><img src="img/weixin_a.png"></a>
+                            <a href="#"><img src="img/xinlang.png"></a></td>
+                          </tr>
+                          <tr>
+                            <td>[陕西]</td>             
+                            <td><a href="#">陕西大秦人力资源有限公司</a></td>
+                            <td>2015-09-22</td>
+                            <td><a href="#"><img src="img/qq.png"></a>
+                            <a href="#"><img src="img/weixin_a.png"></a>
+                            <a href="#"><img src="img/xinlang.png"></a></td>
+                          </tr>
+                          <tr>
+                            <td>[陕西]</td>             
+                            <td><a href="#">陕西大秦人力资源有限公司</a></td>
+                            <td>2015-09-22</td>
+                            <td><a href="#"><img src="img/qq.png"></a>
+                            <a href="#"><img src="img/weixin_a.png"></a>
+                            <a href="#"><img src="img/xinlang.png"></a></td>
+                          </tr>
+                          <tr>
+                            <td>[陕西]</td>             
+                            <td><a href="#">陕西大秦人力资源有限公司</a></td>
+                            <td>2015-09-22</td>
+                            <td><a href="#"><img src="img/qq.png"></a>
+                            <a href="#"><img src="img/weixin_a.png"></a>
+                            <a href="#"><img src="img/xinlang.png"></a></td>
+                          </tr>
+                          <tr>
+                            <td>[陕西]</td>             
+                            <td><a href="#">陕西大秦人力资源有限公司</a></td>
+                            <td>2015-09-22</td>
+                            <td><a href="#"><img src="img/qq.png"></a>
+                            <a href="#"><img src="img/weixin_a.png"></a>
+                            <a href="#"><img src="img/xinlang.png"></a></td>
+                          </tr>
+                          <tr>
+                            <td>[陕西]</td>             
+                            <td><a href="#">陕西大秦人力资源有限公司</a></td>
+                            <td>2015-09-22</td>
+                            <td><a href="#"><img src="img/qq.png"></a>
+                            <a href="#"><img src="img/weixin_a.png"></a>
+                            <a href="#"><img src="img/xinlang.png"></a></td>
+                          </tr>
+                          <tr>
+                            <td>[陕西]</td>             
+                            <td><a href="#">陕西大秦人力资源有限公司</a></td>
+                            <td>2015-09-22</td>
+                            <td><a href="#"><img src="img/qq.png"></a>
+                            <a href="#"><img src="img/weixin_a.png"></a>
+                            <a href="#"><img src="img/xinlang.png"></a></td>
+                          </tr>
+                         </table>
+                         <div class="pagelist">
+                            <ul class="pages1">
+                                <li><a href="#" class="disabled" style="color:#999;">上一页</a></li>
+                                <li><a href="#" class="current" style="color:#999;">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">下一页</a></li>
+                            </ul>
+                          </div>   
+                      </div>
+                      <div id="typ2" class="content" style="display:none;">
+                      	<p>暂时无详情a</p>
+                      </div>
+                      <div id="typ3" class="content" style="display:none;">
+                      	<p>暂时无详情b</p>
+                      </div>
+                      <div id="typ4" class="content" style="display:none;">
+                      	<p>暂时无详情c</p>
+                      </div>
+                      <div id="typ5" class="content" style="display:none;">
+                      	<p>暂时无详情</p>
+                      </div>
+                 </div>
+            </div>
+            <script type="text/Javascript">
+        $(function(){
+            $(".menu2 li").each(function(i){
+                $(this).hover(function(){
+                    if(!$(this).hasClass("hotel")){
+                        $(this).addClass("on")
+                    }
+                },function(){
+                    if(!$(this).hasClass("hotel")){
+                        $(this).removeClass("on")
+                    }
+                }).click(function(){
+                    if(!$(this).hasClass("hotel")){
+                        $(this).stop()
+                        $(".menu2 li").removeClass()
+                        $(this).addClass("hotel")   /* on sel */
+                        $(".content").slideUp(0,function(){
+                            if($(".content:visible").size()==0){
+                                $("#typ"+(i+1)).fadeIn(0)
+                            }
+                        })
+                    }
+                })
+            })
+        })
+        </script>
+		<!--fenye结束-->   
+			<div class="list_a">
+            	<h1>本校招聘会日程&nbsp;<a href="#" class="more">更多>></a></h1> 
+               <table width="720" border="0" cellpadding="0" cellspacing="0" class="mag">
+                  <tr style="background:#CCC; height:30px; font-size:16px;">                                   
+                    <td >序号</td>                                                                   
+                    <td >时间</td>                                                                  
+                    <td >招聘会名称</td>
+                    <td >展位数/预订</td>
+                    <td >分享</td>
+                  </tr>
+				  <tr>
+                    <td>01</td>
+                    <td>2015-09-22</td>             
+                    <td><a href="#">陕西大秦人力资源有限公司</a></td>
+                    <td>50(5)</td>
+                    <td><a href="#"><img src="img/qq.png"></a>
+                    <a href="#"><img src="img/weixin_a.png"></a>
+                    <a href="#"><img src="img/xinlang.png"></a></td>
+                   </tr>
+                   <tr>
+                    <td>01</td>
+                    <td>2015-09-22</td>             
+                    <td><a href="#">陕西大秦人力资源有限公司</a></td>
+                    <td>50(5)</td>
+                    <td><a href="#"><img src="img/qq.png"></a>
+                    <a href="#"><img src="img/weixin_a.png"></a>
+                    <a href="#"><img src="img/xinlang.png"></a></td>
+                   </tr>
+                   <tr>
+                    <td>01</td>
+                    <td>2015-09-22</td>             
+                    <td><a href="#">陕西大秦人力资源有限公司</a></td>
+                    <td>50(5)</td>
+                    <td><a href="#"><img src="img/qq.png"></a>
+                    <a href="#"><img src="img/weixin_a.png"></a>
+                    <a href="#"><img src="img/xinlang.png"></a></td>
+                   </tr>
+                   <tr>
+                    <td>01</td>
+                    <td>2015-09-22</td>             
+                    <td><a href="#">陕西大秦人力资源有限公司</a></td>
+                    <td>50(5)</td>
+                    <td><a href="#"><img src="img/qq.png"></a>
+                    <a href="#"><img src="img/weixin_a.png"></a>
+                    <a href="#"><img src="img/xinlang.png"></a></td>
+                   </tr>
+                   <tr>
+                    <td>01</td>
+                    <td>2015-09-22</td>             
+                    <td><a href="#">陕西大秦人力资源有限公司</a></td>
+                    <td>50(5)</td>
+                    <td><a href="#"><img src="img/qq.png"></a>
+                    <a href="#"><img src="img/weixin_a.png"></a>
+                    <a href="#"><img src="img/xinlang.png"></a></td>
+                   </tr>
+                   <tr>
+                    <td>01</td>
+                    <td>2015-09-22</td>             
+                    <td><a href="#">陕西大秦人力资源有限公司</a></td>
+                    <td>50(5)</td>
+                    <td><a href="#"><img src="img/qq.png"></a>
+                    <a href="#"><img src="img/weixin_a.png"></a>
+                    <a href="#"><img src="img/xinlang.png"></a></td>
+                   </tr>
+                   <tr>
+                    <td>01</td>
+                    <td>2015-09-22</td>             
+                    <td><a href="#">陕西大秦人力资源有限公司</a></td>
+                    <td>50(5)</td>
+                    <td><a href="#"><img src="img/qq.png"></a>
+                    <a href="#"><img src="img/weixin_a.png"></a>
+                    <a href="#"><img src="img/xinlang.png"></a></td>
+                   </tr>
+                   <tr>
+                    <td>01</td>
+                    <td>2015-09-22</td>             
+                    <td><a href="#">陕西大秦人力资源有限公司</a></td>
+                    <td>50(5)</td>
+                    <td><a href="#"><img src="img/qq.png"></a>
+                    <a href="#"><img src="img/weixin_a.png"></a>
+                    <a href="#"><img src="img/xinlang.png"></a></td>
+                   </tr>
+                </table>
+               
+                <!------------------------------------------------------------------------>
+            </div>
+            <!--list_a完成-->
+            <div class="list_a">
+            	<h1>外校招聘会日程&nbsp;<a href="#" class="more">更多>></a></h1> 
+               <table width="720" border="0" cellpadding="0" cellspacing="0" class="mag">
+                  <tr style="background:#CCC; height:30px; font-size:16px;">                                   
+                    <td >序号</td>                                                                   
+                    <td >时间</td>                                                                  
+                    <td >招聘会名称</td>
+                    <td >地点</td>
+                    <td >分享</td>
+                  </tr>
+				  <tr>
+                    <td>01</td>
+                    <td>2015-09-22</td>             
+                    <td><a href="#">陕西大秦人力资源有限公司</a></td>
+                    <td>明德堂二楼</td>
+                    <td><a href="#"><img src="img/qq.png"></a>
+                    <a href="#"><img src="img/weixin_a.png"></a>
+                    <a href="#"><img src="img/xinlang.png"></a></td>
+                   </tr>
+                   <tr>
+                    <td>01</td>
+                    <td>2015-09-22</td>             
+                    <td><a href="#">陕西大秦人力资源有限公司</a></td>
+                    <td>明德堂二楼</td>
+                    <td><a href="#"><img src="img/qq.png"></a>
+                    <a href="#"><img src="img/weixin_a.png"></a>
+                    <a href="#"><img src="img/xinlang.png"></a></td>
+                   </tr>
+                   <tr>
+                    <td>01</td>
+                    <td>2015-09-22</td>             
+                    <td><a href="#">陕西大秦人力资源有限公司</a></td>
+                    <td>明德堂二楼</td>
+                    <td><a href="#"><img src="img/qq.png"></a>
+                    <a href="#"><img src="img/weixin_a.png"></a>
+                    <a href="#"><img src="img/xinlang.png"></a></td>
+                   </tr>
+                   <tr>
+                    <td>01</td>
+                    <td>2015-09-22</td>             
+                    <td><a href="#">陕西大秦人力资源有限公司</a></td>
+                    <td>明德堂二楼</td>
+                    <td><a href="#"><img src="img/qq.png"></a>
+                    <a href="#"><img src="img/weixin_a.png"></a>
+                    <a href="#"><img src="img/xinlang.png"></a></td>
+                   </tr>
+                   <tr>
+                    <td>01</td>
+                    <td>2015-09-22</td>             
+                    <td><a href="#">陕西大秦人力资源有限公司</a></td>
+                    <td>明德堂二楼</td>
+                    <td><a href="#"><img src="img/qq.png"></a>
+                    <a href="#"><img src="img/weixin_a.png"></a>
+                    <a href="#"><img src="img/xinlang.png"></a></td>
+                   </tr>
+                   <tr>
+                    <td>01</td>
+                    <td>2015-09-22</td>             
+                    <td><a href="#">陕西大秦人力资源有限公司</a></td>
+                    <td>明德堂二楼</td>
+                    <td><a href="#"><img src="img/qq.png"></a>
+                    <a href="#"><img src="img/weixin_a.png"></a>
+                    <a href="#"><img src="img/xinlang.png"></a></td>
+                   </tr>
+                   <tr>
+                    <td>01</td>
+                    <td>2015-09-22</td>             
+                    <td><a href="#">陕西大秦人力资源有限公司</a></td>
+                    <td>明德堂二楼</td>
+                    <td><a href="#"><img src="img/qq.png"></a>
+                    <a href="#"><img src="img/weixin_a.png"></a>
+                    <a href="#"><img src="img/xinlang.png"></a></td>
+                   </tr>
+                   <tr>
+                    <td>01</td>
+                    <td>2015-09-22</td>             
+                    <td><a href="#">陕西大秦人力资源有限公司</a></td>
+                    <td>明德堂二楼</td>
+                    <td><a href="#"><img src="img/qq.png"></a>
+                    <a href="#"><img src="img/weixin_a.png"></a>
+                    <a href="#"><img src="img/xinlang.png"></a></td>
+                   </tr>
+                </table>
+               
+                <!------------------------------------------------------------------------>
+            </div>
+            <!--list_a完成-->
+        </div>
+        <!--right完成-->
+        <div class="clear"></div>	
+    </div>
+    <!--cont完成-->
+</div>
+<!--footer开始-->
+<div class="fenlan"></div>
+<div class="foot">
+    <div class="footer">
+        <p class="text"><a href="http://www.211zph.com/page.do?id=201407210000321">关于我们</a><span>/</span>
+        <a href="http://www.211zph.com/page.do?id=201407210000326">广告投放</a><span>/</span>
+        <a href="http://www.211zph.com/page.do?id=201407210000328">法律声明</a><span>/</span>
+        <a href="http://www.211zph.com/page.do?id=201407210000329">人才招聘</a><span>/</span>
+        <a href="http://www.211zph.com/page.do?id=201407210000327">联系方式</a></p>
+        <p>地址：西安高新区科技二路65号清华科技园清扬国际大厦A410  电话：029-88662468 / 87240519</p>
+        <p>工信部备案号：陕ICP备13006138号-2  西安市人力资源服务许可证编号：610100120105 </p>
+        <p>西安大秦人力资源有限公司 版权所有</p>
+        <p><a href="#"><img src="img/foot_a.png" /></a>
+        <a href="#"><img src="img/foot_b.png" /></a>
+        <a href="#"><img src="img/foot_c.png" /></a>
+        <a href="#"><img src="img/foot_d.png" /></a></p>
+        <p>
+        <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1253006258'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D1253006258%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+        </p>
+    </div> 
+</div>
+<!--footer完成-->
+</body>
+</html>

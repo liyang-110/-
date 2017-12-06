@@ -1,0 +1,255 @@
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both
+}
+
+.text-primary {
+    color: #188be0 !important
+}
+
+.fz36 {
+    font-size: 36px
+}
+
+.fz30 {
+    font-size: 30px
+}
+
+.fz22 {
+    font-size: 22px;
+    color: #333
+}
+
+.fz16 {
+    font-size: 16px
+}
+
+.fz20 {
+    font-size: 20px
+}
+
+.fz24 {
+    font-size: 24px
+}
+
+.fz18 {
+    font-size: 18px
+}
+
+.fz-p {
+    padding: 0 20px
+}
+
+.css-xtit {
+    line-height: 30px;
+    margin: 23px 0 63px 0;
+    font-size: 18px
+}
+
+.css-avs {
+    color: #ffffff;
+    padding: 30px 0
+}
+
+.css-avs .fz30 {
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+
+.css-main-index .css-slider {
+    margin-bottom: 10px
+}
+
+.css-main-index .css-slider li img {
+    width: 100%;
+    margin-right: -100%;
+    position: relative;
+    opacity: 1;
+    display: block;
+    z-index: 2
+}
+
+.css-main-index .css-first-box {
+    background: url("../i/first-bg.png") left top /100% 100% repeat-x
+}
+
+.css-main-index .css-first-box ul {
+    width: 1020px;
+    margin: 0 auto
+}
+
+.css-main-index .css-first-box ul:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both
+}
+
+.css-main-index .css-first-box ul li {
+    width: 255px;
+    height: 300px;
+    margin-top: 0;
+    float: left
+}
+
+.css-main-index .css-first-box ul li img {
+    margin: 20px 0 25px 60px
+}
+
+.css-main-index .css-first-box ul li p {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #fff
+}
+
+.css-main-index .css-sixth-box, .css-main-index .css-fifth-box, .css-main-index .css-fourth-box, .css-main-index .css-second-box, .css-main-index .css-third-box {
+    padding-bottom: 60px
+}
+
+.css-main-index .css-sixth-box .css-title, .css-main-index .css-fifth-box .css-title, .css-main-index .css-fourth-box .css-title, .css-main-index .css-second-box .css-title, .css-main-index .css-third-box .css-title {
+    padding: 60px 0 0 0;
+    text-align: center;
+    font-size: 36px
+}
+
+.css-main-index .css-sixth-box ul:after, .css-main-index .css-fifth-box ul:after, .css-main-index .css-fourth-box ul:after, .css-main-index .css-second-box ul:after, .css-main-index .css-third-box ul:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both
+}
+
+.css-main-index .css-sixth-box ul li, .css-main-index .css-fifth-box ul li, .css-main-index .css-fourth-box ul li, .css-main-index .css-second-box ul li, .css-main-index .css-third-box ul li {
+    width: 500px;
+    height: 330px;
+    float: left;
+    text-align: center;
+    position: relative
+}
+
+.css-main-index .css-sixth-box ul li .css-img1, .css-main-index .css-fifth-box ul li .css-img1, .css-main-index .css-fourth-box ul li .css-img1, .css-main-index .css-second-box ul li .css-img1, .css-main-index .css-third-box ul li .css-img1 {
+    position: absolute;
+    top: -34px;
+    left: 75px
+}
+
+.css-main-index .css-sixth-box ul li .css-img2, .css-main-index .css-fifth-box ul li .css-img2, .css-main-index .css-fourth-box ul li .css-img2, .css-main-index .css-second-box ul li .css-img2, .css-main-index .css-third-box ul li .css-img2 {
+    position: absolute;
+    top: -5px;
+    left: 150px;
+    max-height: 168px
+}
+
+.css-main-index .css-sixth-box ul li .css-img3, .css-main-index .css-fifth-box ul li .css-img3, .css-main-index .css-fourth-box ul li .css-img3, .css-main-index .css-second-box ul li .css-img3, .css-main-index .css-third-box ul li .css-img3 {
+    position: absolute;
+    top: 0px;
+    left: 165px;
+    max-height: 180px
+}
+
+.css-main-index .css-sixth-box ul li p, .css-main-index .css-fifth-box ul li p, .css-main-index .css-fourth-box ul li p, .css-main-index .css-second-box ul li p, .css-main-index .css-third-box ul li p {
+    text-align: center;
+    margin-top: 10px;
+    color: #333
+}
+
+.css-main-index .css-second-box {
+    background-color: #fff
+}
+
+.css-main-index .css-third-box {
+    background-color: #f2f3f4
+}
+
+.css-main-index .css-fourth-box {
+    background-color: #fff
+}
+
+.css-main-index .css-fifth-box {
+    margin-bottom: 0;
+    padding-bottom: 50px;
+    background: url("../i/fifth-bg.png") #f2f3f4 no-repeat center center
+}
+
+.css-footer {
+    min-width: 1200px;
+    width: 100%;
+    height: 156px;
+    padding: 20px 0 0 0;
+    margin: -176px auto 0;
+    background: #333;
+    text-align: center;
+    color: #ddd
+}
+
+.css-footer:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both
+}
+
+.css-footer a {
+    color: #fff
+}
+
+.css-footer .css-left:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both
+}
+
+.css-footer .css-left li {
+    width: 140px;
+    float: left;
+    text-align: left
+}
+
+.css-footer .css-left li b {
+    font-size: 16px;
+    font-weight: 400
+}
+
+.css-footer .css-left li p {
+    line-height: 24px;
+    color: #888
+}
+
+.css-footer .css-left li a {
+    color: #888
+}
+
+.css-footer .css-left li a:hover {
+    color: #f3f3f3
+}
+
+.css-footer .css-left .css-code {
+    width: 70px
+}
+
+.css-footer .css-right {
+    margin: 10px 0;
+    padding: 10px 0 0 0;
+    border-top: 1px solid #4e4e4e;
+    text-align: left;
+    font-size: 12px;
+}
+
+.css-footer .css-contact {
+    float: left;
+    width: 250px;
+    padding-left: 100px;
+    text-align: left;
+    margin-top: 8px;
+}
+
+.css-footer .css-contact p {
+    color: #888
+}
+
+.css-main-index img {
+    max-width: 860px
+}

@@ -1,0 +1,15 @@
+.page-header{
+	height: 200px;
+	/* background-image: url(../image/banner2.jpg); */
+	margin: 0;
+	position: relative;
+}
+.input-group{
+     position: absolute;
+     top:120px;
+     left: 900px;
+}
+.input-group span{
+	display: inline-block;
+	width: 180px;
+}

@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="Keywords" content="长沙理工大学云就业平台 云就业 高校 大学 大学生 就业 就业网 就业信息网 就业指导 就业指导中心 就业中心 创业 创业指导"/>
+<meta name="Description" content="长沙理工大学云就业平台 云就业 高校 大学 大学生 就业 就业网 就业信息网 就业指导 就业指导中心 就业中心 创业 创业指导"/>
+<link href="/skin/blue/??public/css/global.css,public/css/layout.css,public/css/common.css?20170321" rel="stylesheet">
+<link rel="stylesheet" href="/public/css/base/base.css">
+<link rel="icon" href="http://pic.bibibi.net/public/images/icon/favicon.ico?1" otype="image/x-icon"/>
+<link rel="shortcut icon" href="http://pic.bibibi.net/public/images/icon/favicon.ico?1" type="image/x-icon"/>
+<style type="text/css">
+    </style>
+    <meta name="Keywords" content="校园宣讲会，不只是赶过场"/>
+    <title>校园宣讲会，不只是赶过场-文章详情</title>
+    <link href="/skin/blue/??public/css/global.css,public/css/layout.css,public/css/common.css,css/details/details.css?20170321"
+          rel="stylesheet">
+    <style>.btn-disabled {
+        background-color: #d3d3d3;
+        cursor: default
+    }
+
+    .btn-disabled:hover {
+        color: #333
+    }
+
+    .dh-info {
+        font-size: 14px
+    }
+
+    .dh-info .time {
+        font-size: 12px
+    }</style>
+    </head>
+<body>
+<input type="hidden" id="token" value="yunyan1869229336">
+<input type="hidden" id="qq_services" value="">
+<div class="header">
+        <div class="inner clearfix">
+        <div class="logo" id="logo">
+            <a href="javascript:;" class="logo-link">
+                <img src="http://yun-campus-res.oss-cn-shenzhen.aliyuncs.com/school/1490080178-7469.png"/>
+            </a>
+        </div>
+                            <div class="pub-search" id="search_bar" style="position:absolute;right:0;bottom:10px;display:none;">
+                    <div class="search-inner">
+                <div class="search-txt-wrap" style="background-color:#fff;">
+
+                    <input class="search-txt" placeholder="搜索你感兴趣的内容" id="G_keyword" type="text" onkeydown="if(event.keyCode==13){location.href='/module/search?keyword='+G_keyword.value;}">
+                </div>
+                <a class="search-btn has-icon-svg" id="search_btn" onclick="location.href='/module/search?keyword='+G_keyword.value;">
+                    <span class="icon-svg icon-svg-search"></span>
+                </a>
+            </div>
+        </div>
+                <div style="width:80px;float:left;margin-top:10px;margin-left:20px;">
+            <img src="http://pic.bibibi.net/public/images/other/s-yunyan1869229336.png">
+        </div>
+                <div style="width:100px;float:right;">
+                                                        </div>
+    </div>
+</div>
+</div>
+<div class="main-nav">
+    <div class="inner">
+        <!--导航-->
+        <ul class="nav-list clearfix" id="main_nav">
+            <li class="item ">
+                <a href="/index" class="item-link">首页</a>
+                            </li>
+                        <li class="item ">
+                <a href="/detail/news?id=249&menu_id=35"
+                    class="item-link"  >学校概况</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/detail/news?id=249&menu_id=35">学校简介</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=78&menu_id=35">办学特色</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/detail/news?id=253&menu_id=35">部门概况</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/detail/news?id=254&menu_id=35">机构设置</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/detail/news?id=255&menu_id=35">岗位职责</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=13&menu_id=41"
+                    class="item-link"  >新闻公告</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=102&menu_id=41">焦点新闻</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=13&menu_id=41">就业快讯</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/careers?menu_id=44"
+                    class="item-link"  >招聘信息</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/careers?menu_id=44">校内宣讲会</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/careers?type=outer&menu_id=44">校外宣讲会</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/jobfairs?menu_id=44">校内双选会</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link" target="_blank" href="/module/jobfairs?type=2&menu_id=44">校外双选会</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/onlines?menu_id=44">在线招聘</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/jobs?is_practice=0&menu_id=44">正式岗位</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/jobs?is_practice=1&menu_id=44">实习岗位</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=79&menu_id=51"
+                    class="item-link"  >生源信息</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=79&menu_id=51">生源速览</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=99&menu_id=51">学院专业</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=100&menu_id=51">硕士点</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=101&menu_id=51">博士点</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=80&menu_id=56"
+                    class="item-link"  >就业指导</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=80&menu_id=56">就业指导</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=83&menu_id=56">政策法规</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=103&menu_id=56">职业测评</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=104&menu_id=56">网上学堂</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=84&menu_id=56">求职技巧</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=105&menu_id=56">典型事迹</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=81&menu_id=56">创新创业</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=11&menu_id=61"
+                    class="item-link"  >服务指南</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=11&menu_id=61">办事流程</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=85&menu_id=61">常用下载</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=87&menu_id=65"
+                    class="item-link"  >专项计划</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=87&menu_id=65">预征入伍</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=88&menu_id=65">公务选调</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=89&menu_id=65">村官计划</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=98&menu_id=65">西部志愿</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=90&menu_id=65">特岗教师</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=91&menu_id=65">三扶一持</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="?menu_id=1230"
+                    class="item-link"  >报到证/档案查询</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link" target="_blank" href="http://www.hunbys.com/hnbys/archives.do?m=loadSearchJyfa2&menu_id=1230">报到证查询</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link" target="_blank" href="http://222.240.152.232/index.asp?w=web&menu_id=1230">档案查询</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=86&menu_id=154"
+                    class="item-link"  >联系我们</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=86&menu_id=154">联系我们</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                    </ul>
+    </div>
+</div>
+<div class="container">
+    <div class="inner">
+        <div class="content clearfix">
+                        <div class="side">
+                <div class="side-menu-wrap">
+    <ul class="side-menu">
+                <li class="sm-item curr">
+            <p class="sm-tit">
+                <a href="/module/news?type_id=80" class="sm-link">
+                    <span class="sm-text">网站-就业-就业指导</span>
+                </a>
+            </p>
+        </li>
+            </ul>
+</div>                            </div>
+                        <div class="main">
+                <div class="main-inner detail-main">
+                    <div class="pub-curr-pos">
+                        <a class="cp-link has-icon-svg" href="/index"><span
+                                class="icon-svg icon-svg-home"></span>网站首页</a>
+                        <span class="cp-arrow">&gt;</span>
+                        <a class="cp-link"
+                           href="/module/news?type_id=80">网站-就业-就业指导</a>
+                        <span class="cp-arrow">&gt;</span>
+                        <span class="cp-text">详情</span>
+                    </div>
+                    <div class="bshare-custom" style="text-align: right">
+                        <div class="bsPromo bsPromo2"></div>
+                        <a title="分享到微信" class="bshare-weixin" href="javascript:void(0);"></a><a title="分享到QQ好友"
+                                                                                                 class="bshare-qqim"
+                                                                                                 href="javascript:void(0);"></a><a
+                            title="分享到新浪微博" class="bshare-sinaminiblog" href="javascript:void(0);"></a><a
+                            title="分享到QQ空间" class="bshare-qzone"></a><a title="分享到腾讯微博" class="bshare-qqmb"></a><a
+                            title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a><span
+                            class="BSHARE_COUNT bshare-share-count" style="float: none;">31.5K</span></div>
+                    <script type="text/javascript" charset="utf-8"
+                            src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh"></script>
+                    <script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
+                    <div class="news-details" id="data_details">
+                        <div class="details-head" style="position: relative">
+                            <h1 class="dh-tit"
+                                style="font-weight:normal;text-align: center;line-height: 50px">校园宣讲会，不只是赶过场</h1>
+                            <p class="dh-info" style="text-align: center">
+
+                                                            <span class="time">2015年12月23日</span>
+                                &nbsp;
+                                <span class="time">点击量:3392</span>
+                            </p>
+                                                    </div>
+                        <div class="details-content">
+                            
+                                                        <ol style="list-style-type: square;" class=" list-paddingleft-2"><li><p><a href="http://cv.qiaobutang.com/knowledge/articles/53d6fd030cf2922e721815e4#1" style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(36, 121, 186); outline: invert none 0px;">如何选择校园宣讲会</a></p></li><ol style="list-style-type: circle;" class=" list-paddingleft-2"><li><p><a href="http://cv.qiaobutang.com/knowledge/articles/53d6fd030cf2922e721815e4#1_1" style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(36, 121, 186); outline: invert none 0px;">（一）区分“做秀”与宣讲</a></p></li><li><p><a href="http://cv.qiaobutang.com/knowledge/articles/53d6fd030cf2922e721815e4#1_2" style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(36, 121, 186); outline: invert none 0px;">（二）知己知彼，有的放矢</a></p></li></ol><li><p><a href="http://cv.qiaobutang.com/knowledge/articles/53d6fd030cf2922e721815e4#2" style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(36, 121, 186); outline: invert none 0px;">宣讲会上如何获取有效信息</a></p></li><ol style="list-style-type: circle;" class=" list-paddingleft-2"><li><p><a href="http://cv.qiaobutang.com/knowledge/articles/53d6fd030cf2922e721815e4#2_1" style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(36, 121, 186); outline: invert none 0px;">（一）显性信息可直接获得</a></p></li><li><p><a href="http://cv.qiaobutang.com/knowledge/articles/53d6fd030cf2922e721815e4#2_2" style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(36, 121, 186); outline: invert none 0px;">（二）宣讲会上的隐性信息</a></p></li></ol><li><p><a href="http://cv.qiaobutang.com/knowledge/articles/53d6fd030cf2922e721815e4#3" style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(36, 121, 186); outline: invert none 0px;">宣讲会中不得不知的“潜规则”</a></p></li><ol style="list-style-type: circle;" class=" list-paddingleft-2"><li><p><a href="http://cv.qiaobutang.com/knowledge/articles/53d6fd030cf2922e721815e4#3_1" style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(36, 121, 186); outline: invert none 0px;">（一）参会前多做功课，了解职位设置，更了解自己适合的位置</a></p></li><li><p><a href="http://cv.qiaobutang.com/knowledge/articles/53d6fd030cf2922e721815e4#3_2" style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(36, 121, 186); outline: invert none 0px;">（二）早点排队占座，争取能坐到主席台的视线容易落到的地方</a></p></li><li><p><a href="http://cv.qiaobutang.com/knowledge/articles/53d6fd030cf2922e721815e4#3_3" style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(36, 121, 186); outline: invert none 0px;">（三）不要被炫目的舞台所迷惑，要学会提取信息</a></p></li><li><p><a href="http://cv.qiaobutang.com/knowledge/articles/53d6fd030cf2922e721815e4#3_4" style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(36, 121, 186); outline: invert none 0px;">（四）最重要的，着重关注想要申请的部门的宣传片</a></p></li></ol></ol><p class="image" style="margin-top: 20px; margin-bottom: 20px; padding: 0px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;"><img src="http://taskdemo.rendd.cn/wx/image?token=&src=http%3A%2F%2Fcv.qiaobutang.com%2Fuploads%2Farticle_images%2F2014%2F7%2F29%2F13%2F53d737e80cf2922e721821b8%2Fbig.jpg"></p><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;">随着求职季的来临，校园中又开始出现了奔赴宣讲会的忙碌身影。如何在一波波的校园宣讲会中稳住阵脚，找到适合的企业主动出击，而不只是赶场子？乔布小编整理出了选择及准备宣讲会时的要点，告诉你该如何把握宣讲会这个契机获取更多信息，并且脱颖而出！</p><h2 style="margin: 30px 0px 10px; padding: 0px 0px 6px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; line-height: 24px; white-space: normal; border-bottom-color: rgb(222, 223, 225); border-bottom-width: 1px; border-bottom-style: solid; font-size: 18px;">如何选择校园宣讲会</h2><h3 style="margin: 15px 0px 5px; padding: 0px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; white-space: normal; line-height: 22px; font-size: 15px;">（一）区分“做秀”与宣讲</h3><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;">对于企业来说，校园宣讲会的目的很大部分在于宣传。受众不仅是优秀人才，也是其潜在的客户群。一些名企，总共职位需求量才十几人，却到全国的十几个城市、几十所著名高校中进行宣讲，平均每个学校还录用不到一个人。有些甚至将宣讲会做成了产品推介会，“挂羊头，卖狗肉”。</p><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;">因此在参加宣讲会前，应提前做些功课，在网上了解一些该企业往年或其他城市的招聘情况，尤其是招聘的规模、流程。从规模上来讲，招聘规模小，名气大的大热门企业要量力而行。</p><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;">从宣讲会流程上来说，目前企业通常的做法有三种：</p><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;">1. 宣讲会上现场收简历，之后组织面试或笔试。这当然是不可错过的机会。</p><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;">2. 宣讲会并不现场接收简历，而仅对企业进行介绍，之后应聘者还是必须进行网申。这就需要衡量一下自己的时间和精力，因为现场宣讲的许多信息在企业的网站上同样可以获取，有些企业还制作了视频宣讲文件供参考。</p><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;">3. 企业事先通知了已通过网申审核的应聘者前来参加宣讲会，而且很少临时增加面试名额。这种情况下，如果之前没有进行网申投简历，“霸王面”的可能性就很小了。</p><h3 style="margin: 15px 0px 5px; padding: 0px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; white-space: normal; line-height: 22px; font-size: 15px;">（二）知己知彼，有的放矢</h3><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;">面对一波又一波的校园宣讲会，要选择合适的企业首先要有正确的认识，包括对自我的认识和对企业的认识。</p><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;"><span style="margin: 0px; padding: 0px;">1. 自我认识。</span>可根据自己的专业、兴趣等，确定求职的目标行业。目标行业切忌过于分散，否则难以突出自身的优势和特色。</p><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;">根据自身的能力水平寻找行业中相对把握大一点的目标企业，目标企业的范围可以大一点，以便有所选择。有一句俗话说得好，找工作就像谈恋爱，没有最好的，只有最合适的，不可一味迷信名企。</p><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;"><span style="margin: 0px; padding: 0px;">2. 对企业的认识。</span>对自己的目标企业要多方位地获取信息，如企业业务和概况介绍、企业文化、人才培养机制和发展战略、薪酬福利、校园招聘申请流程、以往应聘者的经验分享和建议等。</p><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;">必要的情况下，自制一个宣讲会日志，每天更新信息，记下重要的宣讲会的时间、地点，以免错过或者冲突。另外也可在日志中记下每场宣讲会自己的进展情况，如网申时间、笔试重点、首轮面试情况等，以免战线一长，自己先乱了阵脚。</p><h2 style="margin: 30px 0px 10px; padding: 0px 0px 6px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; line-height: 24px; white-space: normal; border-bottom-color: rgb(222, 223, 225); border-bottom-width: 1px; border-bottom-style: solid; font-size: 18px;">宣讲会上如何获取有效信息</h2><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;">一小时的宣讲会，10分钟放宣传片，20分钟介绍公司，10分钟校友分享交流经验，接下来用5分钟的时间介绍一下招聘流程和岗位，最后15分钟留给同学提问——这是一个宣讲会的典型“流程”，但这其中真正有用的信息还不到10分钟。如何利用宣讲会尽可能获取更多信息？</p><h3 style="margin: 15px 0px 5px; padding: 0px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; white-space: normal; line-height: 22px; font-size: 15px;">（一）显性信息可直接获得</h3><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;">显性信息包括公司系统的介绍、精美的宣传片及校友现身说法，等等。然而仅有这些信息却不足以为抉择的支撑，需要进一步挖掘，寻找自己感兴趣的信息点。企业一般都会在宣讲会的最后设置自由提问环节，这既是一个<span style="margin: 0px; padding: 0px;">获取信息</span>的机会，也是一个很好的<span style="margin: 0px; padding: 0px;">展示自我</span>的机会，少数企业可能会在现场提问环节放出两个直接进入初选面试的名额，只要你的问题让企业觉得新颖。</p><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;">如何在自由提问环节提出有质量的问题？</p><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;"><span style="margin: 0px; padding: 0px;">1. 避免提“垃圾”问题。</span>如宣讲会上被问得最多的“你们公司今年招几个人”“我学某某专业的，能不能进你们公司”。</p><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;">这类问题在企业介绍中大多已经详细说明，或者属于企业基本情况。问出这些没有涵养的问题，会让企业觉得你对他们缺乏基本的了解，且宣讲会前没有做任何准备，也就不会觉得你有强烈的意向想加入他们。</p><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;"><span style="margin: 0px; padding: 0px;">2. 转变提问方式，以获取更多的信息量。</span>如“贵公司的面试过程如何？”“面试有几轮，用中文用英文”等，可以改为问“参加交流的某校友或员工，是否能分享一下自己当年参加面试或者其在企业发展的个人经验”，或者“作为师兄及过来人，你对于想加入某某企业的校友有些什么建议”之类。</p><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;">既可以套套近乎，又可以深入了解企业的文化背景，员工的成长历程等参考性的信息。这样的问题容易引起招聘者的情感共鸣，也可以将宣讲会带入高潮，是企业和应聘者双赢的策略。</p><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;"><span style="margin: 0px; padding: 0px;">3. 宣讲会前做准备。</span>在准备宣讲会时，可根据自己对企业的了解，对感兴趣的问题做一个列表，听宣讲会时得到有效信息则逐个排除。</p><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;">如希望通过提问加深印象，则要准备一些深入探讨的问题。如该企业发展的战略，对某一个目前存在问题的解决方案，某一领域的发展趋势之类。但是要记住提之类问题一定要带着答案提问，否则企业老总来一句“那你怎么看呢”，把皮球踢回来，准备好的可以很出彩，与企业老总形成交流，反之则是搬起石头砸自己的脚。</p><h3 style="margin: 15px 0px 5px; padding: 0px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; white-space: normal; line-height: 22px; font-size: 15px;">（二）宣讲会上的隐性信息</h3><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;">企业老总及HR都是身经百战、打太极的高手。学生问到的棘手问题诸如薪酬福利、加班情况、员工流动率之类，往往被他们极具诱惑力但并无任何信息量的回答四两拨千斤，因此许多关于企业文化的隐性信息，则需要靠<span style="margin: 0px; padding: 0px;">敏锐的观察</span>和<span style="margin: 0px; padding: 0px;">对潜台词的破解</span>来获得。</p><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;">可以从以下角度获取隐性信息：</p><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;"><span style="margin: 0px; padding: 0px;">1. 宣讲会的组织水平。</span>一般来讲，大企业在组织招聘会以前会与学校就业部门进行多次沟通，确定日程安排，会提前不止场地，宣讲会的各环节也会经过反复的演练。而管理水平有限，准备不充分的企业，则易出现一些意想不到的问题，如迟到、宣传片临时出问题、环节衔接不上、介绍前言不搭后语等。</p><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;"><span style="margin: 0px; padding: 0px;">2. 员工形象。</span>员工的言谈举止及精神状态、员工之间的合作与沟通、甚至员工的着装仪表都可以透露出一些有关企业文化的信息，需要细心的观察。</p><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;"><span style="margin: 0px; padding: 0px;">3. 潜台词需用心领会。</span>如“能在压力下保持良好的工作效率”，可能是说该岗位经常需要加班，“适应快节奏的工作环境”，可能是经常需要出差，“关注细节”则可能是工作比较琐碎。</p><h2 style="margin: 30px 0px 10px; padding: 0px 0px 6px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; line-height: 24px; white-space: normal; border-bottom-color: rgb(222, 223, 225); border-bottom-width: 1px; border-bottom-style: solid; font-size: 18px;">宣讲会中不得不知的“潜规则”</h2><h3 style="margin: 15px 0px 5px; padding: 0px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; white-space: normal; line-height: 22px; font-size: 15px;">（一）参会前多做功课，了解职位设置，更了解自己适合的位置</h3><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;">这样你就知道自己在整个宣讲会中该着重听哪些部分，在珍贵的交流环境多问一些有关的问题。</p><h3 style="margin: 15px 0px 5px; padding: 0px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; white-space: normal; line-height: 22px; font-size: 15px;">（二）早点排队占座，争取能坐到主席台的视线容易落到的地方</h3><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;">不要小看自己的位次，如果是能够和主席台目光交流的地方，不仅会在潜意识中为HR留下印象（当然你要保持微笑，保持热情，整洁大方），而且也无形中增加了你想提问时被点到的几率。</p><h3 style="margin: 15px 0px 5px; padding: 0px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; white-space: normal; line-height: 22px; font-size: 15px;">（三）不要被炫目的舞台所迷惑，要学会提取信息</h3><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;">比如播放企业宣传片、flash时提到的一些公司的一些标语、口号、主题等等，这些都有可能是你<span style="margin: 0px; padding: 0px;">面试时候遇到的问题</span>，而且如果你能掌控面试过程的话，这些也是你表现的最好的点。</p><h3 style="margin: 15px 0px 5px; padding: 0px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; white-space: normal; line-height: 22px; font-size: 15px;">（四）最重要的，着重关注想要申请的部门的宣传片</h3><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;">这些宣传片有的是一个工作场景的展示，有的是员工的现身说法，也有是一个具体问题的解决，要站在一定的高度上去高度重视这个。如有的宣传片是讲在这个部门内一个具体工作的实施的记录，可以注意他的工作流程是什么样的？主管是什么？同事做的都是什么样的工作？遇到问题的时候向谁求助？向谁请示？谁是你的汇报对象？等等。留心并记录，也许你面试的时候发现面试官很面熟，对，如果你说出你记得他，在宣传片里给你留下很深的印象，是不是也能给你自己的面试加分不少？</p><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;">相信读了以上文章，你已经知道如何把握校园宣讲会这个重要的机会了吧。稳住阵脚的关键在于“准备”二字。一份好的简历也是宣讲会准备中不可或缺的一部分！（有些公司甚至只接受宣讲会现场投递的简历哦。）赶快来乔布简历的<a href="http://cv.qiaobutang.com/template/list" target="_blank" style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(36, 121, 186); outline: invert none 0px;">模板库</a>中选择适合自身行业意向及经历的模板，带着优秀的简历上战场吧！</p><p style="margin-top: 0px; margin-bottom: 14px; padding: 0px; text-indent: 28px; color: rgb(33, 33, 33); font-family: &#39;Microsoft YaHei&#39;, Helvetica, Tahoma, Arial, sans-serif; font-size: 14px; line-height: 24px; white-space: normal;">注：本文转自乔布简历<a href="http://cv.qiaobutang.com/knowledge/articles/53d6fd030cf2922e721815e4" target="_blank" style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(36, 121, 186); outline: invert none 0px;">http://cv.qiaobutang.com/knowledge/articles/53d6fd030cf2922e721815e4</a></p>                            
+                        </div>
+
+                                                <div class="pub-code">
+                                                        <img src="http://pic.bibibi.net/public/images/other/yunyan1869229336.png"/>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="inner">
+                <div class="foot-content">
+            <div class="fc-inner">
+                <p class="foot-nav">
+                                        <a class="item"
+                       href="/detail/news?id=249&menu_id=35">学校概况</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=13&menu_id=41">新闻公告</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/careers?menu_id=44">招聘信息</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=79&menu_id=51">生源信息</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=80&menu_id=56">就业指导</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=11&menu_id=61">服务指南</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=87&menu_id=65">专项计划</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="?menu_id=1230">报到证/档案查询</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=86&menu_id=154">联系我们</a>
+                                    </p>
+                <p class="copyright">
+                    <span class="text">长沙理工大学版权所有</span>
+<span class="line">|</span>
+<span class="text">域名备案信息：湘ICP备05003881号</span>
+<span class="line">|</span>
+<span class="text">前置审核编号：湘教QS3-200505-000255</span>                </p>
+                <p class="copyright">
+                    <span class="text">可信网站验证</span>
+                    <span class="text">诚信网站验证</span>
+                    <span class="text">安全联盟</span>
+                    <span class="text">行业验证</span>
+                    <span class="text">浏览量：今日11374&nbsp;/&nbsp;共计5193448</span>
+                    <a class="item" href="http://www.bibibi.net" target="_blank" style="color:#6d6d6d;">技术支持：云研科技</a>
+                </p>
+                <div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script>
+    var G_MODULES = [
+        ['js/detail', 'news']
+    ];
+</script>
+<script src="/public/js/libs/??seajs/sea.js,3rd/seajs-combo.js,jquery/jquery.1.9.1.min.js,jquery/jquery-extend.js,jquery/pagination.min.js?v=20151103"></script>
+<script>
+    var G_CONFIG = {"version":"20170321","picPath":"http://pic.bibibi.net","aliPath":"http://yun-campus-res.oss-cn-shenzhen.aliyuncs.com","hrSite":"http://hr.bibibi.net"};
+    //版本更新
+    var config = {
+        base: '/',
+        paths: {
+            'libs': 'public/js/libs',
+            'plugs':'public/js/plugs'
+        },
+        comboSuffix: '?v=' + G_CONFIG.version
+    };
+    if(window.__page_ver){
+        config.comboSuffix = config.comboSuffix + __page_ver;
+    }
+
+    _modulePath = [];
+    for (var i = 0, len = G_MODULES.length; i < len; i++) {
+        var module = G_MODULES[i];
+        _modulePath.push(module.join('/'));
+    }
+
+    seajs.config(config);
+
+    _modulePath.push('libs/template');
+    _modulePath.push('plugs/browserCheck');
+    _modulePath.push('plugs/mainNav');
+    _modulePath.push('plugs/floatToolbar');
+    _modulePath.push('plugs/customCombox');
+
+    seajs.use(_modulePath, function () {
+        //主导航
+        $.browserCheck();
+        $('#main_nav').mainNav();
+        $('.j-pub-combox').customCombox();
+
+        // 咨询qq
+        var params = {"site_logo":"http:\/\/yun-campus-res.oss-cn-shenzhen.aliyuncs.com\/school\/1490080178-7469.png","jy_qq":"","logo_text":"","about_us":"<h4 class=\"ii-tit\">\u5173\u4e8e\u6211\u4eec<\/h4>\n<p class=\"ii-text\">\u4e3a\u5b66\u751f\u957f\u8fdc\u53d1\u5c55\u670d\u52a1\uff0c\u4e3a\u5b66\u79d1\u5efa\u8bbe\u548c\u4e13\u4e1a\u53d1\u5c55\u670d\u52a1\uff0c\u4e3a\u5b66\u98ce\u5efa\u8bbe\u670d\u52a1\uff0c\u4e3a\u884c\u4e1a\u548c\u5730\u65b9\u7ecf\u6d4e\u53d1\u5c55\u670d\u52a1\u3002<\/p>","contact_us":"<h4 class=\"ii-tit\">\u8054\u7cfb\u6211\u4eec<\/h4>\n<p class=\"ii-text\">\u8054\u7cfb\u5730\u5740\uff1a\u6e56\u5357\u7701\u957f\u6c99\u5e02\u5929\u5fc3\u533a\u8d64\u5cad\u8def45\u53f7 <\/p>\n<p class=\"ii-text\">\u90ae\u653f\u7f16\u7801\uff1a410076<\/p>\n<p class=\"ii-text\">\u5c31\u4e1a\u79d1\u529e\u516c\u5ba4\uff1a\u91d1\u76c6\u5cad\u6821\u533a\u529e\u516c\u5927\u697c\u9644105<\/p>\n<p class=\"ii-text\">\u670d\u52a1\u70ed\u7ebf\uff1a0731-82309241\uff1b85219289<\/p>\n<p class=\"ii-text\">\u90ae\u7bb1\uff1ajobxx@126.com<\/p>","work_guide":"","contact_dept":"","copyright":"<span class=\"text\">\u957f\u6c99\u7406\u5de5\u5927\u5b66\u7248\u6743\u6240\u6709<\/span>\n<span class=\"line\">|<\/span>\n<span class=\"text\">\u57df\u540d\u5907\u6848\u4fe1\u606f\uff1a\u6e58ICP\u590705003881\u53f7<\/span>\n<span class=\"line\">|<\/span>\n<span class=\"text\">\u524d\u7f6e\u5ba1\u6838\u7f16\u53f7\uff1a\u6e58\u6559QS3-200505-000255<\/span>","institution_like_url":"","site_news_type":"92","site_notice_type":"3","site_employee_base":"","site_theme":"rich","token":"yunyan1869229336"};
+
+        $.floatToolbar({qq:params.jy_qq});
+
+        arguments[0].init(Array.prototype.slice.call(arguments, 1));
+    });
+
+    // footer始终靠底部
+    $('body').css({
+        'display': 'flex',
+        'flex-direction': 'column',
+        'height': 'auto',
+        'min-height': '100%'
+    });
+    $('.container').css({
+        'flex': 'auto'
+    });
+        $('.bar-main').click(function(){
+            $('.float-bar .content-wrap').toggleClass('hide');
+        })
+
+</script>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?9d62b12bee08da154fa2a80d8ee90355";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>

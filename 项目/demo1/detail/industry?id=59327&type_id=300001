@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="Keywords" content="长沙理工大学云就业平台 云就业 高校 大学 大学生 就业 就业网 就业信息网 就业指导 就业指导中心 就业中心 创业 创业指导"/>
+<meta name="Description" content="长沙理工大学云就业平台 云就业 高校 大学 大学生 就业 就业网 就业信息网 就业指导 就业指导中心 就业中心 创业 创业指导"/>
+<link href="/skin/blue/??public/css/global.css,public/css/layout.css,public/css/common.css?20170321" rel="stylesheet">
+<link rel="stylesheet" href="/public/css/base/base.css">
+<link rel="icon" href="http://pic.bibibi.net/public/images/icon/favicon.ico?1" otype="image/x-icon"/>
+<link rel="shortcut icon" href="http://pic.bibibi.net/public/images/icon/favicon.ico?1" type="image/x-icon"/>
+<style type="text/css">
+    </style>
+<meta name="Keywords" content="【名企校招】顺特电气设备有限公司招聘应届生"/>
+<title>【名企校招】顺特电气设备有限公司招聘应届生-行业信息详情</title>
+<link href="/skin/blue/??public/css/global.css,public/css/layout.css,public/css/common.css,css/details/details.css?20170321" rel="stylesheet">
+</head>
+<body class="online-details">
+<input type="hidden" id="token" value="yunyan1869229336">
+<input type="hidden" id="qq_services" value="">
+<div class="header">
+        <div class="inner clearfix">
+        <div class="logo" id="logo">
+            <a href="javascript:;" class="logo-link">
+                <img src="http://yun-campus-res.oss-cn-shenzhen.aliyuncs.com/school/1490080178-7469.png"/>
+            </a>
+        </div>
+                            <div class="pub-search" id="search_bar" style="position:absolute;right:0;bottom:10px;display:none;">
+                    <div class="search-inner">
+                <div class="search-txt-wrap" style="background-color:#fff;">
+
+                    <input class="search-txt" placeholder="搜索你感兴趣的内容" id="G_keyword" type="text" onkeydown="if(event.keyCode==13){location.href='/module/search?keyword='+G_keyword.value;}">
+                </div>
+                <a class="search-btn has-icon-svg" id="search_btn" onclick="location.href='/module/search?keyword='+G_keyword.value;">
+                    <span class="icon-svg icon-svg-search"></span>
+                </a>
+            </div>
+        </div>
+                <div style="width:80px;float:left;margin-top:10px;margin-left:20px;">
+            <img src="http://pic.bibibi.net/public/images/other/s-yunyan1869229336.png">
+        </div>
+                <div style="width:100px;float:right;">
+                                                        </div>
+    </div>
+</div>
+</div>
+<div class="main-nav">
+    <div class="inner">
+        <!--导航-->
+        <ul class="nav-list clearfix" id="main_nav">
+            <li class="item ">
+                <a href="/index" class="item-link">首页</a>
+                            </li>
+                        <li class="item ">
+                <a href="/detail/news?id=249&menu_id=35"
+                    class="item-link"  >学校概况</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/detail/news?id=249&menu_id=35">学校简介</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=78&menu_id=35">办学特色</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/detail/news?id=253&menu_id=35">部门概况</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/detail/news?id=254&menu_id=35">机构设置</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/detail/news?id=255&menu_id=35">岗位职责</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=13&menu_id=41"
+                    class="item-link"  >新闻公告</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=102&menu_id=41">焦点新闻</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=13&menu_id=41">就业快讯</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/careers?menu_id=44"
+                    class="item-link"  >招聘信息</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/careers?menu_id=44">校内宣讲会</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/careers?type=outer&menu_id=44">校外宣讲会</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/jobfairs?menu_id=44">校内双选会</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link" target="_blank" href="/module/jobfairs?type=2&menu_id=44">校外双选会</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/onlines?menu_id=44">在线招聘</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/jobs?is_practice=0&menu_id=44">正式岗位</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/jobs?is_practice=1&menu_id=44">实习岗位</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=79&menu_id=51"
+                    class="item-link"  >生源信息</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=79&menu_id=51">生源速览</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=99&menu_id=51">学院专业</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=100&menu_id=51">硕士点</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=101&menu_id=51">博士点</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=80&menu_id=56"
+                    class="item-link"  >就业指导</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=80&menu_id=56">就业指导</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=83&menu_id=56">政策法规</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=103&menu_id=56">职业测评</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=104&menu_id=56">网上学堂</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=84&menu_id=56">求职技巧</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=105&menu_id=56">典型事迹</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=81&menu_id=56">创新创业</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=11&menu_id=61"
+                    class="item-link"  >服务指南</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=11&menu_id=61">办事流程</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=85&menu_id=61">常用下载</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=87&menu_id=65"
+                    class="item-link"  >专项计划</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=87&menu_id=65">预征入伍</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=88&menu_id=65">公务选调</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=89&menu_id=65">村官计划</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=98&menu_id=65">西部志愿</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=90&menu_id=65">特岗教师</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=91&menu_id=65">三扶一持</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="?menu_id=1230"
+                    class="item-link"  >报到证/档案查询</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link" target="_blank" href="http://www.hunbys.com/hnbys/archives.do?m=loadSearchJyfa2&menu_id=1230">报到证查询</a>
+                                </li>
+                                                            <li class="son-item">
+                                    <a class="son-link" target="_blank" href="http://222.240.152.232/index.asp?w=web&menu_id=1230">档案查询</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                        <li class="item ">
+                <a href="/module/news?type_id=86&menu_id=154"
+                    class="item-link"  >联系我们</a>
+                                    <div class="son-nav">
+                        <ul class="son-list">
+                                                            <li class="son-item">
+                                    <a class="son-link"  href="/module/news?type_id=86&menu_id=154">联系我们</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                            </li>
+                    </ul>
+    </div>
+</div>
+    <div class="container">
+        <div class="inner">
+            <div class="content clearfix">
+                <div class="side">
+                    <div class="side-menu-wrap">
+    <ul class="side-menu">
+                <li class="sm-item curr">
+            <p class="sm-tit">
+                <a href="/module/industry?type_id=300001" class="sm-link">
+                    <span class="sm-text">能源/原材料</span>
+                </a>
+            </p>
+        </li>
+                <li class="sm-item">
+            <p class="sm-tit">
+                <a href="/module/industry?type_id=300002" class="sm-link">
+                    <span class="sm-text">建筑/房地产</span>
+                </a>
+            </p>
+        </li>
+                <li class="sm-item">
+            <p class="sm-tit">
+                <a href="/module/industry?type_id=300003" class="sm-link">
+                    <span class="sm-text">政府/事业机构</span>
+                </a>
+            </p>
+        </li>
+            </ul>
+</div>                </div>
+                <div class="main">
+                    <div class="main-inner">
+                        <div class="pub-curr-pos mb10">
+                            <a class="cp-link has-icon-svg" href="/index"><span class="icon-svg icon-svg-home"></span>网站首页</a>
+                            <span class="cp-arrow">&gt;</span>
+                            <a class="cp-link" href="/module/industry?type_id=300001">能源/原材料</a>
+                            <span class="cp-arrow">&gt;</span>
+                            <span class="cp-text">详情</span>
+                        </div>
+                        <div class="bshare-custom" style="text-align: right"><div class="bsPromo bsPromo2"></div><a title="分享到微信" class="bshare-weixin" href="javascript:void(0);"></a><a title="分享到QQ好友" class="bshare-qqim" href="javascript:void(0);"></a><a title="分享到新浪微博" class="bshare-sinaminiblog" href="javascript:void(0);"></a><a title="分享到QQ空间" class="bshare-qzone"></a><a title="分享到腾讯微博" class="bshare-qqmb"></a><a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a><span class="BSHARE_COUNT bshare-share-count" style="float: none;">31.5K</span></div><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh"></script><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
+                        <div class="news-details" id="data_details">
+                                                        <div class="details-head">
+                                <h1 class="dh-tit" style="font-weight:normal;">【名企校招】顺特电气设备有限公司招聘应届生</h1>
+                                <p class="dh-info">
+                                    <span class="time">信息来源：<a href="http://www.dqjob.com.cn/" target="_blank" class="time" style="text-decoration: underline">顺特电气设备有限公司</a></span>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;
+                                    <span class="time">发布时间：2017-11-20</span>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;
+                                    <span class="time">点击量：138</span>
+                                </p>
+                            </div>
+
+                            <div class="details-content">
+                                <p style="color: dimgray;font-size: 14px;">本数据为系统自动获取，如有变动请以<a target="_blank" href="http://www.dqjob.com.cn/">来源网站为准</a></p>             <p>&nbsp;<a target="_blank" href="http://www.dqjob.com.cn/gxq/" style="font-family: Arial, 宋体, Helvetica, sans-serif; color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none; line-height: 22px;"><img height="80" width="747" src="http://www.dqjob.com.cn/EditorUploadFile/bjx201706270957521715.jpg" alt="" style="border: 0px; margin: 0px; padding: 0px; list-style: none;" /></a></p>  <p style="margin: 0px; padding: 0px; border: 0px; list-style: none; color: rgb(21, 21, 21); font-family: Arial, 宋体, Helvetica, sans-serif; line-height: 22px; text-align: center;">&nbsp;<font face="Arial, 宋体, Helvetica, sans-serif" color="#3366ff" style="margin: 0px; padding: 0px; border: 0px; list-style: none;"><span style="margin: 0px; padding: 0px; border: 0px; list-style: none;"><b style="margin: 0px; padding: 0px; border: 0px; list-style: none;"><b style="margin: 0px; padding: 0px; border: 0px; list-style: none; color: rgb(21, 21, 21);">点击<a target="_blank" href="http://www.dqjob.com.cn/my/register.aspx" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none;"><span style="margin: 0px; padding: 0px; border: 0px; list-style: none; color: rgb(255, 0, 0);">快速入职</span></a></b></b></span></font></p>  <p style="margin: 0px; padding: 0px; border: 0px; list-style: none; color: rgb(21, 21, 21); font-family: Arial, 宋体, Helvetica, sans-serif; line-height: 22px;"><font color="#3366ff" face="Arial, 宋体, Helvetica, sans-serif" style="margin: 0px; padding: 0px; border: 0px; list-style: none;"><span style="margin: 0px; padding: 0px; border: 0px; list-style: none;"><b style="margin: 0px; padding: 0px; border: 0px; list-style: none;">北极星电气招聘网讯：</b></span></font></p>  <p style="margin: 0px; padding: 0px; border: 0px; list-style: none; color: rgb(21, 21, 21); font-family: Arial, 宋体, Helvetica, sans-serif; line-height: 22px;"><span style="margin: 0px; padding: 0px; border: 0px; list-style: none; font-family: Arial, Verdana, sans-serif;">&nbsp; &nbsp; &nbsp; 顺特电气设备有限公司是由顺特电气有限公司（原顺德特种变压器厂）与法国施耐德电气共同设立的中外合资公司，占地面积12万平方米，建筑面积8万平方米，注册资本14.9亿元人民币。公司现有员工约1500人，其中工程技术人员近300人。公司始创于1988年，经过近30年的发展，目前已成为享誉全球的输配电设备供应商，中国干式变压器行业翘楚。</span></p>  <p style="margin: 0px; padding: 0px; border: 0px; list-style: none; color: rgb(21, 21, 21); font-family: Arial, 宋体, Helvetica, sans-serif; line-height: 22px;"><span style="margin: 0px; padding: 0px; border: 0px; list-style: none; font-family: Arial, Verdana, sans-serif;">&nbsp; &nbsp; &nbsp;</span><span style="margin: 0px; padding: 0px; border: 0px; list-style: none; font-family: Arial, Verdana, sans-serif;">&nbsp;</span><span style="margin: 0px; padding: 0px; border: 0px; list-style: none; font-family: Arial, Verdana, sans-serif;">公司专业制造干式变压器、预装式变电站、组合式变压器、中低压开关柜、干式电抗器等高品质的电气设备。其中干式变压器年生产能力达1200万kVA，预装式变电站年生产能力达1000台，组合式变压器年生产能力达3000台，干式电抗器年生产能力达400万kvar，油浸式电抗器年生产能力达100万kvar，中低压开关等成套设备年生产能力达8000台套。</span></p>  <p style="margin: 0px; padding: 0px; border: 0px; list-style: none; color: rgb(21, 21, 21); font-family: Arial, 宋体, Helvetica, sans-serif; line-height: 22px;"><span style="margin: 0px; padding: 0px; border: 0px; list-style: none; font-family: Arial, Verdana, sans-serif;">&nbsp; &nbsp; &nbsp;</span><span style="margin: 0px; padding: 0px; border: 0px; list-style: none; font-family: Arial, Verdana, sans-serif;">&nbsp;</span><span style="margin: 0px; padding: 0px; border: 0px; list-style: none; font-family: Arial, Verdana, sans-serif;">近30年来，顺特电气已建成为一个基础设施完善、开发管理手段灵活，质量控制有效，具有良性循环发展机制的研究开发及产品制造中心。</span></p>  <p style="margin: 0px; padding: 0px; border: 0px; list-style: none; color: rgb(21, 21, 21); font-family: Arial, 宋体, Helvetica, sans-serif; line-height: 22px;"><font color="#3366ff" face="Arial, 宋体, Helvetica, sans-serif" style="margin: 0px; padding: 0px; border: 0px; list-style: none;"><span style="margin: 0px; padding: 0px; border: 0px; list-style: none;"><b style="margin: 0px; padding: 0px; border: 0px; list-style: none;">电气招聘岗位：</b></span></font></p>  <table cellpadding="0" cellspacing="0" width="100%" class="form_table project_mb9" style="margin: 0px 0px 9px; padding: 0px; border-width: 2px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: solid; border-left-style: initial; border-top-color: rgb(2, 126, 216); border-right-color: initial; border-bottom-color: rgb(2, 126, 216); border-left-color: initial; list-style: none; color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-size: 12px; text-align: justify;">      <tbody style="margin: 0px; padding: 0px; border: 0px; list-style: none;">          <tr style="margin: 0px; padding: 0px; border: 0px; list-style: none;">              <th style="margin: 0px; padding: 4px; border-top: 0px; border-right: 0px; border-left: 0px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); list-style: none; text-align: center; background: url(&quot;../Images/table_border.gif&quot;) right 4px no-repeat rgb(230, 245, 255); font-weight: normal; white-space: nowrap;">职位名称</th>              <th style="margin: 0px; padding: 4px; border-top: 0px; border-right: 0px; border-left: 0px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); list-style: none; text-align: center; background: url(&quot;../Images/table_border.gif&quot;) right 4px no-repeat rgb(230, 245, 255); font-weight: normal; white-space: nowrap;">工作地点</th>              <th style="margin: 0px; padding: 4px; border-top: 0px; border-right: 0px; border-left: 0px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); list-style: none; text-align: center; background: url(&quot;../Images/table_border.gif&quot;) right 4px no-repeat rgb(230, 245, 255); font-weight: normal; white-space: nowrap;">工作年限</th>              <th style="margin: 0px; padding: 4px; border-top: 0px; border-right: 0px; border-left: 0px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); list-style: none; text-align: center; background: url(&quot;../Images/table_border.gif&quot;) right 4px no-repeat rgb(230, 245, 255); font-weight: normal; white-space: nowrap;">学历要求</th>              <th style="margin: 0px; padding: 4px; border-top: 0px; border-right: 0px; border-left: 0px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); list-style: none; text-align: center; background: url(&quot;../Images/table_border.gif&quot;) right 4px no-repeat rgb(230, 245, 255); font-weight: normal; white-space: nowrap;">招聘人数</th>              <th class="current" style="margin: 0px; padding: 4px; border-top: 0px; border-right: 0px; border-left: 0px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); list-style: none; text-align: center; background: none right 4px no-repeat rgb(230, 245, 255); font-weight: normal; white-space: nowrap;">更新日期</th>              <th style="margin: 0px; padding: 4px; border-top: 0px; border-right: 0px; border-left: 0px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); list-style: none; text-align: center; background: url(&quot;../Images/table_border.gif&quot;) right 4px no-repeat rgb(230, 245, 255); font-weight: normal; white-space: nowrap;">&nbsp;</th>          </tr>          <tr style="margin: 0px; padding: 0px; border: 0px; list-style: none;">              <td class="current" style="margin: 0px; padding: 4px; border-top: 0px; border-right: 0px; border-left: 0px; border-bottom-style: solid; border-bottom-color: rgb(230, 230, 230); list-style: none; text-align: left;">              <p style="margin: 0px; padding: 0px; border: 0px; list-style: none; word-wrap: break-word; word-break: break-all; height: 20px; line-height: 20px; overflow: hidden; text-overflow: ellipsis;"><a href="http://www.dqjob.com.cn/job.aspx?id=1388508" target="_blank" style="margin: 0px; padding: 0px; border: 0px; list-style: none; text-decoration-line: none; outline: none; color: rgb(0, 0, 0);">技术培训生（应届）</a></p>              </td>              <td style="margin: 0px; padding: 4px; border-top: 0px; border-right: 0px; border-left: 0px; border-bottom-style: solid; border-bottom-color: rgb(230, 230, 230); list-style: none; text-align: center; white-space: nowrap;">广东-佛山市</td>              <td style="margin: 0px; padding: 4px; border-top: 0px; border-right: 0px; border-left: 0px; border-bottom-style: solid; border-bottom-color: rgb(230, 230, 230); list-style: none; text-align: center; white-space: nowrap;">应届毕业生</td>              <td style="margin: 0px; padding: 4px; border-top: 0px; border-right: 0px; border-left: 0px; border-bottom-style: solid; border-bottom-color: rgb(230, 230, 230); list-style: none; text-align: center; white-space: nowrap;">本科</td>              <td style="margin: 0px; padding: 4px; border-top: 0px; border-right: 0px; border-left: 0px; border-bottom-style: solid; border-bottom-color: rgb(230, 230, 230); list-style: none; text-align: center; white-space: nowrap;">17</td>              <td style="margin: 0px; padding: 4px; border-top: 0px; border-right: 0px; border-left: 0px; border-bottom-style: solid; border-bottom-color: rgb(230, 230, 230); list-style: none; text-align: center; white-space: nowrap;">2017-11-20</td>              <td style="margin: 0px; padding: 4px; border-top: 0px; border-right: 0px; border-left: 0px; border-bottom-style: solid; border-bottom-color: rgb(230, 230, 230); list-style: none; text-align: center; white-space: nowrap;"><a href="http://www.dqjob.com.cn/job.aspx?id=1388508" target="_blank" style="margin: 0px; padding: 0px; border: 0px; list-style: none; text-decoration-line: none; outline: none; color: rgb(0, 0, 0);"><img src="http://www.dqjob.com.cn/images/job_regbtn.gif" border="0" style="margin: 0px; padding: 0px; border: 0px; list-style: none;" alt="" /></a></td>          </tr>      </tbody>  </table>  <p style="margin: 0px; padding: 0px; border: 0px; list-style: none; color: rgb(21, 21, 21); font-family: Arial, 宋体, Helvetica, sans-serif; line-height: 22px;">&nbsp;</p>  <p style="margin: 0px; padding: 0px; border: 0px; list-style: none; color: rgb(21, 21, 21); font-family: Arial, 宋体, Helvetica, sans-serif; line-height: 22px;">&nbsp;</p>  <p style="margin: 0px; padding: 0px; border: 0px; list-style: none; color: rgb(21, 21, 21); font-family: Arial, 宋体, Helvetica, sans-serif; line-height: 22px; text-align: center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.dqjob.com.cn/" class="STYLE1" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none; font-family: 宋体, Arial, Helvetica, sans-serif; font-weight: bold; line-height: 36px; text-indent: 24px;"><span style="margin: 0px; padding: 0px; border: 0px; list-style: none;"><font style="margin: 0px; padding: 0px; border: 0px; list-style: none; font-size: 16px;"><span style="margin: 0px; padding: 0px; border: 0px; list-style: none;"><u style="margin: 0px; padding: 0px; border: 0px; list-style: none; color: rgb(0, 0, 255);">点击此处浏览更多招聘信息</u></span></font></span></a></p>  <p style="margin: 10px 0px 0px; padding: 0px; border-width: 0px 0px 3px; border-top-style: initial; border-right-style: initial; border-bottom-style: solid; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(224, 224, 224); border-left-color: initial; border-image: initial; list-style: none; color: rgb(21, 21, 21); font-family: 宋体, Arial, Helvetica, sans-serif; line-height: 24px; width: 743px;"><span style="margin: 0px 0px -3px; padding: 5px 10px; border-width: 0px 0px 3px; border-top-style: initial; border-right-style: initial; border-bottom-style: solid; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(0, 108, 191); border-left-color: initial; border-image: initial; list-style: none; line-height: 30px; font-weight: bold;">猜你喜欢</span></p>  <p style="margin: 0px; padding: 0px; border: 0px; list-style: none; color: rgb(21, 21, 21); line-height: 22px; font-family: 宋体, Arial, Helvetica, sans-serif; width: 743px;"><span style="margin: 0px; padding: 6px 20px; border: 0px; list-style: none; text-align: center; color: rgb(255, 255, 255); background: rgb(42, 139, 195);"><a href="http://www.dqjob.com.cn/SearchResult.aspx?keyword=%u65BD%u8010%u5FB7" target="_blank" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none;">施耐德</a></span><span style="margin: 0px 10px; padding: 6px 20px; border: 0px; list-style: none; text-align: center; color: rgb(255, 255, 255); background: rgb(247, 93, 25);"><a href="http://www.dqjob.com.cn/SearchResult.aspx?keyword=abb" target="_blank" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none;">ABB</a></span>&nbsp;<span style="margin: 0px; padding: 6px 20px; border: 0px; list-style: none; text-align: center; color: rgb(255, 255, 255); background: rgb(75, 179, 142);"><a href="http://www.dqjob.com.cn/SearchResult.aspx?keyword=%u7279%u53D8%u7535%u5DE5" target="_blank" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none;">特变电工</a></span></p>  <p style="margin: 10px 0px 0px; padding: 0px; border-width: 0px 0px 3px; border-top-style: initial; border-right-style: initial; border-bottom-style: solid; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(224, 224, 224); border-left-color: initial; border-image: initial; list-style: none; color: rgb(21, 21, 21); font-family: 宋体, Arial, Helvetica, sans-serif; line-height: 24px; width: 743px;"><span style="margin: 0px 0px -3px; padding: 5px 10px; border-width: 0px 0px 3px; border-top-style: initial; border-right-style: initial; border-bottom-style: solid; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(0, 108, 191); border-left-color: initial; border-image: initial; list-style: none; line-height: 30px; font-weight: bold;">热门地区</span></p>  <p style="margin: 0px; padding: 0px; border: 0px; list-style: none; color: rgb(21, 21, 21); line-height: 22px; font-family: 宋体, Arial, Helvetica, sans-serif;"><span style="margin: 0px 10px 0px 0px; padding: 0px; border: 0px; list-style: none; line-height: 28px;"><a href="http://www.dqjob.com.cn/area/guangdong.shtml" target="_blank" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none;">广东</a>&nbsp;</span><span style="margin: 0px 10px 0px 0px; padding: 0px; border: 0px; list-style: none; line-height: 28px;"><a href="http://www.dqjob.com.cn/area/beijing.shtml" target="_blank" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none;">北京</a>&nbsp;</span><span style="margin: 0px 10px 0px 0px; padding: 0px; border: 0px; list-style: none; line-height: 28px;"><a href="http://www.dqjob.com.cn/area/jiangsu.shtml" target="_blank" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none;">江苏</a>&nbsp;</span><span style="margin: 0px 10px 0px 0px; padding: 0px; border: 0px; list-style: none; line-height: 28px;"><a href="http://www.dqjob.com.cn/area/shanghai.shtml" target="_blank" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none;">上海</a>&nbsp;</span><span style="margin: 0px 10px 0px 0px; padding: 0px; border: 0px; list-style: none; line-height: 28px;"><a href="http://www.dqjob.com.cn/area/zhejiang.shtml" target="_blank" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none;">浙江</a>&nbsp;</span><span style="margin: 0px 10px 0px 0px; padding: 0px; border: 0px; list-style: none; line-height: 28px;"><a href="http://www.dqjob.com.cn/area/hubei.shtml" target="_blank" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none;">湖北</a>&nbsp;</span><span style="margin: 0px 10px 0px 0px; padding: 0px; border: 0px; list-style: none; line-height: 28px;"><a href="http://www.dqjob.com.cn/area/fujian.shtml" target="_blank" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none;">福建</a>&nbsp;</span><span style="margin: 0px 10px 0px 0px; padding: 0px; border: 0px; list-style: none; line-height: 28px;"><a href="http://www.dqjob.com.cn/area/hunan.shtml" target="_blank" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none;">湖南</a>&nbsp;</span><span style="margin: 0px 10px 0px 0px; padding: 0px; border: 0px; list-style: none; line-height: 28px;"><a href="http://www.dqjob.com.cn/area/shanxi1.shtml" target="_blank" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none;">陕西</a>&nbsp;</span><span style="margin: 0px 10px 0px 0px; padding: 0px; border: 0px; list-style: none; line-height: 28px;"><a href="http://www.dqjob.com.cn/area/hebei.shtml" target="_blank" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none;">河北</a>&nbsp;</span><span style="margin: 0px 10px 0px 0px; padding: 0px; border: 0px; list-style: none; line-height: 28px;"><a href="http://www.dqjob.com.cn/area/sichuan.shtml" target="_blank" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none;">四川</a>&nbsp;</span><span style="margin: 0px 10px 0px 0px; padding: 0px; border: 0px; list-style: none; line-height: 28px;"><a href="http://www.dqjob.com.cn/area/tianjin.shtml" target="_blank" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none;">天津</a>&nbsp; &nbsp;<a href="http://www.dqjob.com.cn/area/shandong.shtml" target="_blank" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none;">山东</a></span>&nbsp;<a href="http://www.dqjob.com.cn/area/liaoning.shtml" target="_blank" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none;"><span style="margin: 0px; padding: 0px; border: 0px; list-style: none; line-height: 28px;">辽</span><span style="margin: 0px; padding: 0px; border: 0px; list-style: none; line-height: 28px;">宁</span></a><span style="margin: 0px; padding: 0px; border: 0px; list-style: none; line-height: 28px;">&nbsp;&nbsp;</span><span style="margin: 0px 10px 0px 0px; padding: 0px; border: 0px; list-style: none; line-height: 28px;"><a href="http://www.dqjob.com.cn/area/anhui.shtml" target="_blank" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none;">安徽</a>&nbsp;&nbsp;<a href="http://www.dqjob.com.cn/area/henan.shtml" target="_blank" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none;">河南</a></span></p>  <p style="margin: 10px 0px 0px; padding: 0px; border-width: 0px 0px 3px; border-top-style: initial; border-right-style: initial; border-bottom-style: solid; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(224, 224, 224); border-left-color: initial; border-image: initial; list-style: none; color: rgb(21, 21, 21); font-family: 宋体, Arial, Helvetica, sans-serif; line-height: 24px; width: 743px;"><span style="margin: 0px 0px -3px; padding: 5px 10px; border-width: 0px 0px 3px; border-top-style: initial; border-right-style: initial; border-bottom-style: solid; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(0, 108, 191); border-left-color: initial; border-image: initial; list-style: none; line-height: 30px; font-weight: bold;">热门行业</span></p>  <p style="margin: 0px; padding: 0px; border: 0px; list-style: none; color: rgb(21, 21, 21); line-height: 22px; font-family: 宋体, Arial, Helvetica, sans-serif;"><span style="margin: 0px 10px 0px 0px; padding: 0px; border: 0px; list-style: none; line-height: 28px;"><a href="http://www.dqjob.com.cn/zdh/" target="_blank" title="自动化" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none; font-family: Arial, Verdana, sans-serif; outline: none; line-height: 27px; background-color: rgb(248, 248, 248);">自动化</a>&nbsp;</span><a href="http://www.dqjob.com.cn/ctsb/" target="_blank" title="成套设备" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none; outline: none; font-family: Simsun; line-height: 27px; background-color: rgb(248, 248, 248);">成套设备</a><span style="margin: 0px 10px 0px 0px; padding: 0px; border: 0px; list-style: none; line-height: 28px;">&nbsp;</span><a href="http://www.dqjob.com.cn/dnzl/" target="_blank" title="电能质量" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none; outline: none; font-family: Simsun; line-height: 27px; background-color: rgb(248, 248, 248);">电能质量</a><span style="margin: 0px 10px 0px 0px; padding: 0px; border: 0px; list-style: none; line-height: 28px;">&nbsp;</span><a href="http://www.dqjob.com.cn/kg/" target="_blank" title="开关/断路器" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none; outline: none; font-family: Simsun; line-height: 27px; background-color: rgb(248, 248, 248);">开关/断路器</a><span style="margin: 0px 10px 0px 0px; padding: 0px; border: 0px; list-style: none; line-height: 28px;">&nbsp;</span><a href="http://www.dqjob.com.cn/byq/" target="_blank" title="变压器" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none; outline: none; font-family: Simsun; line-height: 27px; background-color: rgb(248, 248, 248);">变压器</a><span style="margin: 0px 10px 0px 0px; padding: 0px; border: 0px; list-style: none; line-height: 28px;">&nbsp;</span><a href="http://www.dqjob.com.cn/chuneng" target="_blank" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none; outline: none; font-family: Simsun; line-height: 27px;">储能</a><span style="margin: 0px 10px 0px 0px; padding: 0px; border: 0px; list-style: none; line-height: 28px;">&nbsp;</span><a href="http://www.dqjob.com.cn/cdz/" target="_blank" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none; outline: none; font-family: Simsun; line-height: 27px; background-color: rgb(248, 248, 248);">充电桩</a><span style="margin: 0px 10px 0px 0px; padding: 0px; border: 0px; list-style: none; line-height: 28px;">&nbsp;</span></p>  <p style="margin: 10px 0px 0px; padding: 0px; border-width: 0px 0px 3px; border-top-style: initial; border-right-style: initial; border-bottom-style: solid; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(224, 224, 224); border-left-color: initial; border-image: initial; list-style: none; color: rgb(21, 21, 21); font-family: 宋体, Arial, Helvetica, sans-serif; line-height: 24px; width: 743px;"><span style="margin: 0px 0px -3px; padding: 5px 10px; border-width: 0px 0px 3px; border-top-style: initial; border-right-style: initial; border-bottom-style: solid; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(0, 108, 191); border-left-color: initial; border-image: initial; list-style: none; line-height: 30px; font-weight: bold;">热门职位</span></p>  <p style="margin: 0px; padding: 0px; border: 0px; list-style: none; color: rgb(21, 21, 21); line-height: 22px; font-family: 宋体, Arial, Helvetica, sans-serif;"><span style="margin: 0px 10px 0px 0px; padding: 0px; border: 0px; list-style: none; line-height: 28px;"><a title="电气工程师招聘" target="_blank" href="http://www.dqjob.com.cn/topics/topics14.shtml" style="color: rgb(102, 101, 101); text-decoration-line: none; border: 0px; margin: 0px 6px 0px 0px; padding: 0px; list-style: none; font-family: Arial, Verdana, sans-serif; outline: none; line-height: 18px;">电气工程师</a>&nbsp;<a href="http://www.dqjob.com.cn/topics/Topics148.shtml" target="_blank" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none;">销售工程师</a></span><span style="margin: 0px 10px 0px 0px; padding: 0px; border: 0px; list-style: none;">&nbsp;<a href="http://www.dqjob.com.cn/topics/Topics149.shtml" target="_blank" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none;">结构工程师</a></span><span style="margin: 0px 10px 0px 0px; padding: 0px; border: 0px; list-style: none;">&nbsp;<a href="http://www.dqjob.com.cn/topics/topics151.shtml" target="_blank" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none;">软件类</a></span><span style="margin: 0px 10px 0px 0px; padding: 0px; border: 0px; list-style: none;">&nbsp;<a href="http://www.dqjob.com.cn/topics/Topics153.shtml" target="_blank" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none;">硬件类</a></span><span style="margin: 0px 10px 0px 0px; padding: 0px; border: 0px; list-style: none; line-height: 28px;">&nbsp;<a href="http://www.dqjob.com.cn/topics/topics154.shtml" target="_blank" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none;">工艺类</a></span>&nbsp;<a href="http://www.dqjob.com.cn/topics/topics152.shtml" target="_blank" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none;">研发类</a>&nbsp;&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; list-style: none; font-family: Arial, Verdana, sans-serif; color: rgb(102, 101, 101); line-height: 18px;">&nbsp;</span><a title="技术支持招聘" target="_blank" href="http://www.dqjob.com.cn/topics/Topics155.shtml" style="color: rgb(102, 101, 101); text-decoration-line: none; border: 0px; margin: 0px 6px 0px 0px; padding: 0px; list-style: none; font-family: Arial, Verdana, sans-serif; outline: none; line-height: 18px;">技术支持</a>&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; list-style: none; font-family: Arial, Verdana, sans-serif; color: rgb(102, 101, 101); line-height: 18px;">&nbsp;</span><a title="生产管理招聘" target="_blank" href="http://www.dqjob.com.cn/topics/Topics528.shtml" style="color: rgb(102, 101, 101); text-decoration-line: none; border: 0px; margin: 0px 6px 0px 0px; padding: 0px; list-style: none; font-family: Arial, Verdana, sans-serif; outline: none; line-height: 18px;">生产管理</a></p>  <p style="margin: 0px; padding: 0px; border: 0px; list-style: none; color: rgb(21, 21, 21); font-family: Arial, 宋体, Helvetica, sans-serif; line-height: 22px;"><a target="_blank" href="http://www.dqjob.com.cn/yjs/" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none; background-color: rgb(241, 250, 255);"><img height="124" alt="" width="197" border="0" src="http://www.dqjob.com.cn/zthz/images/topic_img.jpg" style="border: 0px; margin: 0px; padding: 0px; list-style: none;" /></a><span style="margin: 0px; padding: 0px; border: 0px; list-style: none; background-color: rgb(241, 250, 255);">&nbsp; &nbsp;</span><a target="_blank" href="http://www.dqjob.com.cn/zczp/" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none; background-color: rgb(241, 250, 255);"><img height="124" alt="" width="197" border="0" src="http://hr.bjx.com.cn/EditorUploadFile/bjx201703211439131023.gif" style="border: 0px; margin: 0px; padding: 0px; list-style: none;" /></a><span style="margin: 0px; padding: 0px; border: 0px; list-style: none; background-color: rgb(241, 250, 255);">&nbsp; &nbsp;</span><a target="_blank" href="http://www.dqjob.com.cn/qzztc/" style="color: rgb(0, 0, 0); text-decoration-line: none; border: 0px; margin: 0px; padding: 0px; list-style: none; background-color: rgb(241, 250, 255);"><img height="124" alt="" width="197" border="0" src="http://hr.bjx.com.cn/EditorUploadFile/bjx201703211439376491.jpg" style="border: 0px; margin: 0px; padding: 0px; list-style: none;" /></a></p>           <!-- Baidu Button END -->            </div>         	 	   	 </div>                                     </div>
+                                                                                    <div class="pub-code">
+                                                                <img src="http://pic.bibibi.net/public/images/other/yunyan1869229336.png"/>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="footer">
+    <div class="inner">
+                <div class="foot-content">
+            <div class="fc-inner">
+                <p class="foot-nav">
+                                        <a class="item"
+                       href="/detail/news?id=249&menu_id=35">学校概况</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=13&menu_id=41">新闻公告</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/careers?menu_id=44">招聘信息</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=79&menu_id=51">生源信息</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=80&menu_id=56">就业指导</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=11&menu_id=61">服务指南</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=87&menu_id=65">专项计划</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="?menu_id=1230">报到证/档案查询</a>
+                                        <span class="line">|</span>
+                                        <a class="item"
+                       href="/module/news?type_id=86&menu_id=154">联系我们</a>
+                                    </p>
+                <p class="copyright">
+                    <span class="text">长沙理工大学版权所有</span>
+<span class="line">|</span>
+<span class="text">域名备案信息：湘ICP备05003881号</span>
+<span class="line">|</span>
+<span class="text">前置审核编号：湘教QS3-200505-000255</span>                </p>
+                <p class="copyright">
+                    <span class="text">可信网站验证</span>
+                    <span class="text">诚信网站验证</span>
+                    <span class="text">安全联盟</span>
+                    <span class="text">行业验证</span>
+                    <span class="text">浏览量：今日11358&nbsp;/&nbsp;共计5193432</span>
+                    <a class="item" href="http://www.bibibi.net" target="_blank" style="color:#6d6d6d;">技术支持：云研科技</a>
+                </p>
+                <div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script>
+    var G_MODULES = [
+        ['js/detail', 'industry']
+    ];
+</script>
+<script src="/public/js/libs/??seajs/sea.js,3rd/seajs-combo.js,jquery/jquery.1.9.1.min.js,jquery/jquery-extend.js,jquery/pagination.min.js?v=20151103"></script>
+<script>
+    var G_CONFIG = {"version":"20170321","picPath":"http://pic.bibibi.net","aliPath":"http://yun-campus-res.oss-cn-shenzhen.aliyuncs.com","hrSite":"http://hr.bibibi.net"};
+    //版本更新
+    var config = {
+        base: '/',
+        paths: {
+            'libs': 'public/js/libs',
+            'plugs':'public/js/plugs'
+        },
+        comboSuffix: '?v=' + G_CONFIG.version
+    };
+    if(window.__page_ver){
+        config.comboSuffix = config.comboSuffix + __page_ver;
+    }
+
+    _modulePath = [];
+    for (var i = 0, len = G_MODULES.length; i < len; i++) {
+        var module = G_MODULES[i];
+        _modulePath.push(module.join('/'));
+    }
+
+    seajs.config(config);
+
+    _modulePath.push('libs/template');
+    _modulePath.push('plugs/browserCheck');
+    _modulePath.push('plugs/mainNav');
+    _modulePath.push('plugs/floatToolbar');
+    _modulePath.push('plugs/customCombox');
+
+    seajs.use(_modulePath, function () {
+        //主导航
+        $.browserCheck();
+        $('#main_nav').mainNav();
+        $('.j-pub-combox').customCombox();
+
+        // 咨询qq
+        var params = {"site_logo":"http:\/\/yun-campus-res.oss-cn-shenzhen.aliyuncs.com\/school\/1490080178-7469.png","jy_qq":"","logo_text":"","about_us":"<h4 class=\"ii-tit\">\u5173\u4e8e\u6211\u4eec<\/h4>\n<p class=\"ii-text\">\u4e3a\u5b66\u751f\u957f\u8fdc\u53d1\u5c55\u670d\u52a1\uff0c\u4e3a\u5b66\u79d1\u5efa\u8bbe\u548c\u4e13\u4e1a\u53d1\u5c55\u670d\u52a1\uff0c\u4e3a\u5b66\u98ce\u5efa\u8bbe\u670d\u52a1\uff0c\u4e3a\u884c\u4e1a\u548c\u5730\u65b9\u7ecf\u6d4e\u53d1\u5c55\u670d\u52a1\u3002<\/p>","contact_us":"<h4 class=\"ii-tit\">\u8054\u7cfb\u6211\u4eec<\/h4>\n<p class=\"ii-text\">\u8054\u7cfb\u5730\u5740\uff1a\u6e56\u5357\u7701\u957f\u6c99\u5e02\u5929\u5fc3\u533a\u8d64\u5cad\u8def45\u53f7 <\/p>\n<p class=\"ii-text\">\u90ae\u653f\u7f16\u7801\uff1a410076<\/p>\n<p class=\"ii-text\">\u5c31\u4e1a\u79d1\u529e\u516c\u5ba4\uff1a\u91d1\u76c6\u5cad\u6821\u533a\u529e\u516c\u5927\u697c\u9644105<\/p>\n<p class=\"ii-text\">\u670d\u52a1\u70ed\u7ebf\uff1a0731-82309241\uff1b85219289<\/p>\n<p class=\"ii-text\">\u90ae\u7bb1\uff1ajobxx@126.com<\/p>","work_guide":"","contact_dept":"","copyright":"<span class=\"text\">\u957f\u6c99\u7406\u5de5\u5927\u5b66\u7248\u6743\u6240\u6709<\/span>\n<span class=\"line\">|<\/span>\n<span class=\"text\">\u57df\u540d\u5907\u6848\u4fe1\u606f\uff1a\u6e58ICP\u590705003881\u53f7<\/span>\n<span class=\"line\">|<\/span>\n<span class=\"text\">\u524d\u7f6e\u5ba1\u6838\u7f16\u53f7\uff1a\u6e58\u6559QS3-200505-000255<\/span>","institution_like_url":"","site_news_type":"92","site_notice_type":"3","site_employee_base":"","site_theme":"rich","token":"yunyan1869229336"};
+
+        $.floatToolbar({qq:params.jy_qq});
+
+        arguments[0].init(Array.prototype.slice.call(arguments, 1));
+    });
+
+    // footer始终靠底部
+    $('body').css({
+        'display': 'flex',
+        'flex-direction': 'column',
+        'height': 'auto',
+        'min-height': '100%'
+    });
+    $('.container').css({
+        'flex': 'auto'
+    });
+        $('.bar-main').click(function(){
+            $('.float-bar .content-wrap').toggleClass('hide');
+        })
+
+</script>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?9d62b12bee08da154fa2a80d8ee90355";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>

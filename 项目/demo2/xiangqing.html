@@ -1,0 +1,1063 @@
+<!doctype html>
+<html lang="zh-CN">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="keywords" content="211校招网,网络招聘会，视频面试，在线面试，网络双选会，网络视频双选会，网络视频招聘会，直播宣讲会，校园招聘会，应届生招聘会，人才招聘会，招聘会，人才交流会，网上双选会，网上招聘会，网上视频招聘会，网上视频双选会，网上人才招聘会，网上人才双选会，网上人才交流会。" />
+            <meta name="description" content=" 211校招网是一个为毕业生和企业开展校园招聘，提供视频面试，在线面试，网上面试，线上面试，校园招聘会，网络招聘会，网络双选会，网络视频双选会，网络视频招聘会，直播宣讲会，校园招聘会，应届生招聘会，人才招聘会，现场招聘会，线上招聘会，人才交流会，网上双选会，网上招聘会，网上视频招聘会，网上视频双选会，网上人才招聘会，网上人才双选会，网上人才交流会的网站。在全国30个省市设立了分站，服务用人单位和大学生。" />
+            <title>招聘会|视频面试|网络双选会|校园双选会|网上招聘会|网上双选会</title>
+            <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
+            <link href="static/css/common-element.css" rel="stylesheet" type="text/css"/>
+            <link href="static/css/xyzph-xiangqy.css" rel="stylesheet" type="text/css"/>
+            <link href="static/css/font-awesome.min.css" rel="stylesheet" media="screen"/>
+            
+            <script src="statics/jquery/1.11.3/jquery.min.js"></script>
+            <script src="static/js/jquery.easyui.min.js"></script>
+            <script src="static/bootstrap/js/bootstrap.min.js"></script>
+            <script src="statics/artDialog/artDialog.js?skin=aero" charset="utf-8"></script>
+            <script src="statics/artDialog/plugins/iframeTools.js"></script>
+            <script src="static/js/flow.js" type="text/javascript" charset="utf-8"></script>
+            <script type="text/javascript" src="static/js/jquery.downCount.js"></script>
+            <script>
+                    $(function(){
+                        //首页投递简历跳转 参数flag=1
+                        var flag=0
+                        if(flag==1){
+                            location.href = "#flag";      // firstAnchor为锚点名称
+                            window.location.hash = flag; // firstAnchor为锚点名称
+                            $(".companyList").trigger("click");
+                        }
+                    });
+            </script>
+            <script type="text/javascript">
+                    var cur_path ="";
+                    var job_fair_id="201711060014222";
+                    var user_type="";
+            </script>
+	        <script src="static/js/favorite_zph.js" type="text/javascript" charset="utf-8"></script>
+    </head>
+    <body> 
+
+<!--头部架构开始-->
+
+
+<style>
+	.main_nav ul{
+		margin-left:50px;
+	}
+	.site {
+		height:auto;
+	}
+	.site_main .area {
+		border:none;
+		width:auto;
+		height:auto;
+		line-height:1.5em;
+		margin:5px 10px;
+	}
+	.site_main .area a {
+		font-size:16px;
+		letter-spacing:2px;
+		line-height:20px;
+	}
+	.area.site5,.area.site28,.area.site17,.area.site24,.area.site23,.area.site29,.area.site19{
+		font-weight:bolder;
+	}
+	.site_select_panel_close {
+	    right: 30px !important;
+	    top: 30px !important;
+	    font-size: 39px !important;
+    }
+    .main_nav ul{
+        text-align: center;
+    }
+            
+    .main_nav ul li a{
+        margin-left:100px; 
+    }
+</style>
+<div class="header">
+	 <!--sub_nav结构开始  -->
+     <div class="sub_nav">
+         <div class="sub_nav_inner">
+            <!-- <p style="float:left;line-height:30px;">
+                2017年11月22日,
+                企业<span style="font-weight:bold;font-style:italic;color:#FF5F00;">123472</span>家.
+                高校<span style="font-weight:bold;font-style:italic;color:#FF5F00;">2826</span>所.
+                招聘会<span style="font-weight:bold;font-style:italic;color:#FF5F00;">5260</span>场.
+                本月新增会员企业<span style="font-weight:bold;font-weight:bold;color:#FF5F00;">699</span>家.
+			
+			</p>
+			 <span id="login_qq_info" style="float:right;display:none;">
+            	<a class="login_qq_info" href=""  style="max-width:115px;overflow:hidden;text-overflow:ellipsis;display:inline-block;white-space:nowrap;">
+            	</a>
+            	<a style="margin-left:10px;display: inline-block; vertical-align: top;" href="/loginOut.do?method=exitData">退出</a>
+            </span> -->
+            
+            <style>
+                #login_user_info li{
+                    margin-left: 50px;
+                }
+             </style>
+			
+	        <ul id="login_user_info">
+	        	
+	            <!-- <li><a href="member/accountLogin.do?users=geren" target="_blank">&nbsp;<span>登录</span>&nbsp;&nbsp;|</a></li>
+	            
+	            <li><a href="member/accountRegister.do?users=student" target="_blank"><span>免费注册</span>&nbsp;</a></li> -->
+                <li><a href="admin.html" target="_blank">&nbsp;<span>登录</span></a></li>
+                <li><a href="zhuce.html" target="_blank"><span>免费注册</span>&nbsp;</a></li>
+                <li>
+                    <!-- <a style="color:#76746F;" target="_blank" href="http://www.211zph.com/auth/index.do">
+                            <img src="auth/img/bt_white_76X24.png"></a> -->
+                    <a style="color:#76746F;" target="_blank" href="http://www.211zph.com/auth/wxLogin.do">
+                        <img src="auth/img/bt_white_wechat_76X24.png">
+                    </a>
+	            </li>
+	        </ul>
+	         <script type="text/javascript">
+                    $(function(){
+                            $.get( '/login.do?check=true&date='+new Date(),function(data){
+                            if(data.login){
+                                var login = data.login;
+                                if( login.nickname ){
+                                    var path="auth/bind_qq.jsp";
+                                    if( login.user_id ){
+                                        path="member/home.do";
+                                    }
+                                    var link = $("#login_qq_info").find(".login_qq_info");
+                                    link.attr("href",path );
+                                    var str='<img style="width:20px;height:20px;" src="'+login.avatar+'"  />'+login.nickname;
+                                    link.html( str );
+                                    $("#login_user_info").hide();
+                                    $("#login_qq_info").show();
+                                }else{
+                                    var user_id=(login.user_id.length>10)?login.user_id.substring(0,7)+'...':login.user_id;
+                                    var str='<li>'+'<a title="'+login.user_id+'" style="text-decoration:none;">'+user_id+'</a>';
+                                        str+='&nbsp;&nbsp;<a href="/member/home.do" >'+login.user_type_name+'中心</a>';
+                                        str+="</li><li>";
+                                        str+='&nbsp;&nbsp;<a href="/loginOut.do?method=exitData">退出</a>';
+                                        str+="</li>";
+                                $("#login_user_info").html(str);
+                                }
+                            }
+                        });
+                    });
+				</script>
+				<div class="clear"></div>
+          </div>
+          <div class="clear"></div> 
+      </div>
+      <div class="clear"></div> 
+      <!--sub_nav结构结束  -->
+      <!--nav结构开始  -->
+      <div class="top_nav" style="background-color:#f0f0f0;">
+          <div class="nav_inner">
+              <!-- <div class="logo">
+              	<a href="/" title="211校招网">
+              	<img src="static/images/LOGO.png"/>
+              	</a>
+              </div>               -->
+              <!-- <div><a class="province switch" href="javascript:;" id="site_select_btn">
+              		
+		             陕西
+              		<span><i class="arrow"></i></span>
+              		</a>
+              </div> -->
+              <div class="main_nav">
+              	<ul >
+					<li>
+                        <a class="nav_shouye" href="bootstrap/index.html" title="首页">
+                            首页
+                        </a>
+					</li>
+					<li>
+                        <a class="nav_wlzph" href="jobfair/wlzph.do" title="双选会">
+                            <div style="color:#e03919;height:60px;font-weight:bold;border-bottom:3px solid #e03919;">双选会</div>
+                        </a>
+					</li>
+                	<li>
+                        <a class="nav_xyzph" href="xuanjiang.html" title="宣讲会">
+                            宣讲会    
+                        </a>
+                	</li>
+                	<li>
+                        <a class="nav_app" href="index.html" title="视频会">
+                            视频会
+                        </a>
+                	</li>
+				</ul>                 
+              </div>                                                          
+           </div>
+      </div> 
+       <!--nav结构结束  --> 
+      <div style="clear:both"></div>    
+</div>
+
+        <script type="text/javascript">
+                $(function(){
+                    $('#site_select_btn').click(function(e){
+                        e.preventDefault();
+                        e.stopPropagation();
+                        site_select_btn = art.dialog({
+                            width: 490,
+                            height: 230,
+                            id: 'site_select_btn',
+                            title:false,
+                            content:'<div style="width:490px;height:230px;">正在加载...</div>',
+                            lock:true,
+                            fixed:true,
+                            close:function(){this.hide(); return false;},
+                            show:true,
+                            esc:true,
+                            padding:0,
+                            opacity:0.3,
+                            background:'#333333'
+                        });
+                        var pageContentBody =$(art.dialog({id: 'site_select_btn'}).content());
+                        pageContentBody.parents(".aui_dialog").find(".aui_close").addClass("site_select_panel_close");				
+                        pageContentBody.html( $("#site_select_content").text() );
+                        art.dialog({id: 'site_select_btn'}).show();
+                    });
+                });
+        </script>
+
+
+        <script type="text/javascript">
+                    function fixedNav(){
+                        var t = $(document).scrollTop();
+                        if(t > 40 ){
+                            $('.top_nav').addClass("fixed");
+                            $('.top_nav .main_nav a').css("height","40px");
+                        }else{
+                            $('.top_nav').removeClass("fixed");
+                            $('.top_nav .main_nav a').css("height","60px");
+                        }
+                    }
+
+                    $(function(){
+                        $(window).scroll(function(e){
+                            fixedNav();
+                            var list = art.dialog.list;
+                            if( list['site_select_btn'] ){
+                                list['site_select_btn'].close();
+                            }
+                            //art.dialog({id:'site_select_btn'}).close();
+                        });
+                        $(document).click(function(){
+                            var list = art.dialog.list;
+                            if( list['site_select_btn'] ){
+                                list['site_select_btn'].close();
+                            }
+                        });
+                    });
+        </script>
+<!--头部架构结束-->
+
+<!--main架构开始-->
+<div class="main">
+
+   <div id="latest_log" class="news" style="overflow:hidden;margin-top:10px;">
+        <ul class="info">   
+       		
+                    	  <li>7秒前，&nbsp;&nbsp;武汉共享健康科技股份有限公司西安高新分公司发布职位:销售代表</li>   
+                    	
+                    	  <li>7秒前，&nbsp;&nbsp;武汉共享健康科技股份有限公司西安高新分公司发布职位:实习生</li>   
+                    	
+                    	  <li>8秒前，&nbsp;&nbsp;武汉共享健康科技股份有限公司西安高新分公司发布职位:营销管理培训生</li>   
+                    	
+                    	  <li>9秒前，&nbsp;&nbsp;武汉共享健康科技股份有限公司西安高新分公司发布职位:健康管理顾问</li>   
+                    	
+                    	  <li>9秒前，&nbsp;&nbsp;武汉共享健康科技股份有限公司西安高新分公司发布职位:会务企划专员</li>   
+                    	
+                    	  <li>10秒前，&nbsp;&nbsp;武汉共享健康科技股份有限公司西安高新分公司发布职位:产品营销讲师</li>   
+                    	
+                    	  <li>11秒前，&nbsp;&nbsp;武汉共享健康科技股份有限公司西安高新分公司发布职位:储备干部（五险住宿）</li>   
+                    	
+                    	  <li>11秒前，&nbsp;&nbsp;武汉共享健康科技股份有限公司西安高新分公司发布职位:人事助理</li>   
+                    	
+                    	  <li>51秒前，&nbsp;&nbsp;陕西宇杰财务管理集团有限公司下载了赵如霞'的简历</li>   
+                    	
+                    	  <li>1分钟前，&nbsp;&nbsp;西安市雁塔区新私塾外语学校发布职位:英语老师</li>   
+                    	
+                    	  <li>1分钟前，&nbsp;&nbsp;西安沃地房地产营销策划有限公司下载了黄博鑫的简历</li>   
+                    	
+                    	  <li>1分钟前，&nbsp;&nbsp;西安市雁塔区新私塾外语学校发布职位:幼少儿英语老师</li>   
+                    	
+                    	  <li>1分钟前，&nbsp;&nbsp;西安市雁塔区新私塾外语学校发布职位:课程顾问</li>   
+                    	
+                    	  <li>1分钟前，&nbsp;&nbsp;西安市雁塔区新私塾外语学校发布职位:教学主管</li>   
+                    	
+                    	  <li>1分钟前，&nbsp;&nbsp;陕西宇杰财务管理集团有限公司下载了郭小琴的简历</li>   
+                    	
+                    	  <li>2分钟前，&nbsp;&nbsp;万汇浩然企业集团申请参加西安航空学院2018届毕业生冬季综合类招聘会未通过</li>   
+                    	
+                    	  <li>2分钟前，&nbsp;&nbsp;中国平安人寿保险有限责任公司西安电销中心下载了范洁的简历</li>   
+                    	
+                    	  <li>2分钟前，&nbsp;&nbsp;陕西东大暖通设备工程有限公司下载了李劭杰的简历</li>   
+                    	
+                    	  <li>2分钟前，&nbsp;&nbsp;西安禾兴企业管理咨询有限公司发布职位:实习生</li>   
+                    	
+                    	  <li>2分钟前，&nbsp;&nbsp;西安禾兴企业管理咨询有限公司发布职位:专利代理人</li>   
+                    	
+                    	  <li>2分钟前，&nbsp;&nbsp;西安禾兴企业管理咨询有限公司发布职位:储备干部</li>   
+                    	
+                    	  <li>2分钟前，&nbsp;&nbsp;西安禾兴企业管理咨询有限公司发布职位:销售代表</li>   
+                    	
+                    	  <li>2分钟前，&nbsp;&nbsp;西安禾兴企业管理咨询有限公司发布职位:项目咨询师</li>   
+                    	
+                    	  <li>2分钟前，&nbsp;&nbsp;西安正邦知识产权服务有限公司下载了周阿文的简历</li>   
+                    	
+                    	  <li>3分钟前，&nbsp;&nbsp;中国人寿保险股份有限公司西安分公司大学生创业园下载了汪多的简历</li>   
+                    	
+                    	  <li>3分钟前，&nbsp;&nbsp;王睿劼注册了个人简历！</li>   
+                    	
+                    	  <li>3分钟前，&nbsp;&nbsp;武汉共享健康科技股份有限公司西安分公司申请参加西安航空学院2018届毕业生冬季综合类招聘会未通过</li>   
+                    	
+                    	  <li>3分钟前，&nbsp;&nbsp;史宇青注册了个人简历！</li>   
+                    	
+                    	  <li>3分钟前，&nbsp;&nbsp;陕西链家高策房地产经纪有限公司（西安链家）申请参加西安航空学院2018届毕业生冬季综合类招聘会未通过</li>   
+                    	
+                    	  <li>4分钟前，&nbsp;&nbsp;陕西瑶醉酒业有限公司发布职位:人力资源</li>   
+                    	
+        </ul>
+        <div style="clear:both"></div>
+        <script type="text/javascript"> 
+                        var box2=document.getElementById("latest_log"),can=true; 
+                        box2.innerHTML+=box2.innerHTML; 
+                        box2.onmouseover=function(){can=false;}; 
+                        box2.onmouseout=function(){can=true;}; 
+                        $(function (){ 
+                            var stop=box2.scrollTop%30==0&&!can; 
+                            if(!stop)box2.scrollTop==parseInt(box2.scrollHeight/2)?box2.scrollTop=0:box2.scrollTop++; 
+                            setTimeout(arguments.callee,box2.scrollTop%30?10:2000); 
+                        }); 
+          </script>
+    </div>   
+
+	<div class="banner">
+            <!-- <a href="javascript:;">
+                <img src="static/img/xiangqy_banner.png">
+            </a>		 -->
+	</div>
+
+	<p class="position">当前所在位置：<a href="jobfair/index.do?a=28">首页</a>&nbsp;&gt;&nbsp;<a href="jobfair/xyzph.do">校园招聘会</a>&nbsp;&gt;&nbsp;***大学****年******校园招聘会</p>
+
+    <div class="main_l">
+        <div>
+            <img src="upload/img/2016/11/30/w0120161130063102.jpg" width="226" height="226">
+        </div>
+        <div>
+            <div class="biaoti"><span>高校简介</span></div>
+            <div class="sch_info" ></div>
+            <p class="look"><a href="jobfair/school.do?id=201503101001744" target="_blank" class="seeMore">查看更多&gt;&gt;</a></p>
+        </div>
+        <div>
+            <div class="biaoti"><span>该校近期招聘会</span></div>
+            <div class="jobfair_info">
+                <div ><a href="jobfair/detail.do?id=201711060014222" target="_blank" class="main_l_a">***大学****年******校园招聘会</a><p style="float:left;padding-left:5px;font-size:13px;line-height:24px;">2017-11-23</p></div>      
+            </div>
+        </div>
+    </div>
+
+    <div class="main_r">
+        <div class="main_mid"> 
+            <div class="main_mid content">
+                <div class="main_mid_l">
+                    <p class="main_mid_l_message biaoti">***大学****年******校园招聘会</p>
+
+                    <p class="main_mid_l_message message1">
+                    <span class="main_l_span">主办单位</span>：<a href="jobfair/school.do?id=201503101001744" target="_blank">***大学****年******校园招聘会</a></p>
+
+                    <p class="main_mid_l_message">
+                    <span class="main_l_span">承办单位</span>：*****大学</p>
+                    
+                    <p class="main_mid_l_message">
+                    <span class="main_l_span">协办单位</span>：*****大学</p>
+                    
+                    <p class="main_mid_l_message"><span class="main_l_span">举办时间</span>： ××年××月×××日 时间 至  ××年××月×××日 时间 </p>
+                    <p class="main_mid_l_message"><span>招聘会规模</span>：企业*******家 <!-- 求职者1800人 --></p>
+                    <p class="main_mid_l_message" id="flag" ><span>招聘会层次</span>：大专,高职</p>
+                    <p class="main_mid_l_message"><span>招聘会特色</span>：综合类</p>
+                    <div class="main_mid_r">
+                        <ul class="daojishi down djscss">
+                            <li >
+                                <span class="contdown_hose">距招聘会结束:</span>
+                                <span class="contdown_hose begin" style="display:none;">距招聘会开始:</span>
+                            </li>
+                            <li ><span class="days begin1">00</span>天</li>
+                            <li ><span class="hours begin1">00</span>小时</li>
+                            <li ><span class="minutes begin1">00</span>分</li>
+                            <li ><span class="seconds begin1">00</span>秒</li>
+                        </ul>
+                        <div class="daojishi closed" style="font-size:18px;text-align:center;color:red;font-weight:bold;display:none;">招聘会已结束</div>
+                        <div class="clear"></div>
+                        <div class="xian"></div>  
+                        <script>
+                            $('.down').downCount({
+                                begin: '2017-11-23 13:30',  
+                                date: '2017-11-23  17:00',
+                                offset: +8 
+                            }, function () {
+                                jobfairOver();
+                                //alert('招聘会已结束!');
+                            });
+                        </script>
+                    </div>
+                    <div style="clear:both"></div>
+                </div>			
+                <div class="main_mid_ll">
+                    <img src="static/img/wlxqbegin1.png" class="begin">
+                        <div>
+                            <a class="main_mid_ll_qiyedingzhan" href="javascript:;" onclick="ComApply(201711060014222,201503101001744)">企业订展</a>
+                            <a class="an3" id="open_favorite_btn" href="javascript:;">点击收藏</a>
+                        </div>
+                </div>
+                <div style="clear:both"></div>
+            </div>
+        </div>
+
+    <div class="main_but">
+        <div class="content">
+            <div class="main_but_nav">
+            <!--分享开始  -->
+                <div style="float:right;">
+                <span style="float:left;margin:6px 0 0 -56px;">分享到：</span>
+                    <div class="bdsharebuttonbox">
+                        <a href="#" class="bds_more" data-cmd="more"></a>
+                        <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                        <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+                        <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                        <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+                    </div>
+                    <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                </div>
+    <!--分享结束  -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active">
+                        <a  class="yaoqinghan"  href="#yaoqinghan" aria-controls="profile" role="tab" data-toggle="tab">
+                            邀请函
+                        </a>
+                    </li>
+                    <li role="presentation">
+                        <a class="canhiuqiye companyList" href="#canhiuqiye" aria-controls="profile" role="tab" data-toggle="tab">
+                            参会企业
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        <div class="tab-content">
+            <!--邀请函列表开始  -->
+            <div role="tabpanel" class="tab-pane active" id="yaoqinghan">
+                <div class="text" >
+                    <p style="line-height:19.0pt;text-align:center;">
+                        <span style="font-size:10.0pt;"></span>
+                        <strong>
+                            <!-- <span style="color: rgb(42, 42, 42); font-size: 16pt; font-family: 黑体;">*******大学201</span>
+                            <span style="color: rgb(42, 42, 42); font-size: 16pt; font-family: 黑体;">7</span> -->
+                            <span style="color: rgb(42, 42, 42); font-size: 16pt; font-family: 黑体;">***大学****年校园招聘会邀请函</span>
+                        </strong>
+                    </p>
+                    <!-- <p>
+                        <span style="font-size:10.5pt;"></span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">尊敬的用人单位：</span>
+                    </p>
+                    <p style="text-indent:21.0pt;">
+                        <span style="font-size:10.5pt;"></span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">为深入2018届毕业生就业工作，促进我院2018届毕业生顺利就业，搭建用人单位和毕业生双选平台，我院决定举办“西北大学2017年冬季大型就业洽谈会（高职综合类）”，诚邀贵单位参加此次就业洽谈会！现就本次洽谈会有关事项说明如下：</span>
+                    </p>
+                    <p style="text-indent:21.0pt;">
+                        <span style="font-size:10.5pt;"></span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">一、时间：</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">2017年11月23日</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">（</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">星期</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">四）14:00</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">---17</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">:</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">00</span>
+                    </p>
+                    <p style="text-indent:21.0pt;">
+                        <span style="font-size:10.5pt;"></span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">二、地点：西北大学桃园校区饮食中心四层学生活动中心</span>
+                    </p>
+                    <p style="text-indent:21.0pt;">
+                        <span style="font-size:10.5pt;"></span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">三、毕业生资源：</span>
+                    </p>
+                    <p style="text-indent:23.5pt;">
+                        <span style="font-size:10.5pt;"></span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">1.学生人数：2</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">01</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">8</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">届高职毕业生595</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">人。</span>
+                    </p>
+                    <p style="margin-left:63.0pt;text-indent:-42.0pt;">
+                        <span style="font-size:10.5pt;"></span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">2.专业：会计电算化、商务管理、、酒店管理、电子信息工程、装潢艺术设计、电脑艺术设计、广告艺术设计、主持与播音、市场营销。</span>
+                    </p>
+                    <p style="text-indent:23.5pt;">
+                        <span style="font-size:10.5pt;"></span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">3.生源：</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">河南</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">、</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">山西</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">、陕西。</span>
+                    </p><p style="text-indent:21.0pt;">
+                        <span style="font-size:10.5pt;"></span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">四、其他事项：</span>
+                    </p>
+                    <p style="margin-left:21.0pt;text-indent:10.5pt;">
+                        <span style="font-size:10.5pt;"></span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">1.免收会务费。</span>
+                    </p>
+                    <p style="text-indent:31.5pt;">
+                        <span style="color:#2A2A2A;font-size:10.5pt;"></span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">2.免费为参会单位进行校内宣传、设立招聘展位并提供桌椅。</span>
+                    </p>
+                    <p style="text-indent:31.5pt;">
+                        <span style="font-size:10.5pt;"></span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">3.有意参加本次招聘会的用人单位请于201</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">7</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">年</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">11</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">月</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">16</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">日前进行报名。</span>
+                    </p>
+                    <p style="margin-left:42.0pt;text-indent:-10.0pt;">
+                        <span style="font-size:10.5pt;"></span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">4</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">.用人单位于</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">11</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">月</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">23</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">日下午1</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">3</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">：30前往西北大学桃园校区饮食中心四层学生活动中心报到。</span>
+                        <span style="font-size:10.5pt;"> </span>
+                    </p>
+                    <p style="text-indent:21.0pt;">
+                        <span style="font-size:10.5pt;">&nbsp;</span>
+                    </p>
+                    <p style="margin-right:9.0pt;text-indent:21.0pt;text-align:right;">
+                        <span style="font-size:10.5pt;">西北大学职业技术学院</span>
+                    </p>
+                    <p style="margin-right:20.0pt;text-indent:21.0pt;text-align:right;">
+                        <span style="font-size:10.5pt;"></span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">201</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">7</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">年</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">11</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">月</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">6</span>
+                        <span style="color:#2A2A2A;font-size:10.5pt;">日</span>
+                    </p>
+                    <p><br/></p> -->
+
+                </div>
+            </div>
+            <!--参会企业列表开始 -->
+            <div role="tabpanel" class="tab-pane" id="canhiuqiye">
+            <div class="main_but_qiye">
+                <ul class="main_but_qiye1" >
+                    <li class="xuhao">序号</li>
+                    <li class="gongsimingchen">公司名称</li>
+                    <li class="gongsidizhi">公司地址</li>
+                    <li class="toudijianli">投递简历</li>
+                </ul>
+                            
+        
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">1</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201408160000801" target="_blank">西安市人人乐超市有限公司</a>	</li>
+                    <li class="gongsidizhi">西安市电子一路电子商城栗园商业广场南楼四层</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201408160000801&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">2</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201704010034820" target="_blank">陕西鼎新机械设备有限公司</a>	</li>
+                    <li class="gongsidizhi">沣东新城三桥街办蔺高村天台路86号</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201704010034820&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">3</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201408290001103" target="_blank">西安山木培训中心</a>	</li>
+                    <li class="gongsidizhi">西安市长安中路100号文化大厦B座10楼</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201408290001103&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">4</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201705150036393" target="_blank">西安市雁塔区海文培训中心</a>	</li>
+                    <li class="gongsidizhi">西安市雁塔区长安中路汉唐书城9层</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201705150036393&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">5</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201711080044064" target="_blank">深圳市南和航空服务有限公司</a>	</li>
+                    <li class="gongsidizhi">深圳市宝安区福永街道航站四路机场物流园国内货运村(二期)B栋301房</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201711080044064&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">6</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201710230043393" target="_blank">西安兆隆企业文化信息咨询有限公司</a>	</li>
+                    <li class="gongsidizhi">西安市长安北路18号陕西省图书馆北门院内</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201710230043393&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">7</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201612130031498" target="_blank">西安麦龙环境工程有限公司 </a>	</li>
+                    <li class="gongsidizhi">西安市雁塔南路318号拿铁城国际大厦B座18层</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201612130031498&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">8</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201705240036710" target="_blank">西安鑫邦置业有限公司</a>	</li>
+                    <li class="gongsidizhi">西安经济技术开发区常青二路6号德宜国际中心第3幢1单元7层10702号</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201705240036710&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">9</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201711010043769" target="_blank">陕西鼎兴置业有限公司</a>	</li>
+                    <li class="gongsidizhi">西安市莲湖区北大街</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201711010043769&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">10</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201709300040855" target="_blank">西安盛玄信息科技有限责任公司</a>	</li>
+                    <li class="gongsidizhi">西安市碑林区雁塔西路百脑汇9a27</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201709300040855&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">11</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=200000000087022" target="_blank">西安众行石油工程设备有限公司</a>	</li>
+                    <li class="gongsidizhi">西安</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=200000000087022&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">12</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201604250019062" target="_blank">上海美满人生生物科技有限公司</a>	</li>
+                    <li class="gongsidizhi">上海市嘉定区南翔镇沪宜公路1185号爱就投大厦9层</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201604250019062&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">13</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=200000000094754" target="_blank">希科通信（西安）有限公司</a>	</li>
+                    <li class="gongsidizhi">西安市雁塔区科技二路西安软件园太白阁201室</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=200000000094754&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">14</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201506120008740" target="_blank">西安亚特汽车会所有限公司</a>	</li>
+                    <li class="gongsidizhi">西安市雁塔区富源路1号</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201506120008740&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">15</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201711070044047" target="_blank">陕西顺位互联网服务有限公司</a>	</li>
+                    <li class="gongsidizhi">陕西省西安市新城区新城广场新城国际B座503室</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201711070044047&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">16</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201709280040783" target="_blank">西安灰熊家族网络科技有限公司</a>	</li>
+                    <li class="gongsidizhi">西安市未央区龙首原印象城1号楼</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201709280040783&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">17</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201711080044077" target="_blank">西安智凌信息科技有限公司</a>	</li>
+                    <li class="gongsidizhi">西安市碑林区环城南路48号 城市郦景大厦4楼 （永宁们地铁站旁）</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201711080044077&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">18</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201710100041217" target="_blank">陕西美力源乳业有限公司</a>	</li>
+                    <li class="gongsidizhi">陕西省西安市南二环东段伟业都市远景大厦15G/H</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201710100041217&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">19</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201709250040538" target="_blank">华宸创荣拍卖（北京）有限公司西安办事处</a>	</li>
+                    <li class="gongsidizhi">雁塔区汇鑫IBC B座1805</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201709250040538&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">20</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201709230040494" target="_blank">陕西金柏年养老服务管理有限公司</a>	</li>
+                    <li class="gongsidizhi">陕西省西安市高新区高新路8号丽华科技大厦北侧二楼</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201709230040494&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">21</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201704190035525" target="_blank">西安美都电器有限公司</a>	</li>
+                    <li class="gongsidizhi">西安市曲江新区曲江国际金融中心26层</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201704190035525&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">22</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201408120000622" target="_blank">万汇浩然企业集团</a>	</li>
+                    <li class="gongsidizhi">西安市雁塔区太白南路263号新一代国际公寓C座1304室</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201408120000622&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">23</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201504080007648" target="_blank">西安亿兆通信技术有限公司</a>	</li>
+                    <li class="gongsidizhi">西安市高新区唐延南路逸翠园i都会4号楼1单元1319室</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201504080007648&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">24</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201707190038218" target="_blank">西安沐思图企业管理咨询有限责任公司</a>	</li>
+                    <li class="gongsidizhi">西安市高新区锦业路1号绿地领海B座</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201707190038218&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">25</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201408280001073" target="_blank">西安涟漪饮用水有限公司</a>	</li>
+                    <li class="gongsidizhi">西安市未央区草滩四路；高新区沣惠南路杰座广场11楼</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201408280001073&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">26</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201708020038565" target="_blank">西安绿色家装饰有限公司</a>	</li>
+                    <li class="gongsidizhi">西安市雁塔区朱雀大街南段汇成天玺酒店北侧一层0101商铺</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201708020038565&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">27</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201606160021872" target="_blank">西安老板厨房电器销售有限公司</a>	</li>
+                    <li class="gongsidizhi">西安市未央区凤城九路海博广场</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201606160021872&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">28</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201408140000690" target="_blank">陕西泛网信息技术有限公司</a>	</li>
+                    <li class="gongsidizhi">陕西省长安北路陕西高速大厦8F</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201408140000690&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">29</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201506100008668" target="_blank">陕西巨顶信息技术有限公司</a>	</li>
+                    <li class="gongsidizhi">西安市碑林区雁塔路万达二栋二单元1705</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201506100008668&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">30</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201710260043524" target="_blank">瑞丽诗（北京）企业管理有限公司</a>	</li>
+                    <li class="gongsidizhi">西安市金辉国际广场19楼</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201710260043524&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">31</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201710200043307" target="_blank">西安小船网络科技有限公司</a>	</li>
+                    <li class="gongsidizhi">西安市国际港务区港务大道9号陆港大厦b座2403</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201710200043307&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">32</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201409250000323" target="_blank">柏斯琴行（西安）有限公司</a>	</li>
+                    <li class="gongsidizhi">西安市文艺北路金色城市</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201409250000323&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">33</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201509300010211" target="_blank">陕西七星大宅装饰工程有限公司</a>	</li>
+                    <li class="gongsidizhi">西安市经济技术开发区凤城二路16号1幢3层</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201509300010211&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">34</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201709290040828" target="_blank">天津银泰装饰工程有限公司西安分公司</a>	</li>
+                    <li class="gongsidizhi">西安市未央区朱宏路与纬二十九街交汇处东南角，新福兴纽约城南区</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201709290040828&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">35</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201606060021154" target="_blank">北京蓝海基业科技有限公司西安分公司</a>	</li>
+                    <li class="gongsidizhi">西安市高新区锦业路绿地中央广场-蓝海4幢1单元23层12313</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201606060021154&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">36</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201410310003383" target="_blank">陕西中超国际旅行社有限责任公司</a>	</li>
+                    <li class="gongsidizhi">西安市南关正街16号中贸广场5号楼A座1405室</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201410310003383&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">37</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201711090044116" target="_blank">北京龙发建筑装饰工程有限公司西安分公司</a>	</li>
+                    <li class="gongsidizhi">西安市西稍门</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201711090044116&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">38</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201707190038216" target="_blank">陕西新发现检测科技有限公司</a>	</li>
+                    <li class="gongsidizhi">西安市高新区锦业路与丈八二路十字绿地中心41楼</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201707190038216&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">39</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201709060039787" target="_blank">西安聚铭师教育科技有限公司</a>	</li>
+                    <li class="gongsidizhi">西安市莲湖区二环南路西段202号九座花园1幢1单元12202室</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201709060039787&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">40</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201710240043452" target="_blank">西安君典信息科技有限公司</a>	</li>
+                    <li class="gongsidizhi">陕西省西安市莲湖区南二环210群贤道九号1幢1单元2502室</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201710240043452&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">41</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201611170030239" target="_blank">西安乾通企业管理咨询有限责任公司</a>	</li>
+                    <li class="gongsidizhi">西安市莲湖区大庆路3号蔚蓝国际B座16楼</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201611170030239&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">42</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201506080008601" target="_blank">陕西白象食品有限公司</a>	</li>
+                    <li class="gongsidizhi">陕西省三原县清河县食品工业园</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201506080008601&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">43</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201605280020829" target="_blank">西安广浩房屋中介有限公司</a>	</li>
+                    <li class="gongsidizhi">西安市未央区凤城八路行政中心</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201605280020829&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">44</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201606140021536" target="_blank">西安言成网络科技有限公司</a>	</li>
+                    <li class="gongsidizhi">雁塔区融鑫路3号自立大厦院内2楼</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201606140021536&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">45</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201606300023068" target="_blank">陕西天天乐购购物有限责任公司</a>	</li>
+                    <li class="gongsidizhi">西安市雁塔区翠华南路500号佳和中心A座8层</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201606300023068&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">46</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201409170002121" target="_blank">陕西德奥美医疗科技股份有限公司</a>	</li>
+                    <li class="gongsidizhi">西安市未央区凤城八路与文景路交叉口西北国金中心C栋1008</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201409170002121&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">47</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201711120044232" target="_blank">陕西维胜商贸有限公司</a>	</li>
+                    <li class="gongsidizhi">西安市雁塔区科技路西段绿地渤海大厦</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201711120044232&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">48</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201709220040439" target="_blank">陕西奥盛康健电子商务有限公司</a>	</li>
+                    <li class="gongsidizhi">西安市高新区高新四路丹凤国际18F</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201709220040439&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">49</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201711030043891" target="_blank">西安清白之年网络科技有限公司</a>	</li>
+                    <li class="gongsidizhi">高新区SOHO同盟908</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201711030043891&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao">50</li>
+                    <li class="gongsimingchen"><a href="jobfair/company.do?id=201711130044290" target="_blank">西安荟萃电子科技有限公司</a>	</li>
+                    <li class="gongsidizhi">西安市雁塔区科技路凯丽大厦西1幢1单元12901号</li>
+                    <li class="toudijianli"><a href="jobfair/company.do?id=201711130044290&jobs=1" target="_blank">投递简历</a></li>
+                </ul>
+                            
+            
+		    </div>
+            <!--分页div开始 -->
+            <div style="text-align:center;">
+                <ul class="main_but_qiye1" style="cursor:default;">
+                    <li class="xuhao" style="width:730px;"><ul class="pagination"><li class="disabled"><span>上一页</span></li><li class='disabled active'><span>1</span></li><li><a href='?id=201711060014222&page=2'>2</a></li><li><a href="?id=201711060014222&page=2">下一页</a></li></ul></li>
+                </ul>
+            </div>
+		
+	            </div>
+	        </div><!-- tabcontent -->
+        </div> 
+    </div>
+</div>
+<div style="clear:both"></div>
+</div>
+<!--main架构结束-->
+
+<!--footer区架构结束-->
+
+     <script type="text/javascript">
+            function popAdvertismentMini()
+            {
+                    art.dialog.open("ad/popover-small.html", 
+                                        {title:false,
+                                        height:'200px',
+                                        width:'300px',	
+                                        fixed:true,
+                                        zIndex:999999999,
+                                        lock:false,
+                                        cancel:false,
+                                        padding:0,
+                                        background:'#000',
+                                        opacity:0.3,
+                                        left: '0',
+                                        top: '100%',
+                                        },false);
+            }
+            $(function(){   
+             //	 setTimeout("popAdvertismentMini();",2000 );
+            });
+      </script> 
+<div class="footer" style="border:1px solid black;width:100%;height:300px;">
+    FOOTER部分
+	<div class="footer_down">
+		<div class="footer_inner">
+			<div class="footer_content">
+				<div class="footer_l">
+					<!-- <ul>
+						<li style="width:150px;">
+                            <img class="ewm" src="static/images/ewm_03.png" width="70" height="70">
+                            <p class="ps">211校招网官方微信</p>
+                        </li>
+					</ul> -->
+				</div>
+				<div class="footer_c">
+					<!-- <ul>
+						<li><a class="gywm"href="http://www.211zph.com/page.do?id=201407210000321">关于我们</a></li>
+						<li>地址：西安高新区科技二路65号清华科技园清扬大厦A410</li>
+						<li class="dh">联系电话：<strong class="phone">029-8866-2468</strong></li>
+					</ul> -->
+				</div>
+				<div class="footer_r">
+					<div class="footer_r_top">
+						<!-- <ul>
+							<li>西安市人力资源服务许可证编号：610100120105</li>
+							<li>工信部备案号：陕ICP备13006318号-3</li>
+							<li>版本号：V2.0.1.25</li>
+							<li>陕西新才网络技术有限公司，西安大秦人力资源有限公司版权所有</li>
+						</ul> -->
+					</div>
+				</div>
+				<div style="clear:both;"></div>
+				<!-- <div class="footer_keywork">
+					本站关键词： <a href="/">211校招网</a>，<a href="jobfair/xyzph.do"
+						target="_blank">校园招聘会</a>，<a href="jobfair/xyzph.do"
+						target="_blank">校园双选会</a>，<a href="jobfair/xyzph.do"
+						target="_blank">校园招聘网</a>，<a href="jobfair/xyzph.do"
+						target="_blank">高校招聘会</a>，<a href="jobfair/wlzph.do"
+						target="_blank">网络招聘会</a>，<a href="jobfair/wlzph.do"
+						target="_blank">视频招聘会</a>，<a href="jobfair/wlzph.do"
+						target="_blank">视频双选会</a>，<a href="jobfair/wlzph.do"
+						target="_blank">网络双选会</a>，<a href="jobfair/xyzph.do"
+						target="_blank">校园招聘</a>，<a href="jobfair/xyzph.do"
+						target="_blank">校招</a>，<a href="jobfair/wlzph.do" target="_blank">视频面试</a>，<a
+						href="jobfair/wlzph.do" target="_blank">在线视频面试</a>，<a
+						href="jobfair/wlzph.do" target="_blank">招聘会</a>，<a
+						href="jobfair/xyzph.do" target="_blank">人才招聘会</a>，<a
+						href="jobfair/xyzph.do" target="_blank">现场招聘会</a>，<a
+						href="jobfair/xyzph.do" target="_blank">双选会</a>，<a
+						href="jobfair/xyzph.do" target="_blank">人才市场招聘会</a>，<a
+						href="jobfair/wlzph.do" target="_blank">网上招聘会</a>，<a
+						href="jobfair/wlzph.do" target="_blank">网上双选会</a>，<a
+						href="jobfair/wlzph.do" target="_blank">网上视频招聘会</a>，<a
+						href="jobfair/wlzph.do" target="_blank">网上视频双选会</a>，<a
+						href="jobfair/wlzph.do" target="_blank">网上人才招聘会&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>，<a
+						href="jobfair/wlzph.do" target="_blank">网上人才交流会</a>，<a
+						href="jobfair/wlzph.do" target="_blank">网上人才双选会</a>，<a
+						href="jobfair/xyzph.do" target="_blank">应届生招聘会</a>，<a
+						href="jobfair/xyzph.do" target="_blank">大学生招聘会</a>，<a
+						href="jobfair/wlzph.do" target="_blank">网络视频招聘会</a>，<a
+						href="jobfair/wlzph.do" target="_blank">网络视频双选会</a>，<a
+						href="jobfair/wlzph.do" target="_blank">直播宣讲会</a>。
+				</div> -->
+				<div style="clear:both;"></div>
+            </div>
+        
+			<div class="copyright">
+				<p style="text-align:center;">
+					<!-- 
+					<a target="_blank"
+						href="http://wljg.xags.gov.cn/bscx.do?method=hddoc&id=61011300000328">
+						<img src="/statics/img/gongshang.png">
+					</a>
+					<a id="_pingansec_bottomimagelarge_shiming" target="_blank"
+						href="http://si.trustutn.org/info?sn=537160415021285523738&certType=1">
+						<img src="/statics/img/renzheng.png">
+					</a>
+					 -->
+					<!-- <a target="_blank"
+						href="http://www.sninfo.gov.cn:8083/initSnCommonThreePageList.do?method=initSnCommonThreePageList&articleId=133323&columnId=380">
+						<img src="static/cert/gq.jpg">
+					</a> -->
+				</p>
+				<!-- <p style="text-align:center;">
+					<script type="text/javascript">
+						var cnzz_protocol = (("https:" == document.location.protocol) ? " https://"
+								: " http://");
+						document
+								.write(unescape("%3Cspan id='cnzz_stat_icon_1253006258'%3E%3C/span%3E%3Cscript src='"
+										+ cnzz_protocol
+										+ "s95.cnzz.com/stat.php%3Fid%3D1253006258%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+					</script>
+				</p> -->
+			</div>
+		</div>
+	</div>
+</div>
+<script language="JavaScript" src="http://code.54kefu.net/kefu/js/b94/885294.js" type="text/javascript" charset="utf-8"></script>
+<!--footer区架构结束-->
+</body>
+</html>

@@ -1,0 +1,191 @@
+body{
+    /* background-color:#e7e8eb; */
+}
+.container{
+    background-color:#fff;
+    width:800px!important;
+    margin:0 auto 30px!important;
+    padding:20px 30px!important;
+    
+}
+.form-title{
+    border-bottom:1px solid #ddd;
+    margin:0 0 15px;
+    padding:15px 0;
+}
+.table {
+    border: none;
+}
+
+.table td {
+    border-top: 0 !important;
+}
+
+.table .form-field {
+    vertical-align: middle;
+}
+
+.code-wrap .form-control {
+    display: inline-block !important;
+    width: auto !important;
+}
+
+.text-red{
+    color: red;
+}
+.btn-blue{
+    background:#25b6ed;
+    border-radius: 4px;
+    color:#fff;
+    display: inline-block;
+    margin-bottom: 10px;
+    width:100px;
+    padding: 8px 0;
+    text-align: center;
+    cursor: pointer;
+}
+.professionals-list{
+    border:1px solid #ddd;
+    padding: 10px 20px 0;
+    height: 328px;
+    overflow: auto;
+    position: relative;
+}
+.professionals-list .checkbox-inline{
+    width:262px;
+    margin: 0 20px 10px 0!important;
+}
+.item-head.has-type-mark {
+    min-height: 48px;
+    padding-left: 60px;
+}
+.item-head .type-mark {
+    background-color: #25b6ed;
+    border-radius: 50% 0 50% 50%;
+    color: #fff;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    line-height: 48px;
+}
+.item{
+    border-top: 1px solid #E5E5E5;
+    padding-bottom: 10px;
+}
+.item:first-child{
+    border-top: none;
+}
+#step {
+    width: 480px;
+    height: 54px;
+    margin: 62px auto 0;
+    padding: 0 18px
+}
+
+#step .step_num {
+    position: relative;
+    float: left;
+    width: 28px;
+    height: 23px;
+    margin: 0 17px
+}
+
+#step .step_num span {
+    position: absolute;
+    top: 37px;
+    left: 50%;
+    margin-left: -50px;
+    display: block;
+    width: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555
+}
+
+#step .step_disable span {
+    color: #b5b5b5
+}
+
+#step .step_line {
+    float: left;
+    width: 129px;
+    height: 11px;
+    border-bottom: 1px solid #ddd
+}
+
+#step_1 {
+    background-image: url(//pic.bibibi.net/public/images/common/step_1.png?__sprite)
+}
+
+#step_2 {
+    background-image: url(//pic.bibibi.net/public/images/common/step_2.png?__sprite)
+}
+
+#step_2.step_disable {
+    background-image: url(//pic.bibibi.net/public/images/common/step_2_disable.png?__sprite)
+}
+
+#step_3 {
+    background-image: url(//pic.bibibi.net/public/images/common/step_3.png?__sprite)
+}
+
+#step_3.step_disable {
+    background-image: url(//pic.bibibi.net/public/images/common/step_3_disable.png?__sprite)
+}
+
+.content_container {
+    width: 480px;
+    margin: 56px auto 62px;
+}
+.question_tip {
+    margin-top: 20px;
+    line-height: 26px;
+    font-size: 14px;
+    color: #b5b5b5
+}
+#validateEmail {
+    text-align: center
+}
+
+#sendEmail {
+    width: 78px;
+    height: 43px;
+    margin: 0 auto 38px;
+    background-image: url(//pic.bibibi.net/public/images/common/email.png?__sprite)
+}
+
+#emailTo {
+    margin-bottom: 14px;
+    font-size: 24px;
+    color: #333
+}
+
+#checkEmail {
+    margin-bottom: 40px;
+    font-size: 16px;
+    color: #555
+}
+
+#noEmail {
+    text-align: left;
+    font-size: 18px;
+    color: #555
+}
+
+#noEmail ol {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #999
+}
+
+#noEmail ol li {
+    margin-top: 6px
+}
+
+.radio-inline input[type=radio] {
+    margin-top: 2px;
+}
